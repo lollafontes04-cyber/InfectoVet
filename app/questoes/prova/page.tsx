@@ -1,24 +1,30 @@
 import { Suspense } from "react";
 import ProvaContent from "./prova-content";
 
-export default function Page({
+export default async function Page({
   searchParams,
 }: {
-  searchParams: {
+  searchParams: Promise<{
     categorias?: string;
     doencas?: string;
     quantidade?: string;
-  };
+  }>;
 }) {
 
+  const params = await searchParams;
+
+
   const categorias =
-    searchParams.categorias?.split(",").filter(Boolean) || [];
+    params.categorias?.split(",").filter(Boolean) || [];
+
 
   const doencas =
-    searchParams.doencas?.split(",").filter(Boolean) || [];
+    params.doencas?.split(",").filter(Boolean) || [];
+
 
   const quantidade =
-    Number(searchParams.quantidade || 10);
+    Number(params.quantidade || 10);
+
 
 
   return (

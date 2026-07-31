@@ -48,13 +48,13 @@ export default function ProvaContent({
 
 
 
-  useEffect(() => {
+ useEffect(() => {
 
+console.log("CATEGORIAS RECEBIDAS:", categorias);
+console.log("DOENÇAS RECEBIDAS:", doencas);
+console.log("QUANTIDADE:", quantidade);
 
-    const filtradas = questoes.filter((questao) => {
-
-console.log("Selecionadas:", doencas);
-console.log("Questão atual:", questao.doenca, questao.doencaId);
+const filtradas = questoes.filter((questao) => {
       
 const categoriaOk =
         categorias.length === 0 ||
@@ -76,7 +76,12 @@ const categoriaOk =
 
 
 console.log("Questões filtradas:", filtradas.length);
-console.log(filtradas);
+console.log(
+  questoes.map(q => ({
+    doenca: q.doenca,
+    id: q.doencaId
+  }))
+);
 
     const novaProva =
 
