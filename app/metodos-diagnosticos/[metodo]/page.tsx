@@ -122,6 +122,8 @@ export default async function MetodoPage({
 
           tipo={diagnostico.tipo}
 
+          caracteristicas={diagnostico.caracteristicas}
+
           finalidade={diagnostico.finalidade}
 
           imagem={diagnostico.imagem}

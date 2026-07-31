@@ -7,7 +7,9 @@ export type Diagnostico = {
   categoria: string;
 
   tipo: string;
-
+  
+ caracteristicas?: string[];
+ 
   finalidade: string[];
 
   descricao: string;
@@ -23,6 +25,7 @@ export type Diagnostico = {
   imagem: string;
 
   doencasRelacionadas: string[];
+  
 
 };
 
@@ -45,7 +48,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Confirmatório"
   ],
-
+caracteristicas: [
+  "Amplificação de DNA/RNA",
+  "Detecção direta do agente"
+],
   descricao:
     "Método molecular baseado na detecção do material genético do agente infeccioso.",
 
@@ -123,6 +129,11 @@ export const diagnosticos: Diagnostico[] = [
     "Confirmatório"
   ],
 
+  caracteristicas: [
+  "Isolamento do agente",
+  "Crescimento bacteriano"
+],
+
   descricao:
     "Método utilizado para isolamento e identificação de bactérias presentes em amostras biológicas.",
 
@@ -191,7 +202,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Triagem"
   ],
-
+caracteristicas: [
+  "Reagente marcado",
+  "Reação antígeno-anticorpo"
+],
   descricao:
     "Teste imunoenzimático utilizado para detectar antígenos ou anticorpos relacionados a agentes infecciosos.",
 
@@ -258,7 +272,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Triagem"
   ],
-
+caracteristicas: [
+  "Avaliação clínica",
+  "Método visual"
+],
   descricao:
     "Método utilizado para avaliar o grau de anemia em pequenos ruminantes por meio da coloração da conjuntiva ocular.",
 
@@ -322,7 +339,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Confirmatório"
   ],
-
+caracteristicas: [
+  "Contagem de ovos",
+  "Diagnóstico parasitológico"
+],
   descricao:
     "Exame parasitológico utilizado para quantificar ovos de helmintos presentes nas fezes dos animais.",
 
@@ -390,7 +410,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Confirmatório"
   ],
+caracteristicas: [
+  "Visualização direta",
 
+],
   descricao:
     "Método baseado na observação direta de agentes ou estruturas presentes nas amostras.",
 
@@ -453,7 +476,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Triagem"
   ],
-
+caracteristicas: [
+  "Reagente marcado",
+  "Teste rápido"
+],
   descricao:
     "Teste rápido utilizado para detecção de antígenos ou anticorpos em amostras biológicas.",
 
@@ -518,6 +544,11 @@ export const diagnosticos: Diagnostico[] = [
   categoria: "Método Sorológico",
 
   tipo: "Indireto",
+
+ caracteristicas: [
+  "Reagente não marcado",
+  "Precipitação"
+],
 
   finalidade: [
     "Confirmatório"
@@ -584,7 +615,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Triagem"
   ],
-
+caracteristicas: [
+  "Aglutinação",
+  "Reagente não marcado"
+],
   descricao:
     "Teste sorológico utilizado como método de triagem para diagnóstico da brucelose.",
 
@@ -641,7 +675,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Confirmatório"
   ],
-
+caracteristicas: [
+  "Aglutinação",
+  "Reagente não marcado"
+],
   descricao:
     "Teste sorológico utilizado como confirmação da brucelose após testes de triagem.",
 
@@ -700,7 +737,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Confirmatório"
   ],
-
+caracteristicas: [
+  "Microaglutinação",
+  "Reagente não marcado"
+],
   descricao:
     "Teste sorológico utilizado para detecção de anticorpos contra Leptospira spp.",
 
@@ -761,7 +801,10 @@ export const diagnosticos: Diagnostico[] = [
   finalidade: [
     "Triagem"
   ],
-
+caracteristicas: [
+  "Resposta celular",
+  "Reação imunológica tardia"
+],
   descricao:
     "Avaliação da resposta imunológica celular após exposição a determinado antígeno.",
 
@@ -801,7 +844,124 @@ export const diagnosticos: Diagnostico[] = [
 
   ]
 
-}
+},
 
+{
+  id: "fixacao-complemento",
 
+  nome: "Fixação de Complemento",
+
+  categoria: "Método Sorológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Confirmatório"
+  ],
+
+  descricao:
+    "Teste sorológico baseado na capacidade de anticorpos específicos presentes no soro do animal em fixar o complemento na presença de antígenos correspondentes.",
+
+  principio:
+    "A reação ocorre em duas etapas: inicialmente o anticorpo presente na amostra reage com o antígeno específico e fixa o complemento. A ausência ou presença de hemólise indica se houve fixação do complemento.",
+
+  aplicacao: [
+
+    "Detecção de anticorpos específicos",
+
+    "Diagnóstico de doenças infecciosas",
+
+    "Avaliação sorológica"
+
+  ],
+
+  vantagens: [
+
+    "Boa especificidade quando bem padronizado",
+
+    "Método clássico utilizado em diagnósticos sorológicos"
+
+  ],
+
+  limitacoes: [
+
+    "Técnica mais complexa",
+
+    "Necessita laboratório especializado",
+
+    "Pode apresentar interferência por anticorpos não específicos"
+
+  ],
+
+  imagem:
+    "/images/diagnosticos/fixacao-complemento.jpg",
+
+  doencasRelacionadas: [
+
+    "Brucelose",
+
+    "Leptospirose",
+
+    "Mormo"
+
+  ]
+
+},
+{
+  id: "coombs",
+
+  nome: "Teste de Coombs",
+
+  categoria: "Método Sorológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Confirmatório"
+  ],
+
+  descricao:
+    "Teste imunológico utilizado para detectar anticorpos ou componentes do complemento associados à superfície das hemácias.",
+
+  principio:
+    "Baseia-se na utilização do reagente de Coombs (antiglobulina) que promove a aglutinação das hemácias quando há anticorpos ou complemento aderidos à sua membrana.",
+
+  aplicacao: [
+
+    "Diagnóstico de anemias hemolíticas imunomediadas",
+
+    "Detecção de anticorpos antieritrocitários",
+
+    "Avaliação de processos imunológicos envolvendo hemácias"
+
+  ],
+
+  vantagens: [
+
+    "Auxilia na identificação de mecanismos imunomediados",
+
+    "Método específico para detecção de imunoglobulinas e complemento associados às hemácias"
+
+  ],
+
+  limitacoes: [
+
+    "Pode apresentar resultados falso-negativos",
+
+    "Necessita interpretação junto aos achados clínicos",
+
+    "Requer técnica laboratorial adequada"
+
+  ],
+
+  imagem:
+    "/images/diagnosticos/coombs.jpg",
+
+  doencasRelacionadas: [
+
+    "Anemia hemolítica imunomediada"
+
+  ]
+
+},
 ];

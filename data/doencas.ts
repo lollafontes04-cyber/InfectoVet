@@ -560,7 +560,8 @@ visaoGeral: {
   "2-mercaptoetanol",
   "elisa",
   "pcr",
-  "cultura-bacteriologica"
+  "cultura-bacteriologica",
+  "fixacao-complemento"
 ]
 
 },
