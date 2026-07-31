@@ -1,30 +1,23 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
 
 import Navbar from "@/components/layout/Navbar";
 import { questoes } from "@/data/questoes";
 
 
-export default function ProvaContent() {
+type Props = {
+  categorias: string[];
+  doencas: string[];
+  quantidade: number;
+};
+
+export default function ProvaContent({
+  categorias,
+  doencas,
+  quantidade
+}: Props) {
   
-  const params = useSearchParams();
-
-
-  const categorias =
-    params.get("categorias")?.split(",").filter(Boolean) || [];
-
-
-  const doencas =
-    params.get("doencas")?.split(",").filter(Boolean) || [];
-
-
-  const quantidade =
-    Number(params.get("quantidade") || 10);
-
-
-
   const [prova, setProva] =
     useState<typeof questoes>([]);
 
