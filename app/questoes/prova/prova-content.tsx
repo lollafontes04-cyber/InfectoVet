@@ -105,6 +105,11 @@ console.log(
 
   const questao = prova[questaoAtual];
 
+  function formatarPergunta(texto: string) {
+  return texto
+    .replace(/\s(I\.|II\.|III\.|IV\.|V\.)/g, "\n\n$1");
+}
+
 
 
 
@@ -411,17 +416,16 @@ console.log(
 
 
                 <h2
-                  className="
-                    text-base
-                    font-semibold
-                    leading-snug
-                    text-gray-800
-                  "
-                >
-
-                  {questao.pergunta}
-
-                </h2>
+  className="
+    text-base
+    font-semibold
+    leading-snug
+    text-gray-800
+    whitespace-pre-line
+  "
+>
+  {formatarPergunta(questao.pergunta)}
+</h2>
 
 
 
