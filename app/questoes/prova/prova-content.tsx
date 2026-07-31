@@ -7,8 +7,8 @@ import Navbar from "@/components/layout/Navbar";
 import { questoes } from "@/data/questoes";
 
 
-export default function ProvaPage() {
-
+export default function ProvaContent() {
+  
   const params = useSearchParams();
 
 
