@@ -161,6 +161,8 @@ export default async function DoencaPage({
 
           casosClinicos={dados.casosClinicos}
 
+          referencias={dados.referencias}
+
 
         />
 

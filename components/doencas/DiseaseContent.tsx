@@ -159,6 +159,13 @@ type DiseaseContentProps = {
 
 
   zoonose: boolean;
+    referencias?: {
+    titulo: string;
+    autores: string;
+    fonte: string;
+    ano: string;
+     link?: string;
+  }[];
 
   casosClinicos?: {
 
@@ -398,9 +405,11 @@ export default function DiseaseContent({
 
   imagens,
 
-  casosClinicos,
+    casosClinicos,
 
   prevencao,
+
+  referencias,
 
 }: DiseaseContentProps) {
 
@@ -797,11 +806,15 @@ export default function DiseaseContent({
 
 
 
-    if(abaAtiva === "referencias"){
+ if(abaAtiva === "referencias"){
 
-      return <DiseaseReferences />;
+  return (
+    <DiseaseReferences
+      referencias={referencias}
+    />
+  );
 
-    }
+}
 
 
 

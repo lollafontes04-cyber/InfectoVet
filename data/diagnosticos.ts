@@ -858,7 +858,10 @@ caracteristicas: [
   finalidade: [
     "Confirmatório"
   ],
-
+caracteristicas: [
+  "Detecção de anticorpos",
+  "Reagente marcado"
+],
   descricao:
     "Teste sorológico baseado na capacidade de anticorpos específicos presentes no soro do animal em fixar o complemento na presença de antígenos correspondentes.",
 
@@ -919,7 +922,10 @@ caracteristicas: [
   finalidade: [
     "Confirmatório"
   ],
-
+caracteristicas: [
+  "Detecção de anticorpos",
+  "Reagente marcado"
+],
   descricao:
     "Teste imunológico utilizado para detectar anticorpos ou componentes do complemento associados à superfície das hemácias.",
 
@@ -960,6 +966,140 @@ caracteristicas: [
   doencasRelacionadas: [
 
     "Anemia hemolítica imunomediada"
+
+  ]
+
+},
+{
+  id: "imuno-histoquimica",
+
+  nome: "Imuno-histoquímica",
+
+  categoria: "Teste Imunológico",
+
+  tipo: "Direto",
+
+  finalidade: [
+    "Confirmatório"
+  ],
+
+  caracteristicas: [
+    "Reagente marcado",
+    "Detecção de proteínas específicas"
+  ],
+
+  descricao:
+    "Método utilizado para identificar a presença de antígenos ou proteínas específicas em tecidos por meio da ligação com anticorpos marcados.",
+
+  principio:
+    "Baseia-se na ligação de anticorpos específicos ao alvo presente no tecido, permitindo sua visualização por meio de marcadores associados ao anticorpo.",
+
+  aplicacao: [
+
+    "Diagnóstico de doenças priônicas",
+
+    "Detecção de proteínas específicas em tecidos",
+
+    "Avaliação histopatológica"
+
+  ],
+
+  vantagens: [
+
+    "Permite localizar o agente ou proteína no tecido",
+
+    "Alta especificidade quando utilizado com anticorpos adequados"
+
+  ],
+
+  limitacoes: [
+
+    "Necessita processamento adequado da amostra",
+
+    "Depende da qualidade dos anticorpos utilizados",
+
+    "Requer interpretação especializada"
+
+  ],
+
+  imagem:
+    "/images/diagnosticos/imuno-histoquimica.jpg",
+
+  doencasRelacionadas: [
+
+    "Encefalopatia Espongiforme Bovina"
+
+  ]
+
+},
+{
+  id: "hemaglutinacao",
+
+  nome: "Teste de Hemaglutinação e Inibição da Hemaglutinação (HA/HI)",
+
+  categoria: "Método Sorológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Triagem",
+  
+  ],
+
+  caracteristicas: [
+    "Aglutinação",
+    "Reagente não marcado",
+    "Detecção de anticorpos"
+  ],
+
+  descricao:
+    "Métodos sorológicos baseados na interação entre antígenos, anticorpos e hemácias. A hemaglutinação permite observar a capacidade de determinados agentes aglutinarem hemácias, enquanto a inibição da hemaglutinação detecta anticorpos capazes de bloquear essa reação.",
+
+  principio:
+    "Na hemaglutinação, o agente ou antígeno promove a aglutinação das hemácias, formando uma rede visível. Na inibição da hemaglutinação, anticorpos presentes na amostra impedem essa ligação, bloqueando a aglutinação quando ocorre uma reação positiva.",
+
+  aplicacao: [
+
+    "Detecção de anticorpos específicos",
+
+    "Diagnóstico sorológico de infecções virais",
+
+    "Avaliação de resposta vacinal",
+
+    "Identificação de agentes com capacidade hemaglutinante"
+
+  ],
+
+  vantagens: [
+
+    "Método simples e de baixo custo",
+
+    "Boa especificidade em testes padronizados",
+
+    "Amplamente utilizado em virologia"
+
+  ],
+
+  limitacoes: [
+
+    "Necessita padronização dos antígenos",
+
+    "Pode ocorrer interferência por anticorpos inespecíficos",
+
+    "Sensibilidade depende do agente avaliado"
+
+  ],
+
+  imagem:
+    "/images/diagnosticos/hemaglutinacao-4.jpg",
+
+  doencasRelacionadas: [
+
+    "Doença de Newcastle",
+
+    "Influenza Aviária",
+
+    "Parvovirose"
 
   ]
 

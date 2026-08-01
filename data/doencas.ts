@@ -3,6 +3,15 @@ export type BlocoConteudo = {
   titulo: string;
   texto: string;
 };
+
+type Referencia = {
+  titulo: string;
+  autores: string;
+  fonte: string;
+  ano: string;
+  link?: string;
+};
+
 export type Doenca = {
 
   id: string;
@@ -149,7 +158,7 @@ sinaisClinicos:
 
     };
 
-  referencias: string[];
+referencias?: Referencia[];
 
    casosClinicos?: {
 
@@ -561,7 +570,8 @@ visaoGeral: {
   "elisa",
   "pcr",
   "cultura-bacteriologica",
-  "fixacao-complemento"
+  "fixacao-complemento",
+  "imuno-histoquimica"
 ]
 
 },
@@ -708,7 +718,47 @@ texto:
 
 
 },
-  referencias: [],
+  referencias: [
+  {
+    titulo:
+      "Brucellosis: epidemiology, pathogenesis, diagnosis and treatment–a comprehensive review",
+
+    autores:
+      "Qureshi, Kamal A., Adil Parvez, Nada A. Fahmy, Bassant H. Abdel Hady, Shweta Kumar, Anusmita Ganguly, Akhtar Atiya, et al.",
+
+    fonte:
+      "Annals of Medicine 55 (2)",
+
+    ano:
+      "2023",
+
+       link:
+    "https://www.tandfonline.com/doi/full/10.1080/07853890.2023.2295398#d1e408",
+  },
+
+
+
+
+  {
+    titulo:
+      "Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT)",
+
+    autores:
+      "Ministério da Agricultura e Pecuária (MAPA)",
+
+    fonte:
+      "Manual Técnico",
+
+    ano:
+      "Atualizado",
+
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/pncebt/controle-e-erradicacao-da-brucelose-e-tuberculose-pncebt"
+  },
+
+
+  
+
+],
 
  casosClinicos: [
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 type Questao = {
@@ -19,7 +19,9 @@ type QuizCardProps = {
 
 
 export default function QuizCard({
+
   questao,
+
 }: QuizCardProps) {
 
 
@@ -32,28 +34,44 @@ export default function QuizCard({
 
 
 
+  useEffect(() => {
+
+    setSelecionada(null);
+    setRespondido(false);
+
+  }, [questao.id]);
+
+
+
+
 
   return (
 
     <article
+
       className="
-        rounded-2xl
+        rounded-xl
         border
-        bg-[#F8FBF9]
-        p-4
-        md:p-6
+        border-gray-200
+        bg-white
+        p-3
+        md:p-5
       "
+
     >
 
 
+
       <h3
+
         className="
-          text-base
-          font-bold
+          text-sm
+          font-semibold
           leading-relaxed
-          text-[#075334]
-          md:text-lg
+          text-gray-800
+          md:text-base
         "
+
       >
 
         {questao.pergunta}
@@ -64,102 +82,114 @@ export default function QuizCard({
 
 
 
-      <div className="mt-5 space-y-3">
+      <div
+
+        className="
+          mt-4
+          space-y-2
+        "
+
+      >
 
 
-        {questao.alternativas.map((alternativa) => {
+        {
+          questao.alternativas.map((alternativa) => {
 
 
-          const letra =
-            alternativa.charAt(0);
-
-
-
-          const correta =
-            respondido &&
-            letra === questao.resposta;
-
-
-          const errada =
-            respondido &&
-            selecionada === letra &&
-            letra !== questao.resposta;
+            const letra =
+              alternativa.charAt(0);
 
 
 
-          return (
-
-            <button
-
-
-              key={alternativa}
-
-
-              disabled={respondido}
-
-
-              onClick={() =>
-                setSelecionada(letra)
-              }
+            const correta =
+              respondido &&
+              letra === questao.resposta;
 
 
 
-              className={`
-
-                flex
-                w-full
-                rounded-xl
-                border
-                px-4
-                py-3
-                text-left
-                text-sm
-                leading-relaxed
-                transition
+            const errada =
+              respondido &&
+              selecionada === letra &&
+              letra !== questao.resposta;
 
 
-                ${
-                  correta
 
-                  ?
 
-                  "border-green-500 bg-green-100 text-green-800"
+            return (
 
-                  :
+              <button
 
-                  errada
 
-                  ?
+                key={alternativa}
 
-                  "border-red-500 bg-red-100 text-red-800"
 
-                  :
+                disabled={respondido}
 
-                  selecionada === letra
 
-                  ?
-
-                  "border-[#075334] bg-[#EDF8F0]"
-
-                  :
-
-                  "bg-white"
-
+                onClick={() =>
+                  setSelecionada(letra)
                 }
 
-              `}
 
-            >
+                className={`
 
-              {alternativa}
+                  w-full
+                  rounded-lg
+                  border
+                  px-3
+                  py-2
+                  text-left
+                  text-xs
+                  leading-normal
+                  transition
+                  md:text-sm
 
 
-            </button>
+                  ${
+                    correta
 
-          );
+                    ?
+
+                    "border-green-500 bg-green-50 text-green-700 font-semibold"
+
+                    :
+
+                    errada
+
+                    ?
+
+                    "border-red-500 bg-red-50 text-red-700 font-semibold"
+
+                    :
+
+                    selecionada === letra
+
+                    ?
+
+                    "border-[#075334] bg-[#E8F5EE] text-[#075334]"
+
+                    :
+
+                    "border-gray-200 bg-white"
+
+                  }
+
+                `}
+
+              >
+
+                {alternativa}
 
 
-        })}
+              </button>
+
+            );
+
+
+          })
+
+        }
+
 
 
       </div>
@@ -168,78 +198,108 @@ export default function QuizCard({
 
 
 
-      {!respondido && (
 
-        <button
+      {
+        !respondido && (
 
-          onClick={() =>
-            setRespondido(true)
-          }
+          <button
 
 
-          className="
-            mt-5
-            rounded-xl
-            bg-[#075334]
-            px-6
-            py-3
-            text-sm
-            font-semibold
-            text-white
-          "
-
-        >
-
-          Responder
-
-        </button>
+            disabled={!selecionada}
 
 
-      )}
+            onClick={() =>
+              setRespondido(true)
+            }
 
 
+            className="
+              mt-4
+              rounded-lg
+              bg-[#075334]
+              px-5
+              py-2
+              text-xs
+              font-semibold
+              text-white
+              disabled:opacity-40
+            "
 
+          >
 
+            Responder
 
+          </button>
 
-      {respondido && (
+        )
 
-        <div
-          className="
-            mt-5
-            rounded-xl
-            bg-white
-            p-4
-            text-sm
-          "
-        >
-
-
-          <p className="font-semibold text-[#075334]">
-
-            Resposta correta: {questao.resposta}
-
-          </p>
+      }
 
 
 
 
-          <p className="mt-2 text-gray-600">
-
-            {questao.comentario}
-
-          </p>
 
 
-        </div>
+
+      {
+        respondido && (
 
 
-      )}
+          <div
+
+            className="
+              mt-4
+              rounded-lg
+              bg-[#F8FBF9]
+              p-3
+              text-xs
+            "
+
+          >
+
+
+            <p
+
+              className="
+                font-semibold
+                text-[#075334]
+              "
+
+            >
+
+              Resposta correta: {questao.resposta}
+
+            </p>
+
+
+
+
+            <p
+
+              className="
+                mt-2
+                leading-relaxed
+                text-gray-600
+              "
+
+            >
+
+              {questao.comentario}
+
+            </p>
+
+
+
+          </div>
+
+
+        )
+
+      }
 
 
 
     </article>
-
 
   );
 

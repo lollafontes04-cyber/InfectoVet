@@ -312,23 +312,17 @@ export default function DiseaseHero({
 
 
           {/* TÍTULO */}
-
-          <h1
-            className={`
-              font-bold
-
-              ${
-                nomeLongo
-                  ? "text-4xl leading-tight md:text-5xl"
-                  : "text-5xl"
-              }
-            `}
-          >
-
-            {nome}
-
-          </h1>
-
+<h1
+  className="
+    text-4xl
+    md:text-4xl
+    font-bold
+    leading-tight
+    max-w-4xl
+  "
+>
+  {nome}
+</h1>
 
 
 
