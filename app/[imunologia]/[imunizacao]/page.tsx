@@ -961,6 +961,7 @@ vacinaAberta === index ? null : index
 }
 
 className="
+self-start
 cursor-pointer
 rounded-2xl
 border
