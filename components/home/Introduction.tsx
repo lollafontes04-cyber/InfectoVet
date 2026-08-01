@@ -49,7 +49,7 @@ export default function Introduction() {
           "
         >
 
-          O <strong>InfectoVet</strong> é um atlas digital desenvolvido para
+          O <strong>InfectoVet</strong> é uma plataforma desenvolvida para
           facilitar o estudo e a consulta das principais enfermidades
           infecciosas e parasitárias dos animais.
 

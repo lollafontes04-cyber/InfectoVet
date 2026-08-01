@@ -12,6 +12,7 @@ import DiseaseGallery from "@/components/doencas/DiseaseGallery";
 import DiseaseCases from "@/components/doencas/DiseaseCases";
 import DiseaseQuiz from "@/components/doencas/DiseaseQuiz";
 import DiseaseReferences from "@/components/doencas/DiseaseReferences";
+import DiseasePncebt from "@/components/doencas/DiseasePncebt";
 
 
 
@@ -263,6 +264,23 @@ sinaisClinicos:
   | string
   | ConteudoPrevencao;
 
+  pncebt?: {
+
+  introducao: string;
+
+  blocos: {
+
+    emoji: string;
+
+    titulo: string;
+    descricao: string;
+
+    texto: string;
+
+  }[];
+
+};
+
     imagens?: {
 
     src: string;
@@ -291,7 +309,7 @@ sinaisClinicos:
 // =====================================
 
 
-const abas = [
+const abasBase = [
 
   {
     id: "visao",
@@ -348,7 +366,11 @@ const abas = [
     emoji: "🛡️",
   },
 
-
+{
+  id:"pncebt",
+  nome:"PNCEBT",
+  emoji:"🇧🇷"
+},
   {
     id: "galeria",
     nome: "Imagens",
@@ -408,6 +430,7 @@ export default function DiseaseContent({
     casosClinicos,
 
   prevencao,
+pncebt,
 
   referencias,
 
@@ -417,8 +440,17 @@ export default function DiseaseContent({
 
   const [abaAtiva, setAbaAtiva] = useState("visao");
 
+const mostrarPncebt =
+  nome === "Brucelose" ||
+  nome === "Tuberculose";
 
+  const abas = mostrarPncebt
 
+? abasBase
+
+: abasBase.filter(
+    (aba) => aba.id !== "pncebt"
+  );
 
 
 
@@ -816,7 +848,17 @@ export default function DiseaseContent({
 
 }
 
+if(abaAtiva === "pncebt"){
 
+  return (
+
+    <DiseasePncebt
+      pncebt={pncebt}
+    />
+
+  );
+
+}
 
 
 
@@ -1936,17 +1978,24 @@ text-gray-600
 
 
 
-        <div
+     <div
 
-          className="
-            hidden
-            gap-2
-            md:grid
-            md:grid-cols-6
-            lg:grid-cols-12
-          "
+className={`
+hidden
+gap-2
+md:grid
 
-        >
+${
+mostrarPncebt
+?
+"lg:grid-cols-[repeat(13,minmax(0,1fr))]"
+:
+"lg:grid-cols-12"
+}
+
+`}
+
+>
 
 
 

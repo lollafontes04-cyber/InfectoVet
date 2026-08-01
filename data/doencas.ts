@@ -158,6 +158,24 @@ sinaisClinicos:
 
     };
 
+    pncebt?: {
+
+  introducao: string;
+
+  blocos: {
+
+    emoji: string;
+
+    titulo: string;
+
+    descricao: string;
+
+    texto: string;
+
+  }[];
+
+};
+
 referencias?: Referencia[];
 
    casosClinicos?: {
@@ -229,6 +247,12 @@ imagem: "/images/doencas/brucelose.jpg",
 
 
 imagens: [
+ {
+    src: "/images/doencas/brucelose/prevalencia-brucelose.png",
+    titulo: "Prevalência de focos da brucelose bovina nas UF.",
+    categoria: "Mapa",
+    descricao:
+"Prevalência de focos da brucelose bovina nas UF."  },
 
   {
     src: "/images/doencas/brucelose/01-vaca-com-aborto.jpg",
@@ -267,7 +291,7 @@ imagens: [
     titulo: "Teste diagnóstico",
     categoria: "Diagnóstico",
     descricao:
-      "Métodos utilizados para identificação de animais infectados."
+      "Teste do Anel em Leite (TAL). Método de triagem utilizado para identificação de animais infectados."
   },
 
 
@@ -576,7 +600,8 @@ visaoGeral: {
   "pcr",
   "cultura-bacteriologica",
   "fixacao-complemento",
-  "imuno-histoquimica"
+  "imuno-histoquimica",
+  "anel-leite"
 ]
 
 },
@@ -721,6 +746,67 @@ texto:
 
 ]
 
+
+},
+pncebt: {
+
+introducao:
+"O Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT) estabelece medidas sanitárias para controle das enfermidades, com foco na identificação de animais positivos e no saneamento dos rebanhos.",
+
+
+blocos:[
+
+
+{
+emoji:"🔎",
+titulo:"Identificação dos animais positivos",
+
+descricao:
+      "Fluxo adotado após a identificação de animais suspeitos ou positivos.",
+
+texto:
+"O diagnóstico inicia com o Teste do Antígeno Acidificado Tamponado (AAT), utilizado como teste de triagem. Animais reagentes no AAT devem ser submetidos aos testes confirmatórios previstos pelo PNCEBT, como o 2-Mercaptoetanol (2-ME) e/ou Teste de Fixação de Complemento. Após a confirmação, o animal é classificado como positivo e segue para as medidas sanitárias de eliminação."
+},
+
+
+{
+emoji:"⚠️",
+titulo:"Destino dos animais positivos",
+
+descricao:
+ "Retirada dos animais infectados para interromper a cadeia de transmissão.",
+
+texto:
+ "Animais confirmados positivos para brucelose devem ser eliminados por meio de sacrifício sanitário. A retirada deve ocorrer dentro do prazo estabelecido pelo Serviço Veterinário Oficial. Após a eliminação, o animal não retorna ao sistema produtivo, evitando a manutenção da fonte de infecção no rebanho."
+
+},
+
+
+{
+emoji:"🚫",
+titulo:"Restrição e investigação da propriedade",
+descricao:
+  "Medidas adotadas após a confirmação de um foco de brucelose.",
+
+texto:
+      "Após a confirmação de animais positivos, a propriedade é considerada foco e permanece sob acompanhamento do Serviço Veterinário Oficial. Os animais do rebanho devem ser investigados, especialmente aqueles que tiveram contato com os positivos. A movimentação de animais pode ser restringida até o cumprimento das medidas sanitárias estabelecidas."
+
+},
+
+
+{
+emoji:"🧼",
+titulo:"Controle sanitário do rebanho",
+
+descricao:
+"Medidas adotadas para impedir a disseminação da enfermidade.",
+
+texto:
+"O controle envolve investigação de focos, controle de entrada de animais, isolamento de suspeitos, higiene das instalações e monitoramento sanitário contínuo.Após o cumprimento das exigências sanitárias e comprovação do controle da enfermidade, o foco pode ser encerrado e a propriedade retorna à condição sanitária adequada."
+}
+
+
+]
 
 },
   referencias: [

@@ -157,6 +157,8 @@ export default async function DoencaPage({
 
           prevencao={dados.prevencao}
 
+          pncebt={dados.pncebt}
+
           imagens={dados.imagens}
 
           casosClinicos={dados.casosClinicos}

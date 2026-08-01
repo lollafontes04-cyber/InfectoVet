@@ -122,7 +122,7 @@ export default function Hero() {
               text-[#075334]
             "
           >
-            Atlas de enfermidades infecciosas e parasitárias animais
+ Plataforma de enfermidades infecciosas e parasitárias animais
           </div>
 
 
@@ -156,7 +156,7 @@ export default function Hero() {
               text-[#315B4B]
             "
           >
-            Atlas digital para estudo e consulta de doenças infecciosas e
+ Plataforma digital para estudo e consulta de doenças infecciosas e
             parasitárias que afetam animais domésticos.
           </p>
 

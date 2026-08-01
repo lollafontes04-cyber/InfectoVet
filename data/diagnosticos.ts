@@ -970,6 +970,63 @@ caracteristicas: [
   ]
 
 },
+
+{
+  id: "anel-leite",
+
+  nome: "Teste do Anel em Leite(TAL)",
+
+  categoria: "Teste Sorológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Triagem"
+  ],
+
+  caracteristicas: [
+    "Aglutinação"
+  ],
+
+  descricao:
+    "Método utilizado para para detectar anticorpos da brucelose em rebanhos leiteiros, identificar propriedades com animais doentes e monitorar a qualidade do leite cru.",
+
+  principio:
+    "Baseia-se na reação imunológica em que anticorpos presentes no leite se ligam a um antígeno corado com hematoxilina (azul), fazendo com que os glóbulos de gordura subam para a superfície e formem um anel azulado distinto no topo do tubo, enquanto o leite abaixo fica esbranquiçado.",
+
+  aplicacao: [
+
+    "Diagnóstico de brucelose bovina",
+
+  ],
+
+  vantagens: [
+
+    "Triagem coletiva eficaz",
+
+    "Baixo custo"
+
+  ],
+
+  limitacoes: [
+
+    "Apresenta taxas relevantes de leituras falso-negativas ou falso-positivas quando aplicado de forma isolada em animais únicos",
+
+    " Demanda obrigatoriamente exames de sangue complementares e confirmatórios em animais ou rebanhos apontados como reagentes."
+
+
+  ],
+
+  imagem:
+    "/images/diagnosticos/anel-leite.jpg",
+
+  doencasRelacionadas: [
+
+    "Brucelose"
+
+  ]
+
+},
 {
   id: "imuno-histoquimica",
 
