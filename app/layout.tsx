@@ -12,9 +12,52 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "InfectoVet",
-  description: "Atlas digital de enfermidades infecciosas e parasitárias animais",
+export const metadata = {
+  title: "InfectoVet | Atlas de Enfermidades Infecciosas e Parasitárias Animais",
+
+  description:
+    "Atlas digital para estudo e consulta de enfermidades infecciosas e parasitárias animais.",
+
+
+  openGraph: {
+    title:
+      "InfectoVet | Atlas de Enfermidades Infecciosas e Parasitárias Animais",
+
+    description:
+      "Conhecimento científico sobre enfermidades infecciosas e parasitárias em animais.",
+
+    url: "https://infecto-vet.vercel.app",
+
+    siteName: "InfectoVet",
+
+    images: [
+      {
+        url: "/images/logo/logo-infectovet.png",
+        width: 1200,
+        height: 630,
+        alt: "InfectoVet - Atlas Veterinário",
+      },
+    ],
+
+    locale: "pt_BR",
+
+    type: "website",
+  },
+
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "InfectoVet | Atlas Veterinário",
+
+    description:
+      "Atlas digital de enfermidades infecciosas e parasitárias animais.",
+
+    images: [
+      "/images/logo/logo-infectovet.png"
+    ],
+  },
 };
 
 export default function RootLayout({
