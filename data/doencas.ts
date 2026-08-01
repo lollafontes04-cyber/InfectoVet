@@ -247,7 +247,12 @@ imagens: [
       "Alterações associadas à infecção por Brucella spp."
   },
 
-
+{
+    src: "/images/doencas/brucelose/orquite-brucelose.jpg",
+    titulo: "Orquite",
+    categoria: "Apresentação clínica",
+    descricao:
+"Inflamação dos testículos e do epidídimo causada por bactérias do gênero Brucella"  },
   {
     src: "/images/doencas/brucelose/03-placenta-com-lesoes.jpg",
     titulo: "Alterações placentárias",

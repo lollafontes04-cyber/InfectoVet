@@ -26,6 +26,12 @@ const menuItems = [
     nome: "Questões",
     link: "/questoes",
   },
+
+  {
+  nome: "Imunologia",
+  link: "/imunologia",
+},
+
   {
     nome: "Sobre",
     link: "/sobre",
@@ -304,11 +310,11 @@ export default function Navbar() {
             className="
               flex
               h-11
-              w-[340px]
+              w-[400px]
               items-center
               rounded-lg
               border
-              px-4
+              px-6
             "
           >
 
@@ -465,7 +471,7 @@ export default function Navbar() {
           className="
             ml-auto
             hidden
-            gap-10
+            gap-6
             lg:flex
           "
         >
