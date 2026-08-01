@@ -679,6 +679,7 @@ imunizacaoAberta === index ? null : index
 }
 
 className="
+self-start
 cursor-pointer
 rounded-3xl
 bg-white
@@ -939,6 +940,7 @@ As vacinas podem ser classificadas conforme a forma de apresentação dos antíg
 className="
 mt-6
 grid
+items-start
 gap-5
 md:grid-cols-2
 "
