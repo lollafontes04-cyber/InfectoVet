@@ -10,36 +10,27 @@ const modulos = [
     emoji: "🛡️",
     titulo: "Fundamentos da Imunidade",
     descricao:
-      "Conheça os principais componentes do sistema imunológico e os mecanismos básicos de defesa do organismo.",
-
-    link:
-      "/imunologia/fundamentos"
+      "Conheça os componentes do sistema imunológico e os mecanismos básicos de defesa do organismo.",
+    link: "/imunologia/fundamentos",
   },
-
 
   {
     emoji: "🦠",
     titulo: "Resposta Imunológica",
     descricao:
-      "Entenda como o organismo reconhece e responde aos agentes infecciosos.",
-
-    link:
-      "/imunologia/resposta-imune"
+      "Compreenda como o organismo reconhece, combate e desenvolve respostas contra agentes infecciosos.",
+    link: "/imunologia/resposta-imune",
   },
-
 
   {
     emoji: "💉",
     titulo: "Imunização e Vacinas",
     descricao:
-      "Compreenda como a vacinação estimula proteção contra doenças infecciosas.",
-
-    link:
-      "/imunologia/imunizacao"
+      "Entenda como as vacinas estimulam a proteção imunológica contra doenças infecciosas.",
+    link: "/imunologia/imunizacao",
   },
 
 ];
-
 
 
 export default function ImunologiaPage(){
@@ -49,6 +40,7 @@ return (
 <>
 
 <Navbar />
+
 
 <main
 className="
@@ -84,19 +76,18 @@ md:text-4xl
 
 <p
 className="
-mt-3
+mt-4
 max-w-4xl
 leading-relaxed
 text-gray-600
 "
 >
 
-A imunologia estuda os mecanismos de defesa do organismo animal,
-sendo essencial para compreender a interação entre hospedeiro e
-agentes infecciosos, além das estratégias de prevenção como a vacinação.
+A imunologia veterinária estuda os mecanismos de defesa dos animais,
+permitindo compreender a interação entre o sistema imunológico,
+os agentes infecciosos e as estratégias de prevenção das doenças.
 
 </p>
-
 
 
 
@@ -104,14 +95,12 @@ agentes infecciosos, além das estratégias de prevenção como a vacinação.
 className="
 mt-8
 grid
-gap-5
+gap-6
 md:grid-cols-3
 "
 >
 
-
 {modulos.map((modulo)=>(
-
 
 <Link
 
@@ -133,17 +122,13 @@ hover:shadow-md
 
 
 <div className="text-4xl">
-
 {modulo.emoji}
-
 </div>
-
 
 
 <h2
 className="
 mt-5
-text-lg
 font-bold
 text-[#075334]
 "
@@ -152,7 +137,6 @@ text-[#075334]
 {modulo.titulo}
 
 </h2>
-
 
 
 <p
@@ -169,7 +153,6 @@ text-gray-600
 </p>
 
 
-
 <div
 className="
 mt-5
@@ -178,9 +161,7 @@ font-semibold
 text-[#075334]
 "
 >
-
 Acessar conteúdo →
-
 </div>
 
 
@@ -188,7 +169,6 @@ Acessar conteúdo →
 
 
 ))}
-
 
 </div>
 

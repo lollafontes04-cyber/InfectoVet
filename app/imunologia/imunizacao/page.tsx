@@ -12,49 +12,49 @@ import Footer from "@/components/layout/Footer";
 
 const etapasImunizacao = [
 
-  {
-    emoji:"🦠",
-    titulo:"Apresentação do antígeno",
-    texto:
-    "A vacina apresenta componentes capazes de estimular o sistema imunológico sem causar a doença.",
-    cor:"bg-green-50"
-  },
+{
+emoji:"🦠",
+titulo:"Apresentação do antígeno",
+texto:
+"A vacina apresenta componentes capazes de estimular o sistema imunológico sem causar a doença.",
+cor:"bg-green-50"
+},
 
 
-  {
-    emoji:"🔎",
-    titulo:"Reconhecimento imunológico",
-    texto:
-    "As células de defesa identificam o antígeno e iniciam a ativação da resposta imunológica.",
-    cor:"bg-purple-50"
-  },
+{
+emoji:"🔎",
+titulo:"Reconhecimento imunológico",
+texto:
+"As células de defesa identificam o antígeno e iniciam a ativação da resposta imunológica.",
+cor:"bg-purple-50"
+},
 
 
-  {
-    emoji:"⚔️",
-    titulo:"Ativação da resposta imune",
-    texto:
-    "O organismo ativa células de defesa e inicia a produção de anticorpos específicos.",
-    cor:"bg-yellow-50"
-  },
+{
+emoji:"⚔️",
+titulo:"Ativação da resposta imune",
+texto:
+"O organismo ativa células de defesa e inicia a produção de anticorpos específicos.",
+cor:"bg-yellow-50"
+},
 
 
-  {
-    emoji:"🧠",
-    titulo:"Memória imunológica",
-    texto:
-    "Células de memória permanecem preparadas para responder rapidamente em exposições futuras.",
-    cor:"bg-blue-50"
-  },
+{
+emoji:"🧠",
+titulo:"Memória imunológica",
+texto:
+"Células de memória permanecem preparadas para responder rapidamente em exposições futuras.",
+cor:"bg-blue-50"
+},
 
 
-  {
-    emoji:"🛡️",
-    titulo:"Proteção",
-    texto:
-    "Em um novo contato com o agente, o organismo apresenta uma resposta mais rápida e eficiente.",
-    cor:"bg-emerald-50"
-  }
+{
+emoji:"🛡️",
+titulo:"Proteção",
+texto:
+"Em um novo contato com o agente, o organismo apresenta uma resposta mais rápida e eficiente.",
+cor:"bg-emerald-50"
+}
 
 ];
 
@@ -1262,5 +1262,4 @@ gap-2
 </>
 
 );
-
 }
