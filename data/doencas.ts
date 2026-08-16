@@ -2861,18 +2861,1008 @@ link:"https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigil
 
   imagem: "/images/doencas/mormo.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens:[
 
-  referencias: [],
 
-  casosClinicos: [],
+{
+
+src:"/images/doencas/mormo/01-burkholderia-mallei.jpg",
+
+titulo:
+"Burkholderia mallei",
+
+categoria:
+"Agente etiológico",
+
+descricao:
+"Imagem representativa da bactéria Burkholderia mallei, agente causador do mormo em equídeos."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/02-equino-mormo.jpg",
+
+titulo:
+"Equino acometido pelo mormo",
+
+categoria:
+"Apresentação clínica",
+
+descricao:
+"Equino apresentando alterações compatíveis com infecção por Burkholderia mallei."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/03-lesoes-cutaneas.jpg",
+
+titulo:
+"Lesões cutâneas do mormo",
+
+categoria:
+"Sinais clínicos",
+
+descricao:
+"Lesões nodulares e alterações cutâneas associadas à forma cutânea da enfermidade."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/04-secrecao-nasal.jpg",
+
+titulo:
+"Secreção nasal",
+
+categoria:
+"Sinais clínicos",
+
+descricao:
+"Secreção nasal associada ao comprometimento respiratório causado pelo agente."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/05-lesoes-pulmonares.jpg",
+
+titulo:
+"Lesões pulmonares",
+
+categoria:
+"Patogenia",
+
+descricao:
+"Alterações pulmonares associadas à disseminação da Burkholderia mallei no organismo."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/06-transmissao-mormo.jpg",
+
+titulo:
+"Transmissão do mormo",
+
+categoria:
+"Epidemiologia",
+
+descricao:
+"Representação das principais formas de transmissão entre equídeos e contato com materiais contaminados."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/07-diagnostico-mormo.jpg",
+
+titulo:
+"Diagnóstico do mormo",
+
+categoria:
+"Diagnóstico",
+
+descricao:
+"Testes laboratoriais utilizados na investigação de animais suspeitos."
+
+
+},
+
+
+
+{
+
+src:"/images/doencas/mormo/08-controle-sanitario.jpg",
+
+titulo:
+"Controle sanitário",
+
+categoria:
+"Prevenção",
+
+descricao:
+"Medidas de biossegurança e controle utilizadas para reduzir a disseminação da enfermidade."
+
+}
+
+
+],
+
+ visaoGeral: {
+
+introducao:
+
+"O mormo é uma doença infectocontagiosa causada pela bactéria Burkholderia mallei, caracterizada principalmente por alterações respiratórias, cutâneas e linfáticas em equídeos. Possui grande importância sanitária devido ao seu potencial zoonótico, elevada capacidade de transmissão e necessidade de controle oficial.",
+
+
+cards:[
+
+
+{
+emoji:"⭐",
+
+titulo:"Destaques",
+
+itens:[
+
+"Doença bacteriana de notificação obrigatória",
+
+"Principalmente acomete equídeos, especialmente cavalos",
+
+"Apresenta potencial zoonótico, podendo infectar humanos",
+
+"Pode causar formas respiratória, cutânea e disseminada"
+
+]
+
+},
+
+
+
+{
+emoji:"🦠",
+
+titulo:"Características",
+
+itens:[
+
+"Causada pela bactéria Burkholderia mallei",
+
+"Bactéria Gram-negativa, intracelular facultativa",
+
+"Apresenta capacidade de sobrevivência no hospedeiro",
+
+"Pode causar infecções crônicas ou agudas"
+
+]
+
+},
+
+
+
+{
+emoji:"🐴",
+
+titulo:"Importância sanitária",
+
+itens:[
+
+"Possui impacto significativo na movimentação e comércio de equídeos",
+
+"Animais positivos representam fonte de infecção",
+
+"O controle envolve diagnóstico, isolamento e medidas oficiais",
+
+"Não existe vacina comercial disponível"
+
+]
+
+}
+
+
+]
+
+
+},
+
+
+
+etiologia:{
+
+
+introducao:
+
+"O mormo é causado pela bactéria Burkholderia mallei, um bacilo Gram-negativo pertencente ao complexo Burkholderia. O agente apresenta adaptação principalmente aos equídeos e possui capacidade de causar infecções persistentes.",
+
+
+
+blocos:[
+
+
+
+{
+
+emoji:"🦠",
+
+titulo:"Agente etiológico",
+
+itens:[
+
+"Burkholderia mallei",
+
+"Bactéria Gram-negativa, imóvel e não formadora de esporos",
+
+"Pertencente à família Burkholderiaceae",
+
+"Apresenta capacidade de sobreviver no interior de células do hospedeiro"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🔬",
+
+titulo:"Características bacterianas",
+
+itens:[
+
+"Apresenta crescimento lento em meios laboratoriais",
+
+"Pode apresentar colônias pequenas, lisas e translúcidas",
+
+"Possui mecanismos de evasão da resposta imunológica",
+
+"Relacionada ao desenvolvimento de infecções crônicas"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🐴",
+
+titulo:"Hospedeiros",
+
+itens:[
+
+"Equídeos são os principais hospedeiros naturais",
+
+"Equinos apresentam maior importância epidemiológica",
+
+"Pode acometer muares e asininos",
+
+"Humanos podem desenvolver infecção após contato com animais infectados"
+
+]
+
+}
+
+
+]
+
+
+},
+  epidemiologia:{
+
+
+introducao:
+
+"O mormo apresenta distribuição mundial e possui maior importância em regiões onde há criação e movimentação intensa de equídeos. A transmissão está relacionada principalmente ao contato direto ou indireto com secreções de animais infectados.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🌎",
+
+titulo:"Distribuição",
+
+texto:
+
+"A enfermidade ocorre em diferentes regiões do mundo, sendo considerada uma doença de importância sanitária internacional devido ao impacto na criação de equídeos e ao risco zoonótico."
+
+},
+
+
+
+{
+
+emoji:"🐴",
+
+titulo:"Hospedeiros",
+
+texto:
+
+"Os equídeos, principalmente cavalos, são os principais hospedeiros da Burkholderia mallei. Muares e asininos também podem apresentar infecção."
+
+},
+
+
+
+{
+
+emoji:"💧",
+
+titulo:"Transmissão",
+
+texto:
+
+"A transmissão ocorre principalmente pelo contato com secreções de animais infectados, especialmente secreções nasais e lesões cutâneas contendo a bactéria."
+
+},
+
+
+
+{
+
+emoji:"🧫",
+
+titulo:"Fonte de infecção",
+
+texto:
+
+"Animais infectados, principalmente aqueles com formas respiratórias ou cutâneas da doença, representam importantes fontes de disseminação do agente."
+
+},
+
+
+
+{
+
+emoji:"⚠️",
+
+titulo:"Importância zoonótica",
+
+texto:
+
+"A infecção humana ocorre principalmente por contato direto com animais infectados ou materiais contaminados, sendo considerada uma enfermidade ocupacional para profissionais expostos."
+
+}
+
+
+]
+
+
+},
+
+
+
+patogenia:{
+
+
+introducao:
+
+"Após a entrada da Burkholderia mallei no organismo, ocorre multiplicação bacteriana e disseminação para diferentes tecidos. A evolução da doença depende da resposta imunológica do hospedeiro e da capacidade do agente de persistir no organismo.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🚪",
+
+titulo:"Entrada do agente",
+
+texto:
+
+"A bactéria penetra principalmente através das mucosas respiratórias ou por lesões na pele durante o contato com secreções ou materiais contaminados."
+
+},
+
+
+
+{
+
+emoji:"🫁",
+
+titulo:"Infecção respiratória",
+
+texto:
+
+"Após a entrada pelas vias respiratórias, a bactéria pode se multiplicar nos tecidos pulmonares, causando lesões inflamatórias e formação de nódulos."
+
+},
+
+
+
+{
+
+emoji:"🧬",
+
+titulo:"Disseminação pelo organismo",
+
+texto:
+
+"A Burkholderia mallei pode alcançar diferentes órgãos através da circulação sanguínea e linfática, levando ao desenvolvimento de lesões sistêmicas."
+
+},
+
+
+
+{
+
+emoji:"🩸",
+
+titulo:"Formação de lesões",
+
+texto:
+
+"A infecção pode causar formação de nódulos, abscessos e inflamações nos vasos linfáticos, principalmente em pele, linfonodos e sistema respiratório."
+
+},
+
+
+
+{
+
+emoji:"🔄",
+
+titulo:"Evolução crônica",
+
+texto:
+
+"Alguns animais podem apresentar evolução lenta da doença, permanecendo como fontes de infecção e contribuindo para a manutenção do agente na população."
+
+}
+
+
+]
+
+
+},
+
+
+  sinaisClinicos:{
+
+
+introducao:
+
+"O mormo apresenta manifestações clínicas variáveis, podendo ocorrer formas respiratórias, cutâneas ou disseminadas. A intensidade dos sinais depende da evolução da infecção e da resposta do organismo do animal.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🫁",
+
+titulo:"Forma respiratória",
+
+itens:[
+
+"Secreção nasal serosa ou purulenta",
+
+"Tosse",
+
+"Dificuldade respiratória",
+
+"Febre",
+
+"Lesões pulmonares"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🩸",
+
+titulo:"Forma cutânea",
+
+itens:[
+
+"Presença de nódulos subcutâneos",
+
+"Formação de úlceras na pele",
+
+"Aumento dos vasos linfáticos",
+
+"Lesões semelhantes a cordões linfáticos"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🐴",
+
+titulo:"Sinais gerais",
+
+itens:[
+
+"Perda de peso progressiva",
+
+"Apatia",
+
+"Redução do desempenho",
+
+"Debilidade do animal"
+
+]
+
+},
+
+
+
+{
+
+emoji:"⚠️",
+
+titulo:"Evolução da doença",
+
+itens:[
+
+"Pode apresentar evolução aguda ou crônica",
+
+"Animais crônicos podem permanecer como fonte de infecção",
+
+"Alguns animais podem apresentar poucos sinais clínicos"
+
+]
+
+}
+
+
+]
+
+
+},
+
+
+diagnostico: {
+
+  introducao:
+  "O diagnóstico do mormo deve ser realizado por meio da associação entre avaliação epidemiológica, sinais clínicos e testes laboratoriais específicos. Devido à importância sanitária da enfermidade, a confirmação diagnóstica deve seguir os protocolos oficiais estabelecidos pelo Serviço Veterinário Oficial.",
+
+
+  metodos:[
+
+    "fixacao-complemento",
+    "pcr",
+    "cultura-bacteriologica"
+
+  ]
+
+},
+
+
+  tratamento:{
+
+
+introducao:
+
+"O tratamento do mormo não é recomendado nos programas oficiais de controle sanitário devido ao risco de permanência de animais portadores e manutenção da bactéria no ambiente. As medidas adotadas são direcionadas principalmente ao controle e erradicação da enfermidade.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🚫",
+
+titulo:"Animais positivos",
+
+texto:
+
+"Animais diagnosticados como positivos devem seguir as medidas sanitárias determinadas pelos órgãos oficiais, incluindo isolamento e eliminação sanitária quando indicada."
+
+},
+
+
+
+{
+
+emoji:"🧼",
+
+titulo:"Desinfecção e controle ambiental",
+
+texto:
+
+"A higienização de instalações, equipamentos e materiais que tiveram contato com animais infectados é fundamental para reduzir a disseminação da Burkholderia mallei."
+
+},
+
+
+
+{
+
+emoji:"🐴",
+
+titulo:"Isolamento dos animais suspeitos",
+
+texto:
+
+"Animais com suspeita clínica devem ser separados dos demais equídeos até a conclusão da investigação diagnóstica."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+prevencao:{
+
+
+introducao:
+
+"A prevenção do mormo depende de medidas de biossegurança, controle sanitário dos equídeos e identificação precoce de animais infectados.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🔬",
+
+titulo:"Diagnóstico e vigilância",
+
+texto:
+
+"A realização de exames em animais suspeitos e destinados à movimentação auxilia na identificação de animais infectados e reduz a disseminação da doença.",
+
+destaque:true,
+
+tags:[
+
+"🔬 Testagem oficial",
+
+"🐴 Equídeos",
+
+"⚠️ Controle sanitário"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🚚",
+
+titulo:"Controle de movimentação",
+
+texto:
+
+"O controle do trânsito de equídeos e a exigência de documentação sanitária são medidas importantes para evitar a introdução da doença em propriedades livres."
+
+},
+
+
+
+{
+
+emoji:"🧼",
+
+titulo:"Biossegurança",
+
+texto:
+
+"A limpeza e desinfecção de instalações, equipamentos e utensílios reduzem o risco de transmissão entre animais."
+
+},
+
+
+
+{
+
+emoji:"🐎",
+
+titulo:"Quarentena",
+
+texto:
+
+"Novos animais introduzidos na propriedade devem permanecer em observação e passar por avaliação sanitária antes do contato com o plantel."
+
+}
+
+
+]
+
+
+},
+
+  referencias:[
+
+
+{
+
+titulo:
+
+"Glanders (Malleus)",
+
+autores:
+
+"World Organisation for Animal Health (WOAH)",
+
+fonte:
+
+"WOAH - Terrestrial Animal Health Code",
+
+ano:
+
+"Atualizado",
+
+link:
+
+"https://www.woah.org/en/disease/glanders/"
+
+},
+
+
+
+{
+
+titulo:
+
+"Manual de Testes Diagnósticos e Vacinas para Animais Terrestres - Glanders",
+
+autores:
+
+"World Organisation for Animal Health (WOAH)",
+
+fonte:
+
+"WOAH Manual of Diagnostic Tests and Vaccines for Terrestrial Animals",
+
+ano:
+
+"Atualizado",
+
+link:
+
+"https://www.woah.org/en/what-we-do/standards/codes-and-manuals/terrestrial-manual-online-access/"
+
+},
+
+
+
+{
+
+titulo:
+
+"Programa Nacional de Sanidade dos Equídeos (PNSE)",
+
+autores:
+
+"Ministério da Agricultura e Pecuária (MAPA)",
+
+fonte:
+
+"Programa oficial de sanidade animal",
+
+ano:
+
+"Atualizado",
+
+link:
+
+"https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal"
+
+}
+
+
+],
+
+
+
+casosClinicos:[
+
+
+{
+
+id:"mormo-caso-01",
+
+
+titulo:
+
+"Equino com sinais respiratórios suspeitos de mormo",
+
+
+especie:
+
+"Equino",
+
+
+idade:
+
+"Animal adulto",
+
+
+historico:
+
+"Animal apresentou histórico de perda progressiva de condição corporal, secreção nasal persistente e alteração respiratória. Durante a investigação clínica foi considerada a possibilidade de enfermidade infecciosa com comprometimento respiratório.",
+
+
+sinais:[
+
+"Secreção nasal purulenta",
+
+"Tosse",
+
+"Febre",
+
+"Perda de peso"
+
+],
+
+
+exames:
+
+"Foram realizados exames laboratoriais específicos para investigação da infecção por Burkholderia mallei, conforme protocolos oficiais.",
+
+
+diagnostico:
+
+"Mormo equino associado à infecção por Burkholderia mallei.",
+
+
+discussao:
+
+"O mormo deve ser considerado em equídeos com sinais respiratórios persistentes associados a histórico epidemiológico compatível. A confirmação diagnóstica é fundamental devido às medidas sanitárias necessárias para controle da enfermidade."
+
+},
+
+
+
+
+{
+
+id:"mormo-caso-02",
+
+
+titulo:
+
+"Equino com lesões cutâneas e alterações linfáticas",
+
+
+especie:
+
+"Equino",
+
+
+idade:
+
+"Animal adulto",
+
+
+historico:
+
+"Animal apresentou formação de nódulos cutâneos e aumento de volume em vasos linfáticos superficiais. O caso foi encaminhado para investigação devido à suspeita de enfermidade infecciosa.",
+
+
+sinais:[
+
+"Nódulos subcutâneos",
+
+"Lesões ulceradas",
+
+"Aumento dos vasos linfáticos",
+
+"Alterações de pele"
+
+],
+
+
+exames:
+
+"Foi realizada investigação laboratorial associada à avaliação clínica e epidemiológica do animal.",
+
+
+diagnostico:
+
+"Infecção compatível com mormo causada por Burkholderia mallei.",
+
+
+discussao:
+
+"A forma cutânea do mormo apresenta lesões características relacionadas ao comprometimento dos vasos linfáticos. A identificação de animais infectados é essencial para impedir a disseminação da doença."
+
+},
+
+
+
+
+{
+
+id:"mormo-caso-03",
+
+
+titulo:
+
+"Investigação sanitária em propriedade com suspeita de mormo",
+
+
+especie:
+
+"Equídeos",
+
+
+idade:
+
+"Animais adultos",
+
+
+historico:
+
+"Após a introdução de novos animais na propriedade, foram observados sinais clínicos suspeitos em alguns equídeos. Foi realizada investigação sanitária para identificação de possíveis animais infectados.",
+
+
+sinais:[
+
+"Alterações respiratórias",
+
+"Secreção nasal",
+
+"Redução do desempenho",
+
+"Suspeita epidemiológica"
+
+],
+
+
+exames:
+
+"Foram realizados testes diagnósticos oficiais para investigação da presença de Burkholderia mallei.",
+
+
+diagnostico:
+
+"Caso compatível com mormo em equídeos.",
+
+
+discussao:
+
+"O controle do mormo depende da vigilância sanitária, diagnóstico dos animais suspeitos e adoção de medidas de controle para evitar a disseminação dentro das propriedades."
+
+}
+
+
+],
 
 },
 
