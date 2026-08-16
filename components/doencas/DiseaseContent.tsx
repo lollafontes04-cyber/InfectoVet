@@ -49,17 +49,12 @@ type InformacaoExtra = {
 
 
 type BlocoPrevencao = {
-
   emoji: string;
-
   titulo: string;
-
   texto: string;
-
   destaque?: boolean;
-
+  tags?: string[];
   informacoes?: InformacaoExtra[];
-
 };
 
 
@@ -655,56 +650,28 @@ const mostrarPncebt =
 
 
 
-        {bloco.destaque && (
+{bloco.tags && (
+  <div className="mt-4 flex flex-wrap gap-2">
 
-          <div
-            className="
-              mt-4
-              flex
-              flex-wrap
-              gap-2
-            "
-          >
+    {bloco.tags.map((tag)=>(
+      <span
+        key={tag}
+        className="
+          rounded-md
+          bg-yellow-100
+          px-2
+          py-1
+          text-sm
+          font-bold
+          text-yellow-800
+        "
+      >
+        {tag}
+      </span>
+    ))}
 
-
-            <span
-              className="
-                rounded-md
-                bg-red-200
-                px-2
-                py-1
-                text-sm
-                font-bold
-                text-red-800
-              "
-            >
-
-              ⚠️ OBRIGATÓRIA
-
-            </span>
-
-
-
-            <span
-              className="
-                rounded-md
-                bg-yellow-200
-                px-2
-                py-1
-                text-sm
-                font-bold
-                text-yellow-800
-              "
-            >
-
-              📅 3 a 8 meses
-
-            </span>
-
-
-          </div>
-
-        )}
+  </div>
+)}
 
 
 

@@ -145,6 +145,8 @@ sinaisClinicos:
 
       destaque?: boolean;
 
+  tags?: string[];
+
 
       informacoes?: {
 
@@ -684,6 +686,10 @@ texto:
 ,
 
 
+ tags:[
+   "OBRIGATÓRIA",
+   "🐄 3 a 8 meses",
+ ],
 informacoes:[
 
 {
@@ -1060,61 +1066,968 @@ texto:
 
 },
 {
-  id: "leptospirose",
+id:"leptospirose",
 
-  nome: "Leptospirose",
+nome:"Leptospirose",
 
-  agente: "Leptospira spp.",
+agente:"Leptospira spp.",
 
-  categoria: "Bacterianas",
+categoria:"Bacterianas",
 
-  icone: "🧫",
+icone:"🦠",
 
-  zoonose: true,
+zoonose:true,
 
-  vacina: true,
+vacina:true,
 
-  eutanasia: false,
+eutanasia:false,
 
-  notificacaoObrigatoria: false,
+notificacaoObrigatoria:false,
 
-  hospedeiros: [
-    "Bovinos",
-    "Suínos",
-    "Cães"
-  ],
 
-  palavrasChave: [
-    "leptospirose",
-    "leptospira",
-    "cão",
-    "cao",
-    "cachorro",
-    "canino",
-    "boi",
-    "vaca",
-    "gado",
-    "suíno",
-    "porco"
-  ],
+hospedeiros:[
+"Cães",
+"Ruminantes",
+"Suínos",
+"Humanos"
+],
 
-  imagem: "/images/doencas/leptospirose.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+palavrasChave:[
 
-  referencias: [],
+"leptospirose",
+"leptospira",
+"cão",
+"bovino",
+"suíno",
+"urina",
+"zoonose"
 
-  casosClinicos: [],
+],
+
+
+imagem:"/images/doencas/leptospirose.jpg",
+
+
+
+
+
+visaoGeral:{
+
+introducao:
+
+"A leptospirose é uma doença infectocontagiosa causada por bactérias do gênero Leptospira, com grande importância veterinária e em saúde pública devido ao seu potencial zoonótico. Pode acometer diferentes espécies animais, causando alterações sistêmicas, reprodutivas e perdas econômicas.",
+
+
+cards:[
+
+
+{
+emoji:"⭐",
+
+titulo:"Destaques",
+
+itens:[
+
+"Doença bacteriana de distribuição mundial",
+
+"Importante zoonose transmitida principalmente pela urina de animais infectados",
+
+"Relacionada a alterações renais, hepáticas e reprodutivas",
+
+"Associada a ambientes úmidos e presença de água contaminada"
+
+]
 
 },
 
+
+
+{
+emoji:"🦠",
+
+titulo:"Características",
+
+itens:[
+
+"Bactéria espiralada pertencente ao gênero Leptospira",
+
+"Apresenta mobilidade e capacidade de penetrar tecidos do hospedeiro",
+
+"Possui diferentes sorovares associados a diferentes espécies animais",
+
+"Maior sobrevivência em ambientes úmidos"
+
+]
+
+},
+
+
+
+{
+emoji:"💡",
+
+titulo:"Informações relevantes",
+
+itens:[
+
+"Animais infectados podem eliminar a bactéria pela urina",
+
+"A transmissão ocorre principalmente pelo contato com água ou solo contaminado",
+
+"Apresenta importância ocupacional para profissionais expostos"
+
+]
+
+}
+
+
+]
+
+
+},
+
+etiologia: {
+
+  introducao:
+    "A leptospirose é uma enfermidade infectocontagiosa causada por bactérias do gênero Leptospira. São microrganismos helicoidais, móveis e capazes de infectar diferentes espécies animais. A presença de diferentes sorovares está relacionada à adaptação da bactéria aos seus principais hospedeiros e influencia a epidemiologia e as manifestações clínicas da doença.",
+
+
+  blocos: [
+
+    {
+      emoji: "🦠",
+
+      titulo:
+        "Agente etiológico",
+
+      itens: [
+
+        "Bactérias pertencentes ao gênero Leptospira.",
+
+        "As principais espécies de importância veterinária incluem Leptospira interrogans, Leptospira kirschneri e Leptospira borgpetersenii.",
+
+        "Apresentam formato helicoidal, mobilidade característica e capacidade de adaptação a diferentes hospedeiros."
+      ]
+    },
+
+
+    {
+      emoji: "🔬",
+
+      titulo:
+        "Principais sorovares de importância veterinária",
+
+      itens: [
+
+        "Canicola → sorovar adaptado aos cães, associado principalmente à leptospirose canina.",
+
+        "Icterohaemorrhagiae → relacionado principalmente aos roedores, importantes reservatórios da bactéria e fonte de infecção para diferentes espécies.",
+
+        "Pomona → importante em suínos e bovinos, associado principalmente a alterações reprodutivas.",
+
+        "Hardjo → sorovar adaptado aos bovinos, relacionado principalmente a problemas reprodutivos em rebanhos.",
+
+        "Grippotyphosa → associado a diferentes espécies animais e encontrado em ambientes com presença de reservatórios."
+      ]
+    },
+
+
+    {
+      emoji: "🐾",
+
+      titulo:
+        "Relação entre sorovares e hospedeiros",
+
+      itens: [
+
+        "Cães → Canicola e Icterohaemorrhagiae apresentam grande importância na leptospirose canina.",
+
+        "Bovinos → Hardjo e Pomona estão relacionados principalmente a problemas reprodutivos.",
+
+        "Suínos → Pomona apresenta importância devido às alterações reprodutivas e perdas produtivas.",
+
+        "Roedores → Icterohaemorrhagiae possui relação com reservatórios ambientais e manutenção da bactéria."
+      ]
+    }
+
+  ],
+
+
+ tabelas: [
+
+  {
+    titulo:
+      "Principais hospedeiros e sorovares relacionados",
+
+    emoji:
+      "🐾",
+
+    colunas: [
+      "Espécie",
+      "Sorovares de importância",
+      "Relação com a doença"
+    ],
+
+    linhas: [
+
+      [
+        "🐕 Cães",
+        "Canicola e Icterohaemorrhagiae",
+        "Relacionados à leptospirose canina, podendo causar alterações renais, hepáticas e manifestações sistêmicas."
+      ],
+
+      [
+        "🐄 Bovinos",
+        "Hardjo e Pomona",
+        "Associados principalmente a problemas reprodutivos, como abortamentos e redução dos índices produtivos."
+      ],
+
+      [
+        "🐖 Suínos",
+        "Pomona",
+        "Relacionados a alterações reprodutivas e perdas econômicas na produção."
+      ],
+
+      [
+        "🐀 Roedores",
+        "Icterohaemorrhagiae",
+        "Importantes reservatórios, contribuindo para a manutenção da bactéria no ambiente."
+      ]
+
+    ]
+
+  }
+
+],
+  
+
+},
+patogenia:{
+
+introducao:
+
+"A leptospirose ocorre após a entrada da bactéria no organismo, seguida de disseminação pelo sangue e colonização de diferentes tecidos. A capacidade de persistência principalmente nos rins favorece a eliminação do agente pela urina e manutenção do ciclo de transmissão.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🚪",
+
+titulo:"Entrada do agente",
+
+texto:
+
+"A bactéria penetra no organismo principalmente através de mucosas, pele lesionada ou contato direto com ambientes contaminados por urina de animais infectados."
+
+},
+
+
+
+{
+
+emoji:"🩸",
+
+titulo:"Disseminação sanguínea",
+
+texto:
+
+"Após a entrada no hospedeiro ocorre leptospiremia, permitindo a distribuição da bactéria para diferentes órgãos e tecidos."
+
+},
+
+
+
+{
+
+emoji:"🧬",
+
+titulo:"Colonização dos órgãos",
+
+texto:
+
+"A Leptospira apresenta tropismo por determinados tecidos, principalmente rins, fígado e órgãos relacionados ao sistema reprodutivo."
+
+},
+
+
+
+{
+
+emoji:"💧",
+
+titulo:"Eliminação pela urina",
+
+texto:
+
+"Após a colonização renal, animais infectados podem eliminar a bactéria pela urina, contaminando o ambiente e favorecendo novas infecções."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+epidemiologia:{
+
+introducao:
+
+"A leptospirose apresenta distribuição mundial e sua ocorrência está relacionada à presença de animais reservatórios, condições ambientais favoráveis e contato entre hospedeiros suscetíveis.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🌎",
+
+titulo:"Distribuição",
+
+texto:
+
+"A enfermidade possui ocorrência mundial, sendo mais frequente em regiões com clima quente e úmido, onde a sobrevivência da bactéria no ambiente é favorecida."
+
+},
+
+
+
+{
+
+emoji:"🐀",
+
+titulo:"Reservatórios",
+
+texto:
+
+"Roedores e outros animais podem atuar como reservatórios, mantendo a bactéria no ambiente e eliminando o agente pela urina."
+
+},
+
+
+
+{
+
+emoji:"💧",
+
+titulo:"Ambiente",
+
+texto:
+
+"Locais com água parada, enchentes, solo úmido e matéria orgânica favorecem a permanência da Leptospira fora do hospedeiro."
+
+},
+
+
+
+{
+
+emoji:"🔄",
+
+titulo:"Transmissão",
+
+texto:
+
+"A transmissão ocorre principalmente pelo contato com urina, água ou solo contaminado. A bactéria penetra através de mucosas ou lesões na pele."
+
+},
+
+
+
+{
+
+emoji:"👩‍⚕️",
+
+titulo:"Importância zoonótica",
+
+texto:
+
+"Por ser uma zoonose, a leptospirose representa risco para médicos veterinários, trabalhadores rurais e pessoas expostas a ambientes contaminados."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+
+sinaisClinicos:{
+
+introducao:
+
+"As manifestações clínicas da leptospirose variam conforme a espécie acometida, o sorovar envolvido e a resposta imunológica do hospedeiro. Alguns animais podem apresentar infecção subclínica.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🐕",
+
+titulo:"Cães",
+
+itens:[
+
+"Febre",
+
+"Apatia e anorexia",
+
+"Vômitos e alterações gastrointestinais",
+
+"Alterações renais",
+
+"Icterícia",
+
+"Insuficiência renal ou hepática em casos graves"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🐄",
+
+titulo:"Bovinos",
+
+itens:[
+
+"Abortamentos",
+
+"Infertilidade",
+
+"Queda na produção leiteira",
+
+"Nascimento de animais fracos",
+
+"Retorno ao cio",
+
+"Problemas reprodutivos"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🐖",
+
+titulo:"Suínos",
+
+itens:[
+
+"Abortamentos",
+
+"Natimortalidade",
+
+"Infertilidade",
+
+"Redução dos índices reprodutivos",
+
+"Problemas relacionados à reprodução"
+
+]
+
+},
+
+
+
+{
+
+emoji:"⚠️",
+
+titulo:"Características da infecção",
+
+itens:[
+
+"Animais podem permanecer sem sinais clínicos aparentes",
+
+"A eliminação urinária mantém a contaminação ambiental",
+
+"A gravidade depende da espécie e do sorovar envolvido"
+
+]
+
+}
+
+
+]
+
+
+},
+diagnostico:{
+
+introducao:
+
+"O diagnóstico da leptospirose envolve a associação entre histórico epidemiológico, sinais clínicos e exames laboratoriais. Os métodos podem identificar diretamente o agente ou avaliar a resposta imunológica do hospedeiro.",
+
+
+metodos:[
+
+"mat",
+
+"pcr",
+
+"elisa",
+
+"cultura-bacteriologica",
+
+"imuno-histoquimica"
+
+]
+
+},
+
+
+
+
+
+tratamento:{
+
+introducao:
+
+"O tratamento da leptospirose tem como objetivo eliminar o agente, reduzir a disseminação da bactéria e controlar as alterações sistêmicas causadas pela infecção.",
+
+
+blocos:[
+
+
+{
+
+emoji:"💊",
+
+titulo:"Terapia antimicrobiana",
+
+texto:
+
+"O uso de antimicrobianos é indicado para reduzir a presença da bactéria no organismo e diminuir a eliminação do agente pelos animais infectados."
+
+},
+
+
+
+{
+
+emoji:"🩺",
+
+titulo:"Tratamento de suporte",
+
+texto:
+
+"Animais com alterações renais, hepáticas ou sistêmicas podem necessitar de suporte intensivo conforme a gravidade do quadro clínico."
+
+},
+
+
+
+{
+
+emoji:"🐕",
+
+titulo:"Cuidados em animais infectados",
+
+texto:
+
+"O manejo dos animais deve considerar o risco de transmissão, adotando medidas de isolamento e higiene para reduzir a contaminação ambiental."
+
+},
+
+
+
+{
+
+emoji:"🌎",
+
+titulo:"Controle da fonte de infecção",
+
+texto:
+
+"A identificação de animais infectados e redução da eliminação bacteriana são medidas importantes para interromper o ciclo da doença."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+
+
+prevencao:{
+
+introducao:
+
+"A prevenção da leptospirose depende da integração entre vacinação, controle ambiental, manejo sanitário e redução do contato com fontes contaminadas.",
+
+
+blocos:[
+
+{
+ emoji:"💉",
+ titulo:"Vacinação",
+ texto:"A vacinação auxilia na redução da ocorrência de casos clínicos e contribui para o controle da leptospirose nas diferentes espécies animais.",
+ destaque:true,
+
+ tags:[
+   "📅 Reforço anual",
+   "🐕 Cães",
+   "🐄 Ruminantes",
+   "🐖 Suínos"
+ ],
+
+ informacoes:[
+   {
+     titulo:"Frequência",
+     texto:"A vacinação deve seguir o protocolo recomendado para cada espécie, geralmente com reforços anuais conforme orientação veterinária."
+   },
+   {
+     titulo:"Espécies vacinadas",
+     texto:"Disponível para cães, ruminantes e suínos, auxiliando na redução da ocorrência da enfermidade."
+   }
+ ]
+},
+
+
+
+{
+
+emoji:"🐀",
+
+titulo:"Controle de reservatórios",
+
+texto:
+
+"O controle de roedores e outros possíveis reservatórios reduz a manutenção da bactéria no ambiente."
+
+},
+
+
+
+{
+
+emoji:"💧",
+
+titulo:"Manejo ambiental",
+
+texto:
+
+"A redução de ambientes favoráveis à sobrevivência da Leptospira, como locais úmidos e água contaminada, auxilia na prevenção."
+
+},
+
+
+
+{
+
+emoji:"🧼",
+
+titulo:"Biossegurança",
+
+texto:
+
+"O uso de equipamentos de proteção individual e cuidados durante o manejo de animais infectados reduzem o risco zoonótico."
+
+}
+
+
+]
+
+
+},
+
+
+casosClinicos: [
+
+  {
+    id: "leptospirose-caso-01",
+
+    titulo:
+      "Leptospirose canina com comprometimento renal e hepático",
+
+    especie:
+      "Canino",
+
+    idade:
+      "Adulto",
+
+    historico:
+      "Animal atendido com histórico de apatia, redução do apetite, vômitos e alterações compatíveis com doença sistêmica. Durante a investigação clínica, foi considerada a possibilidade de infecção por Leptospira spp.",
+
+    sinais: [
+      "Apatia",
+      "Anorexia",
+      "Vômitos",
+      "Icterícia",
+      "Alterações renais"
+    ],
+
+    exames:
+      "Foram realizados exames laboratoriais e testes específicos para investigação da infecção por Leptospira spp., incluindo métodos sorológicos.",
+
+    diagnostico:
+      "Leptospirose canina associada à infecção por Leptospira spp.",
+
+    discussao:
+      "A leptospirose em cães apresenta grande importância clínica devido ao potencial de causar alterações renais e hepáticas. O diagnóstico deve considerar a associação entre histórico, sinais clínicos, alterações laboratoriais e exames específicos."
+  },
+
+
+
+  {
+    id: "leptospirose-caso-02",
+
+    titulo:
+      "Leptospirose bovina associada a perdas reprodutivas",
+
+    especie:
+      "Bovino",
+
+    idade:
+      "Fêmea adulta em idade reprodutiva",
+
+    historico:
+      "Rebanho bovino apresentou aumento de problemas reprodutivos, incluindo ocorrência de abortamentos e redução dos índices produtivos. A investigação epidemiológica indicou suspeita de enfermidade infecciosa associada à circulação de Leptospira spp.",
+
+    sinais: [
+      "Aborto no terço final da gestação",
+      "Nascimento de bezerros fracos",
+      "Falhas reprodutivas",
+      "Redução da produtividade"
+    ],
+
+    exames:
+      "Foram realizados exames sorológicos para investigação da presença de anticorpos contra Leptospira spp.",
+
+    diagnostico:
+      "Leptospirose bovina associada à infecção por Leptospira spp.",
+
+    discussao:
+      "A leptospirose bovina apresenta grande impacto econômico devido aos prejuízos reprodutivos. A investigação deve envolver avaliação clínica, epidemiológica e exames laboratoriais para identificação dos animais infectados."
+  },
+
+
+
+  {
+    id: "leptospirose-caso-03",
+
+    titulo:
+      "Leptospirose em suínos com alterações reprodutivas",
+
+    especie:
+      "Suíno",
+
+    idade:
+      "Matriz adulta em fase reprodutiva",
+
+    historico:
+      "Granja apresentou aumento de alterações reprodutivas, incluindo perdas gestacionais e redução do desempenho reprodutivo das matrizes. A leptospirose foi considerada como uma das possíveis causas infecciosas.",
+
+    sinais: [
+      "Abortamentos",
+      "Natimortalidade",
+      "Nascimento de leitões fracos",
+      "Alterações reprodutivas"
+    ],
+
+    exames:
+      "Foram realizados exames laboratoriais, incluindo testes sorológicos, para investigação da infecção por Leptospira spp.",
+
+    diagnostico:
+      "Leptospirose suína associada à infecção por Leptospira spp.",
+
+    discussao:
+      "Em suínos, a leptospirose possui importância principalmente pelos impactos reprodutivos. O controle envolve diagnóstico adequado, medidas de biossegurança, controle ambiental e programas de prevenção."
+  }
+
+],
+
+imagens:[
+
+{
+src:"/images/doencas/leptospirose/01-leptospira-microscopia.jpg",
+
+titulo:"Leptospira spp. em microscopia",
+
+categoria:"Agente etiológico",
+
+descricao:
+"Imagem representativa da bactéria do gênero Leptospira, caracterizada pelo formato helicoidal e mobilidade."
+
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/02-ciclo-transmissao.jpg",
+
+titulo:"Ciclo de transmissão da leptospirose",
+
+categoria:"Epidemiologia",
+
+descricao:
+"Representação das principais vias de transmissão da Leptospira envolvendo animais infectados, ambiente contaminado e hospedeiros suscetíveis."
+
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/03-ambiente-contaminado.jpg",
+
+titulo:"Ambiente favorável à transmissão",
+
+categoria:"Epidemiologia",
+
+descricao:
+"Locais úmidos, com presença de água contaminada ou matéria orgânica, favorecem a sobrevivência da bactéria no ambiente."
+
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/04-leptospirose-canina.jpg",
+
+titulo:"Leptospirose em cães",
+
+categoria:"Sinais clínicos",
+
+descricao:
+"Representação da ocorrência da doença em cães, espécie frequentemente acometida na rotina clínica veterinária."
+
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/05-alteracoes-renais.jpg",
+
+titulo:"Comprometimento renal",
+
+categoria:"Patogenia",
+
+descricao:
+"A Leptospira apresenta tropismo pelos rins, podendo causar alterações renais e favorecer a eliminação do agente pela urina."
+
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/06-diagnostico-mat.jpg",
+
+titulo:"Teste de Aglutinação Microscópica (MAT)",
+
+categoria:"Diagnóstico",
+
+descricao:
+"Método sorológico utilizado para detecção de anticorpos contra diferentes sorovares de Leptospira."
+
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/07-vacinacao-leptospirose.jpg",
+
+titulo:"Vacinação contra leptospirose ovina, bovina, caprina e suína",
+
+categoria:"Prevenção",
+
+descricao:
+"A vacinação é uma das principais medidas preventivas, auxiliando na redução da ocorrência de casos clínicos."
+
+},
+
+
+{
+src:"/images/doencas/leptospirose/08-vacinacao-leptospirose.jpg",
+
+titulo:"Vacinação contra leptospirose canina",
+
+categoria:"Prevenção",
+
+descricao:
+"A vacinação é uma das principais medidas preventivas, auxiliando na redução da ocorrência de casos clínicos."
+}
+],
+
+referencias:[
+
+
+
+
+{
+
+titulo:
+
+"Updated ACVIM consensus statement on leptospirosis in dogs",
+
+autores:
+
+"Sykes et al.",
+
+fonte:
+
+"J Vet Intern Med",
+
+ano:
+
+"2023",
+
+link:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10658540/"
+
+},
+
+
+
+{
+
+titulo:
+
+"Guia de Vigilância em Saúde - Leptospirose",
+
+autores:
+
+"Ministério da Saúde",
+
+fonte:
+
+"Manual técnico",
+
+ano:
+
+"Atualizado",
+
+link:"https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-3-6a-edicao/"
+
+}
+
+
+],
+},
 
 
 

@@ -35,11 +35,13 @@ function getEmojiHospedeiro(animal: string) {
   if (
     nome.includes("bovino") ||
     nome.includes("bovinos") ||
+    nome.includes("ruminantes") ||
     nome.includes("boi")
   ) {
     return "🐄";
   }
 
+  
 
   if (
     nome.includes("caprino") ||

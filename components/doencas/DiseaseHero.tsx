@@ -62,6 +62,7 @@ function getEmojiHospedeiro(animal: string) {
   if (
     nome.includes("bovino") ||
     nome.includes("boi") ||
+    nome.includes("ruminantes") ||
     nome.includes("bovinos")
   ) {
     return "🐄";
