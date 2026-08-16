@@ -264,7 +264,18 @@ imagens: [
       "Aborto no terço final da gestação, um dos principais sinais associados à brucelose bovina."
   },
 
+{
+  src:"/images/doencas/brucelose/03-brucelose-fluxograma.jpg",
 
+  titulo:
+  "Fluxograma do diagnóstico da brucelose bovina no PNCEBT",
+
+  categoria:
+  "Diagnóstico",
+
+  descricao:
+  "Fluxo diagnóstico da brucelose bovina conforme o Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT), demonstrando as etapas de realização dos testes de tuberculinização, identificação de animais reagentes e adoção das medidas sanitárias de controle."
+},
   {
     src: "/images/doencas/brucelose/02-feto-abortado-brucelose.jpg",
     titulo: "Feto abortado",
@@ -4648,59 +4659,867 @@ discussao:
 
 },
 
+{
+id:"tuberculose",
+
+nome:"Tuberculose",
+
+agente:"Mycobacterium bovis",
+
+categoria:"Bacterianas",
+
+icone:"🦠",
+
+zoonose:true,
+
+vacina:false,
+
+eutanasia:true,
+
+notificacaoObrigatoria:true,
+
+hospedeiros:[
+"Bovinos",
+"Bubalinos",
+"Suínos",
+"Caprinos",
+"Ovinos",
+"Equinos",
+"Cães",
+"Gatos"
+],
+
+palavrasChave:[
+"Tuberculose bovina",
+"Mycobacterium bovis",
+"Micobactérias",
+"PNCEBT",
+"Tuberculinização",
+"PPD",
+"Granuloma",
+"BAAR"
+],
+
+imagem:"/images/doencas/tuberculose.jpg",
+
+
+visaoGeral:{
+
+introducao:
+"A tuberculose bovina é uma enfermidade infectocontagiosa crônica causada principalmente por Mycobacterium bovis, caracterizada pela formação de lesões granulomatosas denominadas tubérculos. Apresenta grande importância na Medicina Veterinária devido aos impactos econômicos, sanitários e ao seu potencial zoonótico.",
+
+
+cards:[
+
+{
+titulo:"Importância Sanitária",
+emoji:"⚠️",
+itens:[
+
+"Doença de evolução crônica",
+
+"Pode permanecer assintomática por longos períodos",
+
+"Possui caráter zoonótico",
+
+"Envolve programas oficiais de controle"
+
+]
+},
+
+
+{
+titulo:"Principais Hospedeiros",
+emoji:"🐄",
+itens:[
+
+"Bovinos e bubalinos",
+
+"Outros mamíferos domésticos",
+
+"Animais silvestres podem atuar como reservatórios"
+
+]
+},
+
+
+{
+titulo:"Características",
+emoji:"🔬",
+itens:[
+
+"Formação de granulomas",
+
+"Predileção por pulmões e linfonodos",
+
+"Agente de crescimento lento",
+
+"Classificado como BAAR"
+
+]
+}
+
+]
+
+},
+
+
+
+etiologia:{
+
+introducao:
+"A tuberculose animal é causada por bactérias pertencentes ao gênero Mycobacterium, sendo Mycobacterium bovis a principal espécie envolvida nos bovinos. O agente pertence ao complexo Mycobacterium tuberculosis e apresenta características particulares que favorecem sua resistência ambiental.",
+
+
+listas:[
+
+
+{
+titulo:"Classificação Taxonômica",
+emoji:"🧬",
+
+itens:[
+
+"Família: Mycobacteriaceae",
+
+"Gênero: Mycobacterium",
+
+"Espécie principal: Mycobacterium bovis",
+
+"Complexo Mycobacterium tuberculosis"
+
+]
+
+},
+
+
+{
+titulo:"Características do Agente",
+emoji:"🔬",
+
+itens:[
+
+"Bacilo álcool-ácido resistente (BAAR)",
+
+"Parede celular rica em lipídios",
+
+"Coloração positiva pelo método de Ziehl-Neelsen",
+
+"Crescimento lento em meios laboratoriais"
+
+]
+
+},
+
+
+{
+titulo:"Resistência Ambiental",
+emoji:"🌎",
+
+itens:[
+
+"Instalações: até 2 anos",
+
+"Fezes: até 2 anos",
+
+"Solo: até 2 anos",
+
+"Pastagens: até 2 anos",
+
+"Água: até 1 ano",
+
+"Carcaças: até 10 meses"
+
+]
+
+}
+
+]
+
+},
+
+
+
+patogenia:{
+
+introducao:
+"A infecção ocorre principalmente pela inalação de aerossóis contendo Mycobacterium bovis. Também pode ocorrer pela ingestão de água, alimentos ou leite contaminados. Após a entrada do agente ocorre uma resposta inflamatória que leva à formação dos granulomas tuberculosos.",
+
+
+blocos:[
+
+
+{
+emoji:"1️⃣",
+
+titulo:"Entrada do agente",
+
+texto:
+"O agente penetra principalmente pelas vias respiratória ou digestiva, atingindo inicialmente pulmões, intestino ou tecidos associados."
+},
+
+
+{
+emoji:"2️⃣",
+
+titulo:"Multiplicação bacteriana",
+
+texto:
+"Após a entrada, ocorre multiplicação intracelular principalmente dentro de macrófagos, iniciando o processo inflamatório."
+},
+
+
+{
+emoji:"3️⃣",
+
+titulo:"Resposta imunológica",
+
+texto:
+"O organismo recruta células de defesa como macrófagos, linfócitos e células gigantes, tentando conter a disseminação bacteriana."
+},
+
+
+{
+emoji:"4️⃣",
+
+titulo:"Formação do granuloma",
+
+texto:
+"Ocorre formação do tubérculo, constituído por centro de necrose caseosa, células inflamatórias e cápsula fibrosa."
+},
+
+
+{
+emoji:"5️⃣",
+
+titulo:"Disseminação",
+
+texto:
+"Quando o sistema imunológico não consegue controlar a infecção, ocorre disseminação pela via linfática ou sanguínea, podendo causar tuberculose miliar."
+}
+
+]
+
+},
+epidemiologia:{
+
+introducao:
+"A tuberculose apresenta distribuição mundial e possui grande relevância em sistemas de produção animal devido às perdas econômicas, restrições comerciais e riscos à saúde pública. A manutenção da enfermidade está relacionada principalmente à presença de animais infectados, falhas no controle sanitário e introdução de animais positivos nos rebanhos.",
+
+
+blocos:[
+
+
+{
+emoji:"🌎",
+
+titulo:"Distribuição",
+
+texto:
+"A enfermidade ocorre mundialmente, sendo considerada uma das principais doenças infecciosas dos bovinos. A prevalência apresenta relação com fatores como manejo, densidade animal e eficiência dos programas de controle."
+},
+
+
+{
+emoji:"🐄",
+
+titulo:"Fonte de Infecção",
+
+texto:
+"Os principais reservatórios são os animais infectados, especialmente bovinos, que eliminam o agente principalmente por secreções respiratórias."
+},
+
+
+{
+emoji:"💨",
+
+titulo:"Transmissão",
+
+texto:
+"A principal via de transmissão é respiratória, através da inalação de aerossóis contendo Mycobacterium bovis. Também pode ocorrer transmissão digestiva pela ingestão de leite, água ou alimentos contaminados."
+},
+
+
+{
+emoji:"🔄",
+
+titulo:"Fatores de Risco",
+
+texto:
+"Alta densidade animal, introdução de animais sem diagnóstico, contato com animais infectados e falhas nas medidas de biossegurança favorecem a disseminação da doença."
+},
+
+
+{
+emoji:"🦌",
+
+titulo:"Reservatórios",
+
+texto:
+"Além dos animais domésticos, algumas espécies silvestres podem atuar como reservatórios, dificultando a erradicação da enfermidade."
+}
+
+
+]
+
+},
+
+
+
+
+sinaisClinicos:{
+
+introducao:
+"A tuberculose apresenta evolução lenta e muitos animais permanecem sem sinais clínicos aparentes. Quando presentes, os sinais estão relacionados principalmente ao comprometimento pulmonar e à evolução sistêmica da doença.",
+
+
+blocos:[
+
+
+{
+emoji:"🐄",
+
+titulo:"Sinais Gerais",
+
+itens:[
+
+"Emagrecimento progressivo",
+
+"Perda de condição corporal",
+
+"Fraqueza",
+
+"Redução da produtividade",
+
+"Febre discreta ou ausente"
+
+]
+
+},
+
+
+
+{
+emoji:"🫁",
+
+titulo:"Comprometimento Respiratório",
+
+itens:[
+
+"Tosse seca persistente",
+
+"Dificuldade respiratória",
+
+"Dispneia",
+
+"Ruídos respiratórios alterados"
+
+]
+
+},
+
+
+
+{
+emoji:"🧬",
+
+titulo:"Alterações Linfonodais",
+
+itens:[
+
+"Aumento de linfonodos",
+
+"Linfonodos firmes ou aumentados",
+
+"Alterações principalmente em linfonodos da cabeça e tórax"
+
+]
+
+},
+
+
+
+{
+emoji:"⚠️",
+
+titulo:"Casos Avançados",
+
+itens:[
+
+"Caquexia",
+
+"Debilidade intensa",
+
+"Disseminação sistêmica",
+
+"Possível morte do animal"
+
+]
+
+}
+
+
+
+]
+
+},
+diagnostico:{
+
+introducao:
+"O diagnóstico da tuberculose envolve principalmente métodos indiretos baseados na resposta imunológica do animal e métodos diretos capazes de demonstrar a presença do agente. No Brasil, os testes de tuberculinização são utilizados como métodos oficiais dentro do PNCEBT.",
+
+
+metodos:[
+"teste-prega-caudal",
+
+"teste-cervical-simples",
+
+"teste-cervical-comparativo",
+
+"hipersensibilidade-tardia",
+
+"cultura-bacteriologica",
+
+"pcr"
+
+]
+
+
+},
+tratamento: {
+
+  introducao:
+  "A tuberculose bovina não possui tratamento recomendado dentro dos programas oficiais de controle sanitário. A utilização de animais infectados tratados favorece a permanência da fonte de infecção no rebanho e dificulta a erradicação da enfermidade.",
+
+
+  blocos:[
+
+
+    {
+
+      emoji:"🚫",
+
+      titulo:"Ausência de tratamento oficial",
+
+      texto:
+      "Animais diagnosticados como positivos para tuberculose devem ser destinados à eliminação sanitária, conforme estabelecido pelo Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT). O tratamento não é utilizado como estratégia de controle da doença nos rebanhos."
+    },
+
+
+    {
+
+      emoji:"🐄",
+
+      titulo:"Eliminação dos animais positivos",
+
+      texto:
+      "A retirada dos animais infectados é fundamental para interromper a cadeia de transmissão e reduzir a manutenção do Mycobacterium bovis dentro da propriedade."
+    },
+
+
+    {
+
+      emoji:"🧬",
+
+      titulo:"Controle da infecção",
+
+      texto:
+      "Como o agente apresenta capacidade de permanecer no organismo e causar infecção crônica, o controle depende principalmente da identificação dos animais positivos, saneamento do rebanho e adoção de medidas sanitárias."
+    },
+
+
+    {
+
+      emoji:"📋",
+
+      titulo:"Acompanhamento sanitário",
+
+      texto:
+      "Após a identificação de animais reagentes, a propriedade deve seguir as orientações do Serviço Veterinário Oficial, realizando investigação epidemiológica e medidas previstas pelo PNCEBT."
+    }
+
+
+  ]
+
+},
+prevencao:{
+
+introducao:
+"A prevenção da tuberculose bovina baseia-se principalmente em medidas de biossegurança, diagnóstico periódico dos animais e eliminação dos indivíduos positivos, reduzindo a circulação do agente dentro dos rebanhos.",
+
+
+blocos:[
+
+
+{
+emoji:"🔬",
+
+titulo:"Diagnóstico periódico",
+
+texto:
+"Realização de testes oficiais de tuberculinização em animais do rebanho para identificação precoce de indivíduos infectados.",
+
+informacoes:[
+
+{
+titulo:"Testes utilizados",
+
+texto:
+"Os testes de hipersensibilidade cutânea utilizando PPD bovina são os principais métodos empregados no controle oficial da enfermidade."
+}
+
+]
+
+},
+
+
+
+{
+emoji:"🚫",
+
+titulo:"Eliminação de animais positivos",
+
+texto:
+"Animais reagentes devem ser retirados do rebanho para impedir a manutenção da cadeia de transmissão.",
+
+destaque:true
+
+},
+
+
+
+{
+emoji:"🐄",
+
+titulo:"Controle da entrada de animais",
+
+texto:
+"A aquisição de animais deve ser realizada somente de propriedades com controle sanitário conhecido, evitando introdução de indivíduos infectados.",
+
+informacoes:[
+
+{
+titulo:"Quarentena",
+
+texto:
+"Animais recém-adquiridos devem permanecer separados até avaliação sanitária adequada."
+}
+
+]
+
+},
+
+
+
+{
+emoji:"🧼",
+
+titulo:"Biossegurança",
+
+texto:
+"Medidas de higiene, manejo adequado e redução da concentração animal auxiliam na diminuição do risco de transmissão."
+
+}
+
+]
+
+},
+
+pncebt:{
+
+introducao:
+"O Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT) foi instituído pelo Ministério da Agricultura com objetivo de reduzir a prevalência e a incidência dessas enfermidades nos rebanhos brasileiros, promovendo melhoria da saúde animal e proteção da saúde pública.",
+
+
+blocos:[
+
+
+{
+emoji:"🎯",
+
+titulo:"Objetivos do PNCEBT",
+
+descricao:
+"Controle e erradicação",
+
+texto:
+"Estabelecer medidas sanitárias para identificação, controle e eliminação de animais positivos para brucelose e tuberculose."
+
+},
+
+
+
+{
+emoji:"🧪",
+
+titulo:"Diagnóstico da Tuberculose",
+
+descricao:
+"Testes oficiais",
+
+texto:
+"O diagnóstico oficial é realizado principalmente por testes alérgicos utilizando tuberculina (PPD), avaliando a resposta imunológica celular do animal."
+
+},
 
 
 
 
 {
-  id: "tuberculose",
+emoji:"🚨",
 
-  nome: "Tuberculose",
+titulo:"Destino dos animais positivos",
 
-  agente: "Mycobacterium bovis",
+descricao:
+"Controle sanitário",
 
-  categoria: "Bacterianas",
+texto:
+"Animais reagentes devem ser isolados e encaminhados para eliminação conforme legislação vigente, evitando a permanência da fonte de infecção no rebanho."
 
-  icone: "🧫",
+}
 
-  zoonose: true,
 
-  vacina: false,
+]
+},
+imagens:[
 
-  eutanasia: true,
+{
+src:"/images/doencas/tuberculose/1-tuberculose.jpg",
+titulo:"Tuberculose bovina",
+categoria:"Lesões macroscópicas",
+descricao:"Animal acometido pela infecção por Mycobacterium bovis."
+},
 
-  notificacaoObrigatoria: true,
+{
+  src:
+  "/images/doencas/tuberculose/10-animal-reagente-tuberculose.jpg",
 
-  hospedeiros: [
-    "Bovinos",
-    "Humanos"
-  ],
+  titulo:
+  "Animal reagente ao teste de tuberculose bovina",
 
-  palavrasChave: [
-    "tuberculose",
-    "mycobacterium bovis",
-    "boi",
-    "vaca",
-    "gado",
-    "bovino"
-  ],
+  categoria:
+  "Diagnóstico",
 
-  imagem: "/images/doencas/tuberculose.jpg",
+  descricao:
+  "Bovino identificado como reagente durante investigação sanitária para tuberculose bovina. A marcação no animal auxilia na identificação dos indivíduos positivos conforme as medidas previstas pelo Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT)."
+},
+{
+src:"/images/doencas/tuberculose/02-pulmao.jpg",
+titulo:"Granulomas pulmonares",
+categoria:"Patologia",
+descricao:"Lesões granulomatosas características da tuberculose."
+},
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+{
+src:"/images/doencas/tuberculose/07-cultura-bacteriologica.jpg",
 
-  referencias: [],
+titulo:
+"Cultura bacteriológica",
 
-  casosClinicos: [],
+categoria:
+"Diagnóstico laboratorial",
+
+descricao:
+"O isolamento bacteriano permite a identificação do agente e pode ser realizado a partir de amostras como linfonodos, pulmões e lesões sugestivas."
+},
+
+
+{
+src:"/images/doencas/tuberculose/06-ciclo-transmissao.jpg",
+
+titulo:
+"Ciclo de transmissão da tuberculose bovina",
+
+categoria:
+"Epidemiologia",
+
+descricao:
+"Representação da transmissão do Mycobacterium bovis entre animais, principalmente por contato com secreções respiratórias e ambientes contaminados."
+},
+
+{
+  src:"/images/doencas/tuberculose/fluxograma-tuberculose.jpg",
+
+  titulo:
+  "Fluxograma do diagnóstico da tuberculose bovina no PNCEBT",
+
+  categoria:
+  "Diagnóstico",
+
+  descricao:
+  "Fluxo diagnóstico da tuberculose bovina conforme o Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT), demonstrando as etapas de realização dos testes de tuberculinização, identificação de animais reagentes e adoção das medidas sanitárias de controle."
+},
+{
+src:"/images/doencas/tuberculose/06-teste-prega-caudal.jpg",
+titulo:"Teste da prega caudal",
+categoria:"Diagnóstico",
+descricao:"Aplicação de tuberculina para avaliação da resposta imunológica."
+}
+
+],
+
+referencias:[
+
+{
+titulo:
+"Programa Nacional de Controle e Erradicação da Brucelose e Tuberculose Animal (PNCEBT)",
+
+autores:
+"Ministério da Agricultura e Pecuária (MAPA)",
+
+fonte:
+"Manual Técnico do PNCEBT",
+
+ano:
+"Atualizado",
+
+link:
+"https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/pncebt"
+},
+
+
+
+
+
+],
+
+casosClinicos: [
+
+{
+id:"tuberculose-caso-01",
+
+titulo:
+"Tuberculose bovina em rebanho leiteiro com alterações respiratórias crônicas",
+
+especie:
+"Bovino",
+
+idade:
+"Fêmea adulta em lactação",
+
+historico:
+"Propriedade leiteira apresentou redução progressiva da produção, animais com emagrecimento crônico e histórico de tosse persistente. Durante a investigação sanitária, foi realizada avaliação dos animais por testes de tuberculinização conforme o PNCEBT.",
+
+sinais:[
+
+"Emagrecimento progressivo",
+
+"Tosse crônica",
+
+"Queda na produção leiteira",
+
+"Debilidade",
+
+"Alterações respiratórias"
+
+],
+
+exames:
+
+"Foi realizado Teste Cervical Simples (TCS) como triagem, seguido de Teste Cervical Comparativo (TCC) nos animais reagentes para confirmação conforme os critérios do PNCEBT.",
+
+
+diagnostico:
+
+"Tuberculose bovina associada à infecção por Mycobacterium bovis.",
+
+
+discussao:
+
+"A tuberculose bovina apresenta evolução geralmente crônica e pode permanecer sem sinais clínicos aparentes. Em rebanhos leiteiros, a identificação de animais infectados por meio da tuberculinização é fundamental para reduzir a disseminação do Mycobacterium bovis e permitir a adoção das medidas sanitárias previstas pelo PNCEBT."
 
 },
+
+
+
+{
+id:"tuberculose-caso-02",
+
+titulo:
+"Identificação de animal reagente em rebanho de corte",
+
+especie:
+"Bovino",
+
+idade:
+"Animal adulto",
+
+historico:
+"Durante avaliação sanitária de rotina em uma propriedade de bovinos de corte, um animal apresentou reação positiva ao teste de tuberculinação. O rebanho foi submetido à investigação para identificação de possíveis animais infectados.",
+
+sinais:[
+
+"Ausência de sinais clínicos aparentes",
+
+"Animal identificado durante teste sanitário",
+
+"Suspeita de infecção crônica"
+
+],
+
+exames:
+
+"Foi realizado Teste da Prega Caudal (TPC) como método de triagem, com confirmação por teste complementar conforme protocolo oficial.",
+
+
+diagnostico:
+
+"Animal reagente para tuberculose bovina causada por Mycobacterium bovis.",
+
+
+discussao:
+
+"A tuberculose bovina pode ocorrer de forma subclínica, permitindo que animais aparentemente saudáveis mantenham a circulação do agente no rebanho. Por esse motivo, os testes oficiais de diagnóstico são essenciais para programas de controle sanitário."
+
+},
+
+
+
+{
+id:"tuberculose-caso-03",
+
+titulo:
+"Investigação epidemiológica após identificação de foco de tuberculose bovina",
+
+especie:
+"Bovinos",
+
+idade:
+"Animais adultos",
+
+historico:
+"Após a identificação de animais reagentes em uma propriedade, foi realizada investigação epidemiológica do rebanho. Foram avaliados animais em contato e adotadas medidas sanitárias para controle da enfermidade.",
+
+sinais:[
+
+"Animais sem sinais clínicos evidentes",
+
+"Presença de animais reagentes",
+
+"Histórico de contato entre animais"
+
+],
+
+exames:
+
+"Foram realizados testes de tuberculinização nos animais do rebanho e investigação complementar com exames laboratoriais em amostras provenientes de lesões sugestivas.",
+
+
+diagnostico:
+
+"Foco de tuberculose bovina associado à presença de Mycobacterium bovis.",
+
+
+discussao:
+
+"O controle da tuberculose bovina depende da identificação dos animais infectados, eliminação dos positivos e acompanhamento sanitário da propriedade. A retirada dos animais reagentes é uma medida essencial para interromper a cadeia de transmissão."
+
+}
+
+],
+},
+
+
 // 🦠 VIRAIS
 
 

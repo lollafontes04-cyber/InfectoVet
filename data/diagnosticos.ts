@@ -249,7 +249,149 @@ caracteristicas: [
 
 },
 
+{
+id:"teste-prega-caudal",
 
+nome:"Teste da Prega Caudal (TPC)",
+
+categoria:"Teste Imunológico",
+
+tipo:"Indireto",
+
+finalidade:[
+"Triagem"
+],
+
+caracteristicas:[
+"Uso de PPD bovina",
+"Resposta de hipersensibilidade tardia"
+],
+
+descricao:
+"Teste utilizado como método de triagem para tuberculose bovina baseado na resposta imunológica celular do animal à tuberculina.",
+
+principio:
+"Após inoculação intradérmica de PPD bovina ocorre uma reação de hipersensibilidade do tipo IV, avaliada pela presença de aumento de volume no local da aplicação.",
+
+aplicacao:[
+"Triagem de rebanhos bovinos",
+"Programas sanitários oficiais"
+],
+
+vantagens:[
+"Alta aplicabilidade em campo",
+"Baixo custo",
+"Utilizado em programas oficiais"
+],
+
+limitacoes:[
+"Pode apresentar reações inespecíficas",
+"Necessita interpretação correta",
+"Não deve ser utilizado em rebanho leiteiro"
+],
+
+imagem:
+"/images/diagnosticos/teste-prega-caudal.jpg",
+
+doencasRelacionadas:[
+"Tuberculose"
+]
+
+},
+{
+id:"teste-cervical-simples",
+
+nome:"Teste Cervical Simples (TCS)",
+
+categoria:"Teste Imunológico",
+
+tipo:"Indireto",
+
+finalidade:[
+"Triagem"
+],
+
+caracteristicas:[
+"Aplicação cervical",
+"PPD bovina"
+],
+
+descricao:
+"Teste utilizado para diagnóstico da tuberculose bovina por avaliação da resposta imune celular após aplicação da tuberculina.",
+
+principio:
+"A reação é avaliada pela diferença de espessura da pele antes e após a inoculação da PPD bovina.",
+
+aplicacao:[
+"Diagnóstico oficial de tuberculose bovina"
+],
+
+vantagens:[
+"Boa sensibilidade",
+"Utilizado em propriedades com investigação sanitária"
+],
+
+limitacoes:[
+"Pode sofrer interferência imunológica",
+"Necessita profissional treinado"
+],
+
+imagem:
+"/images/diagnosticos/teste-cervical-simples.jpg",
+
+doencasRelacionadas:[
+"Tuberculose"
+]
+
+},
+
+{
+id:"teste-cervical-comparativo",
+
+nome:"Teste Cervical Comparativo (TCC)",
+
+categoria:"Teste Imunológico",
+
+tipo:"Indireto",
+
+finalidade:[
+"Confirmatório"
+],
+
+caracteristicas:[
+"PPD bovina e aviária",
+"Comparação de respostas imunológicas"
+],
+
+descricao:
+"Teste utilizado para diferenciar respostas causadas por Mycobacterium bovis de possíveis reações cruzadas com outras micobactérias.",
+
+principio:
+"Compara a resposta cutânea provocada pela PPD bovina e pela PPD aviária, auxiliando na interpretação de reações inespecíficas.",
+
+aplicacao:[
+"Confirmação de casos suspeitos",
+"Controle oficial da tuberculose"
+],
+
+vantagens:[
+"Maior especificidade",
+"Reduz resultados falso-positivos"
+],
+
+limitacoes:[
+"Maior complexidade de execução",
+"Necessita avaliação técnica"
+],
+
+imagem:
+"/images/diagnosticos/teste-cervical-comparativo.jpg",
+
+doencasRelacionadas:[
+"Tuberculose"
+]
+
+},
 
 {
   id: "elisa",
