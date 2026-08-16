@@ -186,7 +186,68 @@ caracteristicas: [
 
 
 
+{
+  id: "maleina",
 
+  nome: "Teste da Maleína",
+
+  categoria: "Teste Imunológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Triagem"
+  ],
+
+  caracteristicas: [
+    "Hipersensibilidade tardia",
+    "Resposta imunológica celular"
+  ],
+
+  descricao:
+    "Teste baseado na resposta de hipersensibilidade tardia após a aplicação de maleína, utilizado como método auxiliar na identificação de animais suspeitos de mormo.",
+
+  principio:
+    "A maleína, derivada de proteínas de Burkholderia mallei, é aplicada no animal e a resposta inflamatória local indica sensibilização imunológica ao agente.",
+
+  aplicacao: [
+
+    "Triagem de animais suspeitos de mormo",
+
+    "Programas de controle sanitário",
+
+    "Investigação epidemiológica"
+
+  ],
+
+  vantagens: [
+
+    "Método clássico para investigação do mormo",
+
+    "Auxilia na identificação de animais suspeitos"
+
+  ],
+
+  limitacoes: [
+
+    "Pode apresentar resultados influenciados pelo estado imunológico do animal",
+
+    "Necessita interpretação junto a outros exames",
+
+    "Não substitui métodos confirmatórios"
+
+  ],
+
+  imagem:
+    "/images/diagnosticos/maleina.jpg",
+
+  doencasRelacionadas: [
+
+    "Mormo"
+
+  ]
+
+},
 
 
 

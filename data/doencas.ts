@@ -2936,39 +2936,8 @@ descricao:
 
 
 
-{
-
-src:"/images/doencas/mormo/05-lesoes-pulmonares.jpg",
-
-titulo:
-"Lesões pulmonares",
-
-categoria:
-"Patogenia",
-
-descricao:
-"Alterações pulmonares associadas à disseminação da Burkholderia mallei no organismo."
 
 
-},
-
-
-
-{
-
-src:"/images/doencas/mormo/06-transmissao-mormo.jpg",
-
-titulo:
-"Transmissão do mormo",
-
-categoria:
-"Epidemiologia",
-
-descricao:
-"Representação das principais formas de transmissão entre equídeos e contato com materiais contaminados."
-
-
-},
 
 
 
@@ -2989,21 +2958,6 @@ descricao:
 },
 
 
-
-{
-
-src:"/images/doencas/mormo/08-controle-sanitario.jpg",
-
-titulo:
-"Controle sanitário",
-
-categoria:
-"Prevenção",
-
-descricao:
-"Medidas de biossegurança e controle utilizadas para reduzir a disseminação da enfermidade."
-
-}
 
 
 ],
@@ -3444,8 +3398,6 @@ itens:[
 
 
 },
-
-
 diagnostico: {
 
   introducao:
@@ -3454,6 +3406,7 @@ diagnostico: {
 
   metodos:[
 
+    "maleina",
     "fixacao-complemento",
     "pcr",
     "cultura-bacteriologica"
@@ -3461,7 +3414,6 @@ diagnostico: {
   ]
 
 },
-
 
   tratamento:{
 
