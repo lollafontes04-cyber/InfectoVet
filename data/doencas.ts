@@ -961,60 +961,890 @@ texto:
 },
 
 
+{
+id:"clostridioses",
+
+nome:"Clostridioses",
+
+agente:"Clostridium spp.",
+
+categoria:"Bacterianas",
+
+icone:"🧫",
+
+zoonose:false,
+
+vacina:true,
+
+eutanasia:false,
+
+notificacaoObrigatoria:false,
+
+
+hospedeiros:[
+
+"Bovinos",
+
+"Ovinos",
+
+"Caprinos",
+
+"Suínos",
+
+"Equinos"
+
+],
+
+
+palavrasChave:[
+
+"clostridioses",
+
+"clostridium",
+
+"botulismo",
+
+"tétano",
+
+"manqueira",
+
+"carbúnculo sintomático",
+
+"enterotoxemia",
+
+"gangrena gasosa"
+
+],
+
+
+imagem:"/images/doencas/clostridioses.jpg",
+
+
+
+imagens:[
+
 
 {
-  id: "clostridioses",
+src:"/images/doencas/clostridioses/01-clostridium-microscopia.jpg",
 
-  nome: "Clostridioses",
+titulo:"Clostridium spp.",
 
-  agente: "Clostridium spp.",
+categoria:"Agente etiológico",
 
-  categoria: "Bacterianas",
+descricao:
+"Bactérias do gênero Clostridium caracterizadas por serem Gram positivas, anaeróbias e formadoras de esporos."
+},
 
-  icone: "🧫",
 
-  zoonose: false,
 
-  vacina: true,
+{
+src:"/images/doencas/clostridioses/02-tetano-equino.jpg",
 
-  eutanasia: false,
+titulo:
+"Tétano em equino",
 
-  notificacaoObrigatoria: false,
+categoria:
+"Apresentação clínica",
 
-  hospedeiros: [
-    "Bovinos",
-    "Ovinos",
-    "Caprinos"
-  ],
+descricao:
+"Animal apresentando sinais compatíveis com tétano, incluindo rigidez muscular, dificuldade locomotora e postura característica causada pela neurotoxina produzida por Clostridium tetani."
+},
 
-  palavrasChave: [
-    "clostridioses",
-    "clostridium",
-    "boi",
-    "vaca",
-    "gado",
-    "ovino",
-    "ovelha",
-    "caprino",
-    "cabra"
-  ],
+{
+src:"/images/doencas/clostridioses/04-botulismo-bovino.jpg",
 
-  imagem: "/images/doencas/clostridioses.jpg",
+titulo:
+"Botulismo em bovino",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+categoria:
+"Apresentação clínica",
 
-  referencias: [],
+descricao:
+"Quadro clínico de botulismo caracterizado por fraqueza muscular progressiva e paralisia flácida causada pela ação da toxina botulínica."
+},
 
-  casosClinicos: [],
+{
+src:"/images/doencas/clostridioses/05-carbunculo-sintomatico.jpg",
+
+titulo:
+"Carbúnculo sintomático",
+
+categoria:
+"Apresentação clínica",
+
+descricao:
+"Lesão muscular associada ao Clostridium chauvoei, caracterizada por inflamação, necrose e produção de gás nos tecidos musculares."
+},
+
+{
+src:"/images/doencas/clostridioses/03-necrose-muscular.jpg",
+
+titulo:"Necrose muscular associada às clostridioses",
+
+categoria:"Lesão patológica",
+
+descricao:
+"Lesões musculares causadas pela ação de toxinas produzidas por determinadas espécies de Clostridium."
+},
+
+
+{
+src:"/images/doencas/clostridioses/04-vacinacao-clostridioses.jpg",
+
+titulo:"Vacinação contra clostridioses",
+
+categoria:"Prevenção",
+
+descricao:
+"A vacinação é uma das principais medidas preventivas contra enfermidades causadas por Clostridium spp."
+}
+
+
+],
+
+
+
+visaoGeral:{
+
+introducao:
+
+"As clostridioses compreendem um grupo de enfermidades causadas por bactérias do gênero Clostridium spp., caracterizadas principalmente pela produção de toxinas. Apresentam grande importância na medicina veterinária devido à rápida evolução dos quadros clínicos e elevada mortalidade.",
+
+
+cards:[
+
+
+{
+emoji:"🦠",
+
+titulo:"Características",
+
+itens:[
+
+"Bactérias Gram positivas",
+
+"Formadoras de esporos",
+
+"Anaeróbias",
+
+"Produtoras de diferentes tipos de toxinas"
+
+]
 
 },
+
+
+{
+emoji:"☠️",
+
+titulo:"Mecanismo de ação",
+
+itens:[
+
+"Produção de toxinas letais",
+
+"Toxinas com ação neurológica",
+
+"Toxinas responsáveis por necrose e lesões teciduais"
+
+]
+
+},
+
+
+{
+emoji:"🐄",
+
+titulo:"Principais apresentações",
+
+itens:[
+
+"Botulismo",
+
+"Tétano",
+
+"Carbúnculo sintomático",
+
+"Enterotoxemias",
+
+"Gangrenas gasosas"
+
+]
+
+}
+
+
+]
+
+
+},
+
+
+
+etiologia:{
+
+
+introducao:
+
+"As bactérias do gênero Clostridium são bacilos Gram positivos, anaeróbios obrigatórios e capazes de formar esporos resistentes. A doença ocorre principalmente pela multiplicação bacteriana e produção de toxinas em condições favoráveis.",
+
+
+listas:[
+
+
+{
+
+emoji:"🧫",
+
+titulo:"Características do agente",
+
+itens:[
+
+"Bactérias Gram positivas",
+
+"Formato de bastonete",
+
+"Produzem endósporos",
+
+"Possuem capacidade de sobrevivência ambiental prolongada"
+
+]
+
+},
+
+
+
+{
+
+emoji:"☠️",
+
+titulo:"Principais espécies envolvidas",
+
+itens:[
+
+"Clostridium botulinum → Botulismo",
+
+"Clostridium tetani → Tétano",
+
+"Clostridium chauvoei → Carbúnculo sintomático",
+
+"Clostridium perfringens → Enterotoxemias",
+
+"Clostridium septicum → Gangrena gasosa"
+
+]
+
+}
+
+
+]
+
+
+},
+patogenia:{
+
+introducao:
+
+"As clostridioses apresentam diferentes mecanismos patogênicos de acordo com a espécie de Clostridium envolvida. De maneira geral, ocorre multiplicação bacteriana em ambientes favoráveis, seguida pela produção de toxinas responsáveis pelas alterações clínicas.",
+
+
+blocos:[
+
+
+{
+emoji:"🌱",
+
+titulo:"Entrada e permanência dos esporos",
+
+texto:
+
+"Os esporos de Clostridium podem permanecer no ambiente por longos períodos. A infecção ocorre pela ingestão de alimentos contaminados, penetração através de ferimentos ou multiplicação de bactérias presentes naturalmente no organismo."
+},
+
+
+
+{
+emoji:"🧫",
+
+titulo:"Germinação e multiplicação bacteriana",
+
+texto:
+
+"Em condições favoráveis, como baixa disponibilidade de oxigênio, alterações teciduais ou desequilíbrio intestinal, os esporos germinam e as bactérias passam a se multiplicar."
+},
+
+
+
+{
+emoji:"☠️",
+
+titulo:"Produção de toxinas",
+
+texto:
+
+"As toxinas produzidas pelos Clostridium são responsáveis pelos principais efeitos patológicos, podendo causar alterações neurológicas, necrose muscular, hemólise ou lesões intestinais."
+},
+
+
+
+{
+emoji:"⚠️",
+
+titulo:"Evolução clínica",
+
+texto:
+
+"Devido à ação rápida das toxinas, algumas clostridioses apresentam evolução aguda e elevada mortalidade, principalmente quando o diagnóstico e tratamento são tardios."
+}
+
+
+
+]
+
+
+},
+
+
+
+
+epidemiologia:{
+
+
+introducao:
+
+"As clostridioses possuem distribuição mundial e estão relacionadas principalmente à presença dos esporos no ambiente e aos fatores que favorecem sua multiplicação no hospedeiro.",
+
+
+blocos:[
+
+
+{
+emoji:"🌎",
+
+titulo:"Distribuição",
+
+texto:
+
+"Os agentes do gênero Clostridium apresentam ampla distribuição ambiental, principalmente em solos, água e matéria orgânica."
+},
+
+
+
+{
+emoji:"🌱",
+
+titulo:"Reservatório ambiental",
+
+texto:
+
+"Os esporos permanecem no ambiente por longos períodos, constituindo uma importante fonte de infecção para os animais."
+},
+
+
+
+{
+emoji:"🐄",
+
+titulo:"Espécies acometidas",
+
+texto:
+
+"Diferentes espécies animais podem ser afetadas, incluindo bovinos, ovinos, caprinos, suínos e equinos, dependendo do agente envolvido."
+},
+
+
+
+{
+emoji:"⚠️",
+
+titulo:"Fatores predisponentes",
+
+texto:
+
+"Alterações alimentares, ferimentos, manejo inadequado, presença de tecidos necrosados e condições de anaerobiose favorecem o desenvolvimento da enfermidade."
+}
+
+
+
+]
+
+
+},
+
+
+
+
+
+sinaisClinicos:{
+
+
+introducao:
+
+"As manifestações clínicas das clostridioses variam conforme a espécie bacteriana e a toxina produzida. Os principais quadros incluem doenças neurológicas, musculares e digestivas.",
+
+
+blocos:[
+
+
+
+{
+emoji:"🧠",
+
+titulo:"Botulismo",
+
+itens:[
+
+"Paralisia flácida progressiva",
+
+"Fraqueza muscular",
+
+"Dificuldade de locomoção",
+
+"Decúbito",
+
+"Paralisia respiratória em casos graves"
+
+]
+
+},
+
+
+
+
+{
+emoji:"⚡",
+
+titulo:"Tétano",
+
+itens:[
+
+"Rigidez muscular",
+
+"Hiperexcitabilidade",
+
+"Contrações musculares",
+
+"Protrusão da terceira pálpebra",
+
+"Opistótono"
+
+]
+
+},
+
+
+
+
+{
+emoji:"💪",
+
+titulo:"Carbúnculo sintomático e mionecroses",
+
+itens:[
+
+"Aumento de volume muscular",
+
+"Crepitação na musculatura",
+
+"Dor local",
+
+"Necrose muscular",
+
+"Morte rápida"
+
+]
+
+},
+
+
+
+
+{
+emoji:"🩸",
+
+titulo:"Enterotoxemias",
+
+itens:[
+
+"Diarreia",
+
+"Dor abdominal",
+
+"Sinais neurológicos",
+
+"Morte súbita",
+
+"Alterações intestinais"
+
+]
+
+}
+
+
+
+]
+
+
+},
+diagnostico:{
+
+introducao:
+
+"O diagnóstico das clostridioses deve considerar o histórico epidemiológico, sinais clínicos, achados de necropsia e exames laboratoriais. A identificação do agente ou de suas toxinas auxilia na confirmação diagnóstica.",
+
+
+metodos:[
+
+"cultura-bacteriologica",
+
+"microscopia",
+
+"pcr",
+
+"elisa"
+
+]
+
+},
+
+
+
+
+tratamento:{
+
+introducao:
+
+"O tratamento das clostridioses apresenta limitações devido à rápida ação das toxinas e evolução aguda de muitos quadros. A abordagem depende da enfermidade específica e do estágio clínico do animal.",
+
+
+blocos:[
+
+
+{
+
+emoji:"💊",
+
+titulo:"Terapia antimicrobiana",
+
+texto:
+
+"O uso de antimicrobianos pode ser indicado em algumas situações, principalmente quando há suspeita de infecção bacteriana ativa. A escolha deve considerar a espécie acometida e avaliação veterinária."
+
+},
+
+
+
+{
+
+emoji:"🩺",
+
+titulo:"Tratamento de suporte",
+
+texto:
+
+"Animais acometidos podem necessitar de suporte clínico, incluindo controle da dor, hidratação e manejo das alterações sistêmicas."
+
+},
+
+
+
+{
+
+emoji:"💉",
+
+titulo:"Antitoxinas",
+
+texto:
+
+"Em algumas enfermidades, como tétano e botulismo, o uso de antitoxinas específicas pode auxiliar quando administrado em fases iniciais do quadro."
+
+},
+
+
+
+{
+
+emoji:"🧹",
+
+titulo:"Controle da fonte de infecção",
+
+texto:
+
+"A remoção de tecidos contaminados, limpeza de ferimentos e manejo adequado do ambiente são importantes para reduzir novas ocorrências."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+
+prevencao:{
+
+introducao:
+
+"A prevenção das clostridioses é baseada principalmente na vacinação, manejo sanitário adequado e redução dos fatores predisponentes.",
+
+
+blocos:[
+
+
+{
+
+emoji:"💉",
+
+titulo:"Vacinação",
+
+destaque:true,
+
+texto:
+
+"A vacinação é a principal estratégia de prevenção contra diversas clostridioses. Os protocolos devem seguir a espécie animal, idade e situação epidemiológica da propriedade.",
+
+
+tags:[
+
+"💉 Principal medida preventiva",
+
+"🐄 Bovinos",
+
+"🐑 Pequenos ruminantes"
+
+],
+
+
+informacoes:[
+
+
+{
+
+titulo:"Importância",
+
+texto:
+
+"As vacinas estimulam a produção de anticorpos contra toxinas produzidas pelos Clostridium, reduzindo a ocorrência de quadros graves."
+
+}
+
+]
+
+},
+
+
+
+
+{
+
+emoji:"🌱",
+
+titulo:"Manejo ambiental",
+
+texto:
+
+"Evitar contaminação de alimentos e água, realizar descarte adequado de animais mortos e reduzir condições favoráveis à multiplicação bacteriana."
+
+},
+
+
+
+
+{
+
+emoji:"🩹",
+
+titulo:"Cuidados com ferimentos",
+
+texto:
+
+"A limpeza e tratamento adequado de feridas reduzem o risco de infecções por espécies associadas a tecidos necrosados, como Clostridium tetani."
+
+},
+
+
+
+
+{
+
+emoji:"🐄",
+
+titulo:"Manejo sanitário",
+
+texto:
+
+"O acompanhamento do rebanho, vacinação correta e adoção de medidas de biossegurança são fundamentais para reduzir perdas."
+
+}
+
+
+
+]
+
+
+},
+
+
+
+
+referencias:[
+
+
+{
+
+titulo:
+
+"Clostridial Diseases of Animals",
+
+autores:
+
+"Veterinary Microbiology and Infectious Diseases",
+
+fonte:
+
+"Literatura veterinária",
+
+ano:
+
+"Atualizado",
+
+link: "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118728291"
+
+},
+
+
+{
+
+titulo:
+
+"Clostridial Diseases",
+
+autores:
+
+"Merck Veterinary Manual",
+
+fonte:
+
+"Manual veterinário",
+
+ano:
+
+"Atualizado",
+
+link: "https://www.vet.cornell.edu/animal-health-diagnostic-center/programs/nyschap/modules-documents/clostridial-diseases"
+}
+
+
+],
+
+
+
+
+casosClinicos:[
+
+
+{
+
+id:"clostridioses-caso-01",
+
+titulo:
+
+"Carbúnculo sintomático em bovino jovem",
+
+especie:
+
+"Bovino",
+
+idade:
+
+"Animal jovem",
+
+historico:
+
+"Animal apresentou aumento de volume muscular, dificuldade de locomoção e evolução rápida do quadro clínico.",
+
+sinais:[
+
+"Aumento de volume muscular",
+
+"Crepitação",
+
+"Claudicação",
+
+"Morte súbita"
+
+],
+
+exames:
+
+"Investigação baseada em achados clínicos, epidemiológicos e exames laboratoriais.",
+
+diagnostico:
+
+"Carbúnculo sintomático associado à infecção por Clostridium chauvoei.",
+
+discussao:
+
+"O carbúnculo sintomático apresenta evolução rápida e alta mortalidade. A vacinação é a principal medida de prevenção."
+
+},
+
+
+
+{
+
+id:"clostridioses-caso-02",
+
+titulo:
+
+"Tétano em equino após ferimento",
+
+especie:
+
+"Equino",
+
+idade:
+
+"Adulto",
+
+historico:
+
+"Animal apresentou ferimento prévio seguido de rigidez muscular progressiva.",
+
+sinais:[
+
+"Rigidez muscular",
+
+"Hiperexcitabilidade",
+
+"Dificuldade locomotora"
+
+],
+
+exames:
+
+"Diagnóstico baseado principalmente na avaliação clínica e histórico do animal.",
+
+diagnostico:
+
+"Tétano associado à infecção por Clostridium tetani.",
+
+discussao:
+
+"O tétano está relacionado à produção de neurotoxina pelo agente e pode ser prevenido por vacinação e cuidados com ferimentos."
+
+}
+
+]
+
+
+},
+
+
+
 
 
 
