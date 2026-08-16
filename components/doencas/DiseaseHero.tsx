@@ -98,6 +98,7 @@ function getEmojiHospedeiro(animal: string) {
 
   if (
     nome.includes("equino") ||
+    nome.includes("equídeos") ||
     nome.includes("cavalo")
   ) {
     return "🐎";

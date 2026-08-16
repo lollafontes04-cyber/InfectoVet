@@ -1018,52 +1018,846 @@ texto:
 
 
 
+{
+id:"garrotilho",
+
+nome:"Garrotilho",
+
+agente:"Streptococcus equi",
+
+categoria:"Bacterianas",
+
+icone:"🐴",
+
+zoonose:false,
+
+vacina:true,
+
+eutanasia:false,
+
+notificacaoObrigatoria:false,
+
+
+hospedeiros:[
+
+"Equídeos"
+
+],
+
+
+palavrasChave:[
+
+"garrotilho",
+
+"streptococcus equi",
+
+"equino",
+
+"linfadenite",
+
+"rinofaringite equina"
+
+],
+
+
+imagem:"/images/doencas/garrotilho.jpg",
+
+imagens:[
 
 {
-  id: "garrotilho",
+src:"/images/doencas/garrotilho/01-streptococcus-equi.jpg",
 
-  nome: "Garrotilho",
+titulo:
+"Streptococcus equi",
 
-  agente: "Streptococcus equi",
+categoria:
+"Agente etiológico",
 
-  categoria: "Bacterianas",
+descricao:
+"Imagem ilustrativa do agente bacteriano Streptococcus equi, responsável pelo desenvolvimento do garrotilho em equídeos."
 
-  icone: "🧫",
+},
 
-  zoonose: false,
 
-  vacina: true,
+{
+src:"/images/doencas/garrotilho/02-linfonodos-aumentados.jpg",
 
-  eutanasia: false,
+titulo:
+"Aumento dos linfonodos submandibulares",
 
-  notificacaoObrigatoria: false,
+categoria:
+"Sinais clínicos",
 
-  hospedeiros: [
-    "Equinos"
-  ],
+descricao:
+"Animal apresentando aumento de volume na região dos linfonodos associado à formação de abscessos característica do garrotilho."
 
-  palavrasChave: [
-    "garrotilho",
-    "streptococcus equi",
-    "cavalo",
-    "equino"
-  ],
+},
 
-  imagem: "/images/doencas/garrotilho.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+{
+src:"/images/doencas/garrotilho/03-secrecao-nasal.jpg",
 
-  referencias: [],
+titulo:
+"Secreção nasal purulenta",
 
-  casosClinicos: [],
+categoria:
+"Sinais clínicos",
 
+descricao:
+"Secreção nasal purulenta observada em equinos acometidos pela infecção por Streptococcus equi."
+
+},
+
+
+{
+src:"/images/doencas/garrotilho/04-abscesso-linfonodo.jpg",
+
+titulo:
+"Abscesso em linfonodo regional",
+
+categoria:
+"Patogenia",
+
+descricao:
+"Formação de abscesso em linfonodos regionais devido à multiplicação bacteriana e resposta inflamatória."
+
+},
+
+
+{
+src:"/images/doencas/garrotilho/05-transmissao-equinos.jpg",
+
+titulo:
+"Transmissão entre equídeos",
+
+categoria:
+"Epidemiologia",
+
+descricao:
+"O contato entre animais infectados e suscetíveis favorece a disseminação do agente dentro das propriedades."
+}
+
+],
+
+visaoGeral:{
+
+introducao:
+
+"O garrotilho, também conhecido como linfadenite ou rinofaringite equina, é uma doença infectocontagiosa purulenta causada por Streptococcus equi. A enfermidade acomete principalmente o trato respiratório superior de equídeos jovens, podendo causar formação de abscessos em linfonodos regionais.",
+
+
+cards:[
+
+
+{
+emoji:"⭐",
+
+titulo:"Destaques",
+
+itens:[
+
+"Doença bacteriana altamente contagiosa entre equídeos",
+
+"Acomete principalmente animais jovens",
+
+"Caracterizada por secreção nasal, febre e linfadenomegalia",
+
+"Também conhecida como 'strangles' devido ao estrangulamento causado pela compressão dos linfonodos"
+
+]
+
+},
+
+
+
+{
+emoji:"🦠",
+
+titulo:"Características",
+
+itens:[
+
+"Agente pertencente ao gênero Streptococcus",
+
+"Bactéria Gram positiva com presença de cápsula",
+
+"Produção de abscessos purulentos em linfonodos regionais",
+
+"Pode permanecer no ambiente associado a secreções contaminadas"
+
+]
+
+},
+
+
+
+{
+emoji:"🐴",
+
+titulo:"Importância clínica",
+
+itens:[
+
+"Possui grande impacto em propriedades com criação de equídeos",
+
+"Pode causar disseminação rápida entre animais suscetíveis",
+
+"Animais recuperados podem desenvolver imunidade, porém alguns podem permanecer portadores"
+
+]
+
+}
+
+]
+
+
+},
+
+
+
+etiologia:{
+
+introducao:
+
+"O garrotilho é causado pela bactéria Streptococcus equi, um diplococo Gram positivo responsável por infecção purulenta do trato respiratório superior dos equídeos.",
+
+
+
+blocos:[
+
+
+{
+
+emoji:"🦠",
+
+titulo:"Agente etiológico",
+
+itens:[
+
+"Streptococcus equi",
+
+"Bactéria em formato de diplococo Gram positivo",
+
+"Possui cápsula contendo proteína M, relacionada aos mecanismos de evasão do sistema imune"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🔬",
+
+titulo:"Características bacterianas",
+
+itens:[
+
+"Apresenta colônias beta-hemolíticas puntiformes em ágar sangue",
+
+"Pode sobreviver por semanas em pus dessecado",
+
+"Apresenta sensibilidade a penicilinas, cefalosporinas, eritromicina e sulfa + trimetoprim",
+
+"Resistência descrita aos aminoglicosídeos"
+
+]
+
+}
+
+
+]
+
+},
+
+
+
+epidemiologia:{
+
+introducao:
+
+"O garrotilho apresenta distribuição mundial e pode acometer todos os equídeos, sendo observado principalmente em animais jovens.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🌎",
+
+titulo:"Distribuição",
+
+texto:
+
+"Doença presente mundialmente, com ocorrência principalmente em locais onde há concentração de equídeos."
+
+},
+
+
+{
+
+emoji:"🐴",
+
+titulo:"Hospedeiros",
+
+texto:
+
+"Todos os equídeos são suscetíveis, sendo os animais jovens mais frequentemente acometidos."
+
+},
+
+
+{
+
+emoji:"💧",
+
+titulo:"Transmissão",
+
+texto:
+
+"A transmissão ocorre principalmente pelo contato com secreções nasais, fômites contaminados e materiais provenientes de animais infectados."
+
+},
+
+
+{
+
+emoji:"🧫",
+
+titulo:"Portadores",
+
+texto:
+
+"Equídeos aparentemente saudáveis podem atuar como portadores assintomáticos, contribuindo para a manutenção da bactéria."
+
+}
+
+]
+
+
+},
+
+patogenia:{
+
+introducao:
+
+"A infecção ocorre após a entrada de Streptococcus equi pelas vias respiratórias, seguida de colonização da mucosa nasal e faríngea. A bactéria invade tecidos linfáticos regionais, causando inflamação e formação de abscessos nos linfonodos.",
+
+
+blocos:[
+
+
+{
+
+emoji:"👃",
+
+titulo:"Entrada do agente",
+
+texto:
+
+"A bactéria penetra principalmente através da mucosa nasal ou oral durante o contato com secreções contaminadas de animais infectados."
+
+},
+
+
+
+{
+
+emoji:"🦠",
+
+titulo:"Colonização respiratória",
+
+texto:
+
+"Após a entrada no organismo, Streptococcus equi coloniza a mucosa da nasofaringe e inicia processo inflamatório local."
+
+},
+
+
+
+{
+
+emoji:"🧬",
+
+titulo:"Disseminação para linfonodos",
+
+texto:
+
+"O agente alcança os linfonodos regionais, principalmente submandibulares e retrofaríngeos, promovendo formação de abscessos purulentos."
+
+},
+
+
+
+{
+
+emoji:"💥",
+
+titulo:"Formação de abscessos",
+
+texto:
+
+"A maturação dos abscessos causa aumento de volume dos linfonodos e pode levar à drenagem espontânea de secreção purulenta."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+sinaisClinicos:{
+
+introducao:
+
+"As manifestações clínicas do garrotilho estão relacionadas principalmente ao comprometimento do trato respiratório superior e à resposta inflamatória causada pela infecção bacteriana.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🐴",
+
+titulo:"Sinais respiratórios",
+
+itens:[
+
+"Secreção nasal purulenta",
+
+"Corrimento nasal bilateral",
+
+"Tosse",
+
+"Dificuldade respiratória em casos graves"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🌡️",
+
+titulo:"Sinais sistêmicos",
+
+itens:[
+
+"Febre",
+
+"Apatia",
+
+"Redução do apetite",
+
+"Depressão"
+
+]
+
+},
+
+
+
+{
+
+emoji:"🟣",
+
+titulo:"Alterações nos linfonodos",
+
+itens:[
+
+"Aumento dos linfonodos submandibulares",
+
+"Formação de abscessos",
+
+"Dor e aumento de volume na região da cabeça e pescoço"
+
+]
+
+},
+
+
+
+{
+
+emoji:"⚠️",
+
+titulo:"Complicações",
+
+itens:[
+
+"Empiema das bolsas guturais",
+
+"Abscessos metastáticos em órgãos internos",
+
+"Púrpura hemorrágica após infecção"
+
+]
+
+}
+
+
+]
+
+
+},
+
+
+
+
+
+diagnostico:{
+
+introducao:
+
+"O diagnóstico do garrotilho é realizado pela associação entre histórico clínico, sinais apresentados pelo animal e identificação de Streptococcus equi em amostras biológicas.",
+
+
+metodos:[
+
+"cultura-bacteriologica",
+
+"pcr",
+
+"isolamento bacteriano",
+
+"endoscopia das bolsas guturais"
+
+]
+
+
+},
+
+
+
+
+
+
+tratamento:{
+
+introducao:
+
+"O tratamento do garrotilho depende da fase da doença e da gravidade dos sinais clínicos. O manejo adequado auxilia na recuperação e reduz a disseminação entre animais.",
+
+
+blocos:[
+
+
+{
+
+emoji:"💊",
+
+titulo:"Terapia antimicrobiana",
+
+texto:
+
+"O uso de antimicrobianos pode ser indicado principalmente em fases iniciais da infecção ou em casos com complicações, conforme avaliação veterinária."
+
+},
+
+
+
+{
+
+emoji:"🩺",
+
+titulo:"Tratamento de suporte",
+
+texto:
+
+"O suporte clínico inclui controle da febre, anti-inflamatórios quando indicados e cuidados com alimentação e hidratação."
+
+},
+
+
+
+{
+
+emoji:"🧼",
+
+titulo:"Manejo dos abscessos",
+
+texto:
+
+"Abscessos maduros podem necessitar de drenagem e higienização adequada para evitar contaminação ambiental."
+
+},
+
+
+
+{
+
+emoji:"🚧",
+
+titulo:"Isolamento",
+
+texto:
+
+"Animais infectados devem ser isolados para reduzir a transmissão para outros equídeos."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+
+
+prevencao:{
+
+introducao:
+
+"A prevenção do garrotilho depende principalmente de medidas de biossegurança, isolamento de animais infectados e controle da entrada de novos animais na propriedade.",
+
+
+blocos:[
+
+
+{
+
+emoji:"💉",
+
+titulo:"Vacinação",
+
+texto:
+
+"A vacinação pode auxiliar na redução da ocorrência e gravidade dos casos, sendo indicada conforme avaliação veterinária e situação epidemiológica.",
+
+destaque:true,
+
+tags:[
+
+"💉 Programa vacinal",
+
+"🐴 Equídeos"
+
+],
+
+
+informacoes:[
+
+{
+
+titulo:"Importância",
+
+texto:
+
+"A vacinação contribui para reduzir sinais clínicos e perdas associadas à enfermidade."
+
+}
+
+]
+
+},
+
+
+
+{
+
+emoji:"🚧",
+
+titulo:"Isolamento de animais",
+
+texto:
+
+"Animais suspeitos ou positivos devem permanecer separados para evitar contato com animais saudáveis."
+
+},
+
+
+
+{
+
+emoji:"🧼",
+
+titulo:"Higiene e desinfecção",
+
+texto:
+
+"A limpeza de instalações, equipamentos e utensílios reduz a permanência da bactéria no ambiente."
+
+},
+
+
+
+{
+
+emoji:"🐎",
+
+titulo:"Quarentena",
+
+texto:
+
+"Novos animais introduzidos na propriedade devem passar por período de observação antes do contato com o plantel."
+
+}
+
+
+]
+
+
+},
+
+
+
+
+
+casosClinicos:[
+
+
+{
+
+id:"garrotilho-caso-01",
+
+titulo:
+
+"Garrotilho em potro jovem com sinais respiratórios",
+
+especie:
+
+"Equino",
+
+idade:
+
+"Animal jovem",
+
+historico:
+
+"Potro apresentou febre, secreção nasal purulenta e aumento de volume na região dos linfonodos mandibulares após contato com outros equinos.",
+
+sinais:[
+
+"Febre",
+
+"Secreção nasal purulenta",
+
+"Aumento dos linfonodos",
+
+"Apatia"
+
+],
+
+
+exames:
+
+"Foi realizada coleta de secreção nasal para isolamento bacteriano e confirmação da presença de Streptococcus equi.",
+
+
+diagnostico:
+
+"Garrotilho associado à infecção por Streptococcus equi.",
+
+
+discussao:
+
+"O garrotilho apresenta alta transmissibilidade entre equídeos. O diagnóstico precoce e isolamento dos animais acometidos são fundamentais para controlar surtos."
+
+},
+
+
+
+{
+
+id:"garrotilho-caso-02",
+
+titulo:
+
+"Surto de garrotilho em propriedade de equinos",
+
+especie:
+
+"Equídeos",
+
+idade:
+
+"Animais jovens e adultos",
+
+historico:
+
+"Propriedade apresentou aumento de animais com secreção nasal, febre e aumento dos linfonodos após introdução de novos animais no plantel.",
+
+sinais:[
+
+"Febre",
+
+"Corrimento nasal",
+
+"Tosse",
+
+"Linfonodos aumentados"
+
+],
+
+
+exames:
+
+"Foi realizada investigação clínica e coleta de amostras respiratórias para identificação bacteriana.",
+
+
+diagnostico:
+
+"Infecção por Streptococcus equi compatível com quadro de garrotilho.",
+
+
+discussao:
+
+"A introdução de animais portadores é uma importante forma de entrada da doença nas propriedades. Medidas de quarentena e biossegurança são essenciais."
+
+}
+],
+referencias:[
+
+{
+titulo:
+"Streptococcus equi Infectious Disease Guidelines",
+
+autores:
+"American Association of Equine Practitioners (AAEP)",
+
+fonte:
+"AAEP",
+
+ano:
+"2020",
+
+link:
+"https://aaep.org/wp-content/uploads/2024/03/Strangles_DZ_Guidelines_FINAL_2020.pdf"
+
+},
+
+
+{
+titulo:
+"Streptococcus equi Infections in Horses: Guidelines for Treatment, Control, and Prevention of Strangles",
+
+autores:
+"Boyle AG et al.",
+
+fonte:
+"Journal of Veterinary Internal Medicine",
+
+ano:
+"2018",
+
+link:
+"https://pubmed.ncbi.nlm.nih.gov/29424487/"
+}
+
+
+],
 },
 {
 id:"leptospirose",
