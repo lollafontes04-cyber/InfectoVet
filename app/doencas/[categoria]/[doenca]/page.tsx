@@ -7,7 +7,6 @@ import DiseaseContent from "@/components/doencas/DiseaseContent";
 import { doencas } from "@/data/doencas";
 
 
-
 export default async function DoencaPage({
 
   params,
@@ -16,12 +15,13 @@ export default async function DoencaPage({
 
   params: Promise<{
 
+    categoria: string;
+
     doenca: string;
 
   }>;
 
 }) {
-
 
 
   const { doenca } = await params;
