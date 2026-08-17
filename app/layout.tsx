@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "InfectoVet | Atlas de Enfermidades Infecciosas e Parasitárias Animais",
+  title: "InfectoVet | Plataforma de Enfermidades Infecciosas e Parasitárias Animais",
 
   description:
-    "Atlas digital para estudo e consulta de enfermidades infecciosas e parasitárias animais.",
+    "Plataforma digital para estudo e consulta de enfermidades infecciosas e parasitárias animais.",
 
 
   openGraph: {
     title:
-      "InfectoVet | Atlas de Enfermidades Infecciosas e Parasitárias Animais",
+      "InfectoVet | Plataforma de Enfermidades Infecciosas e Parasitárias Animais",
 
     description:
       "Conhecimento científico sobre enfermidades infecciosas e parasitárias em animais.",
@@ -35,7 +35,7 @@ export const metadata = {
         url: "/images/logo/logo-infectovet.png",
         width: 1200,
         height: 630,
-        alt: "InfectoVet - Atlas Veterinário",
+        alt: "InfectoVet - Plataforma Veterinária",
       },
     ],
 
@@ -49,10 +49,10 @@ export const metadata = {
     card: "summary_large_image",
 
     title:
-      "InfectoVet | Atlas Veterinário",
+      "InfectoVet | Plataforma Veterinária",
 
     description:
-      "Atlas digital de enfermidades infecciosas e parasitárias animais.",
+      "Plataforma digital de enfermidades infecciosas e parasitárias animais.",
 
     images: [
       "/images/logo/logo-infectovet.png"
