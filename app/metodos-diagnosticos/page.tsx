@@ -49,15 +49,7 @@ export default function MetodosDiagnosticosPage() {
 
 
 
-
-
           <div className="grid gap-8 md:grid-cols-2">
-
-
-
-
-
-
 
 
 
@@ -102,15 +94,11 @@ export default function MetodosDiagnosticosPage() {
 
 
 
-
-
               <h2 className="mt-6 text-2xl font-bold text-[#075334]">
 
                 Testes de Triagem
 
               </h2>
-
-
 
 
 
@@ -135,8 +123,6 @@ export default function MetodosDiagnosticosPage() {
 
             
               </p>
-
-
 
 
 
@@ -213,15 +199,11 @@ export default function MetodosDiagnosticosPage() {
 
 
 
-
-
               <h2 className="mt-6 text-2xl font-bold text-[#075334]">
 
                 Testes Confirmatórios
 
               </h2>
-
-
 
 
 
@@ -250,6 +232,107 @@ export default function MetodosDiagnosticosPage() {
 
 
 
+              <span className="
+                mt-6
+                inline-block
+                rounded-full
+                bg-[#EDF8F0]
+                px-4
+                py-2
+                text-sm
+                font-semibold
+                text-[#075334]
+              ">
+
+                Ver testes confirmatórios →
+
+              </span>
+
+
+
+
+
+            </Link>
+
+
+
+
+
+
+
+
+
+            {/* VIGILÂNCIA EPIDEMIOLÓGICA — ADICIONADO */}
+
+
+
+            <Link
+
+              href="/metodos-diagnosticos/vigilancia-epidemiologica"
+
+              className="
+                rounded-3xl
+                bg-white
+                p-8
+                shadow-sm
+                transition
+                hover:-translate-y-1
+                hover:shadow-lg
+              "
+
+            >
+
+
+
+              <div className="
+                flex
+                h-16
+                w-16
+                items-center
+                justify-center
+                rounded-2xl
+                bg-[#EDF8F0]
+                text-3xl
+              ">
+
+                📊
+
+              </div>
+
+
+
+
+
+              <h2 className="mt-6 text-2xl font-bold text-[#075334]">
+
+                Vigilância Epidemiológica
+
+              </h2>
+
+
+
+
+
+              <p className="mt-4 leading-relaxed text-gray-600">
+
+                Métodos utilizados para o acompanhamento do status sanitário
+                de populações, propriedades e rebanhos, auxiliando na
+                identificação e monitoramento da ocorrência de enfermidades.
+
+
+                <br /><br />
+
+
+                Na brucelose, por exemplo, o Teste do Anel em Leite (TAL)
+                pode ser utilizado para monitoramento do status sanitário.
+
+
+                <br /><br />
+
+              </p>
+
+
+
 
 
               <span className="
@@ -264,7 +347,7 @@ export default function MetodosDiagnosticosPage() {
                 text-[#075334]
               ">
 
-                Ver testes confirmatórios →
+                Ver métodos de vigilância →
 
               </span>
 

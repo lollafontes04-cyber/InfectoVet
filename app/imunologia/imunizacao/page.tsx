@@ -205,11 +205,8 @@ atencao:
 
 exemplos:[
 
-"Vacinas contendo componentes vivos atenuados contra cinomose canina",
+"Brucelose Bovina (Amostra B19 e RB51)",
 
-"Vacinas contendo componentes vivos atenuados contra parvovirose canina",
-
-"Outras vacinas veterinárias conforme espécie e formulação"
 
 ]
 
@@ -241,9 +238,8 @@ exemplos:[
 
 "Algumas vacinas contra raiva",
 
-"Algumas vacinas contra leptospirose",
+"Clostrisan-11 (Clostridioses)",
 
-"Algumas vacinas bacterianas inativadas"
 
 ]
 
@@ -273,9 +269,11 @@ atencao:
 
 exemplos:[
 
-"Algumas vacinas contra leishmaniose canina",
+"Cães (Linha Recombitek)",
 
-"Vacinas baseadas em antígenos recombinantes"
+"Gatos (Linha Purevax)",
+"Aves (Linha Vaxxitek)",
+
 
 ]
 

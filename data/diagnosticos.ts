@@ -97,8 +97,6 @@ caracteristicas: [
 
     "Leptospirose",
 
-    "Brucelose",
-
     "Mormo",
 
     "Anemia infecciosa equina",
@@ -171,7 +169,7 @@ caracteristicas: [
 
   doencasRelacionadas: [
 
-    "Brucelose",
+
 
     "Mormo",
 
@@ -200,7 +198,7 @@ caracteristicas: [
   ],
 
   caracteristicas: [
-    "Hipersensibilidade tardia",
+    "Hipersensibilidade tardia tipo IV",
     "Resposta imunológica celular"
   ],
 
@@ -385,7 +383,7 @@ limitacoes:[
 ],
 
 imagem:
-"/images/diagnosticos/teste-cervical-comparativo.jpg",
+"/images/diagnosticos/teste-cervical-comparativo1.jpg",
 
 doencasRelacionadas:[
 "Tuberculose"
@@ -450,7 +448,6 @@ caracteristicas: [
 
     "Leptospirose",
 
-    "Brucelose",
 
     "Anemia infecciosa equina",
 
@@ -923,7 +920,55 @@ caracteristicas: [
 
 },
 
+{
+  id: "fluorescencia-polarizada",
 
+  nome: "Fluorescência Polarizada (FPA)",
+
+  categoria: "Método Sorológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Confirmatório"
+  ],
+
+  caracteristicas: [
+    "Fluorescência polarizada",
+    "Detecção de anticorpos"
+  ],
+
+  descricao:
+    "Método sorológico utilizado na investigação da brucelose, podendo ser empregado como teste confirmatório.",
+
+  principio:
+    "Baseia-se na alteração da polarização da fluorescência associada à interação entre o antígeno marcado e os anticorpos presentes na amostra.",
+
+  aplicacao: [
+    "Confirmação de casos suspeitos de brucelose",
+    "Investigação sorológica",
+    "Programas de controle sanitário"
+  ],
+
+  vantagens: [
+    "Resultado rápido",
+    "Boa especificidade",
+    "Método automatizável"
+  ],
+
+  limitacoes: [
+    "Necessita equipamento específico",
+    "Requer interpretação adequada"
+  ],
+
+  imagem:
+    "/images/diagnosticos/fluorescencia-polarizada.jpg",
+
+  doencasRelacionadas: [
+    "Brucelose"
+  ]
+
+},
 
 
 
@@ -992,62 +1037,6 @@ caracteristicas: [
 
 
 
-{
-  id: "hipersensibilidade-tardia",
-
-  nome: "Hipersensibilidade Tardia",
-
-  categoria: "Teste Imunológico",
-
-  tipo: "Indireto",
-
-  finalidade: [
-    "Triagem"
-  ],
-caracteristicas: [
-  "Resposta celular",
-  "Reação imunológica tardia"
-],
-  descricao:
-    "Avaliação da resposta imunológica celular após exposição a determinado antígeno.",
-
-  principio:
-    "Observa a reação inflamatória mediada por células após contato com o antígeno.",
-
-  aplicacao: [
-
-    "Tuberculinização",
-
-    "Avaliação da resposta celular"
-
-  ],
-
-  vantagens: [
-
-    "Utilizado em programas sanitários",
-
-    "Avalia resposta imunológica celular"
-
-  ],
-
-  limitacoes: [
-
-    "Necessita interpretação correta",
-
-    "Pode sofrer influência do estado imunológico"
-
-  ],
-
-  imagem:
-    "/images/diagnosticos/hipersensibilidade.jpg",
-
-  doencasRelacionadas: [
-
-    "Tuberculose"
-
-  ]
-
-},
 
 {
   id: "fixacao-complemento",
@@ -1104,8 +1093,7 @@ caracteristicas: [
 
   doencasRelacionadas: [
 
-    "Brucelose",
-
+    
     "Leptospirose",
 
     "Mormo"
@@ -1184,7 +1172,7 @@ caracteristicas: [
   tipo: "Indireto",
 
   finalidade: [
-    "Triagem"
+    "Vigilância epidemiológica"
   ],
 
   caracteristicas: [

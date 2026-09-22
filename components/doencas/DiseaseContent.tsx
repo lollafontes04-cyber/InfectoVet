@@ -49,14 +49,20 @@ type InformacaoExtra = {
 
 
 type BlocoPrevencao = {
-  emoji: string;
-  titulo: string;
-  texto: string;
-  destaque?: boolean;
-  tags?: string[];
-  informacoes?: InformacaoExtra[];
-};
 
+  emoji: string;
+
+  titulo: string;
+
+  texto: string;
+
+  destaque?: boolean;
+
+  tags?: string[];
+
+  informacoes?: InformacaoExtra[];
+
+};
 
 
 
@@ -1425,165 +1431,154 @@ if(abaAtiva === "pncebt"){
   grid
   gap-6
   md:grid-cols-2
+  lg:grid-cols-3
 ">
 
+{[
+  "Triagem",
+  "Confirmatório",
+  "Vigilância epidemiológica"
+]
+  .filter((finalidade) =>
+    diagnostico.metodos.some((id) => {
+      const metodo = diagnosticos.find(
+        (item) => item.id === id
+      );
 
-{["Triagem","Confirmatório"].map((finalidade)=>{
-
-
-const metodos = diagnostico.metodos
-
-.map((id)=>
-
-  diagnosticos.find(
-    (item)=>item.id === id
+      return (
+        metodo &&
+        metodo.finalidade.includes(finalidade)
+      );
+    })
   )
+  .map((finalidade) => {
 
-)
+  const metodos = diagnostico.metodos
 
-.filter(
+    .map((id) =>
+      diagnosticos.find(
+        (item) => item.id === id
+      )
+    )
 
-  (metodo)=>
+    .filter(
+      (metodo) =>
+        metodo &&
+        metodo.finalidade.includes(finalidade)
+    )
 
-    metodo &&
-    metodo.finalidade.includes(finalidade)
+    .sort((a, b) =>
+      a!.nome.localeCompare(
+        b!.nome
+      )
+    );
 
-)
+  return (
 
-.sort((a,b)=>
+    <div
+      key={finalidade}
+      className="
+        rounded-2xl
+        bg-white
+        p-5
+      "
+    >
 
-  a!.nome.localeCompare(
-    b!.nome
-  )
+      <h3 className="
+        font-bold
+        text-[#075334]
+        mb-4
+      ">
 
-);
+        {finalidade === "Triagem"
+          ? "🔎 Métodos de Triagem"
+          : finalidade === "Confirmatório"
+          ? "✓ Métodos Confirmatórios"
+          : "📊 Vigilância Epidemiológica"
+        }
 
+      </h3>
 
 
-return (
+      <div className="space-y-3">
 
-<div
+        {metodos.map((metodo) => (
 
-key={finalidade}
+          <Link
 
-className="
-rounded-2xl
-bg-white
-p-5
-"
+            key={metodo!.id}
 
->
+            href={`/metodos-diagnosticos/${metodo!.id}`}
 
+            className="
+              block
+              rounded-xl
+              bg-[#F8FBF9]
+              p-4
+              hover:bg-[#EDF8F0]
+              transition
+            "
 
-<h3 className="
-font-bold
-text-[#075334]
-mb-4
-">
+          >
 
-{finalidade === "Triagem"
-? "🔎 Métodos de Triagem"
-: "✓ Métodos Confirmatórios"}
+            <h4 className="
+              font-bold
+              text-[#075334]
+            ">
 
-</h3>
+              🔬 {metodo!.nome}
 
+            </h4>
 
 
-<div className="space-y-3">
+            <p className="
+              mt-1
+              text-sm
+              text-gray-500
+            ">
 
+              {metodo!.categoria}
 
-{metodos.map((metodo)=>(
+            </p>
 
 
-<Link
+            <span
+              className={`
 
-key={metodo!.id}
+                inline-block
+                mt-3
+                rounded-full
+                px-3
+                py-1
+                text-xs
+                font-bold
 
-href={`/metodos-diagnosticos/${metodo!.id}`}
+                ${
+                  finalidade === "Triagem"
+                    ? "bg-yellow-100 text-yellow-700"
+                    : finalidade === "Confirmatório"
+                    ? "bg-green-100 text-green-700"
+                    : "bg-blue-100 text-blue-700"
+                }
 
-className="
-block
-rounded-xl
-bg-[#F8FBF9]
-p-4
-hover:bg-[#EDF8F0]
-transition
-"
+              `}
+            >
 
->
+              {finalidade}
 
+            </span>
 
-<h4 className="
-font-bold
-text-[#075334]
-">
 
-🔬 {metodo!.nome}
+          </Link>
 
-</h4>
+        ))}
 
+      </div>
 
 
-<p className="
-mt-1
-text-sm
-text-gray-500
-">
+    </div>
 
-{metodo!.categoria}
-
-</p>
-
-
-
-<span
-
-className={`
-
-inline-block
-mt-3
-rounded-full
-px-3
-py-1
-text-xs
-font-bold
-
-${
-finalidade === "Triagem"
-
-?
-
-"bg-yellow-100 text-yellow-700"
-
-:
-
-"bg-green-100 text-green-700"
-
-}
-
-`}
-
->
-
-{finalidade}
-
-</span>
-
-
-</Link>
-
-
-))}
-
-
-</div>
-
-
-</div>
-
-
-);
-
+  );
 
 })}
 

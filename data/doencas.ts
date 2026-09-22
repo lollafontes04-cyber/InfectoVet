@@ -486,7 +486,7 @@ visaoGeral: {
       emoji: "🩸",
       titulo: "Disseminação pelo organismo",
       texto:
-      "O agente pode se disseminar para diferentes tecidos, apresentando predileção por órgãos associados ao sistema reprodutivo."
+      "O agente pode se disseminar para diferentes tecidos, apresentando tropismo por órgãos associados ao sistema reprodutivo."
     },
 
     {
@@ -609,11 +609,7 @@ visaoGeral: {
   metodos: [
   "aat",
   "2-mercaptoetanol",
-  "elisa",
-  "pcr",
-  "cultura-bacteriologica",
-  "fixacao-complemento",
-  "imuno-histoquimica",
+  "fluorescencia-polarizada",
   "anel-leite"
 ]
 
@@ -707,7 +703,7 @@ informacoes:[
 titulo:"Vacina RB51",
 
 texto:
-"Na espécie bovina, a vacina com amostra RB51 pode substituir a B19. Diferentemente da B19, a RB51 não induz a formação de anticorpos aglutinantes, permitindo melhor diferenciação em testes sorológicos."
+"A vacina RB51 é a única alternativa autorizada para regularizar fêmeas bovinas com mais de 8 meses de idade que perderam o prazo da vacinação obrigatória. Como ela não interfere nos testes de diagnóstico da brucelose, seu uso em animais mais velhos é exclusivo para fêmeas que não foram vacinadas com a B19 quando bezerras."
 },
 
 
@@ -1501,7 +1497,7 @@ diagnostico:{
 
 introducao:
 
-"O diagnóstico das clostridioses deve considerar o histórico epidemiológico, sinais clínicos, achados de necropsia e exames laboratoriais. A identificação do agente ou de suas toxinas auxilia na confirmação diagnóstica.",
+  "O diagnóstico clínico é fundamental nas clostridioses, pois muitas formas da doença apresentam evolução muito rápida e podem levar o animal à morte em curto período. A avaliação do histórico, dos sinais clínicos e dos achados epidemiológicos é essencial para estabelecer a suspeita e iniciar o manejo terapêutico imediatamente, não sendo possível aguardar a realização de testes confirmatórios antes da intervenção. Os exames laboratoriais podem auxiliar na investigação diagnóstica, mas não devem atrasar a instituição do tratamento.",
 
 
 metodos:[
@@ -4750,7 +4746,7 @@ itens:[
 
 "Formação de granulomas",
 
-"Predileção por pulmões e linfonodos",
+"Tropismo por pulmões e linfonodos",
 
 "Agente de crescimento lento",
 
@@ -5572,56 +5568,578 @@ discussao:
 
 
 
+{
+id:"cinomose",
+
+nome:"Cinomose",
+
+agente:"Vírus da cinomose canina (Canine Distemper Virus - CDV)",
+
+categoria:"Virais",
+
+icone:"🦠",
+
+zoonose:false,
+
+vacina:true,
+
+eutanasia:false,
+
+notificacaoObrigatoria:false,
+
+hospedeiros:[
+"Cães domésticos",
+"Canídeos silvestres",
+"Mustelídeos"
+],
+
+palavrasChave:[
+"Cinomose canina",
+"CDV",
+"Morbillivirus",
+"Doença viral canina",
+"Neurológica"
+],
+
+imagem:"/images/doencas/cinomose.jpg",
+
+imagens:[
 
 {
-  id: "cinomose",
+src:"/images/doencas/cinomose/01-cinomose-clinica.jpg",
+titulo:"Cão com sinais compatíveis com cinomose",
+categoria:"Sinais clínicos",
+descricao:"Animal apresentando manifestações clínicas associadas à infecção pelo vírus da cinomose canina."
+},
 
-  nome: "Cinomose",
+{
+src:"/images/doencas/cinomose/02-sistema-neurologico.jpg",
+titulo:"Manifestação neurológica",
+categoria:"Neurológico",
+descricao:"Alterações neurológicas podem ocorrer devido ao comprometimento do sistema nervoso central."
+}
 
-  agente: "Vírus da cinomose canina",
 
-  categoria: "Virais",
 
-  icone: "🦠",
+],
 
-  zoonose: false,
 
-  vacina: true,
+visaoGeral:{
 
-  eutanasia: false,
+introducao:
+"A cinomose é uma enfermidade viral altamente contagiosa que acomete principalmente cães, causada pelo vírus da cinomose canina (CDV). Apresenta distribuição mundial e possui elevada importância na clínica de pequenos animais devido à sua alta morbidade, possibilidade de evolução grave e comprometimento de múltiplos sistemas orgânicos.",
 
-  notificacaoObrigatoria: false,
 
-  hospedeiros: [
-    "Cães"
-  ],
+cards:[
 
-  palavrasChave: [
-    "cinomose",
-    "cão",
-    "cao",
-    "cachorro",
-    "canino"
-  ],
+{
+titulo:"Importância",
+emoji:"⚠️",
+itens:[
+"Alta capacidade de transmissão entre animais susceptíveis",
+"Pode apresentar evolução multissistêmica",
+"Possui grande impacto na clínica de cães jovens"
+]
+},
 
-  imagem: "/images/doencas/cinomose.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+{
+titulo:"Agente etiológico",
+emoji:"🦠",
+itens:[
+"Canine Distemper Virus (CDV)",
+"Família Paramyxoviridae",
+"Gênero Morbillivirus"
+]
+},
 
-  referencias: [],
 
-  casosClinicos: [],
+{
+titulo:"Transmissão",
+emoji:"🌎",
+itens:[
+"Principalmente por aerossóis e secreções respiratórias",
+"Contato direto entre animais infectados",
+"Eliminação viral por secreções corporais"
+]
+}
+
+]
 
 },
 
 
+etiologia:{
+
+introducao:
+"O vírus da cinomose canina pertence ao gênero Morbillivirus e apresenta características semelhantes a outros vírus da família Paramyxoviridae. É um vírus envelopado, contendo RNA fita simples de polaridade negativa.",
+
+
+listas:[
+
+{
+titulo:"Características do vírus",
+emoji:"🧬",
+itens:[
+"Vírus RNA fita simples negativo",
+"Possui envelope lipídico",
+"Apresenta baixa resistência ambiental devido ao envelope",
+"Relacionado aos vírus do sarampo e peste bovina"
+]
+},
+
+
+{
+titulo:"Classificação viral",
+emoji:"🔬",
+itens:[
+"Família: Paramyxoviridae",
+"Gênero: Morbillivirus",
+"Espécie: Canine morbillivirus"
+]
+}
+
+]
+
+},
+patogenia:{
+
+introducao:
+"A infecção pelo vírus da cinomose inicia-se geralmente pela entrada do agente através das vias respiratórias. Após a infecção inicial, ocorre replicação viral nos tecidos linfoides, seguida de disseminação para diferentes órgãos e sistemas, podendo ocorrer comprometimento neurológico nos animais susceptíveis.",
+
+
+blocos:[
+
+{
+
+emoji:"🫁",
+
+titulo:"Entrada e replicação inicial",
+
+texto:
+"O vírus penetra principalmente pela via respiratória através da inalação de partículas virais presentes em secreções de animais infectados. Inicialmente ocorre replicação em macrófagos e células do sistema imunológico presentes nas tonsilas e linfonodos regionais."
+
+
+},
+
+
+{
+
+emoji:"🛡️",
+
+titulo:"Disseminação sistêmica e imunossupressão",
+
+texto:
+"Após a replicação inicial, o vírus dissemina-se pela corrente sanguínea associado às células mononucleares, atingindo órgãos linfoides como baço, timo e medula óssea. A infecção promove redução da resposta imunológica, favorecendo infecções secundárias."
+
+
+},
+
+
+{
+
+emoji:"🌡️",
+
+titulo:"Comprometimento multissistêmico",
+
+texto:
+"Com a progressão da doença, o vírus pode alcançar tecidos epiteliais, causando manifestações respiratórias, gastrointestinais e dermatológicas. A intensidade dos sinais clínicos depende principalmente da resposta imune do hospedeiro."
+
+
+},
+
+
+{
+
+emoji:"🧠",
+
+titulo:"Infecção do sistema nervoso central",
+
+texto:
+"Em alguns animais ocorre disseminação para o sistema nervoso central, levando à desmielinização e inflamação do tecido nervoso. O comprometimento neurológico pode ocorrer durante a fase aguda ou semanas após a recuperação dos sinais sistêmicos."
+
+}
+
+]
+
+},
+
+
+
+epidemiologia:{
+
+introducao:
+"A cinomose apresenta distribuição mundial e possui maior ocorrência em animais jovens não vacinados ou com protocolo vacinal inadequado. A elevada capacidade de transmissão torna a enfermidade importante em ambientes com grande concentração de cães.",
+
+
+blocos:[
+
+{
+
+emoji:"🐕",
+
+titulo:"Hospedeiros",
+
+texto:
+"O principal hospedeiro é o cão doméstico, porém diversas espécies de carnívoros silvestres podem ser infectadas, contribuindo para a manutenção do vírus na natureza."
+
+},
+
+
+{
+
+emoji:"🌎",
+
+titulo:"Distribuição",
+
+texto:
+"A doença ocorre mundialmente, sendo encontrada tanto em áreas urbanas quanto rurais. A circulação viral está relacionada à presença de animais susceptíveis e baixa cobertura vacinal."
+
+},
+
+
+{
+
+emoji:"💧",
+
+titulo:"Transmissão",
+
+texto:
+"A transmissão ocorre principalmente por contato direto com secreções respiratórias, oculares e outras secreções corporais de animais infectados. O vírus também pode ser transmitido por aerossóis em ambientes contaminados."
+
+},
+
+
+{
+
+emoji:"🐶",
+
+titulo:"Animais mais susceptíveis",
+
+texto:
+"Filhotes entre três e seis meses de idade apresentam maior risco devido à queda da imunidade materna e ausência ou falha na vacinação."
+
+}
+
+]
+
+},
+
+
+
+sinaisClinicos:{
+
+introducao:
+"A apresentação clínica da cinomose é variável e depende da cepa viral, idade do animal, estado imunológico e presença de infecções secundárias. A doença pode apresentar manifestações respiratórias, gastrointestinais, dermatológicas e neurológicas.",
+
+
+blocos:[
+
+
+{
+
+emoji:"🫁",
+
+titulo:"Respiratórios",
+
+itens:[
+
+"Secreção nasal e ocular",
+"Tosse",
+"Dispneia",
+"Pneumonia secundária"
+
+]
+
+},
+
+
+{
+
+emoji:"🍽️",
+
+titulo:"Gastrointestinais",
+
+itens:[
+
+"Vômitos",
+"Diarreia",
+"Desidratação",
+"Perda de peso"
+
+]
+
+},
+
+
+{
+
+emoji:"🐾",
+
+titulo:"Dermatológicos",
+
+itens:[
+
+"Hiperqueratose dos coxins plantares",
+"Hiperqueratose do plano nasal",
+"Lesões cutâneas em alguns animais"
+
+]
+
+},
+
+
+{
+
+emoji:"🧠",
+
+titulo:"Neurológicos",
+
+itens:[
+
+"Mioclonias",
+"Convulsões",
+"Ataxia",
+"Paralisia",
+"Alterações comportamentais"
+
+]
+
+}
+
+]
+
+},
+diagnostico:{
+
+introducao:
+"O diagnóstico da cinomose deve ser realizado associando histórico clínico, sinais apresentados pelo animal e exames laboratoriais. Devido à grande variedade de manifestações clínicas, a confirmação laboratorial é importante principalmente em casos com sinais inespecíficos ou neurológicos.",
+
+
+metodos:[
+
+"pcr",
+
+"imunocromatografia",
+
+"elisa",
+
+"microscopia"
+
+]
+
+},
+
+
+
+tratamento:{
+
+introducao:
+"Não existe tratamento antiviral específico amplamente disponível para eliminar o vírus da cinomose. O tratamento é baseado principalmente em terapia de suporte, controle das manifestações clínicas e prevenção de complicações secundárias.",
+
+
+blocos:[
+
+{
+
+emoji:"💧",
+
+titulo:"Terapia de suporte",
+
+texto:
+"O suporte clínico tem como objetivo manter as funções fisiológicas do animal, incluindo fluidoterapia para correção da desidratação, suporte nutricional adequado e controle das alterações metabólicas."
+
+},
+
+
+{
+
+emoji:"💊",
+
+titulo:"Controle das infecções secundárias",
+
+texto:
+"Devido à imunossupressão causada pelo vírus, infecções bacterianas secundárias são frequentes. O uso de antimicrobianos pode ser indicado conforme avaliação veterinária e suspeita clínica."
+
+},
+
+
+{
+
+emoji:"🧠",
+
+titulo:"Controle dos sinais neurológicos",
+
+texto:
+"Animais com comprometimento neurológico podem necessitar de medicamentos anticonvulsivantes, controle de espasmos musculares e cuidados intensivos para melhorar o conforto e qualidade de vida."
+
+},
+
+
+{
+
+emoji:"🩺",
+
+titulo:"Prognóstico",
+
+texto:
+"O prognóstico depende da resposta imunológica do animal, gravidade dos sinais clínicos e presença de alterações neurológicas. Animais que desenvolvem sinais neurológicos apresentam maior risco de sequelas permanentes."
+
+}
+
+]
+
+},
+
+
+
+prevencao:{
+
+introducao:
+"A prevenção da cinomose é baseada principalmente na vacinação adequada, associada a medidas de controle sanitário para reduzir a circulação viral entre animais susceptíveis.",
+
+
+blocos:[
+
+
+{
+
+emoji:"💉",
+
+titulo:"Vacinação",
+
+texto:
+"A vacinação é a principal ferramenta de prevenção da cinomose. O protocolo deve seguir orientação veterinária, respeitando idade, histórico vacinal e condições individuais do animal.",
+
+
+informacoes:[
+
+{
+titulo:"Vacinas utilizadas",
+
+texto:
+"As vacinas múltiplas (como V8 e V10) geralmente incluem antígenos contra o vírus da cinomose canina."
+}
+
+]
+
+},
+
+
+
+{
+
+emoji:"🐕",
+
+titulo:"Controle da transmissão",
+
+texto:
+"Animais suspeitos ou infectados devem ser isolados para reduzir o contato com animais susceptíveis, principalmente filhotes não vacinados."
+
+},
+
+
+
+{
+
+emoji:"🏠",
+
+titulo:"Medidas ambientais",
+
+texto:
+"A limpeza adequada dos ambientes auxilia no controle de agentes infecciosos, embora o vírus apresente baixa resistência ambiental devido à presença de envelope lipídico."
+
+}
+
+]
+
+},
+
+
+
+casosClinicos:[
+
+{
+
+id:"cinomose-01",
+
+titulo:"Cinomose com evolução neurológica em cão jovem",
+
+especie:"Canino",
+
+idade:"5 meses",
+
+historico:
+"Filhote sem protocolo vacinal completo apresentado com histórico de apatia, secreção ocular e nasal progressiva.",
+
+sinais:[
+
+"Secreção ocular mucopurulenta",
+"Tosse",
+"Redução do apetite",
+"Mioclonias",
+"Convulsões"
+
+],
+
+exames:
+"Teste imunocromatográfico associado à PCR para detecção viral.",
+
+diagnostico:
+"Cinomose canina com comprometimento neurológico.",
+
+discussao:
+"O caso demonstra a importância da vacinação preventiva e da identificação precoce dos sinais clínicos, principalmente devido ao risco de evolução para manifestações neurológicas."
+
+}
+
+],
+
+
+
+referencias:[
+
+{
+
+titulo:"Canine Distemper Virus",
+
+autores:"Greene CE",
+
+fonte:"Infectious Diseases of the Dog and Cat",
+
+ano:"2012"
+
+},
+
+
+{
+
+titulo:"Canine distemper virus: current knowledge and perspectives",
+
+autores:"Martella V et al.",
+
+fonte:"Veterinary Microbiology",
+
+ano:"2008"
+
+},
+
+
+{
+
+titulo:"Cinomose canina",
+
+autores:"Quinn PJ et al.",
+
+fonte:"Veterinary Microbiology and Microbial Disease",
+
+ano:"2011"
+
+}
+
+]
+
+},
 
 
 
@@ -6654,5 +7172,589 @@ discussao:
 
 },
 
+{
+  id: "rhodococcus-equi",
 
+  nome: "Rhodococcus equi",
+
+  agente: "Rhodococcus equi",
+
+  categoria: "Bacterianas",
+
+  icone: "🧫",
+
+  zoonose: true,
+
+  vacina: false,
+
+  eutanasia: false,
+
+  notificacaoObrigatoria: false,
+
+  hospedeiros: [
+    "Equinos",
+    "Potros",
+    "Humanos"
+  ],
+
+  palavrasChave: [
+    "Rhodococcus equi",
+    "rodococose",
+    "pneumonia em potros",
+    "potros",
+    "VapA",
+    "pneumonia granulomatosa",
+    "abscessos pulmonares"
+  ],
+
+  imagem: "/images/doencas/rhodococcus/rhodococcus-equi.jpg",
+  imagens: [
+
+    {
+      src: "/images/doencas/rhodococcus/pneumonia1.jpeg",
+      titulo: "Pneumonia por Rhodococcus equi",
+      categoria: "Apresentação clínica",
+      descricao:
+        "Pulmão de potro apresentando pneumonia grave associada à infecção por Rhodococcus equi, com múltiplos nódulos e áreas de abscessação."
+    },
+
+    {
+      src: "/images/doencas/rhodococcus/abscessos-pulmonares.jpg",
+      titulo: "Abscessos pulmonares",
+      categoria: "Lesões macroscópicas",
+      descricao:
+        "Lesões pulmonares multifocais a coalescentes contendo material branco-amarelado, características descritas em potros naturalmente infectados."
+    },
+
+  
+
+    {
+      src: "/images/doencas/rhodococcus/enterocolite.jpg",
+      titulo: "Enterocolite ulcerativa",
+      categoria: "Lesões extrapulmonares",
+      descricao:
+        "Lesões de tiflocolite ulcerativa associadas à infecção natural por Rhodococcus equi."
+    },
+
+  
+
+    {
+      src: "/images/doencas/rhodococcus/histologia.jpg",
+      titulo: "Pneumonia piogranulomatosa",
+      categoria: "Histopatologia",
+      descricao:
+        "Achados histológicos compatíveis com pneumonia piogranulomatosa, com presença de macrófagos e bactérias cocobacilares."
+    }
+
+  ],
+  visaoGeral: {
+
+    introducao:
+      "A rodococose é uma doença de distribuição mundial causada por Rhodococcus equi, associada principalmente à ocorrência de pneumonia grave em potros com menos de seis meses de idade. A enfermidade apresenta elevada importância veterinária devido à mortalidade e às perdas econômicas relacionadas à pneumonia.",
+
+    cards: [
+
+      {
+        emoji: "⭐",
+
+        titulo: "Destaques",
+
+        itens: [
+          "Doença de distribuição mundial",
+          "Importante causa de pneumonia grave em potros",
+          "Pode apresentar elevada mortalidade",
+          "Está associada a importantes perdas econômicas na criação de equinos",
+          "Potros de um a seis meses de idade são especialmente acometidos"
+        ]
+      },
+
+      {
+        emoji: "🦠",
+
+        titulo: "Características",
+
+        itens: [
+          "Causada por Rhodococcus equi",
+          "Microrganismo intracelular",
+          "Apresenta ampla capacidade de adaptação ambiental",
+          "Pode sobreviver no interior de células do hospedeiro",
+          "A proteína VapA apresenta importante papel na virulência"
+        ]
+      },
+
+      {
+        emoji: "🐴",
+
+        titulo: "Importância",
+
+        itens: [
+          "Possui grande importância na criação de potros",
+          "A pneumonia pode ser grave e muitas vezes fatal",
+          "Também pode atuar como patógeno oportunista em humanos"
+        ]
+      }
+
+    ]
+
+  },
+  casosClinicos: [
+
+    {
+      id: "rhodococcus-equi-caso-01",
+
+      titulo:
+        "Pneumonia por Rhodococcus equi em potro jovem",
+
+      especie:
+        "Equino",
+
+      idade:
+        "Potros entre 1 e 6 meses",
+
+      historico:
+        "Potros jovens de uma propriedade com histórico de infecção por Rhodococcus equi apresentaram sinais respiratórios progressivos. A enfermidade evoluiu com comprometimento pulmonar e formação de lesões piogranulomatosas.",
+
+      sinais: [
+        "Febre",
+        "Tosse",
+        "Taquipneia",
+        "Dispneia",
+        "Depressão",
+        "Anorexia",
+        "Perda de peso",
+        "Secreção nasal"
+      ],
+
+      exames:
+        "A investigação pode incluir avaliação clínica e epidemiológica, radiografia ou ultrassonografia torácica, lavado traqueal ou broncoalveolar para citologia e cultura, além de PCR para detecção de fatores de virulência, como o plasmídeo VapA.",
+
+      diagnostico:
+        "Pneumonia por Rhodococcus equi, com formação de abscessos e pneumonia piogranulomatosa.",
+
+      discussao:
+        "O diagnóstico precoce é fundamental, pois a doença pode evoluir de forma progressiva antes que os sinais respiratórios se tornem evidentes. A associação entre histórico da propriedade, idade do potro, sinais clínicos e exames complementares aumenta a segurança diagnóstica."
+    },
+
+    {
+      id: "rhodococcus-equi-caso-02",
+
+      titulo:
+        "Infecção por Rhodococcus equi com manifestações extrapulmonares",
+
+      especie:
+        "Equino",
+
+      idade:
+        "Potros jovens",
+
+      historico:
+        "Animal jovem apresentou quadro compatível com infecção por Rhodococcus equi, associado a manifestações sistêmicas e alterações extrapulmonares.",
+
+      sinais: [
+        "Febre",
+        "Depressão",
+        "Perda de peso",
+        "Diarreia",
+        "Aumento ou alteração articular",
+        "Alterações locomotoras"
+      ],
+
+      exames:
+        "A investigação pode incluir exames de imagem, cultura bacteriana, citologia, PCR e avaliação anatomopatológica das lesões quando disponível.",
+
+      diagnostico:
+        "Infecção por Rhodococcus equi com manifestações extrapulmonares.",
+
+      discussao:
+        "Embora a pneumonia seja a principal manifestação da infecção por Rhodococcus equi, podem ocorrer lesões extrapulmonares, incluindo enterocolite, linfadenite, artrite, osteomielite e abscessos em outros órgãos."
+    }
+
+  ],
+  etiologia: {
+
+    introducao:
+      "Rhodococcus equi é a espécie do gênero Rhodococcus com maior potencial patogênico para animais, incluindo humanos. O microrganismo apresenta características que permitem sua adaptação tanto ao solo quanto ao organismo de mamíferos.",
+
+    blocos: [
+
+      {
+        emoji: "🦠",
+
+        titulo: "Agente etiológico",
+
+        itens: [
+          "Rhodococcus equi",
+          "Pertence ao grupo dos actinomicetos nocardioformes",
+          "Apresenta comportamento de microrganismo intracelular",
+          "É capaz de estabelecer um nicho no interior das células do hospedeiro"
+        ]
+      },
+
+      {
+        emoji: "🌱",
+
+        titulo: "Características ambientais",
+
+        itens: [
+          "É habitante do solo",
+          "Pode atuar como microrganismo saprófito do intestino de herbívoros",
+          "Multiplica-se facilmente em solos que recebem esterco",
+          "Apresenta ampla disseminação em propriedades de criação de equinos",
+          "Pode permanecer viável no ambiente por até 12 meses"
+        ]
+      },
+
+      {
+        emoji: "🧬",
+
+        titulo: "Determinante de virulência",
+
+        itens: [
+          "A proteína de superfície VapA apresenta papel central na virulência",
+          "O gene vapA está localizado em um plasmídio de virulência",
+          "Cepas que não possuem o plasmídio de virulência são incapazes de sobreviver e se replicar adequadamente no interior de macrófagos",
+          "A expressão de vapA está relacionada às condições encontradas no interior do fagossomo"
+        ]
+      }
+
+    ]
+
+  },
+
+  epidemiologia: {
+
+    introducao:
+      "A rodococose apresenta distribuição mundial e pode ocorrer de forma endêmica, esporádica ou não ser registrada em determinadas propriedades. A ocorrência está relacionada à densidade de potros, ao manejo da propriedade e a fatores ambientais.",
+
+    blocos: [
+
+      {
+        emoji: "🌎",
+
+        titulo: "Distribuição",
+
+        texto:
+          "A doença apresenta distribuição mundial e é considerada uma das enfermidades mais severas na criação de potros no Brasil."
+      },
+
+      {
+        emoji: "🐴",
+
+        titulo: "Potros",
+
+        texto:
+          "Potros infectados constituem importante fonte de infecção em propriedades com histórico da doença."
+      },
+
+      {
+        emoji: "💩",
+
+        titulo: "Eliminação do agente",
+
+        texto:
+          "Potros infectados podem disseminar grandes quantidades de R. equi virulento nas fezes até aproximadamente a sétima semana de vida."
+      },
+
+      {
+        emoji: "🌫️",
+
+        titulo: "Principal via de infecção",
+
+        texto:
+          "A infecção ocorre principalmente pela inalação de partículas de poeira contaminadas com a bactéria."
+      },
+
+      {
+        emoji: "🏇",
+
+        titulo: "Fatores relacionados ao manejo",
+
+        texto:
+          "Superlotação, manutenção de animais de diferentes idades no mesmo lote, permanência prolongada dos potros em um mesmo local, baixa cobertura de pasto e ausência de monitoramento após o nascimento contribuem para a instalação e manutenção da doença."
+      },
+
+      {
+        emoji: "☀️",
+
+        titulo: "Fatores ambientais",
+
+        texto:
+          "Temperaturas mais elevadas e baixa ocorrência de chuva favorecem condições de maior empoeiramento e estão associadas a maior risco de propriedades se tornarem endêmicas."
+      }
+
+    ]
+
+  },
+
+  patogenia: {
+
+    introducao:
+      "A patogenia do R. equi está relacionada principalmente à capacidade do microrganismo de sobreviver e se multiplicar no interior de macrófagos, interferindo na maturação normal do fagossomo.",
+
+    blocos: [
+
+      {
+        emoji: "🫁",
+
+        titulo: "Entrada no organismo",
+
+        texto:
+          "A infecção ocorre principalmente pela inalação de partículas de poeira contaminadas. O trato alimentar e a pele lesionada também podem atuar como portas de entrada."
+      },
+
+      {
+        emoji: "🧬",
+
+        titulo: "Sobrevivência intracelular",
+
+        texto:
+          "R. equi estabelece um nicho intracelular e é capaz de sobreviver no interior de células da linhagem monócito-macrófago."
+      },
+
+      {
+        emoji: "🦠",
+
+        titulo: "Evasão intracelular",
+
+        texto:
+          "A virulência está relacionada à capacidade de inibir a fusão do lisossomo ao fagossomo e manter condições que favorecem sua sobrevivência e replicação."
+      },
+
+      {
+        emoji: "🧬",
+
+        titulo: "VapA",
+
+        texto:
+          "A proteína VapA, codificada pelo gene vapA localizado no plasmídio de virulência, apresenta papel essencial na prevenção da acidificação do fagossomo e na sobrevivência intracelular da bactéria."
+      },
+
+      {
+        emoji: "🫁",
+
+        titulo: "Lesões pulmonares",
+
+        texto:
+          "A evolução da infecção está associada à formação de abscessos pulmonares, característica importante da pneumonia causada por R. equi."
+      }
+
+    ]
+
+  },
+
+  sinaisClinicos: {
+
+    introducao:
+      "Os potros podem ser infectados nos primeiros dias de vida, enquanto os sinais clínicos geralmente aparecem por volta da quinta semana. A manifestação inicial pode ser inaparente, com ou sem alterações respiratórias.",
+
+    blocos: [
+
+      {
+        emoji: "🫁",
+
+        titulo: "Alterações respiratórias",
+
+        itens: [
+          "Aumento progressivo da frequência respiratória",
+          "Dificuldade respiratória",
+          "Taquipneia",
+          "Dispneia",
+          "Tosse, que pode estar presente ou não",
+          "Descarga nasal, que pode estar presente ou não",
+          "Sons pulmonares anormais"
+        ]
+      },
+
+      {
+        emoji: "🔥",
+
+        titulo: "Forma grave",
+
+        itens: [
+          "Massiva abscedação pulmonar",
+          "Hipertermia",
+          "Taquipneia",
+          "Depressão",
+          "Anorexia",
+          "Decúbito",
+          "Respiração abdominal",
+          "Cianose",
+          "Possibilidade de morte"
+        ]
+      },
+
+      {
+        emoji: "💩",
+
+        titulo: "Manifestações intestinais",
+
+        itens: [
+          "Diarreia severa",
+          "Tifocolite ulcerativa",
+          "Alterações intestinais associadas à ingestão de fezes contendo grandes quantidades da bactéria"
+        ]
+      },
+
+      {
+        emoji: "👁️",
+
+        titulo: "Outras manifestações",
+
+        itens: [
+          "Polisinovite",
+          "Uveíte",
+          "Panoftalmite",
+          "Nefrite",
+          "Abscedação hepática e renal",
+          "Artrite purulenta",
+          "Linfangites ulcerativas",
+          "Osteomielite",
+          "Serosite",
+          "Abscedação intravertebral",
+          "Ulceração cutânea",
+          "Abortamentos e placentites podem ocorrer ocasionalmente"
+        ]
+      }
+
+    ]
+
+  },
+
+  diagnostico: {
+
+    introducao:
+      "O diagnóstico precoce da rodococose é fundamental para a sobrevivência do potro. O diagnóstico deve associar informações clínico-epidemiológicas aos métodos complementares, especialmente o isolamento da bactéria em fluido traqueobrônquico ou a detecção do DNA bacteriano por PCR.",
+
+    metodos: [
+      "cultura-bacteriologica",
+      "pcr"
+    ]
+
+  },
+
+  tratamento: {
+
+    introducao:
+      "A mortalidade por rodococose em potros foi drasticamente reduzida com a utilização da associação entre eritromicina e rifampicina. Outras opções de macrolídeos também são utilizadas em associação à rifampicina.",
+
+    blocos: [
+
+      {
+        emoji: "💊",
+
+        titulo: "Antimicrobianos",
+
+        texto:
+          "A eritromicina associada à rifampicina foi utilizada com sucesso no tratamento da rodococose. Azitromicina ou claritromicina também podem ser utilizadas em associação à rifampicina."
+      },
+
+      {
+        emoji: "⚠️",
+
+        titulo: "Efeitos adversos",
+
+        texto:
+          "A eritromicina apresenta absorção oral variável em potros e pode causar efeitos adversos, principalmente diarreia e hipertermia."
+      },
+
+      {
+        emoji: "🫁",
+
+        titulo: "Suporte",
+
+        texto:
+          "Anti-inflamatórios não esteroidais podem ser utilizados em potros hipertérmicos, letárgicos e anoréxicos. A oxigenioterapia é indicada em potros com angústia respiratória."
+      },
+
+      {
+        emoji: "🚫",
+
+        titulo: "Nebulização",
+
+        texto:
+          "A nebulização deve ser evitada, pois é altamente estressante para os animais e não apresenta o efeito desejado."
+      },
+
+      {
+        emoji: "⚠️",
+
+        titulo: "Resistência antimicrobiana",
+
+        texto:
+          "A ocorrência de isolados resistentes aos antimicrobianos de eleição representa uma limitação importante para o sucesso da terapia."
+      }
+
+    ]
+
+  },
+
+  prevencao: {
+
+    introducao:
+      "O monitoramento clínico e as modificações no manejo da propriedade apresentam papel importante no controle da rodococose.",
+
+    blocos: [
+
+      {
+        emoji: "🔎",
+
+        titulo: "Monitoramento",
+
+        texto:
+          "O monitoramento clínico dos potros permite identificar precocemente alterações comportamentais e funcionais e indicar a realização de exames complementares."
+      },
+
+      {
+        emoji: "🐴",
+
+        titulo: "Inspeção dos potros",
+
+        texto:
+          "A inspeção clínica pode identificar precocemente sinais como dispneia, tosse não produtiva e sons pulmonares anormais."
+      },
+
+      {
+        emoji: "🏇",
+
+        titulo: "Manejo",
+
+        texto:
+          "Modificações no manejo da propriedade podem contribuir para reduzir a ocorrência da rodococose."
+      },
+
+      {
+        emoji: "🌱",
+
+        titulo: "Ambiente",
+
+        texto:
+          "Condições ambientais relacionadas ao empoeiramento e à manutenção de pastagens devem ser consideradas no controle da enfermidade."
+      }
+
+    ]
+
+  },
+
+  referencias: [
+
+    {
+      titulo:
+        "Rhodococcus equi Parte 1 - epidemiologia, manifestações clínicas, diagnóstico e tratamento",
+
+      autores:
+        "Ana Carolina Rusca Correa Porto; Wilson Roberto Fernandes; Maria Cristina Roque Barreira",
+
+      fonte:
+        "Ciência Rural, v.41, n.12, p.2143-2150",
+
+      ano:
+        "2011",
+
+      link:
+        "https://doi.org/10.1590/S0103-84782011001200017"
+    }
+
+  ]
+
+},
 ];
