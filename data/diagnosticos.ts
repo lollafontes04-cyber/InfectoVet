@@ -101,7 +101,7 @@ caracteristicas: [
 
     "Anemia infecciosa equina",
 
-    "Parvovirose",
+    "Parvovirose canina",
 
     "Panleucopenia felina"
 
@@ -453,7 +453,7 @@ caracteristicas: [
 
     "Cinomose",
 
-    "Parvovirose",
+    "Parvovirose canina",
 
     "Panleucopenia felina"
 
@@ -723,7 +723,7 @@ caracteristicas: [
 
     "Cinomose",
 
-    "Parvovirose",
+    "Parvovirose canina",
 
     "Panleucopenia felina"
 
@@ -1347,7 +1347,7 @@ caracteristicas: [
 
     "Influenza Aviária",
 
-    "Parvovirose"
+    "Parvovirose canina"
 
   ]
 

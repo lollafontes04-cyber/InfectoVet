@@ -793,5 +793,203 @@ export const questoes = [
 
   comentario:
     "A brucelose é uma enfermidade de notificação obrigatória conforme as normas de defesa sanitária animal. Casos suspeitos devem ser comunicados ao serviço veterinário oficial."
+},
+{
+  id: 113,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Sobre as características do agente etiológico da parvovirose canina, assinale a alternativa correta:",
+
+  alternativas: [
+    "A) É um vírus envelopado, com RNA de fita simples, pertencente à família Coronaviridae.",
+    "B) É o Carnivore protoparvovirus 2 (CPV-2), não envelopado, com capsídeo icosaédrico e DNA de fita simples.",
+    "C) É uma bactéria Gram-negativa, pertencente à família Parvoviridae.",
+    "D) É um vírus envelopado, com DNA de fita dupla, pertencente ao gênero Protoparvovirus.",
+    "E) É um fungo oportunista que apresenta capsídeo icosaédrico."
+  ],
+
+  resposta: "B",
+
+  comentario:
+    "O CPV-2 pertence à família Parvoviridae e ao gênero Protoparvovirus. Conforme a aula, é um vírus não envelopado, com capsídeo icosaédrico e genoma constituído por DNA de fita simples (ssDNA)."
+},
+{
+  id: 114,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "De acordo com a aula, qual é o período de incubação da parvovirose canina?",
+
+  alternativas: [
+    "A) 12 a 24 horas.",
+    "B) 18 a 73 horas.",
+    "C) 2 a 14 dias, sendo mais comum entre 4 e 7 dias.",
+    "D) 15 a 30 dias.",
+    "E) 30 a 60 dias."
+  ],
+
+  resposta: "C",
+
+  comentario:
+    "O período de incubação apresentado na aula varia de 2 a 14 dias, com ocorrência mais frequente entre 4 e 7 dias."
+},
+{
+  id: 115,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Após a exposição oro-nasal ao CPV-2, qual sequência representa a disseminação do agente e parte das alterações decorrentes da infecção?",
+
+  alternativas: [
+    "A) Replicação inicial nos rins, seguida de eliminação urinária e desenvolvimento de anemia hemolítica.",
+    "B) Entrada pela pele íntegra, replicação exclusiva no fígado e desenvolvimento de icterícia.",
+    "C) Exposição oro-nasal, chegada aos tecidos linfoides da orofaringe, viremia e disseminação para medula óssea, órgãos linfoides, jejuno e íleo.",
+    "D) Replicação exclusiva no sistema nervoso central, seguida de paralisia flácida.",
+    "E) Multiplicação inicial nos pulmões, seguida de pneumonia bacteriana primária."
+  ],
+
+  resposta: "C",
+
+  comentario:
+    "A aula descreve a exposição oro-nasal, o alcance dos tecidos linfoides da orofaringe e, posteriormente, a viremia, com disseminação para a medula óssea, órgãos linfoides, jejuno, íleo e outros tecidos."
+},
+{
+  id: 116,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "A necrose das criptas intestinais no jejuno e no íleo, causada pela parvovirose, está relacionada principalmente a qual consequência?",
+
+  alternativas: [
+    "A) Aumento da absorção intestinal e constipação.",
+    "B) Diarreia por má absorção, favorecendo infecções secundárias.",
+    "C) Produção excessiva de bile e icterícia.",
+    "D) Insuficiência pancreática como manifestação inicial obrigatória.",
+    "E) Lesão renal que impede a filtração glomerular."
+  ],
+
+  resposta: "B",
+
+  comentario:
+    "Segundo a aula, a necrose das criptas no jejuno e no íleo provoca diarreia por má absorção e favorece infecções secundárias. Nas formas severas, pode ocorrer sepse e coagulação intravascular disseminada (CID)."
+},
+{
+  id: 117,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Qual alternativa descreve a apresentação clínica de gastroenterite hemorrágica associada à parvovirose canina?",
+
+  alternativas: [
+    "A) Tosse seca, secreção nasal e dispneia progressiva, sem alterações gastrointestinais.",
+    "B) Prurido intenso, alopecia e lesões cutâneas crostosas.",
+    "C) Súbita prostração, anorexia, vômitos frequentes, sialorreia, febre, dor abdominal e diarreia hemorrágica.",
+    "D) Claudicação, vesículas na cavidade oral e lesões nos cascos.",
+    "E) Poliúria, polidipsia e evolução exclusivamente crônica."
+  ],
+
+  resposta: "C",
+
+  comentario:
+    "A aula descreve a gastroenterite hemorrágica principalmente em cães jovens não vacinados, com prostração súbita, anorexia, vômitos frequentes, sialorreia, febre, dor abdominal e diarreia hemorrágica. A evolução pode ocorrer entre 12 e 24 horas."
+},
+{
+  id: 118,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Sobre o diagnóstico da parvovirose canina, assinale a alternativa que corresponde ao conteúdo apresentado na aula:",
+
+  alternativas: [
+    "A) O diagnóstico presuntivo considera histórico, sinais clínicos e hemograma; entre os métodos laboratoriais citados estão ELISA para antígeno fecal, SNAP Parvo Test, hemaglutinação e isolamento viral em células MDCK.",
+    "B) O diagnóstico é exclusivamente clínico, sem necessidade de exames laboratoriais.",
+    "C) A confirmação é realizada somente por cultura bacteriana de sangue.",
+    "D) O SNAP Parvo Test é utilizado exclusivamente para detectar anticorpos contra bactérias.",
+    "E) A hemaglutinação e o isolamento viral não são citados como métodos laboratoriais."
+  ],
+
+  resposta: "A",
+
+  comentario:
+    "A aula diferencia o diagnóstico clínico presuntivo, baseado na rotina clínica, histórico, sinais clínicos e hemograma, do diagnóstico laboratorial definitivo. São citados ELISA para antígeno nas fezes, SNAP Parvo Test, hemaglutinação (HA) e isolamento viral em células MDCK."
+},
+{
+  id: 119,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Quais medidas de suporte são apresentadas na aula para o tratamento da parvovirose canina?",
+
+  alternativas: [
+    "A) Apenas vacinação e vermifugação.",
+    "B) Fluidoterapia, antibioticoterapia para infecções secundárias, antiemético, controle da hipoglicemia e hipocalemia e possibilidade de transfusão sanguínea ou plasma.",
+    "C) Somente administração de anti-inflamatórios.",
+    "D) Tratamento cirúrgico das criptas intestinais.",
+    "E) Antibioticoterapia como tratamento antiviral específico, sem necessidade de suporte."
+  ],
+
+  resposta: "B",
+
+  comentario:
+    "O tratamento descrito na aula é de suporte e inclui fluidoterapia, antibioticoterapia para infecções secundárias, antiemético, controle de hipoglicemia e hipocalemia e transfusão sanguínea ou de plasma."
+},
+{
+  id: 120,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Sobre a profilaxia ambiental da parvovirose canina, assinale a alternativa correta conforme a aula:",
+
+  alternativas: [
+    "A) O vírus é pouco resistente no ambiente, sendo suficiente apenas a ventilação do local.",
+    "B) A limpeza deve ser feita exclusivamente com água, sem necessidade de desinfecção.",
+    "C) A aula recomenda isolamento e tratamento dos animais acometidos, limpeza e desinfecção de equipamentos, hipoclorito de sódio a 0,3% por no mínimo 10 minutos e limpeza a vapor.",
+    "D) A desinfecção ambiental não é necessária após a recuperação do animal.",
+    "E) O vírus permanece viável no ambiente por, no máximo, algumas horas."
+  ],
+
+  resposta: "C",
+
+  comentario:
+    "A aula destaca a elevada resistência ambiental do vírus e recomenda isolamento e tratamento dos animais, limpeza e desinfecção dos equipamentos, uso de hipoclorito de sódio a 0,3% por pelo menos 10 minutos e limpeza a vapor."
+},
+{
+  id: 121,
+  categoria: "Virais",
+  doencaId: "parvovirose",
+  doenca: "Parvovirose canina",
+
+  pergunta:
+    "Qual protocolo de primovacinação de filhotes contra parvovirose é apresentado no material da aula?",
+
+  alternativas: [
+    "A) Uma dose única ao nascimento, sem reforços.",
+    "B) Duas doses com intervalo de seis meses.",
+    "C) Três doses: a primeira entre 6 e 12 semanas, a segunda quatro semanas depois e a terceira mais quatro semanas depois; em alguns casos, pode ser indicada uma quarta dose.",
+    "D) Três doses aplicadas semanalmente, iniciando aos dois meses.",
+    "E) Vacinação somente após um ano de idade."
+  ],
+
+  resposta: "C",
+
+  comentario:
+    "O material apresenta primovacinação em três doses: primeira entre 6 e 12 semanas, segunda quatro semanas depois e terceira após mais quatro semanas. O slide também menciona a possibilidade de uma quarta dose em alguns casos e reforço anual."
 }
 ];

@@ -6355,13 +6355,12 @@ ano:"2011"
 
 
 
-
 {
   id: "parvovirose",
 
-  nome: "Parvovirose",
+  nome: "Parvovirose canina",
 
-  agente: "Parvovírus canino",
+  agente: "Carnivore protoparvovirus 2 (CPV-2)",
 
   categoria: "Virais",
 
@@ -6381,27 +6380,335 @@ ano:"2011"
 
   palavrasChave: [
     "parvovirose",
+    "parvovirose canina",
+    "parvovírus",
     "parvovirus",
+    "CPV-2",
+    "enterite",
+    "gastroenterite hemorrágica",
     "cão",
     "cao",
-    "cachorro"
+    "cachorro",
+    "canino"
   ],
 
   imagem: "/images/doencas/parvovirose.jpg",
+  imagens: [
+  {
+    src: "/images/doencas/parvovirose/filhote-gastroenterite-hemorragica.jpg",
+    titulo: "Filhote com gastroenterite hemorrágica",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Imagem de um cão jovem com síndrome de gastroenterite hemorrágica."
+  },
+  {
+    src: "/images/doencas/parvovirose/intestino-aspecto-macroscopico-a.jpg",
+    titulo: "Aspecto macroscópico intestinal – imagem A",
+    categoria: "Alterações intestinais",
+    descricao:
+      "Imagem macroscópica intestinal de parvovirose canina."
+  },
+ 
+  {
+    src: "/images/doencas/parvovirose/snap-parvo-teste-antigeno.jpg",
+    titulo: "Teste rápido de antígeno para parvovírus canino",
+    categoria: "Diagnóstico",
+    descricao:
+      "Dispositivos de teste rápido para diagnóstico da parvovirose feito com amostra de fezes ou swab retal."
+  }
+],
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  visaoGeral: {
+    introducao:
+      "A parvovirose canina é uma enfermidade viral que causa enterite e representa uma importante causa de diarreia em cães. A doença geralmente apresenta maior gravidade em animais com menos de seis meses de idade, com alta morbidade e mortalidade, especialmente entre seis semanas e seis meses.",
 
-  referencias: [],
+    cards: [
+      {
+        titulo: "Animais mais acometidos",
+        emoji: "🐶",
+        itens: [
+          "Maior gravidade em cães com menos de seis meses",
+          "Maior incidência entre seis semanas e seis meses de idade",
+          "A doença independe de raça e sexo"
+        ]
+      },
+      {
+        titulo: "Importância clínica",
+        emoji: "⚠️",
+        itens: [
+          "Alta morbidade e mortalidade",
+          "Pode evoluir rapidamente para gastroenterite hemorrágica",
+          "Os quadros graves podem resultar em sepse, coagulação intravascular disseminada e morte"
+        ]
+      },
+      {
+        titulo: "Janela de susceptibilidade",
+        emoji: "🛡️",
+        itens: [
+          "Os anticorpos maternos conferem proteção por aproximadamente duas a quatro semanas",
+          "Entre quatro e seis semanas pode ocorrer a chamada janela de susceptibilidade",
+          "Protocolos vacinais incorretos podem favorecer a ocorrência da doença"
+        ]
+      }
+    ]
+  },
 
-  casosClinicos: [],
+  etiologia: {
+    introducao:
+      "O agente etiológico da parvovirose canina é o Carnivore protoparvovirus 2 (CPV-2), pertencente à família Parvoviridae e ao gênero Protoparvovirus.",
 
+    listas: [
+      {
+        titulo: "Classificação viral",
+        emoji: "🧬",
+        itens: [
+          "Família: Parvoviridae",
+          "Gênero: Protoparvovirus",
+          "Agente: Carnivore protoparvovirus 2 (CPV-2)"
+        ]
+      },
+      {
+        titulo: "Características do vírus",
+        emoji: "🔬",
+        itens: [
+          "Vírus não envelopado",
+          "Capsídeo icosaédrico",
+          "Genoma constituído por DNA de fita simples (ssDNA)",
+          "Possui proteína do capsídeo (CP), relacionada à virulência"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A parvovirose apresenta elevada importância epidemiológica, principalmente entre cães jovens. A disseminação está relacionada à eliminação viral nas fezes, à contaminação ambiental e à resistência do agente no ambiente.",
+
+    blocos: [
+      {
+        emoji: "🐕",
+        titulo: "Faixa etária",
+        texto:
+          "A maior incidência ocorre entre seis semanas e seis meses de idade. A doença geralmente é mais grave em cães com menos de seis meses."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Soroprevalência",
+        texto:
+          "A soroprevalência em centros urbanos pode variar de 60% a 95%."
+      },
+      {
+        emoji: "🌎",
+        titulo: "Resistência ambiental",
+        texto:
+          "O vírus apresenta elevada resistência ambiental, podendo permanecer no ambiente por mais de seis meses."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Susceptibilidade",
+        texto:
+          "A ausência de imunidade natural e protocolos vacinais incorretos favorecem a ocorrência da doença, especialmente durante a janela de susceptibilidade."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "Após a exposição oro-nasal, o vírus alcança inicialmente os tecidos linfoides da orofaringe. Em seguida, ocorre viremia, permitindo sua disseminação para a medula óssea, órgãos linfoides, jejuno, íleo e outros tecidos.",
+
+    blocos: [
+      {
+        emoji: "1️⃣",
+        titulo: "Exposição e disseminação inicial",
+        texto:
+          "Após a exposição oro-nasal, o vírus alcança os tecidos linfoides, especialmente os localizados na orofaringe."
+      },
+      {
+        emoji: "2️⃣",
+        titulo: "Viremia",
+        texto:
+          "Ocorre disseminação viral pela corrente sanguínea, atingindo a medula óssea, os órgãos linfoides, o jejuno, o íleo e outros tecidos."
+      },
+      {
+        emoji: "3️⃣",
+        titulo: "Comprometimento hematológico e imunológico",
+        texto:
+          "A infecção pode provocar linfopenia, neutropenia e atrofia do timo, resultando em imunossupressão."
+      },
+      {
+        emoji: "4️⃣",
+        titulo: "Lesão intestinal",
+        texto:
+          "No jejuno e no íleo ocorre necrose das criptas intestinais, comprometendo a renovação do epitélio e favorecendo a diarreia por má absorção e as infecções secundárias."
+      },
+      {
+        emoji: "5️⃣",
+        titulo: "Evolução grave",
+        texto:
+          "Nas formas severas, podem ocorrer sepse e coagulação intravascular disseminada (CID), podendo levar o animal à morte."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A parvovirose pode apresentar diferentes síndromes clínicas, sendo a gastroenterite hemorrágica uma das manifestações mais importantes. A evolução pode ser muito rápida, especialmente nos animais jovens não vacinados.",
+
+    blocos: [
+      {
+        emoji: "❤️",
+        titulo: "Miocardite",
+        itens: [
+          "Ocorre somente em neonatos",
+          "Pode estar associada à infecção intrauterina",
+          "Pode provocar morte por arritmia ou insuficiência cardíaca congestiva",
+          "É uma manifestação rara"
+        ]
+      },
+      {
+        emoji: "🩸",
+        titulo: "Gastroenterite hemorrágica",
+        itens: [
+          "Mais associada a cães jovens não vacinados",
+          "Súbita prostração",
+          "Anorexia",
+          "Vômitos frequentes",
+          "Sialorreia",
+          "Febre",
+          "Dor abdominal",
+          "Diarreia hemorrágica"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Complicações",
+        itens: [
+          "Desidratação",
+          "Hipovolemia",
+          "Hipoglicemia",
+          "Choque"
+        ]
+      }
+    ]
+  },
+
+ diagnostico: {
+  introducao:
+    "O diagnóstico pode ser inicialmente presuntivo, considerando o histórico, os sinais clínicos e o hemograma. A confirmação laboratorial pode ser realizada por métodos de detecção de antígenos virais, anticorpos ou material genético do agente.",
+
+  metodos: [
+    "pcr",
+    "elisa",
+    "imunocromatografia",
+    "hemaglutinacao"
+  ]
+},
+
+  tratamento: {
+    introducao:
+      "O tratamento é baseado em medidas de suporte, com o objetivo de controlar as alterações sistêmicas e as consequências da gastroenterite.",
+
+    blocos: [
+      {
+        emoji: "💧",
+        titulo: "Fluidoterapia",
+        texto:
+          "Indicada para auxiliar na correção da desidratação e da hipovolemia."
+      },
+      {
+        emoji: "💊",
+        titulo: "Antibioticoterapia",
+        texto:
+          "Utilizada para o controle de infecções secundárias."
+      },
+      {
+        emoji: "🤢",
+        titulo: "Controle dos vômitos",
+        texto:
+          "Uso de medicamentos antieméticos como parte do tratamento de suporte."
+      },
+      {
+        emoji: "⚖️",
+        titulo: "Correção metabólica",
+        texto:
+          "Controle da hipoglicemia e da hipocalemia."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Transfusão",
+        texto:
+          "A transfusão sanguínea e de plasma é apresentada como possibilidade terapêutica."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A profilaxia da parvovirose envolve medidas de controle ambiental e vacinação, considerando a elevada resistência do vírus no ambiente.",
+
+    blocos: [
+      {
+        emoji: "🧼",
+        titulo: "Controle ambiental",
+        texto:
+          "Realizar isolamento e tratamento dos animais acometidos, além de limpeza e desinfecção de equipamentos e instalações."
+      },
+      {
+        emoji: "🧴",
+        titulo: "Desinfecção",
+        texto:
+          "Uso de hipoclorito de sódio a 0,3%, com tempo mínimo de contato de dez minutos, além da limpeza a vapor."
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        texto:
+          "A vacinação é realizada com vacina viva atenuada polivalente, incluindo componentes contra cinomose, adenovírus canino tipos 1 e 2, parvovírus, coronavírus, parainfluenza canina e leptospirose (quatro sorovares)."
+      },
+      {
+        emoji: "🐶",
+        titulo: "Primovacinação de filhotes",
+        texto:
+          "O protocolo é composto por três doses: a primeira entre seis e doze semanas de idade; a segunda quatro semanas depois; e a terceira mais quatro semanas depois. Em alguns casos, pode ser indicada uma quarta dose. O slide também menciona reforço anual."
+      }
+    ]
+  },
+
+  referencias: [{
+  titulo: "Parvovirose canina: diagnóstico e manejo",
+  autores:
+    "Martins, S. S.; Vargas, T. M. da S.; Santos, D. G. dos; Amorim, N. T. S.; Morais, B. G. de; Silva, J. E. M. da; Benitez, M. M.; Nascimento, J. da S.; Ribeiro, S. da S.",
+  fonte:
+    "Brazilian Journal of Implantology and Health Sciences, v. 6, n. 8, p. 4433–4439",
+  ano: "2024",
+  link: "https://doi.org/10.36557/2674-8169.2024v6n8p4433-4439"
+}],
+
+  casosClinicos: [
+    {
+      id: "parvovirose-caso-01",
+      titulo: "Filhote com gastroenterite hemorrágica",
+      especie: "Canina",
+      idade: "Filhote, com menos de seis meses",
+      historico:
+        "Cão jovem, não vacinado, apresenta início súbito de prostração, anorexia e vômitos frequentes, evoluindo com diarreia hemorrágica.",
+      sinais: [
+        "Prostração",
+        "Anorexia",
+        "Vômitos frequentes",
+        "Sialorreia",
+        "Febre",
+        "Dor abdominal",
+        "Diarreia hemorrágica"
+      ],
+      exames:
+        "A investigação pode incluir hemograma e testes laboratoriais: ELISA para antígeno fecal, SNAP Parvo Test, hemaglutinação e isolamento viral em células MDCK.",
+      diagnostico:
+        "Suspeita clínica de parvovirose canina, com investigação laboratorial para confirmação.",
+      discussao:
+        "O caso ilustra a apresentação de gastroenterite hemorrágica em um cão jovem não vacinado. A evolução pode ocorrer entre 12 e 24 horas A lesão intestinal pode provocar desidratação, hipovolemia, hipoglicemia e choque, reforçando a importância da avaliação e do suporte clínico."
+    }
+  ]
 },
 
 
