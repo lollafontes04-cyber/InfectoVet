@@ -23,8 +23,9 @@ export default async function Page({
 
 
   const quantidade =
-    Number(params.quantidade || 10);
-
+  params.quantidade === "todas"
+    ? 0
+    : Number(params.quantidade || 10);
 
 
   return (

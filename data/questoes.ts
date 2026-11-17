@@ -1,5 +1,5 @@
 export const questoes = [
-
+  
 {
   id: 1,
   categoria: "Bacterianas",
@@ -991,5 +991,790 @@ export const questoes = [
 
   comentario:
     "O material apresenta primovacinação em três doses: primeira entre 6 e 12 semanas, segunda quatro semanas depois e terceira após mais quatro semanas. O slide também menciona a possibilidade de uma quarta dose em alguns casos e reforço anual."
+},
+
+
+  {
+    id: 122,
+    categoria: "Bacterianas",
+    doencaId: "brucelose",
+    doenca: "Brucelose",
+
+    pergunta:
+      "Em uma propriedade leiteira, foram observados abortamentos no terço final da gestação, retenção de placenta e nascimento de bezerros fracos. Considerando a principal suspeita clínica, assinale a alternativa correta:",
+
+    alternativas: [
+      "A) A transmissão ocorre exclusivamente por vetores hematófagos.",
+      "B) A bactéria apresenta capacidade de sobrevivência intracelular, especialmente em células fagocíticas.",
+      "C) O principal sinal clínico é a formação de vesículas na mucosa oral.",
+      "D) A enfermidade não apresenta importância para a saúde pública.",
+      "E) O tratamento antimicrobiano individual é a principal estratégia oficial de erradicação."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "A Brucella apresenta capacidade de sobrevivência intracelular, especialmente em macrófagos, favorecendo a persistência da infecção. A doença provoca alterações reprodutivas importantes e possui caráter zoonótico."
+  },
+
+  {
+    id: 123,
+    categoria: "Bacterianas",
+    doencaId: "tuberculose",
+    doenca: "Tuberculose bovina",
+
+    pergunta:
+      "Um bovino adulto apresenta emagrecimento progressivo, tosse persistente e queda na produtividade. Durante a necropsia, são identificadas lesões granulomatosas com necrose caseosa. Qual agente está mais associado a esse quadro?",
+
+    alternativas: [
+      "A) Brucella abortus.",
+      "B) Mycobacterium bovis.",
+      "C) Anaplasma marginale.",
+      "D) Bacillus anthracis.",
+      "E) Rhodococcus equi."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "Mycobacterium bovis é o agente etiológico da tuberculose bovina. A enfermidade é caracterizada pela formação de granulomas, frequentemente acompanhados de necrose caseosa, podendo acometer diferentes espécies animais e seres humanos."
+  },
+
+  {
+    id: 124,
+    categoria: "Bacterianas",
+    doencaId: "tuberculose",
+    doenca: "Tuberculose bovina",
+
+    pergunta:
+      "Sobre o diagnóstico da tuberculose bovina, analise as afirmativas:\n\nI. Os testes de tuberculinização avaliam a resposta imunológica celular do animal.\n\nII. O Teste Cervical Comparativo utiliza tuberculina bovina e aviária.\n\nIII. A PCR e a cultura bacteriológica podem contribuir para a identificação direta do agente.\n\nEstá correto o que se afirma em:",
+
+    alternativas: [
+      "A) I, apenas.",
+      "B) II, apenas.",
+      "C) I e II, apenas.",
+      "D) I e III, apenas.",
+      "E) I, II e III."
+    ],
+
+    resposta: "E",
+
+    comentario:
+      "Os testes de tuberculinização avaliam a resposta de hipersensibilidade tardia, relacionada à imunidade celular. O Teste Cervical Comparativo utiliza tuberculina bovina e aviária. Métodos como PCR e cultura bacteriológica também podem contribuir para a identificação do agente."
+  },
+
+  {
+    id: 125,
+    categoria: "Virais",
+    doencaId: "anemia-infecciosa-equina",
+    doenca: "Anemia Infecciosa Equina",
+
+    pergunta:
+      "Um equino apresenta episódios recorrentes de febre, anemia, edema ventral e perda de peso. O proprietário relata que outros animais da propriedade também foram submetidos a procedimentos com materiais perfurocortantes compartilhados. Sobre a enfermidade, assinale a alternativa correta:",
+
+    alternativas: [
+      "A) É causada por uma bactéria transmitida exclusivamente por via respiratória.",
+      "B) É uma doença viral causada por um lentivírus, com possibilidade de infecção persistente por toda a vida.",
+      "C) Possui vacina comercial eficaz utilizada rotineiramente no Brasil.",
+      "D) Não apresenta animais portadores assintomáticos.",
+      "E) Não possui importância para o controle sanitário do trânsito de equídeos."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "A Anemia Infecciosa Equina é causada pelo EIAV, um lentivírus da família Retroviridae. Os animais infectados permanecem portadores do vírus por toda a vida, mesmo quando não apresentam manifestações clínicas. A transmissão pode ocorrer por sangue contaminado e insetos hematófagos."
+  },
+
+  {
+    id: 126,
+    categoria: "Virais",
+    doencaId: "anemia-infecciosa-equina",
+    doenca: "Anemia Infecciosa Equina",
+
+    pergunta:
+      "O teste de Coggins é amplamente conhecido no diagnóstico da Anemia Infecciosa Equina. Ele corresponde a:",
+
+    alternativas: [
+      "A) Reação de fixação de complemento.",
+      "B) Imunodifusão em gel de ágar (IDGA).",
+      "C) Reação de hemaglutinação indireta.",
+      "D) Teste de hipersensibilidade tardia.",
+      "E) Cultura viral em células sanguíneas."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "O teste de Coggins corresponde à Imunodifusão em Gel de Ágar (IDGA), método sorológico amplamente utilizado e reconhecido como teste de referência para o diagnóstico da Anemia Infecciosa Equina. A fixação de complemento também é um método sorológico, mas não corresponde ao teste de Coggins."
+  },
+
+  {
+    id: 127,
+    categoria: "Virais",
+    doencaId: "cinomose",
+    doenca: "Cinomose",
+
+    pergunta:
+      "Um cão jovem, sem vacinação adequada, apresenta secreção ocular e nasal, tosse, diarreia, mioclonias e convulsões. A manifestação neurológica está relacionada principalmente:",
+
+    alternativas: [
+      "A) À destruição exclusiva dos eritrócitos.",
+      "B) À formação de granulomas no fígado.",
+      "C) Ao comprometimento do sistema nervoso central, podendo ocorrer desmielinização.",
+      "D) À multiplicação bacteriana na medula óssea.",
+      "E) À presença de parasitas adultos no intestino."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "O vírus da cinomose pode comprometer o sistema nervoso central, provocando alterações neurológicas como mioclonias, convulsões, ataxia e paresia. A desmielinização é uma das alterações patológicas associadas à infecção."
+  },
+
+  {
+    id: 128,
+    categoria: "Virais",
+    doencaId: "parvovirose",
+    doenca: "Parvovirose canina",
+
+    pergunta:
+      "Um filhote não vacinado apresenta vômitos, diarreia hemorrágica, desidratação e leucopenia acentuada. A patogenia da doença está relacionada principalmente:",
+
+    alternativas: [
+      "A) À infecção de células com elevada atividade mitótica, especialmente nas criptas intestinais.",
+      "B) À destruição exclusiva dos hepatócitos.",
+      "C) À formação de cistos nos músculos esqueléticos.",
+      "D) À inflamação das meninges por bactérias.",
+      "E) À destruição dos eritrócitos por hemólise imunomediada."
+    ],
+
+    resposta: "A",
+
+    comentario:
+      "O parvovírus canino apresenta tropismo por células em intensa divisão, especialmente nas criptas intestinais e na medula óssea. A destruição dessas células provoca alterações gastrointestinais, leucopenia e favorece infecções secundárias."
+  },
+
+  {
+    id: 129,
+    categoria: "Virais",
+    doencaId: "panleucopenia-felina",
+    doenca: "Panleucopenia felina",
+
+    pergunta:
+      "Um gatil apresenta elevada mortalidade entre filhotes. Os animais apresentam febre, vômitos, diarreia e leucopenia intensa. Sobre a panleucopenia felina, assinale a alternativa correta:",
+
+    alternativas: [
+      "A) É causada por um coronavírus envelopado.",
+      "B) É causada por um parvovírus que apresenta tropismo por células em divisão.",
+      "C) É uma doença exclusivamente respiratória.",
+      "D) A vacinação não possui importância na prevenção.",
+      "E) É uma zoonose de transmissão direta para humanos."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "A panleucopenia felina é causada pelo parvovírus felino, que apresenta tropismo por células de rápida multiplicação. A infecção pode provocar lesões intestinais, comprometimento da medula óssea e leucopenia intensa."
+  },
+
+  {
+    id: 130,
+    categoria: "Virais",
+    doencaId: "pif",
+    doenca: "Peritonite Infecciosa Felina",
+
+    pergunta:
+      "Um gato jovem apresenta febre persistente, perda de peso, apatia e aumento progressivo do volume abdominal. Na avaliação clínica, observa-se líquido abdominal amarelado e rico em proteínas. O quadro é mais compatível com:",
+
+    alternativas: [
+      "A) Panleucopenia felina.",
+      "B) PIF não efusiva.",
+      "C) PIF efusiva.",
+      "D) Leishmaniose visceral.",
+      "E) Erliquiose felina."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "A forma efusiva da Peritonite Infecciosa Felina é caracterizada pelo acúmulo de líquido rico em proteínas nas cavidades corporais, principalmente abdominal e torácica. Pode provocar distensão abdominal e dificuldade respiratória."
+  },
+
+  {
+    id: 131,
+    categoria: "Virais",
+    doencaId: "pif",
+    doenca: "Peritonite Infecciosa Felina",
+
+    pergunta:
+      "Sobre o diagnóstico da Peritonite Infecciosa Felina, assinale a alternativa correta:",
+
+    alternativas: [
+      "A) Um teste sorológico positivo para coronavírus felino, isoladamente, confirma PIF.",
+      "B) A presença de efusão abdominal confirma obrigatoriamente PIF.",
+      "C) O diagnóstico deve considerar histórico, sinais clínicos, características da efusão, exames laboratoriais e, quando possível, métodos confirmatórios.",
+      "D) A doença é confirmada exclusivamente por hemograma.",
+      "E) A ausência de efusão exclui a possibilidade de PIF."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "O diagnóstico da PIF é complexo e deve considerar o conjunto de informações clínicas e laboratoriais. A sorologia positiva para coronavírus felino não confirma isoladamente a doença, pois muitos gatos podem apresentar anticorpos contra o vírus sem desenvolver PIF."
+  },
+
+  {
+    id: 132,
+    categoria: "Virais",
+    doencaId: "raiva",
+    doenca: "Raiva",
+
+    pergunta:
+      "Um cão apresenta alteração comportamental, hipersalivação, dificuldade de deglutição e evolução para paralisia. Há histórico de contato com um morcego. Considerando a suspeita de raiva, a conduta mais adequada é:",
+
+    alternativas: [
+      "A) Realizar tratamento sintomático e liberar o animal após melhora.",
+      "B) Ignorar o histórico de contato, pois morcegos não participam do ciclo epidemiológico.",
+      "C) Adotar medidas de isolamento e biossegurança, comunicar o serviço veterinário oficial e seguir o protocolo de investigação.",
+      "D) Administrar antibióticos como tratamento específico.",
+      "E) Vacinar imediatamente e dispensar investigação."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "A raiva é uma zoonose de elevada gravidade e evolução geralmente fatal. Diante de suspeita, devem ser adotadas medidas de biossegurança, isolamento e comunicação ao serviço veterinário oficial, seguindo os protocolos de investigação e diagnóstico."
+  },
+
+  {
+    id: 133,
+    categoria: "Virais",
+    doencaId: "febre-aftosa",
+    doenca: "Febre aftosa",
+
+    pergunta:
+      "Em uma propriedade com bovinos e suínos, vários animais apresentam febre, salivação intensa, vesículas e erosões na cavidade oral e nos cascos. A principal suspeita é:",
+
+    alternativas: [
+      "A) Varíola bovina.",
+      "B) Febre aftosa.",
+      "C) Anemia infecciosa equina.",
+      "D) Raiva.",
+      "E) Tuberculose bovina."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "A febre aftosa é uma enfermidade viral altamente contagiosa que acomete animais biungulados. É caracterizada por febre e formação de vesículas, principalmente na cavidade oral, língua, focinho, úbere e região dos cascos."
+  },
+
+  {
+    id: 134,
+    categoria: "Virais",
+    doencaId: "estomatite-vesicular",
+    doenca: "Estomatite vesicular",
+
+    pergunta:
+      "A estomatite vesicular apresenta importância sanitária porque:",
+
+    alternativas: [
+      "A) É uma doença priônica exclusiva de bovinos.",
+      "B) Pode provocar sinais vesiculares semelhantes aos da febre aftosa e possui potencial zoonótico.",
+      "C) É causada por helmintos que migram para a cavidade oral.",
+      "D) Acomete exclusivamente equinos e não possui importância em saúde pública.",
+      "E) É causada por uma bactéria intracelular obrigatória."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "A estomatite vesicular é uma enfermidade viral que pode acometer equinos, bovinos e suínos, produzindo lesões vesiculares semelhantes às observadas na febre aftosa. Também possui potencial zoonótico."
+  },
+
+  {
+    id: 135,
+    categoria: "Virais",
+    doencaId: "variola-bovina",
+    doenca: "Varíola bovina",
+
+    pergunta:
+      "Um trabalhador rural apresenta lesões cutâneas após contato direto com lesões mamárias de bovinos durante a ordenha. Qual característica epidemiológica merece destaque?",
+
+    alternativas: [
+      "A) Ausência de transmissão entre animais.",
+      "B) Potencial zoonótico, com possibilidade de transmissão por contato com lesões contaminadas.",
+      "C) Transmissão exclusivamente por ingestão de carne.",
+      "D) Transmissão exclusivamente transplacentária.",
+      "E) Ausência de risco ocupacional para ordenhadores."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "A varíola bovina possui importância zoonótica e pode ser transmitida ao ser humano pelo contato direto com lesões de animais infectados. Ordenhadores e profissionais que manipulam animais acometidos apresentam maior risco de exposição."
+  },
+
+  {
+    id: 136,
+    categoria: "Parasitárias",
+    doencaId: "leishmaniose",
+    doenca: "Leishmaniose",
+
+    pergunta:
+      "A leishmaniose visceral canina é uma zoonose cujo agente é transmitido principalmente por:",
+
+    alternativas: [
+      "A) Carrapatos do gênero Rhipicephalus.",
+      "B) Mosquitos do gênero Aedes.",
+      "C) Flebotomíneos, conhecidos popularmente como mosquito-palha.",
+      "D) Moscas hematófagas do gênero Tabanus.",
+      "E) Pulgas do gênero Ctenocephalides."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "A transmissão da leishmaniose ocorre pela picada de flebotomíneos infectados, conhecidos popularmente como mosquito-palha. A doença possui importância para a saúde pública devido ao seu caráter zoonótico."
+  },
+
+  {
+    id: 137,
+    categoria: "Parasitárias",
+    doencaId: "dirofilariose",
+    doenca: "Dirofilariose",
+
+    pergunta:
+      "Um cão que vive em região litorânea apresenta intolerância ao exercício, tosse e sinais de insuficiência cardíaca direita. O exame parasitológico identifica estruturas compatíveis com microfilárias. O agente etiológico mais provável é:",
+
+    alternativas: [
+      "A) Dirofilaria immitis.",
+      "B) Haemonchus contortus.",
+      "C) Moniezia spp.",
+      "D) Trichostrongylus spp.",
+      "E) Dipylidium caninum."
+    ],
+
+    resposta: "A",
+
+    comentario:
+      "Dirofilaria immitis é o nematódeo conhecido como verme do coração. É transmitido por mosquitos e pode provocar alterações cardiopulmonares importantes, especialmente no lado direito do coração e nas artérias pulmonares."
+  },
+
+  {
+    id: 138,
+    categoria: "Parasitárias",
+    doencaId: "haemoncose",
+    doenca: "Haemoncose",
+
+    pergunta:
+      "Em um rebanho de ovinos, vários animais apresentam anemia, edema submandibular e perda de peso. A análise epidemiológica sugere elevada carga parasitária gastrointestinal. Qual agente está mais associado ao quadro?",
+
+    alternativas: [
+      "A) Moniezia expansa.",
+      "B) Haemonchus contortus.",
+      "C) Dirofilaria immitis.",
+      "D) Ehrlichia canis.",
+      "E) Babesia canis."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "Haemonchus contortus é um nematódeo hematófago que parasita o abomaso de pequenos ruminantes. Sua alimentação baseada em sangue pode provocar anemia intensa, hipoproteinemia e edema submandibular."
+  },
+
+  {
+    id: 139,
+    categoria: "Parasitárias",
+    doencaId: "monieziose",
+    doenca: "Monieziose",
+
+    pergunta:
+      "A monieziose é uma helmintose que acomete principalmente pequenos ruminantes. Seu agente pertence ao grupo:",
+
+    alternativas: [
+      "A) Nematódeos.",
+      "B) Trematódeos.",
+      "C) Cestódeos.",
+      "D) Protozoários.",
+      "E) Artrópodes."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "Moniezia é um gênero de cestódeo que parasita o intestino delgado de ruminantes. São vermes achatados e segmentados, que apresentam ciclo indireto com participação de ácaros oribatídeos."
+  },
+
+  {
+    id: 140,
+    categoria: "Parasitárias",
+    doencaId: "tricostrongilose",
+    doenca: "Tricostrongilose",
+
+    pergunta:
+      "A tricostrongilose está relacionada a nematódeos do gênero Trichostrongylus. Sua transmissão ocorre principalmente:",
+
+    alternativas: [
+      "A) Pela ingestão de ovos ou larvas infectantes presentes em pastagens contaminadas.",
+      "B) Pela picada de mosquitos infectados.",
+      "C) Por transmissão sexual.",
+      "D) Pela inalação de aerossóis.",
+      "E) Por contato direto com sangue contaminado."
+    ],
+
+    resposta: "A",
+
+    comentario:
+      "A infecção por Trichostrongylus ocorre principalmente pela ingestão de larvas infectantes presentes nas pastagens contaminadas por fezes de animais parasitados."
+  },
+
+  {
+    id: 141,
+    categoria: "Parasitárias",
+    doencaId: "babesiose",
+    doenca: "Babesiose",
+
+    pergunta:
+      "Um cão apresenta febre, apatia, mucosas pálidas, icterícia e hemoglobinúria. O exame sanguíneo demonstra estruturas parasitárias intraeritrocitárias. A principal suspeita é:",
+
+    alternativas: [
+      "A) Erliquiose.",
+      "B) Babesiose.",
+      "C) Leishmaniose.",
+      "D) Dirofilariose.",
+      "E) Haemoncose."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "Babesia é um protozoário que parasita os eritrócitos, podendo provocar hemólise e anemia. Os sinais clínicos incluem febre, apatia, palidez de mucosas, icterícia e, em alguns casos, hemoglobinúria."
+  },
+
+  {
+    id: 142,
+    categoria: "Parasitárias",
+    doencaId: "anaplasmose",
+    doenca: "Anaplasmose",
+
+    pergunta:
+      "A anaplasmose bovina pode provocar anemia e icterícia. O agente Anaplasma marginale apresenta como característica:",
+
+    alternativas: [
+      "A) Multiplicação exclusiva no intestino delgado.",
+      "B) Presença de inclusões marginais nos eritrócitos.",
+      "C) Formação de cistos musculares.",
+      "D) Multiplicação exclusiva no sistema nervoso central.",
+      "E) Formação de ovos eliminados nas fezes."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "Anaplasma marginale é uma bactéria que parasita os eritrócitos dos bovinos. As inclusões podem ser observadas próximas à margem das hemácias, sendo uma característica morfológica importante para sua identificação."
+  },
+
+  {
+    id: 143,
+    categoria: "Parasitárias",
+    doencaId: "erliquiose",
+    doenca: "Erliquiose",
+
+    pergunta:
+      "Um cão apresenta apatia, febre, linfadenomegalia, trombocitopenia e histórico de infestação por carrapatos. A principal suspeita é erliquiose monocítica canina, frequentemente associada a:",
+
+    alternativas: [
+      "A) Ehrlichia canis.",
+      "B) Brucella abortus.",
+      "C) Mycobacterium bovis.",
+      "D) Leishmania infantum.",
+      "E) Rhodococcus equi."
+    ],
+
+    resposta: "A",
+
+    comentario:
+      "Ehrlichia canis é o agente classicamente associado à erliquiose monocítica canina. A transmissão ocorre principalmente pelo carrapato Rhipicephalus sanguineus, e a trombocitopenia é uma alteração hematológica frequente."
+  },
+
+  {
+    id: 144,
+    categoria: "Priônicas",
+    doencaId: "encefalopatia-espongiforme-bovina",
+    doenca: "Encefalopatia Espongiforme Bovina",
+
+    pergunta:
+      "A Encefalopatia Espongiforme Bovina é causada por príons. Sobre essas partículas infecciosas, assinale a alternativa correta:",
+
+    alternativas: [
+      "A) São bactérias Gram-positivas.",
+      "B) São vírus envelopados com RNA.",
+      "C) São proteínas infecciosas associadas ao dobramento anormal da proteína priônica.",
+      "D) São protozoários intracelulares.",
+      "E) São helmintos que parasitam o sistema nervoso."
+    ],
+
+    resposta: "C",
+
+    comentario:
+      "Os príons são proteínas infecciosas com conformação anormal, capazes de induzir alterações no dobramento de proteínas priônicas normais. Não possuem material genético como vírus ou bactérias."
+  },
+
+  {
+    id: 145,
+    categoria: "Priônicas",
+    doencaId: "scrapie",
+    doenca: "Scrapie e Doença Debilitante Crônica",
+
+    pergunta:
+      "Scrapie e Doença Debilitante Crônica (CWD) são enfermidades que apresentam como característica comum:",
+
+    alternativas: [
+      "A) Serem causadas por bactérias do gênero Clostridium.",
+      "B) Comprometerem o sistema nervoso e estarem associadas a príons.",
+      "C) Serem transmitidas exclusivamente por mosquitos.",
+      "D) Possuírem vacinas comerciais eficazes.",
+      "E) Serem doenças bacterianas de evolução aguda."
+    ],
+
+    resposta: "B",
+
+    comentario:
+      "Scrapie e Chronic Wasting Disease (CWD) são encefalopatias espongiformes transmissíveis associadas a príons. Ambas comprometem o sistema nervoso e apresentam evolução progressiva."
+  },
+
+  {
+    id: 146,
+    categoria: "Bacterianas",
+    doencaId: "rhodococcus-equi",
+    doenca: "Rhodococcus equi",
+
+    pergunta:
+      "Um potro de quatro meses apresenta febre, tosse, dificuldade respiratória e pneumonia com formação de abscessos pulmonares. A propriedade apresenta criação de equinos em ambiente com grande quantidade de poeira e solo seco. O agente mais provável é:",
+
+    alternativas: [
+      "A) Rhodococcus equi.",
+      "B) Brucella canis.",
+      "C) Anaplasma marginale.",
+      "D) Mycobacterium bovis.",
+      "E) Ehrlichia canis."
+    ],
+
+    resposta: "A",
+
+    comentario:
+      "Rhodococcus equi é uma bactéria associada principalmente à pneumonia piogranulomatosa em potros, podendo provocar abscessos pulmonares. A exposição ocorre principalmente pela inalação de partículas de poeira contaminadas com o agente."
+  },
+{
+  id: 147,
+  categoria: "Bacterianas",
+  doencaId: "mormo",
+  doenca: "Mormo",
+  pergunta: "O mormo é uma enfermidade infectocontagiosa de importância para a defesa sanitária animal. Sobre essa doença, assinale a alternativa correta:",
+  alternativas: [
+    "A) É causada por um vírus da família Retroviridae e acomete exclusivamente equinos.",
+    "B) É causada pela bactéria Burkholderia mallei e acomete principalmente equídeos, podendo também infectar seres humanos.",
+    "C) É causada por uma bactéria do gênero Brucella e apresenta como principal manifestação a ocorrência de abortos.",
+    "D) É uma enfermidade parasitária transmitida exclusivamente por carrapatos.",
+    "E) É causada por um fungo que acomete principalmente o sistema respiratório dos equinos."
+  ],
+  resposta: "B",
+  comentario: "O mormo é uma doença bacteriana causada por Burkholderia mallei. Acomete principalmente equídeos e possui caráter zoonótico, podendo ser transmitida por secreções, contato com animais infectados e fômites contaminados."
+},
+{
+  id: 148,
+  categoria: "Diagnóstico",
+  doencaId: "geral",
+  doenca: "Diagnóstico laboratorial",
+  pergunta: "Os métodos diagnósticos podem ser classificados em diretos e indiretos, de acordo com aquilo que detectam. Assinale a alternativa que apresenta um método diagnóstico direto:",
+  alternativas: [
+    "A) ELISA para detecção de anticorpos.",
+    "B) Reação de imunofluorescência indireta.",
+    "C) Reação em cadeia da polimerase (PCR).",
+    "D) Soroaglutinação microscópica.",
+    "E) Pesquisa de anticorpos por sorologia."
+  ],
+  resposta: "C",
+  comentario: "A PCR é um método diagnóstico direto, pois permite detectar o material genético do agente infeccioso presente na amostra. Já os métodos sorológicos geralmente identificam a resposta imunológica do hospedeiro."
+},
+{
+  id: 149,
+  categoria: "Diagnóstico",
+  doencaId: "geral",
+  doenca: "Diagnóstico laboratorial",
+  pergunta: "Na rotina de diagnóstico das enfermidades infecciosas, diferentes técnicas laboratoriais são utilizadas. Assinale a alternativa que apresenta exclusivamente métodos indiretos:",
+  alternativas: [
+    "A) PCR, isolamento bacteriano e cultivo viral.",
+    "B) Cultura bacteriana, provas bioquímicas e PCR.",
+    "C) ELISA para anticorpos, imunofluorescência indireta e soroaglutinação.",
+    "D) PCR, isolamento do agente e microscopia direta.",
+    "E) Cultivo celular, isolamento bacteriano e provas bioquímicas."
+  ],
+  resposta: "C",
+  comentario: "Os métodos indiretos identificam a resposta imunológica do hospedeiro frente ao agente infeccioso. ELISA para anticorpos, imunofluorescência indireta e soroaglutinação são exemplos de técnicas sorológicas."
+},
+{
+  id: 150,
+  categoria: "Conceitos gerais",
+  doencaId: "geral",
+  doenca: "Conceitos epidemiológicos",
+  pergunta: "Na epidemiologia das doenças infecciosas e parasitárias, os termos infecção e infestação possuem significados distintos. Assinale a alternativa correta:",
+  alternativas: [
+    "A) Infecção é a presença de ectoparasitas na superfície corporal do hospedeiro.",
+    "B) Infestação refere-se exclusivamente à invasão do organismo por vírus e bactérias.",
+    "C) Infecção está relacionada à invasão e multiplicação de agentes infecciosos no organismo, enquanto infestação é frequentemente utilizada para a presença de ectoparasitas.",
+    "D) Infecção e infestação são termos sinônimos e podem ser utilizados indistintamente.",
+    "E) Infestação ocorre somente em animais domésticos, enquanto infecção ocorre em animais silvestres."
+  ],
+  resposta: "C",
+  comentario: "Infecção corresponde à invasão e multiplicação de agentes infecciosos no organismo do hospedeiro. O termo infestação é frequentemente empregado para a presença de ectoparasitas, como carrapatos, pulgas e ácaros."
+},
+{
+  id: 151,
+  categoria: "Conceitos gerais",
+  doencaId: "geral",
+  doenca: "Conceitos epidemiológicos",
+  pergunta: "A infectividade é uma característica importante na compreensão da capacidade de um agente etiológico provocar infecções. Esse conceito corresponde:",
+  alternativas: [
+    "A) À capacidade do agente de provocar lesões graves no hospedeiro.",
+    "B) À capacidade do agente de se instalar e multiplicar em determinado hospedeiro.",
+    "C) À resistência do hospedeiro contra determinado agente infeccioso.",
+    "D) À capacidade do agente de sobreviver exclusivamente no ambiente.",
+    "E) À capacidade de produzir toxinas responsáveis pelos sinais clínicos."
+  ],
+  resposta: "B",
+  comentario: "Infectividade é a capacidade de um agente etiológico penetrar, instalar-se e multiplicar-se em determinado hospedeiro. Não deve ser confundida com virulência, que está relacionada à intensidade dos danos provocados."
+},
+{
+  id: 152,
+  categoria: "Conceitos gerais",
+  doencaId: "geral",
+  doenca: "Conceitos epidemiológicos",
+  pergunta: "O tropismo de um agente infeccioso corresponde:",
+  alternativas: [
+    "A) À capacidade de resistir aos desinfetantes utilizados no ambiente.",
+    "B) À facilidade de transmissão entre animais de espécies diferentes.",
+    "C) À predileção do agente por determinadas células, tecidos ou órgãos do hospedeiro.",
+    "D) À capacidade de provocar doença em todos os animais expostos.",
+    "E) Ao período entre a entrada do agente e o aparecimento dos primeiros sinais clínicos."
+  ],
+  resposta: "C",
+  comentario: "Tropismo é a preferência de determinado agente infeccioso por células, tecidos ou órgãos específicos. Essa característica influencia a distribuição das lesões e as manifestações clínicas da doença."
+},
+{
+  id: 153,
+  categoria: "Bacterianas",
+  doencaId: "geral",
+  doenca: "Enfermidades bacterianas",
+  pergunta: "Associe as enfermidades bacterianas às suas respectivas características:\n\n1. Mastite bacteriana\n2. Febre maculosa\n3. Listeriose\n4. Linfadenite caseosa\n\nA. Doença associada à formação de abscessos, especialmente em linfonodos de ovinos.\nB. Enfermidade transmitida por carrapatos, causada por bactérias do gênero Rickettsia.\nC. Infecção da glândula mamária, frequentemente associada a agentes como Staphylococcus aureus e Streptococcus agalactiae.\nD. Doença que pode apresentar manifestações neurológicas.",
+  alternativas: [
+    "A) 1-A; 2-C; 3-B; 4-D.",
+    "B) 1-C; 2-B; 3-D; 4-A.",
+    "C) 1-B; 2-D; 3-A; 4-C.",
+    "D) 1-D; 2-A; 3-C; 4-B.",
+    "E) 1-C; 2-A; 3-B; 4-D."
+  ],
+  resposta: "B",
+  comentario: "A mastite bacteriana acomete a glândula mamária; a febre maculosa é transmitida por carrapatos e causada por Rickettsia; a listeriose pode provocar manifestações neurológicas; e a linfadenite caseosa é caracterizada pela formação de abscessos, principalmente nos linfonodos de ovinos."
+},
+{
+  id: 154,
+  categoria: "Parasitárias",
+  doencaId: "geral",
+  doenca: "Demodicose",
+  pergunta: "A sarna demodécica é causada por ácaros que habitam estruturas específicas da pele dos animais. Sobre essa enfermidade, assinale a alternativa correta:",
+  alternativas: [
+    "A) É causada por ácaros que habitam exclusivamente o conduto auditivo externo.",
+    "B) Os ácaros habitam os folículos pilosos e as glândulas sebáceas, podendo ocorrer transmissão da mãe para os filhotes no período neonatal.",
+    "C) É transmitida exclusivamente por carrapatos infectados.",
+    "D) É causada por fungos que invadem a camada córnea da epiderme.",
+    "E) Os ácaros são encontrados exclusivamente na superfície da pele, sem atingir estruturas cutâneas."
+  ],
+  resposta: "B",
+  comentario: "A demodicose é causada por ácaros do gênero Demodex, que habitam principalmente os folículos pilosos e as glândulas sebáceas. A transmissão ocorre principalmente pelo contato próximo entre a mãe e os filhotes nos primeiros dias de vida."
+},
+{
+  id: 155,
+  categoria: "Bacterianas",
+  doencaId: "leptospirose",
+  doenca: "Leptospirose",
+  pergunta: "A leptospirose é uma zoonose de distribuição mundial causada por bactérias do gênero Leptospira. Sobre essa enfermidade, assinale a alternativa INCORRETA:",
+  alternativas: [
+    "A) A transmissão pode ocorrer pelo contato com urina de animais infectados.",
+    "B) A transmissão também pode ocorrer por vias vertical e sexual.",
+    "C) A soroaglutinação microscópica (MAT) é utilizada no diagnóstico sorológico.",
+    "D) As leptospiras são bactérias aeróbias obrigatórias.",
+    "E) A doença caracteriza-se principalmente por provocar mieloencefalite com agressividade e sinais neurológicos como manifestação típica."
+  ],
+  resposta: "E",
+  comentario: "A leptospirose pode provocar alterações renais, hepáticas e reprodutivas, entre outras manifestações. O quadro de mieloencefalite com agressividade não representa sua apresentação clínica característica."
+},
+{
+  id: 156,
+  categoria: "Conceitos gerais",
+  doencaId: "geral",
+  doenca: "Epidemiologia",
+  pergunta: "A tríade epidemiológica é utilizada para compreender os fatores envolvidos no desenvolvimento das doenças. Ela é formada pela interação entre:",
+  alternativas: [
+    "A) Hospedeiro, agente etiológico e ambiente.",
+    "B) Diagnóstico, tratamento e prognóstico.",
+    "C) Vacinação, isolamento e tratamento.",
+    "D) Vetor, medicamento e hospedeiro.",
+    "E) Agente etiológico, diagnóstico e sinais clínicos."
+  ],
+  resposta: "A",
+  comentario: "A tríade epidemiológica é composta por hospedeiro, agente etiológico e ambiente. A interação entre esses três elementos influencia a ocorrência e a disseminação das enfermidades."
+},
+{
+  id: 157,
+  categoria: "Conceitos gerais",
+  doencaId: "geral",
+  doenca: "Epidemiologia",
+  pergunta: "Na epidemiologia das enfermidades infecciosas, a virulência representa:",
+  alternativas: [
+    "A) A capacidade de um agente infeccioso sobreviver fora do hospedeiro.",
+    "B) A capacidade de um agente se instalar e multiplicar no organismo.",
+    "C) O grau de patogenicidade ou intensidade dos danos provocados pelo agente no hospedeiro.",
+    "D) A resistência do hospedeiro à infecção.",
+    "E) A capacidade de transmissão exclusivamente por vetores."
+  ],
+  resposta: "C",
+  comentario: "A virulência está relacionada ao grau de patogenicidade de um agente e à intensidade dos danos que ele provoca no hospedeiro. É diferente de infectividade, que corresponde à capacidade de instalação e multiplicação."
+},
+{
+  id: 158,
+  categoria: "Conceitos gerais",
+  doencaId: "geral",
+  doenca: "História natural da doença",
+  pergunta: "Na história natural das doenças, a convalescença corresponde à fase em que:",
+  alternativas: [
+    "A) Os primeiros sinais clínicos começam a aparecer.",
+    "B) O agente infeccioso inicia sua multiplicação no organismo.",
+    "C) A doença atinge sua manifestação clínica mais grave.",
+    "D) O animal apresenta recuperação gradual, com diminuição dos sinais clínicos.",
+    "E) O agente infeccioso é transmitido para outros hospedeiros."
+  ],
+  resposta: "D",
+  comentario: "A convalescença é a fase de recuperação progressiva do indivíduo após o período de doença, caracterizada pela diminuição dos sinais clínicos e retomada gradual das condições normais."
+},
+{
+  id: 159,
+  categoria: "Saúde coletiva",
+  doencaId: "geral",
+  doenca: "Vigilância sanitária",
+  pergunta: "De acordo com a Lei nº 8.080/1990, a vigilância sanitária é definida como:",
+  alternativas: [
+    "A) Um conjunto de ações voltadas exclusivamente à fiscalização de hospitais e clínicas.",
+    "B) Uma atividade destinada somente à investigação de surtos de doenças infecciosas.",
+    "C) Um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários.",
+    "D) Um conjunto de medidas restrito ao controle de medicamentos e vacinas.",
+    "E) Uma atividade realizada exclusivamente por instituições privadas."
+  ],
+  resposta: "C",
+  comentario: "A Lei nº 8.080/1990 define a vigilância sanitária como um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde."
 }
 ];
+

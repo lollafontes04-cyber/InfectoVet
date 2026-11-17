@@ -84,12 +84,9 @@ console.log(
 );
 
     const novaProva =
-
-      [...filtradas]
-
-        .sort(() => Math.random() - 0.5)
-
-        .slice(0, quantidade);
+  [...filtradas]
+    .sort(() => Math.random() - 0.5)
+    .slice(0, quantidade === 0 ? filtradas.length : quantidade);
 
 
 

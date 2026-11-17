@@ -5521,52 +5521,440 @@ discussao:
 
 {
   id: "anemia-infecciosa-equina",
-
-  nome: "Anemia infecciosa equina",
-
-  agente: "Vírus da anemia infecciosa equina",
-
+  nome: "Anemia Infecciosa Equina",
+  agente: "Vírus da Anemia Infecciosa Equina (EIAV)",
   categoria: "Virais",
-
   icone: "🦠",
-
   zoonose: false,
-
   vacina: false,
-
   eutanasia: true,
-
   notificacaoObrigatoria: true,
-
   hospedeiros: [
-    "Equinos"
+    "Equinos",
+    "Asininos",
+    "Muares",
+    "Zebras"
   ],
-
   palavrasChave: [
     "anemia infecciosa equina",
-    "aie",
-    "cavalo",
-    "equino"
+    "AIE",
+    "EIAV",
+    "lentivírus",
+    "Retroviridae",
+    "teste de Coggins",
+    "imunodifusão em gel de ágar",
+    "sideroleucócitos",
+    "tabanídeos"
   ],
-
   imagem: "/images/doencas/anemia-infecciosa-equina.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/anemia-infecciosa-equina/animal-infectado.jpg",
+      titulo: "Equino com anemia infecciosa equina",
+      categoria: "Sinais clínicos",
+      descricao: "Animal infectado pelo vírus da anemia infecciosa equina, que pode apresentar manifestações clínicas variáveis ou permanecer assintomático."
+    },
+    {
+      src: "/images/doencas/anemia-infecciosa-equina/edema-membros.jpg",
+      titulo: "Edema dos membros",
+      categoria: "Sinais clínicos",
+      descricao: "Edema, especialmente nas regiões inferiores dos membros, observado em animais com manifestações clínicas da doença."
+    },
+    {
+      src: "/images/doencas/anemia-infecciosa-equina/mucosas-ictéricas.jpg",
+      titulo: "Mucosas pálidas ou ictéricas",
+      categoria: "Sinais clínicos",
+      descricao: "Alterações na coloração das mucosas associadas à anemia e à destruição de hemácias."
+    },
+    {
+      src: "/images/doencas/anemia-infecciosa-equina/tabanideo.jpg",
+      titulo: "Tabanídeo",
+      categoria: "Transmissão",
+      descricao: "Insetos hematófagos que atuam como vetores mecânicos do vírus, transportando sangue contaminado entre animais."
+    },
+    {
+      src: "/images/doencas/anemia-infecciosa-equina/teste-coggins.jpg",
+      titulo: "Teste de Coggins",
+      categoria: "Diagnóstico",
+      descricao: "Imunodifusão em gel de ágar (IDGA), utilizada para detectar anticorpos contra o vírus da anemia infecciosa equina."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao: "A Anemia Infecciosa Equina (AIE) é uma doença viral persistente que acomete equídeos, caracterizada pela destruição de hemácias, viremia e episódios recorrentes de febre. Pode apresentar manifestações clínicas agudas, subagudas ou crônicas, mas sua forma latente, na qual o animal aparentemente saudável permanece infectado, é bastante frequente. Os animais infectados tornam-se portadores permanentes do vírus e representam fontes de infecção para outros equídeos.",
+    cards: [
+      {
+        emoji: "🦠",
+        titulo: "Agente etiológico",
+        itens: [
+          "Vírus da Anemia Infecciosa Equina (EIAV)",
+          "Família Retroviridae",
+          "Gênero Lentivirus",
+          "Vírus envelopado de RNA"
+        ]
+      },
+      {
+        emoji: "🐎",
+        titulo: "Hospedeiros",
+        itens: [
+          "Equinos",
+          "Asininos",
+          "Muares",
+          "Outros equídeos"
+        ]
+      },
+      {
+        emoji: "🪰",
+        titulo: "Transmissão",
+        itens: [
+          "Insetos hematófagos",
+          "Agulhas e instrumentos contaminados",
+          "Transmissão transplacentária",
+          "Contato com sangue infectado"
+        ]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Diagnóstico",
+        itens: [
+          "Imunodifusão em Gel de Ágar (IDGA)",
+          "Teste de Coggins",
+          "ELISA",
+          "Sorologia"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância sanitária",
+        itens: [
+          "Doença de notificação obrigatória",
+          "Não possui tratamento específico",
+          "Não existe vacina eficaz disponível",
+          "Animais infectados permanecem portadores por toda a vida"
+        ]
+      }
+    ]
+  },
 
-  casosClinicos: [],
+  etiologia: {
+    introducao: "O agente etiológico da Anemia Infecciosa Equina é o vírus da Anemia Infecciosa Equina (EIAV), pertencente à família Retroviridae e ao gênero Lentivirus. É um vírus envelopado, com capsídeo de simetria icosaédrica e material genético constituído por RNA de fita simples. Como outros retrovírus, apresenta a enzima transcriptase reversa, responsável pela conversão do RNA viral em DNA.",
+    listas: [
+      {
+        titulo: "Classificação viral",
+        emoji: "🧬",
+        itens: [
+          "Família: Retroviridae",
+          "Gênero: Lentivirus",
+          "Agente: Vírus da Anemia Infecciosa Equina (EIAV)",
+          "Material genético: RNA de fita simples",
+          "Capsídeo: simetria icosaédrica",
+          "Envelope: presente",
+          "Diâmetro aproximado: 80 a 100 nm"
+        ]
+      },
+      {
+        titulo: "Características do vírus",
+        emoji: "🔬",
+        itens: [
+          "Apresenta envelope lipoproteico.",
+          "Possui transcriptase reversa.",
+          "Estabelece infecção persistente no hospedeiro.",
+          "Apresenta elevada variabilidade genética.",
+          "Permanece associado às células sanguíneas durante a infecção."
+        ]
+      },
+      {
+        titulo: "Sensibilidade",
+        emoji: "🧪",
+        itens: [
+          "Sensível ao éter e a desinfetantes adequados.",
+          "É inativado pela luz solar.",
+          "É sensível à fervura.",
+          "É inativado por valores extremos de pH."
+        ]
+      },
+      {
+        titulo: "Cultivo viral",
+        emoji: "🧫",
+        itens: [
+          "Pode ser cultivado em células de origem equina.",
+          "O material de aula também cita células HeLa e BHK."
+        ]
+      }
+    ]
+  },
 
+  patogenia: {
+    introducao: "Após a entrada do vírus no organismo, ocorre disseminação pela corrente sanguínea, com infecção de células do sistema mononuclear fagocitário e persistência viral. A resposta imunológica e a replicação viral contribuem para episódios de viremia, febre, destruição de hemácias e alterações hematológicas.",
+    blocos: [
+      {
+        emoji: "1️⃣",
+        titulo: "Entrada do vírus",
+        texto: "O vírus penetra no organismo principalmente por meio da picada de insetos hematófagos ou pela introdução de sangue contaminado através de instrumentos e materiais utilizados nos procedimentos veterinários."
+      },
+      {
+        emoji: "2️⃣",
+        titulo: "Disseminação sanguínea",
+        texto: "Após a entrada, o vírus alcança a corrente sanguínea, estabelecendo viremia. O período de incubação descrito no material varia de 7 a 21 dias."
+      },
+      {
+        emoji: "3️⃣",
+        titulo: "Disseminação sistêmica",
+        texto: "O agente alcança órgãos e tecidos, incluindo fígado, rins, pulmões, linfonodos, baço e medula óssea, contribuindo para as alterações sistêmicas."
+      },
+      {
+        emoji: "4️⃣",
+        titulo: "Hemólise e alterações hematológicas",
+        texto: "A destruição de hemácias provoca liberação de hemoglobina, que pode ser degradada e armazenada na forma de hemossiderina. Macrófagos contendo hemossiderina podem ser identificados como sideroleucócitos."
+      },
+      {
+        emoji: "5️⃣",
+        titulo: "Infecção persistente",
+        texto: "Mesmo após a recuperação dos sinais clínicos, o animal permanece infectado por toda a vida, podendo apresentar novos episódios de viremia e febre. Os portadores assintomáticos continuam sendo fontes de infecção."
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao: "A AIE apresenta distribuição mundial e acomete equídeos de diferentes idades. A transmissão está diretamente relacionada à presença de sangue infectado, principalmente pela ação de insetos hematófagos e pelo compartilhamento de instrumentos contaminados. Animais portadores assintomáticos possuem grande importância epidemiológica, pois podem disseminar o vírus sem apresentar manifestações clínicas evidentes.",
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição",
+        texto: "A doença possui ocorrência mundial, sendo especialmente importante em regiões com presença de vetores hematófagos e dificuldades de controle sanitário dos rebanhos."
+      },
+      {
+        emoji: "🪰",
+        titulo: "Vetores mecânicos",
+        texto: "Tabanídeos, como mutucas, e moscas hematófagas, como Stomoxys calcitrans, atuam como vetores mecânicos. Ao se alimentarem de um animal infectado e posteriormente picarem outro equídeo, podem transportar sangue contaminado."
+      },
+      {
+        emoji: "🐎",
+        titulo: "Animais portadores",
+        texto: "Os equídeos infectados permanecem portadores do vírus durante toda a vida, mesmo quando não apresentam sinais clínicos. Por isso, os animais assintomáticos representam importante fonte de infecção."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Transmissão direta",
+        texto: "Pode ocorrer por meio de sangue contaminado, transmissão intrauterina, ingestão de leite de éguas infectadas e, em determinadas circunstâncias, contato de sangue com mucosas."
+      },
+      {
+        emoji: "💉",
+        titulo: "Transmissão indireta",
+        texto: "O compartilhamento de agulhas, seringas, instrumentos cirúrgicos, materiais odontológicos e outros fômites contaminados representa importante risco de transmissão. A utilização de materiais descartáveis ou devidamente esterilizados é fundamental."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Morbidade e mortalidade",
+        texto: "A evolução clínica é variável. Animais podem apresentar episódios agudos graves, mas muitos permanecem assintomáticos durante longos períodos. A mortalidade depende da apresentação clínica e da gravidade da infecção."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao: "A apresentação clínica da AIE é variável, podendo ocorrer nas formas aguda, subaguda, crônica ou latente. Os episódios febris podem ser recorrentes, acompanhados de anemia, fraqueza, emagrecimento e edemas. A forma latente é frequente, sendo caracterizada pela ausência de sinais clínicos evidentes, apesar da persistência da infecção.",
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Forma aguda",
+        itens: [
+          "Febre súbita, podendo atingir 42 °C.",
+          "Torpor e prostração.",
+          "Debilidade intensa.",
+          "Membros posteriores cambaleantes.",
+          "Quedas e dificuldade de locomoção.",
+          "Taquisfigmia e taquipneia.",
+          "Urina escura.",
+          "Fezes com estrias de sangue.",
+          "Mucosas pálidas ou levemente ictéricas.",
+          "Hemorragias puntiformes na face ventral da língua.",
+          "Esplenomegalia.",
+          "Edemas e emagrecimento.",
+          "Pode evoluir para morte ou recuperação com infecção persistente."
+        ]
+      },
+      {
+        emoji: "🌡️",
+        titulo: "Forma subaguda",
+        itens: [
+          "Acessos febris rápidos e recorrentes.",
+          "Mucosas anêmicas ou ictéricas.",
+          "Edemas.",
+          "Períodos de aparente recuperação.",
+          "Persistência da infecção por muitos anos."
+        ]
+      },
+      {
+        emoji: "🐎",
+        titulo: "Forma crônica",
+        itens: [
+          "Ataques febris menos frequentes.",
+          "Edemas discretos e dispersos.",
+          "Emagrecimento progressivo.",
+          "Fraqueza e debilidade.",
+          "Infecção persistente."
+        ]
+      },
+      {
+        emoji: "🔎",
+        titulo: "Forma latente",
+        itens: [
+          "Animais aparentemente saudáveis.",
+          "Ausência de manifestações clínicas pronunciadas.",
+          "Possibilidade de episódios febris esporádicos.",
+          "Diagnóstico depende de exames laboratoriais.",
+          "O animal continua sendo portador do vírus e fonte de infecção."
+        ]
+      }
+    ]
+  },
+
+  diagnostico:{
+  introducao: "O diagnóstico clínico da Anemia Infecciosa Equina é difícil, pois os sinais apresentados são inespecíficos e muitos animais infectados permanecem assintomáticos. A confirmação é realizada por meio de exames laboratoriais sorológicos, que identificam anticorpos contra o vírus. O principal método é a Imunodifusão em Gel de Ágar (IDGA), conhecida como teste de Coggins, considerado o teste padronizado para diagnóstico da doença.",
+  metodos: [
+    "fixacao-complemento",
+    "imunodifusao"
+  ]
 },
 
+  tratamento: {
+    introducao: "Não existe tratamento específico ou cura para a Anemia Infecciosa Equina. Os animais infectados permanecem portadores do vírus durante toda a vida, mesmo quando apresentam recuperação clínica. Por esse motivo, o controle da doença é baseado na identificação dos animais positivos e na adoção das medidas sanitárias determinadas pelo Serviço Veterinário Oficial.",
+    blocos: [
+      {
+        emoji: "🚫",
+        titulo: "Ausência de tratamento específico",
+        texto: "Não existe medicamento capaz de eliminar o vírus do organismo ou promover a cura da infecção. O controle clínico dos sinais não elimina a condição de portador."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Destino dos animais positivos",
+        texto: "Os animais diagnosticados como positivos devem ser submetidos às medidas sanitárias previstas na legislação vigente, que podem incluir sacrifício sanitário ou isolamento permanente, conforme determinação do Serviço Veterinário Oficial."
+      },
+      {
+        emoji: "🔒",
+        titulo: "Isolamento",
+        texto: "Até a definição das medidas sanitárias, os animais suspeitos ou positivos devem permanecer isolados, sem contato com outros equídeos, evitando a transmissão por insetos e materiais contaminados."
+      }
+    ]
+  },
 
+  prevencao: {
+    introducao: "A prevenção da AIE depende da identificação dos animais infectados, do controle de vetores hematófagos e da adoção de medidas rigorosas de biossegurança. Não existe vacina eficaz disponível, portanto a vigilância sorológica e o controle da movimentação de equídeos são fundamentais para reduzir a disseminação da doença.",
+    blocos: [
+      {
+        emoji: "🔬",
+        titulo: "Testagem sorológica",
+        texto: "A realização de exames laboratoriais é essencial para identificar animais infectados, inclusive aqueles que não apresentam sinais clínicos. A testagem deve seguir as exigências sanitárias para trânsito e participação em eventos agropecuários."
+      },
+      {
+        emoji: "🪰",
+        titulo: "Controle de vetores",
+        texto: "O controle de tabanídeos e outras moscas hematófagas é importante para reduzir a transmissão mecânica. Medidas como dedetização, drenagem de áreas alagadas e manejo ambiental contribuem para diminuir a presença desses insetos."
+      },
+      {
+        emoji: "💉",
+        titulo: "Materiais e instrumentos",
+        texto: "Não compartilhar agulhas, seringas, instrumentos cirúrgicos, materiais odontológicos ou qualquer equipamento que possa apresentar contaminação sanguínea. Utilizar materiais descartáveis sempre que possível e realizar esterilização adequada."
+      },
+      {
+        emoji: "🚧",
+        titulo: "Controle de trânsito",
+        texto: "A movimentação de equídeos deve respeitar as exigências sanitárias vigentes, incluindo a apresentação de exames negativos quando exigidos. O trânsito de animais infectados deve ser impedido."
+      },
+      {
+        emoji: "🧼",
+        titulo: "Higienização e desinfecção",
+        texto: "Realizar a limpeza e desinfecção de instalações, equipamentos e instrumentos utilizados no manejo dos animais, evitando a transmissão indireta por sangue contaminado."
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        texto: "Não existe vacina eficaz disponível para prevenção da AIE. O controle da doença depende da identificação dos portadores, da biossegurança e das medidas sanitárias oficiais."
+      },
+      {
+        emoji: "📢",
+        titulo: "Notificação obrigatória",
+        texto: "A Anemia Infecciosa Equina é uma doença de notificação obrigatória. A suspeita ou confirmação deve ser comunicada ao Serviço Veterinário Oficial, responsável pela investigação e aplicação das medidas de controle previstas no Programa Nacional de Sanidade dos Equídeos (PNSE)."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Anemia infecciosa equina",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "WOAH — Disease Information",
+      ano: "2025",
+      link: "https://www.woah.org/en/disease/equine-infectious-anaemia/"
+    },
+    {
+      titulo: "Anemia infecciosa equina",
+      autores: "Ministério da Agricultura e Pecuária (MAPA)",
+      fonte: "Programa Nacional de Sanidade dos Equídeos",
+      ano: "2026",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/sanidade-de-equideos"
+    },
+    {
+      titulo: "Anemia infecciosa equina",
+      autores: "Merck Veterinary Manual",
+      fonte: "Merck Veterinary Manual",
+      ano: "2025",
+      link: "https://www.msdvetmanual.com/pt/generalized-conditions/anemia-infecciosa-equina/anemia-infecciosa-equina"
+    },
+    {
+      titulo: "Instrução Normativa SDA nº 45, de 15 de junho de 2004",
+      autores: "Ministério da Agricultura, Pecuária e Abastecimento",
+      fonte: "Diário Oficial da União",
+      ano: "2004",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/sanidade-de-equideos"
+    },
+    {
+      titulo: "Equine Infectious Anemia Disease Guidelines",
+      autores: "American Association of Equine Practitioners (AAEP)",
+      fonte: "AAEP",
+      ano: "2019",
+      link: "https://aaep.org/wp-content/uploads/2024/03/EIADiseaseGuidelines2019.pdf"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "anemia-infecciosa-equina-01",
+      titulo: "Equino com febre, anemia e edema",
+      especie: "Equino",
+      idade: "Adulto",
+      historico: "Um equino adulto apresenta episódios recorrentes de febre, prostração, emagrecimento progressivo e edema nos membros. O proprietário relata que o animal compartilha instalações e equipamentos de manejo com outros equídeos.",
+      sinais: [
+        "Febre recorrente.",
+        "Prostração e debilidade.",
+        "Mucosas pálidas.",
+        "Edema dos membros.",
+        "Emagrecimento.",
+        "Taquisfigmia."
+      ],
+      exames: "Hemograma com possibilidade de eritropenia, leucopenia, redução da hemoglobina e do hematócrito. A investigação sorológica deve incluir IDGA (teste de Coggins) e, conforme indicação, ELISA.",
+      diagnostico: "Anemia Infecciosa Equina, mediante confirmação sorológica.",
+      discussao: "A associação entre episódios febris, anemia, emagrecimento e edema é compatível com a apresentação clínica da AIE. Entretanto, os sinais não são exclusivos da doença. A confirmação depende de exames sorológicos, e o animal infectado permanece portador do vírus mesmo após a melhora clínica."
+    },
+    {
+      id: "anemia-infecciosa-equina-02",
+      titulo: "Equino aparentemente saudável com teste positivo",
+      especie: "Equino",
+      idade: "Adulto",
+      historico: "Um equino sem alterações clínicas aparentes é submetido a exame sorológico para emissão de documentação sanitária. O resultado apresenta positividade para anticorpos contra o vírus da Anemia Infecciosa Equina.",
+      sinais: [
+        "Ausência de sinais clínicos evidentes.",
+        "Aparente estado geral saudável.",
+        "Possibilidade de febre esporádica.",
+        "Infecção persistente."
+      ],
+      exames: "Imunodifusão em Gel de Ágar (IDGA), conhecida como teste de Coggins, com resultado positivo.",
+      diagnostico: "Anemia Infecciosa Equina em apresentação latente.",
+      discussao: "A ausência de sinais clínicos não exclui a infecção. A forma latente possui grande importância epidemiológica, pois o animal permanece portador do vírus durante toda a vida e pode transmitir a doença a outros equídeos. O caso exige comunicação ao Serviço Veterinário Oficial e adoção das medidas sanitárias cabíveis."
+    }
+  ]
+},
 
 {
 id:"cinomose",
@@ -6146,9 +6534,9 @@ ano:"2011"
 {
   id: "coronavirose-canina",
 
-  nome: "Coronavirose canina",
+  nome: "Coronavirose Canina",
 
-  agente: "Coronavírus canino",
+  agente: "Coronavírus entérico canino (CCoV)",
 
   categoria: "Virais",
 
@@ -6168,7 +6556,14 @@ ano:"2011"
 
   palavrasChave: [
     "coronavirose",
+    "coronavirose canina",
     "coronavirus canino",
+    "coronavírus canino",
+    "CCoV",
+    "coronavirus entérico",
+    "coronavírus entérico",
+    "enterite",
+    "diarreia",
     "cão",
     "cao",
     "cachorro",
@@ -6177,20 +6572,325 @@ ano:"2011"
 
   imagem: "/images/doencas/coronavirose-canina.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+imagens: [
+  {
+    src: "/images/doencas/coronavirose/coronavirus-canino.jpg",
+    titulo: "Coronavírus canino (CCoV)",
+    categoria: "Agente etiológico",
+    descricao:
+      "Representação do coronavírus entérico canino, agente responsável pela coronavirose canina."
+  },
+  
+ 
+  {
+    src: "/images/doencas/coronavirose/imuno-histoquimica.jpg",
+    titulo: "Detecção de antígenos virais",
+    categoria: "Diagnóstico",
+    descricao:
+      "Imagem ilustrativa de técnica de imuno-histoquímica para identificação de antígenos virais em tecido intestinal."
+  }
+],
 
-  referencias: [],
 
-  casosClinicos: [],
+  visaoGeral: {
+    introducao:
+      "A coronavirose canina é uma enfermidade viral entérica causada pelo coronavírus canino (CCoV). Apresenta características semelhantes às da parvovirose canina, compartilhando formas de transmissão, predisposição e aspectos gerais da infecção. A doença acomete o trato intestinal e pode provocar diarreia por má absorção.",
+
+    cards: [
+      {
+        titulo: "Características gerais",
+        emoji: "🦠",
+        itens: [
+          "Enfermidade viral que acomete o trato intestinal",
+          "Causada pelo coronavírus entérico canino (CCoV)",
+          "Apresenta semelhanças com a parvovirose canina",
+          "Período de incubação de 18 a 73 horas"
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🔄",
+        itens: [
+          "Ocorre principalmente pela via fecal-oral",
+          "Relacionada à ingestão de material contaminado por fezes",
+          "Pode ocorrer por contato com ambientes e fômites contaminados"
+        ]
+      },
+      {
+        titulo: "Evolução",
+        emoji: "⚠️",
+        itens: [
+          "Provoca inflamação das vilosidades intestinais",
+          "Pode causar diarreia por má absorção",
+          "A diarreia geralmente não apresenta sangue",
+          "As formas moderadas podem apresentar recuperação espontânea entre oito e dez dias"
+        ]
+      }
+    ]
+  },
+
+  etiologia: {
+    introducao:
+      "A coronavirose canina é causada pelo coronavírus entérico canino (CCoV), agente viral associado às alterações intestinais características da enfermidade.",
+
+    listas: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🦠",
+        itens: [
+          "Coronavírus entérico canino",
+          "Sigla: CCoV",
+          "Associado à infecção do trato intestinal"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A disseminação da coronavirose canina está relacionada à ingestão de material contaminado por fezes. A enfermidade apresenta características epidemiológicas semelhantes às da parvovirose canina, incluindo formas de transmissão e predisposição.",
+
+    blocos: [
+      {
+        emoji: "🔄",
+        titulo: "Transmissão",
+        texto:
+          "A transmissão ocorre principalmente pela via fecal-oral, por meio da ingestão de fezes ou materiais contaminados pelo coronavírus canino."
+      },
+      {
+        emoji: "⏱️",
+        titulo: "Período de incubação",
+        texto:
+          "O período de incubação varia de 18 a 73 horas, permitindo o desenvolvimento relativamente rápido da infecção após a exposição ao agente."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Resistência ambiental",
+        texto:
+          "O coronavírus canino pode permanecer no ambiente por semanas a meses, favorecendo a manutenção da contaminação em locais frequentados por animais infectados."
+      },
+      {
+        emoji: "🐕",
+        titulo: "Predisposição",
+        texto:
+          "A enfermidade apresenta predisposição semelhante à observada na parvovirose canina, conforme as características epidemiológicas descritas para as duas infecções."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "Após a ingestão de material contaminado, o coronavírus canino infecta o trato intestinal, provocando inflamação das vilosidades intestinais, especialmente no jejuno e no íleo. Essas alterações comprometem a absorção intestinal e favorecem o desenvolvimento de diarreia.",
+
+    blocos: [
+      {
+        emoji: "1️⃣",
+        titulo: "Entrada do agente",
+        texto:
+          "A infecção ocorre pela ingestão fecal-oral de partículas virais presentes em fezes ou materiais contaminados."
+      },
+      {
+        emoji: "2️⃣",
+        titulo: "Acometimento intestinal",
+        texto:
+          "O vírus atinge o jejuno e o íleo, provocando inflamação das vilosidades intestinais."
+      },
+      {
+        emoji: "3️⃣",
+        titulo: "Comprometimento da absorção",
+        texto:
+          "A inflamação das vilosidades compromete a capacidade de absorção intestinal, levando ao desenvolvimento de diarreia por má absorção."
+      },
+      {
+        emoji: "4️⃣",
+        titulo: "Infecções secundárias",
+        texto:
+          "As alterações na integridade intestinal podem favorecer a ocorrência de infecções secundárias."
+      },
+      {
+        emoji: "5️⃣",
+        titulo: "Evolução clínica",
+        texto:
+          "Nas formas moderadas, os animais geralmente apresentam recuperação espontânea após oito a dez dias."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A coronavirose canina apresenta manifestações relacionadas ao comprometimento intestinal. A principal alteração descrita é a diarreia decorrente da má absorção, geralmente sem presença de sangue.",
+
+    blocos: [
+      {
+        emoji: "💩",
+        titulo: "Alterações intestinais",
+        itens: [
+          "Diarreia por má absorção",
+          "Inflamação das vilosidades intestinais",
+          "Diarreia geralmente sem presença de sangue"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Possíveis complicações",
+        itens: [
+          "Infecções secundárias associadas às alterações intestinais"
+        ]
+      },
+      {
+        emoji: "🩺",
+        titulo: "Evolução",
+        itens: [
+          "As formas moderadas geralmente apresentam recuperação espontânea",
+          "A recuperação pode ocorrer entre oito e dez dias"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico clínico presuntivo considera a rotina clínica, o histórico, os sinais apresentados pelo animal e o hemograma. A investigação laboratorial pode ser realizada por meio de testes de detecção de antígenos virais nas fezes.",
+
+    metodos: [
+      "elisa",
+      "imunocromatografia",
+      "pcr"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento da coronavirose canina é baseado em medidas de suporte, seguindo os princípios terapêuticos utilizados na parvovirose canina. A abordagem busca auxiliar na recuperação do animal e controlar as consequências das alterações intestinais.",
+
+    blocos: [
+      {
+        emoji: "💧",
+        titulo: "Fluidoterapia",
+        texto:
+          "Utilizada para auxiliar na reposição de líquidos e na manutenção do equilíbrio hidroeletrolítico, especialmente diante das perdas provocadas pela diarreia."
+      },
+      {
+        emoji: "💊",
+        titulo: "Controle de infecções secundárias",
+        texto:
+          "A antibioticoterapia pode ser utilizada quando houver indicação para o controle de infecções bacterianas secundárias."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Tratamento de suporte",
+        texto:
+          "A abordagem terapêutica deve considerar o estado clínico do animal e as alterações decorrentes do comprometimento intestinal."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da coronavirose canina envolve medidas de higiene, controle da contaminação ambiental, isolamento dos animais infectados e vacinação, seguindo as medidas profiláticas apresentadas para a parvovirose canina.",
+
+    blocos: [
+      {
+        emoji: "🧼",
+        titulo: "Controle ambiental",
+        texto:
+          "Realizar a limpeza e a desinfecção de instalações, equipamentos e superfícies, reduzindo a presença de material contaminado no ambiente."
+      },
+      {
+        emoji: "🚧",
+        titulo: "Isolamento dos animais",
+        texto:
+          "Animais infectados devem ser isolados para reduzir a disseminação do agente e a contaminação de outros animais."
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        texto:
+          "Tem-se a inclusão do componente contra coronavírus na composição de vacinas polivalentes caninas, juntamente com outros agentes infecciosos."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+    titulo: "Canine coronavirus: Review",
+    autores: "Júlia Sobreira; Alexandre de Pina Costa",
+    fonte: "Pubvet, v. 16, n. 02",
+    ano: "2022",
+    link: "https://doi.org/10.31533/pubvet.v16n02a1029.1-8"
+  },
+  {
+    titulo: "Canine Enteric Coronaviruses: Emerging Viral Pathogens with Distinct Recombinant Spike Proteins",
+    autores: "Beth N. Licitra; Gerald E. Duhamel; Gary R. Whittaker",
+    fonte: "Viruses, v. 6, n. 8, p. 3363–3376",
+    ano: "2014",
+    link: "https://doi.org/10.3390/v6083363"
+  },
+  {
+    titulo: "Development of a nested PCR assay for the detection of canine coronavirus",
+    autores: "Pratelli et al.",
+    fonte: "Journal of Virological Methods",
+    ano: "1999",
+    link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7119595/"
+  },
+  {
+    titulo: "Quantitation of canine coronavirus RNA in the faeces of dogs by TaqMan RT-PCR",
+    autores: "Decaro et al.",
+    fonte: "Journal of Virological Methods, v. 119, n. 2, p. 145–150",
+    ano: "2004",
+    link: "https://doi.org/10.1016/j.jviromet.2004.03.012"
+  }
+  ],
+
+  
+casosClinicos: [
+  {
+    id: "coronavirose-giardiase-filhote",
+    titulo: "Coronavirose e giardíase em filhote",
+    especie: "Canina",
+    idade: "2 meses e 13 dias",
+    historico:
+      "Filhote proveniente de canil, encaminhado ao hospital veterinário com queixa de diarreia.",
+    sinais: [
+      "Diarreia",
+      "Alterações clínicas inespecíficas",
+      "Alterações hematológicas inespecíficas"
+    ],
+    exames:
+      "Exame coproparasitológico para pesquisa de Giardia spp. e teste rápido para coronavírus canino.",
+    diagnostico:
+      "Investigação de giardíase e coronavirose canina.",
+    discussao:
+      "O caso demonstra a importância do diagnóstico específico, uma vez que diferentes agentes podem provocar manifestações gastrointestinais semelhantes. A associação de exames laboratoriais auxilia na identificação dos agentes envolvidos. Relato baseado em estudo publicado pelo Instituto Federal Goiano em 2025."
+  },
+  {
+    id: "coronavirose-surto-canil-grecia",
+    titulo: "Surto de coronavirose em canil",
+    especie: "Canina",
+    idade: "Filhotes de diferentes idades",
+    historico:
+      "Surto de enterite em filhotes alojados em um canil na Grécia.",
+    sinais: [
+      "Diarreia",
+      "Anorexia",
+      "Fraqueza",
+      "Depressão",
+      "Desidratação",
+      "Um óbito registrado"
+    ],
+    exames:
+      "RT-PCR em amostras fecais, identificando coronavírus canino tipo II em 11 filhotes. Um dos animais também apresentou infecção concomitante por parvovírus canino.",
+    diagnostico:
+      "Coronavirose canina, com identificação molecular do CCoV tipo II.",
+    discussao:
+      "O relato evidencia a importância da investigação laboratorial em surtos de gastroenterite, especialmente pela possibilidade de coinfecções. A maioria dos filhotes apresentou melhora após o tratamento, embora tenha ocorrido um óbito. Caso publicado em 2010 no Journal of Veterinary Diagnostic Investigation."
+  }
+],
+
 
 },
+
+
 
 
 
@@ -6199,9 +6899,9 @@ ano:"2011"
 {
   id: "estomatite-vesicular",
 
-  nome: "Estomatite vesicular",
+  nome: "Estomatite Vesicular",
 
-  agente: "Vírus da estomatite vesicular",
+  agente: "Vesiculovirus (família Rhabdoviridae)",
 
   categoria: "Virais",
 
@@ -6218,32 +6918,435 @@ ano:"2011"
   hospedeiros: [
     "Bovinos",
     "Equinos",
-    "Suínos"
+    "Suínos",
+    "Roedores",
+    "Cervídeos",
+    "Javalis",
+    "Aves"
   ],
 
   palavrasChave: [
     "estomatite vesicular",
-    "boi",
-    "vaca",
-    "cavalo",
-    "equino",
-    "porco"
+    "vesiculovírus",
+    "vesículas",
+    "febre vesicular",
+    "febre dos equídeos",
+    "Rhabdoviridae",
+    "New Jersey",
+    "Indiana",
+    "bovinos",
+    "equinos",
+    "suínos"
   ],
 
   imagem: "/images/doencas/estomatite-vesicular.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+imagens: [
+  {
+    src: "/images/doencas/estomatite-vesicular/01-lesoes-orais.jpg",
+    titulo: "Lesões vesiculares na cavidade oral",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Vesículas e ulcerações na mucosa oral, características da estomatite vesicular."
+  },
+  {
+    src: "/images/doencas/estomatite-vesicular/02-lesoes.jpg",
+    titulo: "Lesões em animais com estomatite vesicular",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Lesões vesiculares e inflamatórias na região dos cascos, tetos e úbere, que podem provocar coronite, manqueira comprometer a ordenha e favorecer o desenvolvimento de mastite."
+  },
+  
 
-  referencias: [],
+  {
+    src: "/images/doencas/estomatite-vesicular/05-agente-etiologico.jpg",
+    titulo: "Vírus da estomatite vesicular",
+    categoria: "Agente etiológico",
+    descricao:
+      "Representação do Vesiculovirus, vírus envelopado com RNA pertencente à família Rhabdoviridae."
+  }
+],
 
-  casosClinicos: [],
+
+  visaoGeral: {
+    introducao:
+      "A estomatite vesicular é uma enfermidade viral febril, de curso geralmente subagudo, caracterizada pela formação de vesículas em diferentes regiões do corpo, principalmente na boca, nos cascos e nos tetos. Apresenta tendência à recuperação espontânea, mas pode causar prejuízos produtivos e possui importância sanitária devido à semelhança clínica com a febre aftosa.",
+
+    cards: [
+      {
+        emoji: "⭐",
+        titulo: "Destaques",
+        itens: [
+          "Doença viral de caráter vesicular",
+          "Acomete principalmente bovinos, equinos e suínos",
+          "Apresenta tendência à recuperação espontânea",
+          "Possui importância para a saúde pública por seu potencial zoonótico",
+          "Deve ser diferenciada da febre aftosa"
+        ]
+      },
+      {
+        emoji: "🦠",
+        titulo: "Características",
+        itens: [
+          "Vírus RNA envelopado",
+          "Pertence à família Rhabdoviridae",
+          "Gênero Vesiculovirus",
+          "Principais tipos: New Jersey e Indiana",
+          "Não apresenta imunidade cruzada entre os diferentes tipos e subtipos"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância sanitária",
+        itens: [
+          "Pode provocar redução da produção leiteira",
+          "As lesões nos cascos podem causar manqueira",
+          "Pode apresentar transmissão por artrópodes e fômites",
+          "É uma enfermidade de notificação obrigatória e imediata"
+        ]
+      }
+    ]
+  },
+
+  etiologia: {
+    introducao:
+      "A estomatite vesicular é causada por vírus do gênero Vesiculovirus, pertencentes à família Rhabdoviridae. São vírus envelopados, com genoma de RNA e morfologia característica em formato de bala.",
+
+    listas: [
+      {
+        emoji: "🧬",
+        titulo: "Classificação taxonômica",
+        itens: [
+          "Família: Rhabdoviridae",
+          "Gênero: Vesiculovirus",
+          "Espécie: vírus da estomatite vesicular",
+          "Genoma: RNA",
+          "Vírus envelopado com capsídeo de simetria helicoidal"
+        ]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Principais tipos virais",
+        itens: [
+          "New Jersey",
+          "Indiana",
+          "Subtipo Indiana-1 ou Alagoas",
+          "Subtipo Indiana-2 ou Cocal",
+          "Subtipo Indiana-3 ou Argentina"
+        ]
+      },
+      {
+        emoji: "🧫",
+        titulo: "Características do agente",
+        itens: [
+          "Formato semelhante a uma bala",
+          "Envelope lipoproteico com espículas de glicoproteínas",
+          "Tamanho aproximado de 175 a 220 nm",
+          "Apresenta sensibilidade a temperaturas elevadas, luz ultravioleta e determinados desinfetantes",
+          "Não apresenta imunidade cruzada entre os diferentes tipos e subtipos"
+        ]
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "Após a entrada do vírus no organismo, ocorre multiplicação viral e disseminação, podendo resultar em lesões vesiculares na cavidade oral, nos membros e na região dos tetos e úbere. O período de incubação descrito no material é de aproximadamente sete dias.",
+
+    blocos: [
+      {
+        emoji: "🚪",
+        titulo: "Entrada do vírus",
+        texto:
+          "A infecção pode ocorrer por diferentes vias, incluindo contato direto com animais infectados, exposição a aerossóis, ingestão de alimentos contaminados e contato com fômites. A transmissão também pode ocorrer por meio de artrópodes vetores."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Disseminação viral",
+        texto:
+          "Após a entrada no organismo, o vírus pode alcançar a circulação sanguínea e disseminar-se para diferentes regiões, onde ocorre multiplicação viral e desenvolvimento de lesões."
+      },
+      {
+        emoji: "🫧",
+        titulo: "Formação das vesículas",
+        texto:
+          "A multiplicação viral nos tecidos epiteliais provoca a formação de vesículas, principalmente na boca, nas narinas, nos cascos e nos tetos e úbere."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Evolução e recuperação",
+        texto:
+          "A enfermidade apresenta tendência à recuperação espontânea, geralmente em torno de dez dias. Entretanto, alguns animais podem desenvolver sequelas, como manqueira e mastite."
+      },
+      {
+        emoji: "🛡️",
+        titulo: "Imunidade",
+        texto:
+          "Após a infecção, pode ocorrer imunidade tipo-específica, com duração aproximada de seis a doze meses, sem proteção cruzada entre diferentes tipos virais."
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A estomatite vesicular apresenta ocorrência em diferentes espécies animais e possui importância epidemiológica devido às possibilidades de transmissão direta e indireta. Além dos animais domésticos, diferentes espécies silvestres podem ser infectadas.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Hospedeiros suscetíveis",
+        texto:
+          "Bovinos, equinos, suínos, ratos, roedores silvestres, cervídeos e javalis podem ser infectados. A infecção também pode ocorrer em aves, como galinhas, patos e gansos."
+      },
+      {
+        emoji: "🦟",
+        titulo: "Transmissão por vetores",
+        texto:
+          "A transmissão pode ocorrer por artrópodes, incluindo mosquitos do gênero Lutzomyia e moscas, como Drosophila melanogaster."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Outras vias de transmissão",
+        texto:
+          "A disseminação também pode ocorrer por aerossóis, contato direto, alimentos contaminados e fômites, como ordenhadeiras, bebedouros e utensílios. O vírus não penetra pela pele íntegra."
+      },
+      {
+        emoji: "👤",
+        titulo: "Importância zoonótica",
+        texto:
+          "A infecção humana é rara e pode provocar manifestações semelhantes às de um quadro gripal, incluindo febre, calafrios e dores musculares, além de lesões vesiculares."
+      },
+      {
+        emoji: "📊",
+        titulo: "Morbidade e mortalidade",
+        texto:
+          "O material descreve morbidade aproximada de 50% e mortalidade de 0%, com tendência à recuperação espontânea."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas estão relacionadas principalmente à formação de vesículas e úlceras, acompanhadas de sinais sistêmicos. A localização das lesões pode comprometer a alimentação, a locomoção e a produção leiteira.",
+
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Sinais gerais",
+        itens: [
+          "Febre",
+          "Anorexia",
+          "Sialorreia",
+          "Rinorreia seromucosa"
+        ]
+      },
+      {
+        emoji: "🫧",
+        titulo: "Lesões vesiculares",
+        itens: [
+          "Formação de vesículas na cavidade oral",
+          "Vesículas e úlceras em diferentes regiões do corpo",
+          "Lesões nas narinas",
+          "Lesões nos tetos e no úbere",
+          "Lesões na região dos cascos"
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Alterações produtivas",
+        itens: [
+          "Redução acentuada da produção leiteira",
+          "Dificuldade de alimentação devido às lesões orais",
+          "Desconforto durante a ordenha",
+          "Possibilidade de desenvolvimento de mastite"
+        ]
+      },
+      {
+        emoji: "🐎",
+        titulo: "Alterações locomotoras",
+        itens: [
+          "Lesões na região dos cascos",
+          "Coronite",
+          "Manqueira",
+          "Possibilidade de perda dos cascos em uma pequena proporção dos animais"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Possíveis sequelas",
+        itens: [
+          "Mastite",
+          "Manqueira persistente",
+          "Comprometimento dos cascos"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico deve considerar a avaliação clínica, epidemiológica e laboratorial. Como as lesões vesiculares podem ser semelhantes às observadas em outras enfermidades de importância sanitária, é fundamental realizar o diagnóstico diferencial e a confirmação laboratorial.",
+
+    metodos: [
+      "fixacao-complemento",
+      "pcr"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "A enfermidade apresenta tendência à recuperação espontânea, não sendo descrito tratamento antiviral específico. As medidas terapêuticas são direcionadas principalmente ao controle das complicações e sequelas decorrentes das lesões.",
+
+    blocos: [
+      {
+        emoji: "🩺",
+        titulo: "Tratamento de suporte",
+        texto:
+          "O manejo clínico deve priorizar o conforto do animal, a manutenção da alimentação e da hidratação e o acompanhamento da evolução das lesões."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Manejo das sequelas",
+        texto:
+          "O tratamento das complicações deve ser direcionado conforme a alteração apresentada, especialmente nos casos de mastite e comprometimento dos cascos."
+      },
+      {
+        emoji: "🧼",
+        titulo: "Cuidados sanitários",
+        texto:
+          "Os animais doentes devem permanecer isolados, com redução do contato com outros animais e higienização dos equipamentos e utensílios utilizados no manejo."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da estomatite vesicular envolve medidas de biossegurança, isolamento dos animais infectados, controle de possíveis vetores e redução das fontes de contaminação ambiental.",
+
+    blocos: [
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        destaque: true,
+        texto:
+          "Vacinas inativadas específicas podem ser utilizadas em regiões endêmicas quando a enfermidade representa um problema zoossanitário. No Brasil, não é realizada vacinação rotineira contra a estomatite vesicular.",
+        tags: [
+          "VACINAÇÃO EM REGIÕES ENDÊMICAS",
+          "🇧🇷 NÃO VACINADO ROTINEIRAMENTE NO BRASIL"
+        ]
+      },
+      {
+        emoji: "🚧",
+        titulo: "Isolamento dos animais doentes",
+        texto:
+          "Animais infectados devem ser isolados para reduzir a possibilidade de transmissão direta e indireta para os demais animais."
+      },
+      {
+        emoji: "🦟",
+        titulo: "Controle de vetores",
+        texto:
+          "O controle de artrópodes e a drenagem de áreas alagadiças são medidas importantes para reduzir a exposição aos possíveis vetores."
+      },
+      {
+        emoji: "🧼",
+        titulo: "Higienização de instalações",
+        texto:
+          "Ordenhadeiras, bebedouros, utensílios e demais equipamentos devem ser higienizados e desinfetados adequadamente, reduzindo a transmissão por fômites."
+      },
+      {
+        emoji: "📋",
+        titulo: "Notificação e vigilância",
+        texto:
+          "A suspeita de estomatite vesicular deve ser comunicada imediatamente ao Serviço Veterinário Oficial, permitindo a investigação e a adoção das medidas sanitárias necessárias."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Vesicular stomatitis",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "Manual of Diagnostic Tests and Vaccines for Terrestrial Animals",
+      ano: "2024",
+      link: "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.01.23_VESICULAR_STOMATITIS.pdf"
+    },
+    {
+      titulo: "Lista de doenças de notificação obrigatória ao Serviço Veterinário Oficial",
+      autores: "Ministério da Agricultura e Pecuária (MAPA)",
+      fonte: "Instrução Normativa nº 50, de 24 de setembro de 2013",
+      ano: "2013",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/qualidade-dos-servicos-veterinarios/arquivos/sistema-de-informacao-em-saude-animal/in_50_2013_doencas_notif_obrigatoria.pdf"
+    }
+  ],
+
+casosClinicos: [
+  {
+    id: "estomatite-vesicular-caso-01",
+    titulo: "Lesões vesiculares e queda na produção leiteira",
+    especie: "Bovino",
+    idade: "Fêmea adulta",
+    historico:
+      "Uma vaca leiteira apresenta redução significativa da produção de leite, febre e dificuldade para se alimentar. O produtor relata o aparecimento de lesões na boca e nos tetos, além de salivação excessiva.",
+    sinais: [
+      "Febre",
+      "Anorexia",
+      "Sialorreia intensa",
+      "Vesículas e ulcerações na cavidade oral",
+      "Lesões nos tetos e no úbere",
+      "Redução da produção leiteira"
+    ],
+    exames:
+      "Coleta de líquido e epitélio das vesículas para investigação laboratorial. A confirmação pode envolver isolamento viral em cultivo celular e testes sorológicos, como soroneutralização e fixação de complemento.",
+    diagnostico:
+      "Estomatite vesicular.",
+    discussao:
+      "A presença de lesões vesiculares na cavidade oral e nos tetos, associada à febre e à redução da produção leiteira, é compatível com estomatite vesicular. Entretanto, a febre aftosa deve ser considerada no diagnóstico diferencial. A confirmação laboratorial e a notificação ao Serviço Veterinário Oficial são fundamentais."
+  },
+  {
+    id: "estomatite-vesicular-caso-02",
+    titulo: "Manqueira associada a lesões vesiculares",
+    especie: "Equino",
+    idade: "Adulto",
+    historico:
+      "Um equino apresenta dificuldade de locomoção, febre e desconforto durante a alimentação. Durante o exame clínico, são observadas lesões vesiculares na cavidade oral e alterações inflamatórias na região dos cascos.",
+    sinais: [
+      "Febre",
+      "Anorexia",
+      "Sialorreia",
+      "Vesículas e ulcerações na boca",
+      "Coronite",
+      "Manqueira"
+    ],
+    exames:
+      "Coleta de material das vesículas para investigação laboratorial, incluindo isolamento viral, soroneutralização e fixação de complemento.",
+    diagnostico:
+      "Estomatite vesicular.",
+    discussao:
+      "A associação entre lesões orais e alterações nos cascos pode ocorrer na estomatite vesicular. A presença de equinos acometidos é um dado epidemiológico importante, pois essa espécie não é acometida pela febre aftosa, auxiliando no diagnóstico diferencial. A confirmação, entretanto, depende de investigação laboratorial."
+  },
+  {
+    id: "estomatite-vesicular-caso-03",
+    titulo: "Lesões vesiculares em criação de suínos",
+    especie: "Suíno",
+    idade: "Adulto",
+    historico:
+      "Em uma propriedade de criação de suínos, alguns animais apresentam febre, dificuldade de locomoção e lesões vesiculares na região da boca e dos cascos. O responsável relata o aparecimento de novos animais com sinais semelhantes.",
+    sinais: [
+      "Febre",
+      "Anorexia",
+      "Sialorreia",
+      "Vesículas na cavidade oral",
+      "Lesões na região dos cascos",
+      "Manqueira"
+    ],
+    exames:
+      "Coleta de líquido e epitélio das vesículas para investigação laboratorial e identificação do agente viral.",
+    diagnostico:
+      "Suspeita de estomatite vesicular, com necessidade de confirmação laboratorial.",
+    discussao:
+      "A ocorrência de lesões vesiculares em suínos exige atenção especial ao diagnóstico diferencial com outras enfermidades vesiculares, principalmente a febre aftosa e a doença vesicular dos suínos. A suspeita deve ser imediatamente comunicada ao Serviço Veterinário Oficial, que conduzirá a investigação e as medidas sanitárias pertinentes."
+  }
+],
 
 },
 
@@ -6253,63 +7356,457 @@ ano:"2011"
 
 {
   id: "febre-aftosa",
-
-  nome: "Febre aftosa",
-
-  agente: "Vírus da febre aftosa",
-
+  nome: "Febre Aftosa",
+  agente: "Vírus da febre aftosa (FMDV)",
   categoria: "Virais",
-
   icone: "🦠",
-
   zoonose: false,
-
   vacina: true,
-
   eutanasia: true,
-
   notificacaoObrigatoria: true,
-
   hospedeiros: [
     "Bovinos",
+    "Bubalinos",
     "Suínos",
     "Ovinos",
-    "Caprinos"
+    "Caprinos",
+    "Outros animais de casco fendido"
   ],
-
   palavrasChave: [
     "febre aftosa",
-    "aftosa",
-    "boi",
-    "vaca",
-    "gado",
-    "porco",
-    "ovelha",
-    "cabra"
+    "FMDV",
+    "aftovírus",
+    "doença vesicular",
+    "vesículas",
+    "erosões",
+    "claudicação",
+    "sialorreia",
+    "Picornaviridae"
   ],
-
   imagem: "/images/doencas/febre-aftosa.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/febre-aftosa/lesoes-orais.jpg",
+      titulo: "Lesões vesiculares na cavidade oral",
+      categoria: "Sinais clínicos",
+      descricao: "Vesículas e erosões que podem acometer língua, gengivas, lábios e mucosa oral."
+    },
+    {
+      src: "/images/doencas/febre-aftosa/lesoes-lingua.jpg",
+      titulo: "Lesões na língua",
+      categoria: "Sinais clínicos",
+      descricao: "Vesículas rompidas e áreas erosivas na superfície da língua."
+    },
+    {
+      src: "/images/doencas/febre-aftosa/lesoes-casco.jpg",
+      titulo: "Lesões nos cascos",
+      categoria: "Sinais clínicos",
+      descricao: "Lesões vesiculares e erosivas no rodete coronário e no espaço interdigital, associadas à claudicação."
+    },
+    {
+      src: "/images/doencas/febre-aftosa/lesoes-ubere.jpg",
+      titulo: "Lesões no úbere",
+      categoria: "Sinais clínicos",
+      descricao: "Lesões vesiculares e ulcerativas que podem comprometer a produção de leite."
+    },
+    {
+      src: "/images/doencas/febre-aftosa/miocardite-bezerro.jpg",
+      titulo: "Comprometimento cardíaco em bezerros",
+      categoria: "Patologia",
+      descricao: "A degeneração do miocárdio pode produzir o aspecto conhecido como coração tigrado."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao: "A febre aftosa é uma doença viral generalizada, aguda e altamente contagiosa, que acomete principalmente animais de casco fendido. Caracteriza-se pelo desenvolvimento de vesículas e erosões na mucosa oral, no espaço interdigital, no rodete coronário dos cascos e no úbere. Apresenta elevada morbidade e grande impacto econômico, especialmente pela rápida disseminação e pelas perdas na produção animal.",
+    cards: [
+      {
+        emoji: "🦠",
+        titulo: "Agente etiológico",
+        itens: [
+          "Vírus da febre aftosa (FMDV)",
+          "Família Picornaviridae",
+          "Gênero Aphthovirus",
+          "Vírus de RNA de fita simples"
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Principais hospedeiros",
+        itens: [
+          "Bovinos e bubalinos",
+          "Suínos",
+          "Ovinos e caprinos",
+          "Outros animais de casco fendido"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Transmissão",
+        itens: [
+          "Contato direto com animais infectados",
+          "Secreções e excreções contaminadas",
+          "Aerossóis",
+          "Fômites, veículos, equipamentos e roupas"
+        ]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Diagnóstico",
+        itens: [
+          "Investigação clínica e epidemiológica",
+          "RT-PCR em tempo real",
+          "Testes sorológicos",
+          "Isolamento e identificação viral"
+        ]
+      },
+      {
+        emoji: "📢",
+        titulo: "Importância sanitária",
+        itens: [
+          "Doença de notificação obrigatória",
+          "Elevado potencial de disseminação",
+          "Impacto econômico e comercial",
+          "Investigação realizada pelo Serviço Veterinário Oficial"
+        ]
+      }
+    ]
+  },
 
-  casosClinicos: [],
+  etiologia: {
+    introducao: "O agente etiológico é o vírus da febre aftosa (FMDV), pertencente à família Picornaviridae e ao gênero Aphthovirus. É um vírus pequeno, não envelopado, com RNA de fita simples e capsídeo de simetria icosaédrica. Apresenta diferentes sorotipos, que possuem características antigênicas próprias.",
+    listas: [
+      {
+        titulo: "Classificação viral",
+        emoji: "🧬",
+        itens: [
+          "Família: Picornaviridae",
+          "Gênero: Aphthovirus",
+          "Espécie: vírus da febre aftosa (FMDV)",
+          "Genoma: RNA de fita simples",
+          "Capsídeo: simetria icosaédrica",
+          "Tamanho aproximado: 20 a 25 nm",
+          "Ausência de envelope viral"
+        ]
+      },
+      {
+        titulo: "Sorotipos",
+        emoji: "🔬",
+        itens: [
+          "O",
+          "A",
+          "C",
+          "SAT 1",
+          "SAT 2",
+          "SAT 3",
+          "Asia 1"
+        ]
+      },
+      {
+        titulo: "Características de resistência",
+        emoji: "🧪",
+        itens: [
+          "Resiste ao éter e ao clorofórmio.",
+          "Pode permanecer viável durante o congelamento.",
+          "É sensível ao formol, à soda e a condições extremas de pH.",
+          "É inativado pela luz solar e por temperaturas elevadas.",
+          "Pode sobreviver em materiais orgânicos, como fezes e sangue, especialmente em condições de alta umidade e baixa incidência solar."
+        ]
+      },
+      {
+        titulo: "Cultivo viral",
+        emoji: "🧫",
+        itens: [
+          "Pode ser cultivado em células de língua de bovinos.",
+          "Também pode ser cultivado em células de rins de diferentes espécies.",
+          "Células permanentes BHK podem ser utilizadas.",
+          "Produz efeito citopático devido à replicação citocida."
+        ]
+      }
+    ]
+  },
 
+  patogenia: {
+    introducao: "A infecção ocorre pela entrada do vírus através das mucosas ou de áreas de pele lesionada. Após a multiplicação inicial, o agente alcança a corrente circulatória, disseminando-se pelo organismo e provocando o aparecimento de lesões vesiculares em diferentes regiões.",
+    blocos: [
+      {
+        emoji: "1️⃣",
+        titulo: "Entrada do vírus",
+        texto: "O vírus penetra no organismo pelas mucosas ou por áreas de pele lesionada, iniciando a multiplicação local e o desenvolvimento das aftas primárias."
+      },
+      {
+        emoji: "2️⃣",
+        titulo: "Viremia primária",
+        texto: "Após a multiplicação inicial, o vírus alcança a corrente sanguínea, caracterizando a viremia primária, e é disseminado para órgãos e tecidos."
+      },
+      {
+        emoji: "3️⃣",
+        titulo: "Multiplicação viral",
+        texto: "O agente realiza novas etapas de multiplicação nos tecidos, retornando à circulação sanguínea e promovendo uma segunda disseminação viral."
+      },
+      {
+        emoji: "4️⃣",
+        titulo: "Aftas secundárias",
+        texto: "Ocorre o desenvolvimento de lesões vesiculares secundárias, principalmente na cavidade oral, nos cascos e no úbere."
+      },
+      {
+        emoji: "⏱️",
+        titulo: "Período de incubação",
+        texto: "O período de incubação descrito é de aproximadamente 48 horas a 7 dias, podendo variar conforme as condições de exposição e do hospedeiro."
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao: "A febre aftosa apresenta elevada capacidade de disseminação entre animais suscetíveis, podendo provocar surtos com morbidade próxima de 100%. Sua ocorrência possui grande importância para a pecuária, devido às perdas produtivas e às restrições sanitárias e comerciais.",
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto: "A doença apresenta distribuição mundial, com ocorrência historicamente registrada em diferentes regiões. Os sorotipos O e A são descritos como os mais frequentes em termos gerais."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Morbidade e mortalidade",
+        texto: "A morbidade pode alcançar 100% dos animais suscetíveis. A mortalidade é geralmente mais elevada em animais jovens, podendo ocorrer devido ao comprometimento cardíaco, enquanto os adultos apresentam menor risco de morte."
+      },
+      {
+        emoji: "💧",
+        titulo: "Eliminação viral",
+        texto: "Animais infectados eliminam o vírus pela saliva, pelo conteúdo das vesículas, pelo leite, pelas fezes, pelo sêmen e pela urina. A eliminação pode ocorrer antes mesmo da manifestação dos sinais clínicos."
+      },
+      {
+        emoji: "🌬️",
+        titulo: "Transmissão",
+        texto: "A transmissão ocorre por contato direto com animais infectados, pela via respiratória ou digestiva e por meio de aerossóis. Materiais contaminados, como instalações, veículos, rações, equipamentos, cordas, roupas e produtos de origem animal, também podem atuar na disseminação."
+      },
+      {
+        emoji: "👤",
+        titulo: "Participação humana na transmissão",
+        texto: "A infecção humana é rara e a doença não representa risco significativo à saúde pública. Entretanto, pessoas podem atuar como veículos mecânicos de transmissão, transportando o vírus em roupas, calçados e equipamentos contaminados."
+      },
+      {
+        emoji: "🇧🇷",
+        titulo: "Situação sanitária do Brasil",
+        texto: "O Brasil recebeu, em maio de 2025, o reconhecimento internacional como país livre de febre aftosa sem vacinação. A vigilância epidemiológica e a notificação imediata de qualquer suspeita de doença vesicular são fundamentais para evitar a reintrodução do vírus."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao: "Os sinais clínicos são caracterizados principalmente por febre e pelo aparecimento de vesículas que se rompem, formando erosões e úlceras dolorosas. As lesões comprometem principalmente a cavidade oral, os cascos e o úbere, causando dificuldade de alimentação, locomoção e redução da produtividade.",
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Sinais gerais",
+        itens: [
+          "Febre, podendo atingir 41 °C.",
+          "Taquisfigmia.",
+          "Anorexia.",
+          "Polidipsia.",
+          "Redução da produtividade."
+        ]
+      },
+      {
+        emoji: "👅",
+        titulo: "Lesões na cavidade oral",
+        itens: [
+          "Vesículas nos lábios, língua, gengivas, bochechas, focinho e narinas.",
+          "Rompimento das vesículas, formando úlceras dolorosas.",
+          "Edema de língua, podendo ocorrer exteriorização.",
+          "Sialorreia intensa.",
+          "Disfagia e dificuldade de apreensão dos alimentos.",
+          "Diminuição dos movimentos ruminais."
+        ]
+      },
+      {
+        emoji: "🐾",
+        titulo: "Lesões nos membros",
+        itens: [
+          "Vesículas e úlceras no rodete coronário.",
+          "Lesões no espaço interdigital.",
+          "Dor e sensibilidade nos cascos.",
+          "Claudicação e dificuldade de locomoção."
+        ]
+      },
+      {
+        emoji: "🥛",
+        titulo: "Lesões no úbere",
+        itens: [
+          "Vesículas e úlceras no úbere e nos tetos.",
+          "Dor durante a ordenha.",
+          "Redução da produção de leite."
+        ]
+      },
+      {
+        emoji: "🐂",
+        titulo: "Outros sinais reprodutivos",
+        itens: [
+          "Anestro.",
+          "Abortos podem ocorrer, embora sejam raros.",
+          "Podem ocorrer partos distócicos de bezerros mortos."
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Manifestação em bezerros",
+        itens: [
+          "Degeneração do miocárdio, podendo produzir o aspecto conhecido como coração tigrado.",
+          "Dificuldade de locomoção.",
+          "Emagrecimento.",
+          "Morte súbita, que pode ocorrer em 12 a 30 horas nos casos de comprometimento cardíaco grave."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao: "O diagnóstico inicial considera o histórico epidemiológico, a elevada capacidade de disseminação e a presença de lesões vesiculares em animais suscetíveis. Entretanto, a febre aftosa não pode ser diferenciada com segurança de outras doenças vesiculares apenas pela avaliação clínica. A confirmação deve ser realizada por exames laboratoriais em laboratórios oficiais autorizados pelo Serviço Veterinário Oficial (SVO). Em caso de suspeita, a notificação ao SVO deve ser imediata.",
+    metodos: [
+      "pcr"
+    ]
+  },
+
+  tratamento: {
+    introducao: "Devido à elevada morbidade e à rápida disseminação, a terapêutica individual possui pouca importância no controle da febre aftosa. As medidas de contenção sanitária são prioritárias. Quando indicado pelas autoridades veterinárias, o tratamento é sintomático e voltado ao cuidado das lesões e à prevenção de complicações secundárias.",
+    blocos: [
+      {
+        emoji: "🚫",
+        titulo: "Isolamento e contenção",
+        texto: "Os animais suspeitos devem ser isolados e a propriedade deve seguir as orientações do Serviço Veterinário Oficial. A movimentação de animais, pessoas e materiais deve ser controlada para evitar a disseminação do agente."
+      },
+      {
+        emoji: "🩹",
+        titulo: "Cuidados com as lesões",
+        texto: "O material de aula descreve a lavagem das lesões e a utilização de soluções tópicas, desinfetantes, sprays, pastas e ataduras como medidas sintomáticas."
+      },
+      {
+        emoji: "💉",
+        titulo: "Medidas sanitárias oficiais",
+        texto: "Em caso de confirmação, as medidas de controle são determinadas pelo Serviço Veterinário Oficial e podem incluir eliminação de animais infectados e contatos, destruição de carcaças, desinfecção e vigilância epidemiológica."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao: "A prevenção da febre aftosa depende de vigilância epidemiológica, biossegurança, controle do trânsito de animais e produtos de origem animal e notificação imediata de suspeitas. A vacinação é uma ferramenta utilizada em diferentes estratégias internacionais, mas não é realizada rotineiramente no Brasil desde a transição para o status de país livre da doença sem vacinação, reconhecido em maio de 2025.",
+    blocos: [
+      {
+        emoji: "📢",
+        titulo: "Notificação obrigatória",
+        texto: "Qualquer suspeita de doença vesicular deve ser comunicada imediatamente ao Serviço Veterinário Oficial. A notificação é obrigatória para médicos-veterinários, produtores e demais cidadãos. A presença de salivação excessiva, claudicação e lesões na boca, patas ou úbere deve ser investigada imediatamente."
+      },
+      {
+        emoji: "🚧",
+        titulo: "Controle de trânsito",
+        texto: "O controle da entrada e saída de animais, produtos de origem animal, veículos e equipamentos é fundamental para impedir a introdução e a disseminação do vírus."
+      },
+      {
+        emoji: "🧼",
+        titulo: "Biossegurança e desinfecção",
+        texto: "A higienização de instalações, veículos, equipamentos, roupas e calçados reduz o risco de transmissão indireta. O controle de acesso às propriedades também é uma medida importante."
+      },
+      {
+        emoji: "🔍",
+        titulo: "Vigilância epidemiológica",
+        texto: "A identificação precoce de sinais clínicos, a investigação de vínculos epidemiológicos e a coleta de amostras pelo SVO são essenciais para a detecção de possíveis focos."
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        texto: "As vacinas contra a febre aftosa podem ser mono, bi ou trivalentes e devem considerar os sorotipos circulantes. O material de aula apresenta esquemas de vacinação utilizados em programas anteriores. No Brasil, a vacinação rotineira foi suspensa com o reconhecimento do status de país livre de febre aftosa sem vacinação. A vacinação de emergência poderá ser adotada pelas autoridades sanitárias, caso necessário."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Medidas em caso de foco",
+        texto: "A confirmação da doença exige medidas oficiais de contenção, que podem incluir interdição da unidade epidemiológica, eliminação de animais infectados e contatos, destruição de carcaças, desinfecção e vigilância nas áreas envolvidas."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Febre Aftosa",
+      autores: "Ministério da Agricultura e Pecuária (MAPA)",
+      fonte: "Programa Nacional de Vigilância para a Febre Aftosa",
+      ano: "2025",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/febre-aftosa"
+    },
+    {
+      titulo: "Vigilância à Febre Aftosa",
+      autores: "Ministério da Agricultura e Pecuária (MAPA)",
+      fonte: "Programa Nacional de Vigilância para a Febre Aftosa",
+      ano: "2026",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/febre-aftosa/combate-febre-aftosa"
+    },
+    {
+      titulo: "Ficha Técnica — Febre Aftosa",
+      autores: "Ministério da Agricultura e Pecuária (MAPA)",
+      fonte: "Secretaria de Defesa Agropecuária",
+      ano: "2025",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/programas-de-saude-animal/febre-aftosa/ficha-tecnica_febre-aftosa_out_2025.pdf"
+    },
+    {
+      titulo: "Foot and mouth disease",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "WOAH — Disease information",
+      ano: "2025",
+      link: "https://www.woah.org/en/disease/foot-and-mouth-disease/"
+    },
+    {
+      titulo: "Manual de procedimentos para atendimento a suspeitas de febre aftosa e outras doenças vesiculares",
+      autores: "Organização Pan-Americana da Saúde (OPAS) / PANAFTOSA",
+      fonte: "OPAS",
+      ano: "2025",
+      link: "https://www.paho.org/pt/documentos/manual-procedimentos-para-atendimento-suspeitas-febre-aftosa-e-outras-doencas"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "febre-aftosa-01",
+      titulo: "Bovinos com lesões vesiculares e claudicação",
+      especie: "Bovino",
+      historico: "Uma propriedade apresenta aumento repentino de animais com salivação intensa, dificuldade de alimentação e claudicação. Os primeiros animais afetados desenvolveram febre e, posteriormente, lesões vesiculares na cavidade oral e nos membros.",
+      sinais: [
+        "Febre.",
+        "Sialorreia intensa.",
+        "Vesículas na língua e nos lábios.",
+        "Lesões no espaço interdigital e no rodete coronário.",
+        "Claudicação.",
+        "Redução da produção de leite."
+      ],
+      exames: "Amostras de epitélio, líquido vesicular e swabs podem ser encaminhadas pelo SVO para detecção do RNA viral por RT-PCR em tempo real. Exames sorológicos, como ELISA 3ABC, EITB e virusneutralização, podem ser utilizados conforme a finalidade da investigação.",
+      diagnostico: "Suspeita de febre aftosa, com necessidade de confirmação laboratorial oficial.",
+      discussao: "A ocorrência de sinais vesiculares em vários animais suscetíveis, associada à rápida disseminação e à claudicação, exige investigação imediata de doença vesicular. A avaliação clínica isolada não confirma a febre aftosa, sendo indispensável a atuação do Serviço Veterinário Oficial."
+    },
+    {
+      id: "febre-aftosa-02",
+      titulo: "Morte súbita em bezerros",
+      especie: "Bovino",
+      historico: "Em uma propriedade com circulação de doença vesicular, bezerros jovens apresentam dificuldade de locomoção, prostração e morte súbita. A avaliação anatomopatológica evidencia alterações compatíveis com degeneração do miocárdio.",
+      sinais: [
+        "Morte súbita.",
+        "Dificuldade de locomoção.",
+        "Emagrecimento.",
+        "Comprometimento cardíaco.",
+        "Possível aspecto de coração tigrado."
+      ],
+      exames: "A investigação deve seguir os procedimentos oficiais, com coleta de amostras apropriadas para detecção do agente e confirmação laboratorial.",
+      diagnostico: "Suspeita de febre aftosa com comprometimento cardíaco em animais jovens.",
+      discussao: "Em animais jovens, a febre aftosa pode apresentar evolução grave devido à degeneração do miocárdio, podendo ocorrer morte antes mesmo do desenvolvimento de lesões vesiculares evidentes. A suspeita deve ser comunicada imediatamente ao SVO."
+    }
+  ]
 },
+
+
 {
   id: "panleucopenia-felina",
 
-  nome: "Panleucopenia felina",
+  nome: "Panleucopenia Felina",
 
-  agente: "Parvovírus felino",
+  agente: "Parvovírus felino (FPV)",
 
   categoria: "Virais",
 
@@ -6324,33 +7821,368 @@ ano:"2011"
   notificacaoObrigatoria: false,
 
   hospedeiros: [
-    "Felinos"
+    "Felinos domésticos",
+    "Felinos selvagens"
   ],
 
   palavrasChave: [
     "panleucopenia",
+    "panleucopenia felina",
+    "parvovirose felina",
+    "parvovirus felino",
+    "parvovírus felino",
+    "FPV",
     "gato",
     "gatos",
     "felino",
-    "felinos"
+    "felinos",
+    "enterite felina",
+    "leucopenia"
   ],
 
   imagem: "/images/doencas/panleucopenia-felina.jpg",
+  imagens: [
+  {
+    src: "/images/doencas/panleucopenia/parvovirus-felino.jpg",
+    titulo: "Parvovírus felino",
+    categoria: "Agente etiológico",
+    descricao:
+      "Representação do agente viral responsável pela panleucopenia felina."
+  },
+  {
+    src: "/images/doencas/panleucopenia/manifestacao-clinica.jpg",
+    titulo: "Manifestações clínicas",
+    categoria: "Sinais clínicos",
+    descricao:
+      "Felino com sinais clínicos compatíveis com a panleucopenia, como depressão, desidratação e alterações gastrointestinais."
+  },
+  {
+    src: "/images/doencas/panleucopenia/hipoplasia-cerebelar.jpg",
+    titulo: "Hipoplasia cerebelar",
+    categoria: "Alteração congênita",
+    descricao:
+      "Alteração neurológica que pode ocorrer em filhotes infectados durante o desenvolvimento fetal."
+  },
+  {
+    src: "/images/doencas/panleucopenia/diagnostico-laboratorial.jpg",
+    titulo: "Diagnóstico laboratorial",
+    categoria: "Diagnóstico",
+    descricao:
+      "Exames laboratoriais utilizados na investigação da infecção pelo parvovírus felino."
+  }
+],
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  visaoGeral: {
+    introducao:
+      "A panleucopenia felina é uma enfermidade viral causada pelo parvovírus felino, que acomete felídeos domésticos e selvagens. Apresenta distribuição mundial e pode provocar quadros clínicos graves, especialmente em animais não vacinados, com elevada morbidade e mortalidade.",
 
-  referencias: [],
+    cards: [
+      {
+        emoji: "🐱",
+        titulo: "Hospedeiros",
+        itens: [
+          "Acomete felídeos domésticos e selvagens",
+          "Possui distribuição mundial",
+          "Animais com mais de um ano apresentam soroprevalência de aproximadamente 75%, conforme o material da aula"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância clínica",
+        itens: [
+          "Pode apresentar elevada morbidade e mortalidade",
+          "Formas clínicas graves são observadas principalmente em animais não vacinados",
+          "A letalidade indicada na aula para animais não vacinados entre três e cinco meses é de 50% a 90%"
+        ]
+      },
+      {
+        emoji: "🦠",
+        titulo: "Características da infecção",
+        itens: [
+          "Causada pelo parvovírus felino",
+          "Acomete tecidos linfoides, medula óssea e criptas intestinais",
+          "Pode provocar imunossupressão e alterações gastrointestinais",
+          "Também pode ocorrer transmissão vertical"
+        ]
+      }
+    ]
+  },
 
-  casosClinicos: [],
+  etiologia: {
+    introducao:
+      "A panleucopenia felina é causada pelo parvovírus felino (FPV), agente responsável pela infecção de felídeos domésticos e selvagens.",
+
+    listas: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🦠",
+        itens: [
+          "Parvovírus felino (FPV)",
+          "Responsável pela panleucopenia felina",
+          "Acomete felídeos domésticos e selvagens"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A panleucopenia felina apresenta distribuição mundial e sua ocorrência está relacionada principalmente à ausência de vacinação. A transmissão pode acontecer de maneira direta ou indireta, por contato com animais infectados, secreções e materiais contaminados.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição",
+        texto:
+          "A enfermidade apresenta distribuição mundial, com ocorrência controlada principalmente por meio da vacinação."
+      },
+      {
+        emoji: "🐈",
+        titulo: "Soroprevalência",
+        texto:
+          "Segundo o material da aula, aproximadamente 75% dos animais com mais de um ano apresentam soroprevalência para o agente."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Susceptibilidade",
+        texto:
+          "Os animais não vacinados apresentam maior risco de desenvolver a forma clínica da enfermidade. O material destaca animais entre três e cinco meses como grupo de atenção, com letalidade indicada entre 50% e 90%."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Transmissão",
+        texto:
+          "A transmissão pode ocorrer de forma direta ou indireta, pelo contato com animais infectados ou suas secreções, especialmente as fezes. A disseminação também acontece pela via oro-fecal e por meio de fômites."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Resistência ambiental",
+        texto:
+          "O vírus apresenta resistência no ambiente, favorecendo a manutenção da contaminação e a disseminação da enfermidade."
+      },
+      {
+        emoji: "🤰",
+        titulo: "Transmissão vertical",
+        texto:
+          "A transmissão vertical pode ocorrer durante a gestação, provocando abortos ou malformações congênitas, dependendo da fase em que a infecção é estabelecida."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "Após a exposição oro-nasal, o parvovírus felino alcança inicialmente os tecidos linfoides da orofaringe. Em seguida, ocorre viremia, com disseminação para a medula óssea, órgãos linfoides e criptas intestinais. A infecção provoca alterações hematológicas, imunossupressão e lesões nos tecidos acometidos.",
+
+    blocos: [
+      {
+        emoji: "1️⃣",
+        titulo: "Exposição e entrada do agente",
+        texto:
+          "Após a exposição oro-nasal, o vírus alcança os tecidos linfoides localizados principalmente na região da orofaringe."
+      },
+      {
+        emoji: "2️⃣",
+        titulo: "Viremia e disseminação",
+        texto:
+          "Entre dois e sete dias, ocorre viremia, permitindo a disseminação viral para a medula óssea, órgãos linfoides e criptas intestinais."
+      },
+      {
+        emoji: "3️⃣",
+        titulo: "Comprometimento hematológico",
+        texto:
+          "A infecção provoca linfopenia e neutropenia, comprometendo as células de defesa do organismo."
+      },
+      {
+        emoji: "4️⃣",
+        titulo: "Lesões nos tecidos linfoides",
+        texto:
+          "Ocorrem necrose e atrofia dos linfonodos, contribuindo para o desenvolvimento de imunossupressão."
+      },
+      {
+        emoji: "5️⃣",
+        titulo: "Comprometimento intestinal",
+        texto:
+          "A infecção das criptas intestinais compromete a renovação das células do epitélio intestinal, favorecendo as alterações gastrointestinais características da enfermidade."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A panleucopenia felina pode apresentar evolução clínica grave, com manifestações sistêmicas e gastrointestinais. Os sinais iniciais incluem depressão profunda, hipertermia, vômitos e desidratação. Nos dias seguintes, podem surgir alterações hematológicas e complicações sistêmicas.",
+
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Manifestações iniciais",
+        itens: [
+          "Depressão profunda",
+          "Hipertermia",
+          "Vômitos",
+          "Desidratação",
+          "Possibilidade de morte"
+        ]
+      },
+      {
+        emoji: "🩸",
+        titulo: "Manifestações posteriores (3 a 4 dias)",
+        itens: [
+          "Panleucopenia, com contagem inferior a 2.000 leucócitos, conforme o material da aula",
+          "Diarreia hemorrágica ou não hemorrágica",
+          "Dor abdominal",
+          "Coagulação intravascular disseminada (CID)",
+          "Hipotermia",
+          "Coma"
+        ]
+      },
+      {
+        emoji: "🐾",
+        titulo: "Manifestações em neonatos",
+        itens: [
+          "Alterações neurológicas",
+          "Possibilidade de malformações congênitas associadas à transmissão vertical"
+        ]
+      },
+      {
+        emoji: "🧠",
+        titulo: "Alterações congênitas",
+        itens: [
+          "Hipoplasia cerebelar",
+          "Atrofia do nervo óptico",
+          "Retinopatia",
+          "Hidroencefalia",
+          "Possibilidade de aborto, dependendo da fase gestacional em que ocorre a infecção"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico clínico presuntivo considera o histórico do animal, os sinais clínicos e a presença de leucopenia. A investigação laboratorial pode ser realizada por meio de sorologia (ELISA) e PCR, utilizando amostras de fezes ou sangue.",
+
+    metodos: [
+      "elisa",
+      "pcr"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento da panleucopenia felina é baseado em terapia de suporte, buscando controlar as alterações provocadas pela infecção e manter as condições clínicas do animal. O prognóstico é desfavorável, especialmente nos quadros graves.",
+
+    blocos: [
+      {
+        emoji: "🩺",
+        titulo: "Terapia de suporte",
+        texto:
+          "O tratamento é direcionado ao suporte clínico do paciente, considerando as alterações sistêmicas e gastrointestinais provocadas pela enfermidade."
+      },
+      {
+        emoji: "💧",
+        titulo: "Controle das alterações clínicas",
+        texto:
+          "O suporte deve considerar as perdas líquidas e as consequências da desidratação, dos vômitos e das alterações gastrointestinais."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Prognóstico",
+        texto:
+          "A enfermidade apresenta prognóstico desfavorável, principalmente em animais não vacinados e nos casos de evolução clínica grave."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da panleucopenia felina é baseada principalmente na vacinação, utilizando vacina viva atenuada. A imunização é fundamental para reduzir a ocorrência das formas clínicas graves da enfermidade.",
+
+    blocos: [
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        destaque: true,
+        texto:
+          "A prevenção é realizada por meio da vacina viva atenuada contra o parvovírus felino, componente da vacina tríplice felina.",
+        tags: [
+          "VACINA VIVA ATENUADA",
+          "V3",
+          "V4",
+          "V5"
+        ],
+        informacoes: [
+          {
+            titulo: "Primeira dose",
+            texto:
+              "Aplicação entre seis e oito semanas de idade."
+          },
+          {
+            titulo: "Segunda dose",
+            texto:
+              "Aplicação entre dez e doze semanas de idade."
+          },
+          {
+            titulo: "Revacinação",
+            texto:
+              "O material da aula indica revacinação anual por meio da tríplice felina."
+          }
+        ]
+      }
+    ]
+  },
+
+  referencias: [
+  
+  {
+    titulo: "Feline Panleukopenia",
+    autores: "Lena DeTar",
+    fonte: "Merck Veterinary Manual",
+    ano: "2025",
+    link: "https://www.merckvetmanual.com/digestive-system/infectious-diseases-of-the-gastrointestinal-tract-in-small-animals/feline-panleukopenia"
+  },
+  {
+    titulo: "Guideline for Feline Panleukopenia",
+    autores: "European Advisory Board on Cat Diseases (ABCD)",
+    fonte: "ABCD Cats & Vets",
+    ano: "2025",
+    link: "https://www.abcdcatsvets.org/guideline-for-feline-panleukopenia/"
+  },
+  {
+    titulo: "2024 Guidelines for the Vaccination of Dogs and Cats",
+    autores: "World Small Animal Veterinary Association (WSAVA)",
+    fonte: "WSAVA",
+    ano: "2024",
+    link: "https://wsava.org/global-guidelines/vaccination-guidelines/"
+  }
+],
+
+  casosClinicos: [
+    {
+      id: "panleucopenia-felina-caso-01",
+      titulo: "Filhote felino com manifestações gastrointestinais",
+      especie: "Felina",
+      idade: "4 meses",
+      historico:
+        "Caso didático fictício elaborado com base nas manifestações clínicas apresentadas na aula. Filhote felino não vacinado é atendido com histórico de depressão progressiva, vômitos e redução da ingestão alimentar.",
+      sinais: [
+        "Depressão profunda",
+        "Hipertermia",
+        "Vômitos",
+        "Desidratação",
+        "Diarreia",
+        "Dor abdominal"
+      ],
+      exames:
+        "Hemograma evidenciando leucopenia. Investigação laboratorial complementar por ELISA e PCR em amostras de fezes ou sangue.",
+      diagnostico:
+        "Panleucopenia felina, causada pelo parvovírus felino (FPV).",
+      discussao:
+        "O caso didático demonstra a apresentação da panleucopenia felina em um filhote não vacinado. A associação entre histórico, manifestações clínicas e leucopenia auxilia na suspeita diagnóstica, enquanto ELISA e PCR são utilizados na investigação laboratorial. A possibilidade de evolução grave reforça a importância da vacinação preventiva."
+    }
+  ]
 
 },
+
 
 
 
@@ -6669,7 +8501,7 @@ ano:"2011"
         emoji: "🐶",
         titulo: "Primovacinação de filhotes",
         texto:
-          "O protocolo é composto por três doses: a primeira entre seis e doze semanas de idade; a segunda quatro semanas depois; e a terceira mais quatro semanas depois. Em alguns casos, pode ser indicada uma quarta dose. O slide também menciona reforço anual."
+          "O protocolo é composto por três doses: a primeira entre seis e doze semanas de idade; a segunda quatro semanas depois; e a terceira mais quatro semanas depois. Em alguns casos, pode ser indicada uma quarta dose. É necessário reforço anual."
       }
     ]
   },
@@ -6713,14 +8545,12 @@ ano:"2011"
 
 
 
-
-
 {
   id: "pif",
 
   nome: "PIF (Peritonite Infecciosa Felina)",
 
-  agente: "Coronavírus felino",
+  agente: "Coronavírus felino (FCoV)",
 
   categoria: "Virais",
 
@@ -6735,33 +8565,503 @@ ano:"2011"
   notificacaoObrigatoria: false,
 
   hospedeiros: [
-    "Felinos"
+    "Felinos domésticos",
+    "Felinos selvagens"
   ],
 
   palavrasChave: [
     "pif",
     "peritonite infecciosa felina",
     "coronavirus felino",
+    "fcov",
+    "fipv",
+    "fecv",
     "gato",
-    "felino"
+    "felino",
+    "ascite",
+    "efusiva",
+    "não efusiva",
+    "gs-441524",
+    "remdesivir"
   ],
 
   imagem: "/images/doencas/pif.jpg",
+imagens: [
+  {
+    src: "/images/doencas/pif/01-pif-efusiva.jpg",
+    titulo: "PIF na forma efusiva",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Felino com distensão abdominal associada ao acúmulo de líquido na cavidade peritoneal, característica da forma efusiva da Peritonite Infecciosa Felina."
+  },
+  {
+    src: "/images/doencas/pif/02-efusao-abdominal.jpg",
+    titulo: "Efusão abdominal",
+    categoria: "Necropsia",
+    descricao:
+      "Acúmulo de líquido na cavidade abdominal, podendo provocar aumento do volume abdominal e desconforto no animal."
+  },
+  {
+    src: "/images/doencas/pif/03-efusao-pleural.jpg",
+    titulo: "Efusão pleural",
+    categoria: "Achado clínico",
+    descricao:
+      "Presença de líquido no espaço pleural, podendo causar dificuldade respiratória e comprometimento da expansão pulmonar."
+  },
+  {
+    src: "/images/doencas/pif/04-pif-nao-efusiva.jpg",
+    titulo: "PIF na forma não efusiva",
+    categoria: "Necropsia",
+    descricao:
+      "Forma não efusiva da doença, caracterizada pela formação de lesões inflamatórias granulomatosas em diferentes órgãos."
+  },
+  {
+    src: "/images/doencas/pif/05-lesoes-granulomatosas.jpg",
+    titulo: "Lesões granulomatosas",
+    categoria: "Lesão macroscópica",
+    descricao:
+      "Lesões inflamatórias granulomatosas que podem acometer órgãos como rins, fígado, linfonodos e outros tecidos."
+  },
+  {
+    src: "/images/doencas/pif/06-pif-ocular.jpg",
+    titulo: "Manifestação ocular",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Alterações oculares associadas à PIF, incluindo uveíte e outras manifestações inflamatórias intraoculares."
+  },
+  {
+    src: "/images/doencas/pif/07-pif-neurologica.jpg",
+    titulo: "Manifestação neurológica",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Comprometimento do sistema nervoso central, podendo provocar alterações de coordenação, equilíbrio e comportamento."
+  },
+  {
+    src: "/images/doencas/pif/08-coronavirus-felino.jpg",
+    titulo: "Coronavírus felino",
+    categoria: "Agente etiológico",
+    descricao:
+      "Representação microscópica do coronavírus felino, agente relacionado ao desenvolvimento da Peritonite Infecciosa Felina."
+  }
+],
+  visaoGeral: {
+    introducao:
+      "A Peritonite Infecciosa Felina (PIF) é uma doença infecciosa sistêmica e imunomediada que acomete felinos domésticos e selvagens. Está associada à infecção pelo coronavírus felino (FCoV), vírus amplamente disseminado entre populações de gatos. A doença se desenvolve quando ocorrem alterações que favorecem a infecção de células do sistema mononuclear fagocitário, desencadeando uma resposta inflamatória intensa e comprometendo diferentes órgãos e sistemas. Embora historicamente apresentasse prognóstico desfavorável, o desenvolvimento de terapias antivirais modificou significativamente sua evolução, tornando possível a recuperação de muitos animais.",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+    cards: [
+      {
+        titulo: "Características da doença",
+        emoji: "🦠",
+        itens: [
+          "Associada à infecção pelo coronavírus felino (FCoV)",
+          "Não é considerada uma zoonose",
+          "Pode provocar inflamação sistêmica e comprometimento de diferentes órgãos",
+          "Apresenta maior ocorrência em ambientes com elevada densidade populacional de felinos",
+          "A infecção pelo coronavírus felino não significa necessariamente desenvolvimento de PIF"
+        ]
+      },
+      {
+        titulo: "Formas clínicas",
+        emoji: "⚠️",
+        itens: [
+          "Forma efusiva (úmida): caracterizada pelo acúmulo de líquido nas cavidades corporais",
+          "Forma não efusiva (seca): caracterizada principalmente por lesões inflamatórias piogranulomatosas",
+          "Forma mista: apresenta características das formas efusiva e não efusiva"
+        ]
+      },
+      {
+        titulo: "Importância clínica",
+        emoji: "🐈",
+        itens: [
+          "Acomete principalmente gatos jovens, embora possa ocorrer em animais de qualquer idade",
+          "Pode provocar alterações abdominais, respiratórias, neurológicas, oculares, hepáticas e renais",
+          "O diagnóstico exige associação entre histórico, manifestações clínicas e exames complementares",
+          "Existem tratamentos antivirais que modificaram significativamente o prognóstico da doença"
+        ]
+      }
+    ]
+  },
 
-  referencias: [],
+  etiologia: {
+    introducao:
+      "A PIF está associada ao coronavírus felino (FCoV), vírus envelopado pertencente à família Coronaviridae, cujo material genético é constituído por RNA de fita simples de sentido positivo. A doença está relacionada à capacidade de determinadas variantes virais infectarem monócitos e macrófagos, favorecendo a disseminação sistêmica e o desenvolvimento da resposta inflamatória característica.",
 
-  casosClinicos: [],
+    listas: [
+      {
+        titulo: "Características do agente etiológico",
+        emoji: "🦠",
+        itens: [
+          "Coronavírus felino (FCoV)",
+          "Família Coronaviridae",
+          "Gênero Alphacoronavirus",
+          "Vírus envelopado",
+          "Material genético constituído por RNA de fita simples de sentido positivo",
+          "Apresenta nucleocapsídeo"
+        ]
+      },
+      {
+        titulo: "Variantes do coronavírus felino",
+        emoji: "🔬",
+        itens: [
+          "Coronavírus entérico felino (FECV): associado principalmente à infecção intestinal, geralmente com manifestações leves ou subclínicas",
+          "Variantes associadas à PIF: apresentam características que favorecem a infecção e a replicação em monócitos e macrófagos",
+          "A denominação FIPV é tradicionalmente utilizada para se referir às variantes associadas à doença"
+        ]
+      },
+      {
+        titulo: "Características da infecção",
+        emoji: "🧬",
+        itens: [
+          "A infecção pelo coronavírus felino é relativamente comum entre gatos",
+          "A maioria dos animais infectados não desenvolve PIF",
+          "Alterações virais e fatores relacionados ao hospedeiro participam do desenvolvimento da doença",
+          "A resposta imunológica possui papel importante na formação das lesões inflamatórias"
+        ]
+      }
+    ]
+  },
 
+  patogenia: {
+    introducao:
+      "A patogenia da PIF envolve a infecção inicial pelo coronavírus felino, geralmente restrita ao trato gastrointestinal, seguida pelo desenvolvimento de variantes capazes de infectar células do sistema mononuclear fagocitário. A disseminação de monócitos e macrófagos infectados desencadeia uma resposta inflamatória intensa, responsável pelas lesões vasculares, piogranulomatosas e pelo comprometimento de diferentes órgãos.",
+
+    blocos: [
+      {
+        emoji: "🍽️",
+        titulo: "Entrada e infecção inicial",
+        texto:
+          "A infecção ocorre principalmente pela via fecal-oral, por meio da ingestão de partículas virais presentes em fezes contaminadas. Após a entrada no organismo, o coronavírus alcança o trato gastrointestinal, onde ocorre sua replicação inicial nas células do epitélio intestinal."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Replicação intestinal",
+        texto:
+          "O coronavírus felino apresenta tropismo pelas células intestinais e pode provocar infecção assintomática ou alterações gastrointestinais leves. Os animais infectados podem eliminar partículas virais pelas fezes, contribuindo para a manutenção e disseminação do agente no ambiente."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Alterações virais e infecção celular",
+        texto:
+          "Em uma parcela dos animais infectados, alterações genéticas e biológicas do vírus favorecem a infecção de monócitos e macrófagos. Essas células passam a permitir a disseminação do agente para além do trato gastrointestinal."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Disseminação sistêmica",
+        texto:
+          "Os monócitos e macrófagos infectados disseminam o agente pelo organismo, alcançando diferentes tecidos e órgãos. A interação entre as células infectadas, o vírus e o sistema imunológico favorece o desenvolvimento de processos inflamatórios sistêmicos."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Resposta inflamatória e lesões",
+        texto:
+          "A resposta inflamatória desencadeia vasculite, perivasculite e formação de lesões piogranulomatosas. O comprometimento vascular aumenta a permeabilidade dos vasos sanguíneos, favorecendo o extravasamento de líquidos para cavidades corporais e o desenvolvimento de lesões em órgãos como fígado, rins, linfonodos, olhos e sistema nervoso central."
+      },
+      {
+        emoji: "💧",
+        titulo: "Desenvolvimento das formas clínicas",
+        texto:
+          "Quando predominam as alterações vasculares e o extravasamento de líquidos, ocorre a forma efusiva, caracterizada pelo acúmulo de efusões abdominal ou torácica. Nos casos em que predominam as lesões inflamatórias localizadas nos tecidos, manifesta-se a forma não efusiva. Alguns animais apresentam características de ambas as apresentações."
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A PIF acomete felinos domésticos e selvagens e apresenta maior ocorrência em populações submetidas a condições que favorecem a circulação do coronavírus felino. A infecção é especialmente frequente em ambientes com elevada densidade populacional, como gatis e abrigos. Entretanto, apenas uma parcela dos animais infectados desenvolve a doença clínica, resultado da interação entre características virais, fatores individuais e resposta imunológica do hospedeiro.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição e ocorrência",
+        texto:
+          "O coronavírus felino apresenta distribuição ampla na população de gatos. Sua circulação é favorecida em ambientes coletivos, nos quais existe contato frequente entre os animais e compartilhamento de instalações. A presença do coronavírus é muito mais comum do que o desenvolvimento da PIF, que ocorre apenas em uma parcela dos animais infectados."
+      },
+      {
+        emoji: "🐈",
+        titulo: "Faixa etária e suscetibilidade",
+        texto:
+          "A PIF é observada com maior frequência em gatos jovens, especialmente nos primeiros anos de vida. Entretanto, animais adultos e idosos também podem desenvolver a doença. A suscetibilidade depende de diferentes fatores, incluindo características genéticas, condições imunológicas e exposição ao coronavírus felino."
+      },
+      {
+        emoji: "🏠",
+        titulo: "Fatores de risco",
+        texto:
+          "A elevada densidade populacional, o compartilhamento de caixas de areia, a introdução frequente de novos animais, as condições inadequadas de higiene e situações de estresse podem favorecer a circulação do coronavírus felino e aumentar a exposição dos animais."
+      },
+      {
+        emoji: "💩",
+        titulo: "Transmissão",
+        texto:
+          "A principal via de transmissão do coronavírus felino é a fecal-oral, por meio da ingestão de partículas virais eliminadas nas fezes de animais infectados. A contaminação pode ocorrer pelo contato com caixas de areia, superfícies e utensílios contaminados. A PIF propriamente dita não é considerada uma doença diretamente contagiosa na mesma forma que a infecção pelo coronavírus entérico."
+      },
+      {
+        emoji: "📊",
+        titulo: "Infecção e desenvolvimento da PIF",
+        texto:
+          "A maioria dos gatos infectados pelo coronavírus felino não desenvolve PIF. O surgimento da doença depende de alterações relacionadas ao vírus e da resposta imunológica do hospedeiro. Por esse motivo, a presença de anticorpos contra o coronavírus ou a detecção do agente não significa, isoladamente, que o animal desenvolverá a doença."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas da PIF são variáveis e dependem da forma de apresentação, dos órgãos acometidos e da resposta imunológica do animal. Os sinais iniciais geralmente são inespecíficos, podendo incluir febre persistente, perda de peso e redução do apetite. Com a progressão da doença, podem surgir alterações abdominais, respiratórias, oculares, neurológicas e sistêmicas.",
+
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Sinais gerais",
+        itens: [
+          "Febre persistente ou recorrente",
+          "Perda de peso progressiva",
+          "Anorexia ou redução do apetite",
+          "Letargia e apatia",
+          "Debilidade",
+          "Desidratação",
+          "Retardo no crescimento de animais jovens"
+        ]
+      },
+      {
+        emoji: "💧",
+        titulo: "Forma efusiva (úmida)",
+        itens: [
+          "Aumento progressivo do volume abdominal",
+          "Ascite devido ao acúmulo de líquido na cavidade abdominal",
+          "Efusão pleural",
+          "Dificuldade respiratória",
+          "Icterícia em alguns animais",
+          "Comprometimento progressivo do estado geral"
+        ]
+      },
+      {
+        emoji: "🧬",
+        titulo: "Forma não efusiva (seca)",
+        itens: [
+          "Lesões piogranulomatosas em diferentes órgãos",
+          "Alterações hepáticas",
+          "Comprometimento renal",
+          "Aumento de linfonodos",
+          "Alterações pancreáticas",
+          "Perda de peso e febre persistente",
+          "Alterações neurológicas e oculares"
+        ]
+      },
+      {
+        emoji: "👁️",
+        titulo: "Alterações oculares",
+        itens: [
+          "Uveíte anterior",
+          "Alterações na coloração da íris",
+          "Presença de precipitados ceráticos",
+          "Alterações na câmara anterior do olho",
+          "Hifema ou hipópio em alguns casos",
+          "Comprometimento da visão"
+        ]
+      },
+      {
+        emoji: "🧠",
+        titulo: "Alterações neurológicas",
+        itens: [
+          "Ataxia",
+          "Convulsões",
+          "Alterações comportamentais",
+          "Paresia ou paralisia",
+          "Alterações de equilíbrio e coordenação",
+          "Alterações de consciência"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Forma mista",
+        itens: [
+          "Associação de características das formas efusiva e não efusiva",
+          "Presença de efusões associadas a lesões piogranulomatosas",
+          "Manifestações clínicas variáveis conforme os órgãos acometidos"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico da PIF é complexo e deve considerar a associação entre histórico clínico, manifestações apresentadas, exames laboratoriais e métodos complementares. Não existe um único teste capaz de confirmar todos os casos de maneira isolada. A interpretação dos resultados deve ser realizada em conjunto pelo médico-veterinário, considerando os diagnósticos diferenciais e a apresentação clínica do paciente.",
+
+    metodos: [
+      "avaliacao-clinica",
+      "hemograma",
+      "bioquimica-serica",
+      "analise-efusao",
+      "citologia",
+      "sorologia",
+      "pcr",
+      "histopatologia",
+      "imuno-histoquimica"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento da PIF foi significativamente modificado com o desenvolvimento de medicamentos antivirais capazes de inibir a replicação do coronavírus felino. Atualmente, a doença é considerada tratável e muitos animais podem alcançar a recuperação clínica. A escolha do protocolo deve considerar a apresentação da doença, a gravidade do quadro, a disponibilidade dos medicamentos e as condições individuais do paciente, sempre sob acompanhamento médico-veterinário.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "GS-441524",
+        texto:
+          "O GS-441524 é um análogo de nucleosídeo que atua inibindo a replicação viral e representa uma das principais opções terapêuticas para a PIF. Apresenta resultados expressivos em diferentes formas clínicas da doença e pode ser administrado por via oral. A escolha da dose e da duração do tratamento depende da avaliação veterinária e da resposta do paciente."
+      },
+      {
+        emoji: "💉",
+        titulo: "Remdesivir",
+        texto:
+          "O remdesivir é um antiviral relacionado ao GS-441524, sendo seu pró-fármaco. Pode ser utilizado em determinadas situações, especialmente em animais gravemente enfermos ou que não conseguem receber medicação oral. A via de administração e a transição para outras apresentações devem ser definidas pelo médico-veterinário."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Outras opções antivirais",
+        texto:
+          "O molnupiravir e seu metabólito ativo EIDD-1931 também são descritos no tratamento da PIF. Entretanto, a disponibilidade varia entre países e existem preocupações relacionadas a possíveis efeitos adversos e propriedades mutagênicas. Por isso, quando disponível, o GS-441524 é geralmente preferido como opção terapêutica."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Tratamento de suporte",
+        texto:
+          "O tratamento de suporte é importante para controlar as alterações provocadas pela doença e melhorar as condições clínicas do paciente. Pode incluir fluidoterapia quando indicada, suporte nutricional, controle de náuseas e vômitos, analgesia, manejo da febre e tratamento das alterações neurológicas, oculares ou de outros órgãos acometidos."
+      },
+      {
+        emoji: "📊",
+        titulo: "Acompanhamento clínico",
+        texto:
+          "O acompanhamento periódico permite avaliar a resposta terapêutica e identificar possíveis complicações. Devem ser monitorados o peso corporal, apetite, temperatura, estado geral, resolução das efusões e parâmetros laboratoriais, especialmente proteínas séricas, albumina, globulinas e bilirrubina. A duração do tratamento deve ser individualizada conforme a evolução clínica e laboratorial."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Prognóstico",
+        texto:
+          "Historicamente, a PIF apresentava prognóstico muito desfavorável e frequentemente era considerada uma doença fatal. Entretanto, a introdução dos antivirais modificou significativamente esse cenário. Atualmente, muitos gatos tratados adequadamente alcançam remissão e recuperação clínica, embora a resposta varie conforme a gravidade, a forma de apresentação e o momento de início da terapia."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da PIF está relacionada principalmente ao controle da circulação do coronavírus felino nos ambientes onde vivem os gatos. Como a transmissão ocorre predominantemente pela via fecal-oral, as medidas preventivas devem priorizar higiene, manejo populacional adequado, redução da contaminação ambiental e diminuição de situações de estresse.",
+
+    blocos: [
+      {
+        emoji: "🧼",
+        titulo: "Higiene das instalações",
+        destaque: true,
+        texto:
+          "A limpeza frequente das caixas de areia, comedouros, bebedouros e superfícies é fundamental para reduzir a contaminação ambiental por partículas virais e diminuir a exposição dos animais ao coronavírus felino.",
+        tags: [
+          "🧼 Higienização",
+          "🏠 Ambiente limpo",
+          "🐈 Manejo sanitário"
+        ],
+        informacoes: [
+          {
+            titulo: "Caixas de areia",
+            texto:
+              "As caixas de areia devem ser higienizadas frequentemente, com remoção regular das fezes, e posicionadas longe dos locais destinados à alimentação e hidratação."
+          },
+          {
+            titulo: "Utensílios e superfícies",
+            texto:
+              "Comedouros, bebedouros e superfícies compartilhadas devem ser higienizados regularmente para reduzir a possibilidade de contaminação fecal-oral."
+          }
+        ]
+      },
+      {
+        emoji: "🐈",
+        titulo: "Controle populacional",
+        texto:
+          "Evitar a superlotação e reduzir a densidade de animais em gatis, abrigos e residências com múltiplos gatos são medidas importantes para diminuir a circulação do coronavírus felino. Sempre que possível, devem ser disponibilizados recursos individuais ou em quantidade adequada para os animais."
+      },
+      {
+        emoji: "🏠",
+        titulo: "Manejo de novos animais",
+        texto:
+          "A introdução de novos gatos deve ser realizada de maneira planejada, com avaliação veterinária e cuidados sanitários. A organização dos ambientes e dos recursos disponíveis auxilia na redução do contato com fezes contaminadas e na prevenção da disseminação do coronavírus."
+      },
+      {
+        emoji: "🧘",
+        titulo: "Redução do estresse",
+        texto:
+          "A manutenção de um ambiente estável, com locais de descanso, esconderijos, enriquecimento ambiental e recursos suficientes, contribui para o bem-estar dos felinos. A redução de situações estressantes é especialmente importante em ambientes coletivos."
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        texto:
+          "Existe uma vacina intranasal contra a PIF disponível em alguns países, mas sua eficácia é questionada e sua utilização apresenta limitações, especialmente porque muitos gatos já tiveram contato com o coronavírus antes da idade indicada para vacinação. Por esse motivo, a vacinação não é recomendada como estratégia de prevenção de rotina pelas diretrizes ABCD."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo:
+        "Update on Treatment of Feline Infectious Peritonitis: European Advisory Board on Cat Diseases (ABCD) Guidelines",
+      autores: "Tasker, S. et al.",
+      fonte: "Viruses, v. 18, n. 4, artigo 452",
+      ano: "2026",
+      link: "https://doi.org/10.3390/v18040452"
+    },
+    {
+      titulo:
+        "Guideline for Feline Infectious Peritonitis",
+      autores: "European Advisory Board on Cat Diseases (ABCD)",
+      fonte: "ABCD",
+      ano: "2026",
+      link: "https://www.abcdcatsvets.org/guideline-for-feline-infectious-peritonitis/"
+    },
+    {
+      titulo:
+        "Feline Infectious Peritonitis: ABCD Guidelines",
+      autores: "Tasker, S. et al.",
+      fonte: "Viruses, v. 15, n. 9, artigo 1847",
+      ano: "2023",
+      link: "https://doi.org/10.3390/v15091847"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "pif-caso-01",
+
+      titulo:
+        "Felino jovem com distensão abdominal e suspeita de PIF efusiva",
+
+      especie: "Felino",
+
+      idade: "8 meses",
+
+      historico:
+        "Caso clínico hipotético elaborado para fins didáticos. Gato jovem atendido com histórico de perda de peso progressiva, redução do apetite, apatia e aumento gradual do volume abdominal. Durante a avaliação clínica, foi identificada suspeita de acúmulo de líquido na cavidade abdominal.",
+
+      sinais: [
+        "Perda de peso progressiva",
+        "Anorexia",
+        "Apatia",
+        "Febre persistente",
+        "Distensão abdominal"
+      ],
+
+      exames:
+        "Hemograma com anemia não regenerativa. Na avaliação bioquímica, foram identificadas hiperglobulinemia e redução da relação albumina/globulina (A:G). A análise do líquido abdominal revelou efusão com elevada concentração proteica e características compatíveis com processo inflamatório.",
+
+      diagnostico:
+        "Suspeita de Peritonite Infecciosa Felina na forma efusiva. Os achados clínicos e laboratoriais são sugestivos, mas não confirmam isoladamente a doença. A investigação deve ser complementada por exames específicos, considerando as características da efusão e os diagnósticos diferenciais.",
+
+      discussao:
+        "A forma efusiva da PIF está associada ao desenvolvimento de vasculite e ao aumento da permeabilidade vascular, favorecendo o acúmulo de líquido nas cavidades corporais. A associação entre idade, sinais clínicos, alterações hematológicas, hiperglobulinemia e redução da relação A:G pode aumentar a suspeita diagnóstica. Entretanto, nenhum desses achados é definitivo isoladamente. A interpretação conjunta dos resultados e a realização de exames complementares são fundamentais para uma investigação adequada. Caso clínico hipotético elaborado para fins educativos."
+    }
+  ]
 },
+
+
+
 
 
 
@@ -6772,7 +9072,7 @@ ano:"2011"
 
   nome: "Raiva",
 
-  agente: "Vírus da raiva",
+  agente: "Vírus da raiva (gênero Lyssavirus)",
 
   categoria: "Virais",
 
@@ -6787,33 +9087,492 @@ ano:"2011"
   notificacaoObrigatoria: true,
 
   hospedeiros: [
-    "Mamíferos"
+    "Cães",
+    "Gatos",
+    "Bovinos",
+    "Equinos",
+    "Morcegos",
+    "Animais silvestres",
+    "Humanos"
   ],
 
   palavrasChave: [
     "raiva",
     "virus da raiva",
+    "lyssavirus",
+    "rhabdoviridae",
     "cão",
     "cao",
-    "morcego"
+    "cachorro",
+    "gato",
+    "felino",
+    "bovino",
+    "morcego",
+    "zoonose",
+    "raiva furiosa",
+    "raiva paralitica",
+    "raiva paralítica",
+    "encefalite viral"
   ],
 
   imagem: "/images/doencas/raiva-2.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/raiva/virus-raiva.jpg",
+      titulo: "Vírus da raiva",
+      categoria: "Agente etiológico",
+      descricao:
+        "Representação do vírus da raiva, pertencente à família Rhabdoviridae e ao gênero Lyssavirus, um vírus envelopado com formato característico de projétil."
+    },
+    {
+      src: "/images/doencas/raiva/transmissao-mordedura.jpg",
+      titulo: "Transmissão",
+      categoria: "Transmissão",
+      descricao:
+        "Representação dos cilcos de transmissão da raiva."
+    },
+   
+    {
+      src: "/images/doencas/raiva/raiva-furiosa.jpg",
+      titulo: "Raiva furiosa",
+      categoria: "Sinais clínicos",
+      descricao:
+        "Representação de alterações comportamentais e neurológicas que podem ocorrer na forma furiosa da raiva, incluindo agitação, irritabilidade e desorientação."
+    },
+    {
+      src: "/images/doencas/raiva/raiva-paralitica.jpg",
+      titulo: "Raiva paralítica",
+      categoria: "Sinais clínicos",
+      descricao:
+        "Representação de alterações motoras associadas à forma paralítica da raiva, como dificuldade de deglutição e paralisia progressiva."
+    },
+    {
+      src: "/images/doencas/raiva/imunofluorescencia.jpg",
+      titulo: "Imunofluorescência direta",
+      categoria: "Diagnóstico laboratorial",
+      descricao:
+        "Representação da técnica de imunofluorescência direta utilizada para detectar antígenos do vírus da raiva em amostras de tecido nervoso."
+    },
+    {
+      src: "/images/doencas/raiva/corpusculos-negri.jpg",
+      titulo: "Corpúsculos de Negri",
+      categoria: "Achado histopatológico",
+      descricao:
+        "Inclusões intracitoplasmáticas que podem ser observadas em neurônios de animais infectados pelo vírus da raiva. Sua ausência não exclui a infecção."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A raiva é uma zoonose viral de evolução aguda e progressiva, caracterizada pelo comprometimento do sistema nervoso central. Acomete mamíferos domésticos e silvestres e apresenta elevada letalidade após o aparecimento dos sinais clínicos. Sua importância envolve tanto a saúde animal quanto a saúde pública.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        emoji: "⚠️",
+        titulo: "Características gerais",
+        itens: [
+          "Zoonose viral de evolução aguda e progressiva",
+          "Acomete mamíferos domésticos e silvestres",
+          "Provoca encefalite progressiva",
+          "Apresenta letalidade extremamente elevada após o início dos sinais clínicos"
+        ]
+      },
+      {
+        emoji: "🦠",
+        titulo: "Agente etiológico",
+        itens: [
+          "Família Rhabdoviridae",
+          "Gênero Lyssavirus",
+          "Vírus envelopado com RNA",
+          "Apresenta tropismo pelo tecido nervoso"
+        ]
+      },
+      {
+        emoji: "🧠",
+        titulo: "Importância clínica",
+        itens: [
+          "Provoca alterações comportamentais e neurológicas",
+          "Pode apresentar forma furiosa ou paralítica",
+          "A evolução é geralmente fatal",
+          "Representa importante risco ocupacional e zoonótico"
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A raiva é causada por vírus do gênero Lyssavirus, pertencente à família Rhabdoviridae. São vírus envelopados, com genoma constituído por RNA de fita simples e polaridade negativa, apresentando tropismo pelo sistema nervoso.",
+
+    listas: [
+      {
+        emoji: "🦠",
+        titulo: "Classificação viral",
+        itens: [
+          "Família: Rhabdoviridae",
+          "Gênero: Lyssavirus",
+          "Genoma: RNA de fita simples",
+          "Polaridade do RNA: negativa",
+          "Morfologia característica: formato de projétil",
+          "Vírus envelopado"
+        ]
+      },
+      {
+        emoji: "🧬",
+        titulo: "Estrutura viral",
+        itens: [
+          "Nucleoproteína (N): envolve e protege o material genético",
+          "Fosfoproteína (P): participa da replicação viral",
+          "Proteína de matriz (M): participa da organização e montagem viral",
+          "Glicoproteína (G): presente no envelope e relacionada à ligação e entrada nas células",
+          "RNA polimerase viral (L): participa da transcrição e replicação do genoma"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A raiva possui distribuição geográfica ampla e é mantida por diferentes ciclos epidemiológicos, que envolvem animais domésticos e silvestres. A transmissão entre espécies contribui para a manutenção do vírus na natureza e representa risco contínuo para a saúde pública.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição e hospedeiros",
+        texto:
+          "Todos os mamíferos são suscetíveis à infecção pelo vírus da raiva. A participação de cada espécie na transmissão varia de acordo com a região, o comportamento e a dinâmica epidemiológica local."
+      },
+      {
+        emoji: "🏙️",
+        titulo: "Ciclo urbano",
+        texto:
+          "O ciclo urbano está historicamente associado à transmissão entre cães e outros animais domésticos. A vacinação de cães e gatos é uma das principais estratégias para reduzir a circulação viral e prevenir casos humanos."
+      },
+      {
+        emoji: "🦇",
+        titulo: "Ciclo silvestre",
+        texto:
+          "O ciclo silvestre envolve diferentes espécies de animais selvagens. No Brasil, os morcegos hematófagos, especialmente Desmodus rotundus, possuem grande importância epidemiológica na transmissão da raiva aos herbívoros."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Raiva dos herbívoros",
+        texto:
+          "Bovinos e equinos podem ser infectados principalmente por meio de mordeduras de morcegos hematófagos. A doença apresenta impacto sanitário e econômico para a produção animal."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Transmissão",
+        texto:
+          "A principal via de transmissão é a inoculação de saliva contaminada, geralmente por mordeduras. O contato da saliva com mucosas ou feridas também pode resultar em infecção. A transmissão por outras vias é considerada menos comum."
+      },
+      {
+        emoji: "⏳",
+        titulo: "Período de incubação",
+        texto:
+          "O período de incubação é variável e pode durar semanas ou meses. Depende de fatores como espécie, quantidade de vírus inoculada, local da exposição e distância entre o ponto de entrada e o sistema nervoso central."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "Após a inoculação, o vírus da raiva pode permanecer inicialmente nos tecidos próximos ao local de entrada e alcançar terminações nervosas periféricas. A partir daí, ocorre disseminação pelo sistema nervoso até o encéfalo, onde há replicação viral e comprometimento neurológico progressivo.",
+
+    blocos: [
+      {
+        emoji: "🐾",
+        titulo: "Inoculação viral",
+        texto:
+          "A infecção ocorre principalmente quando a saliva de um animal infectado é inoculada por meio de mordedura. O vírus entra em contato com tecidos e terminações nervosas presentes na região lesionada."
+      },
+      {
+        emoji: "🧠",
+        titulo: "Disseminação neural",
+        texto:
+          "O vírus alcança os nervos periféricos e progride em direção ao sistema nervoso central por transporte axonal retrógrado. Essa disseminação ocorre principalmente pelas estruturas nervosas, sem depender de uma fase de viremia."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Replicação no sistema nervoso central",
+        texto:
+          "Após alcançar o encéfalo, o vírus se replica em neurônios e provoca disfunção neurológica. O comprometimento de diferentes regiões do sistema nervoso está relacionado à variedade de manifestações clínicas."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Disseminação periférica",
+        texto:
+          "Após a replicação no sistema nervoso central, o vírus pode alcançar outros tecidos por disseminação neural centrífuga, incluindo as glândulas salivares, possibilitando a eliminação viral pela saliva."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Comprometimento neurológico",
+        texto:
+          "A infecção provoca disfunção neuronal progressiva, podendo resultar em alterações comportamentais, incoordenação, paralisia, dificuldade de deglutição e comprometimento de funções vitais."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A apresentação clínica da raiva é variável e pode envolver alterações comportamentais, neurológicas e motoras. Classicamente, são descritas uma fase prodrômica e duas apresentações principais: forma furiosa e forma paralítica. Nem todos os animais apresentam todas as manifestações.",
+
+    blocos: [
+      {
+        emoji: "⚠️",
+        titulo: "Período prodrômico",
+        itens: [
+          "Alterações repentinas de comportamento",
+          "Ansiedade, inquietação ou isolamento",
+          "Mudanças de docilidade para agressividade ou o contrário",
+          "Febre e alterações de apetite",
+          "Lambedura ou mordedura do local de inoculação",
+          "Fotofobia e alterações pupilares"
+        ]
+      },
+      {
+        emoji: "😾",
+        titulo: "Raiva furiosa",
+        itens: [
+          "Agitação e irritabilidade",
+          "Agressividade incomum",
+          "Aumento da resposta a estímulos externos",
+          "Desorientação e incoordenação",
+          "Comportamento de ingestão de objetos não alimentares",
+          "Vocalização anormal",
+          "Salivação excessiva"
+        ]
+      },
+      {
+        emoji: "🐕",
+        titulo: "Raiva paralítica",
+        itens: [
+          "Fraqueza muscular progressiva",
+          "Dificuldade de locomoção",
+          "Paralisia flácida",
+          "Alteração da vocalização",
+          "Paralisia da musculatura da laringe",
+          "Dificuldade de deglutição",
+          "Mandíbula caída",
+          "Salivação excessiva"
+        ]
+      },
+      {
+        emoji: "🧠",
+        titulo: "Manifestações neurológicas avançadas",
+        itens: [
+          "Ataxia",
+          "Paralisia progressiva",
+          "Convulsões",
+          "Comprometimento de nervos cranianos",
+          "Dificuldade respiratória",
+          "Coma e morte"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "A suspeita de raiva deve considerar o histórico epidemiológico, a exposição potencial e a presença de alterações neurológicas ou comportamentais. Entretanto, os sinais clínicos não são suficientes para confirmar a doença. O diagnóstico definitivo em animais depende de exames laboratoriais realizados em amostras apropriadas, seguindo protocolos de biossegurança.",
+
+    metodos: [
+      "Imunofluorescência direta (IFD): detecta antígenos virais em tecido nervoso e é um dos principais métodos de diagnóstico laboratorial.",
+      "RT-PCR: detecta o RNA viral e pode ser utilizada na confirmação laboratorial.",
+      "Imuno-histoquímica: permite a identificação de antígenos virais em tecidos por meio de marcação específica.",
+      "Teste rápido de imunohistoquímica direta (dRIT): método utilizado para detecção de antígenos virais em tecido nervoso.",
+      "Histopatologia: pode demonstrar corpúsculos de Negri, inclusões intracitoplasmáticas características, mas sua ausência não exclui a doença."
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "Não existe tratamento curativo estabelecido para animais com raiva clínica. Após o aparecimento dos sinais clínicos, a doença apresenta evolução quase sempre fatal. Diante de uma suspeita, devem ser adotadas medidas imediatas de biossegurança, comunicação aos órgãos responsáveis e investigação laboratorial conforme as normas oficiais.",
+
+    blocos: [
+      {
+        emoji: "⚠️",
+        titulo: "Conduta diante da suspeita",
+        texto:
+          "Animais com sinais compatíveis devem ser considerados suspeitos e avaliados conforme os protocolos do Serviço Veterinário Oficial e da vigilância em saúde. A manipulação desprotegida deve ser evitada e a suspeita deve ser comunicada imediatamente às autoridades competentes."
+      },
+      {
+        emoji: "🧤",
+        titulo: "Biossegurança",
+        texto:
+          "O contato com saliva, tecido nervoso e outros materiais potencialmente contaminados representa risco de exposição. Procedimentos devem ser realizados por profissionais capacitados, utilizando equipamentos de proteção individual e seguindo protocolos específicos."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Confirmação laboratorial",
+        texto:
+          "A confirmação deve ser realizada por laboratório habilitado, com coleta, acondicionamento e transporte de amostras conforme as normas de biossegurança e vigilância epidemiológica."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da raiva depende da vacinação de animais domésticos, da vigilância epidemiológica, do controle de reservatórios e da redução do contato com animais silvestres. A integração dessas medidas é essencial para proteger a saúde animal e humana.",
+
+    blocos: [
+      {
+        emoji: "💉",
+        titulo: "Vacinação de cães e gatos",
+        destaque: true,
+        texto:
+          "A vacinação antirrábica é a principal estratégia de prevenção da raiva em animais domésticos. Deve seguir as recomendações do programa oficial de vacinação e as orientações do médico-veterinário.",
+        tags: [
+          "VACINAÇÃO",
+          "PREVENÇÃO"
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Vacinação de herbívoros",
+        texto:
+          "Em áreas de risco, a vacinação de bovinos, equinos e outros herbívoros é uma medida importante para prevenir a raiva transmitida por morcegos hematófagos, conforme as orientações do programa oficial de controle."
+      },
+      {
+        emoji: "🦇",
+        titulo: "Vigilância de morcegos",
+        texto:
+          "A identificação de abrigos e a vigilância de morcegos hematófagos contribuem para o monitoramento da circulação viral. O manejo desses animais deve ser realizado por equipes autorizadas, evitando manipulação direta pela população."
+      },
+      {
+        emoji: "🌳",
+        titulo: "Controle do contato com animais silvestres",
+        texto:
+          "Deve-se evitar o contato de animais domésticos e pessoas com animais silvestres, especialmente morcegos encontrados caídos, debilitados ou com comportamento incomum."
+      },
+      {
+        emoji: "📢",
+        titulo: "Notificação e vigilância epidemiológica",
+        texto:
+          "Casos suspeitos devem ser comunicados aos serviços de vigilância e às autoridades veterinárias competentes, permitindo investigação, coleta de amostras e adoção de medidas de controle."
+      },
+      {
+        emoji: "🧤",
+        titulo: "Prevenção da exposição humana",
+        texto:
+          "Mordeduras, arranhaduras ou contato de saliva de animal suspeito com mucosas ou feridas devem ser avaliados imediatamente por um serviço de saúde. A profilaxia pós-exposição deve seguir a orientação das autoridades sanitárias."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Rabies",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "WOAH – Disease Information",
+      ano: "s.d.",
+      link: "https://www.woah.org/en/disease/rabies/"
+    },
+    {
+      titulo: "Rabies: Infection with Rabies Virus and Other Lyssaviruses",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "Manual of Diagnostic Tests and Vaccines for Terrestrial Animals",
+      ano: "2023",
+      link: "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.01.19_RABIES.pdf"
+    },
+    {
+      titulo: "Rabies in Animals",
+      autores: "Merck Veterinary Manual",
+      fonte: "Merck Veterinary Manual",
+      ano: "s.d.",
+      link: "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals"
+    },
+    {
+      titulo: "Manual de Diagnóstico Laboratorial da Raiva",
+      autores: "Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde",
+      fonte: "Ministério da Saúde",
+      ano: "2008",
+      link: "https://bvsms.saude.gov.br/bvs/publicacoes/manual_diagnostico_laboratorial_raiva.pdf"
+    },
+    {
+      titulo: "Information for Veterinarians – Rabies",
+      autores: "Centers for Disease Control and Prevention (CDC)",
+      fonte: "CDC",
+      ano: "2025",
+      link: "https://www.cdc.gov/rabies/hcp/veterinarians/"
+    },
+    {
+      titulo: "Rabies",
+      autores: "World Health Organization (WHO)",
+      fonte: "WHO – Fact Sheets",
+      ano: "2026",
+      link: "https://www.who.int/news-room/fact-sheets/detail/rabies"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "raiva-canina-furiosa",
+      titulo: "Alteração comportamental e agressividade em cão",
+      especie: "Canina",
+      idade: "4 anos",
+      historico:
+        "Caso clínico fictício para fins didáticos. Um cão sem histórico vacinal conhecido foi levado para avaliação após apresentar mudança repentina de comportamento. Segundo o tutor, o animal, anteriormente dócil, passou a demonstrar irritabilidade, inquietação e comportamento agressivo. O tutor também relatou que o cão havia se envolvido em uma briga com um animal desconhecido alguns dias antes.",
+      sinais: [
+        "Agitação e irritabilidade",
+        "Agressividade incomum",
+        "Desorientação",
+        "Resposta exagerada a estímulos externos",
+        "Incoordenação motora"
+      ],
+      exames:
+        "Diante da suspeita epidemiológica e clínica, o caso deve ser comunicado à vigilância competente. A confirmação laboratorial pode envolver imunofluorescência direta e testes moleculares em amostras apropriadas de tecido nervoso.",
+      diagnostico:
+        "Suspeita de raiva na forma furiosa, com necessidade de confirmação laboratorial.",
+      discussao:
+        "O caso demonstra a importância de reconhecer alterações comportamentais agudas como possíveis manifestações neurológicas da raiva. A forma furiosa pode apresentar agitação, irritabilidade, agressividade e respostas exacerbadas a estímulos. O histórico de contato com animal desconhecido e a ausência de vacinação reforçam a suspeita, mas não confirmam a doença. A avaliação deve priorizar a segurança das pessoas e dos animais, sem manipulação desprotegida do paciente."
+    },
+    {
+      id: "raiva-bovina-paralitica",
+      titulo: "Paralisia progressiva em bovino",
+      especie: "Bovina",
+      idade: "3 anos",
+      historico:
+        "Caso clínico fictício para fins didáticos. Em uma propriedade rural, um bovino apresentou alterações progressivas de comportamento e dificuldade de locomoção. O responsável relatou a presença de morcegos na região e a identificação de possíveis marcas de mordedura no animal. A vacinação antirrábica não estava atualizada.",
+      sinais: [
+        "Dificuldade de locomoção",
+        "Incoordenação motora",
+        "Fraqueza muscular progressiva",
+        "Dificuldade de deglutição",
+        "Paralisia progressiva"
+      ],
+      exames:
+        "A suspeita deve ser encaminhada ao Serviço Veterinário Oficial para investigação epidemiológica e confirmação laboratorial. A imunofluorescência direta e a RT-PCR podem ser utilizadas para detecção do vírus em amostras apropriadas de tecido nervoso.",
+      diagnostico:
+        "Suspeita de raiva bovina na forma paralítica, associada à possível exposição a morcegos hematófagos.",
+      discussao:
+        "A raiva dos herbívoros apresenta grande importância no meio rural, especialmente em regiões com circulação de morcegos hematófagos. A forma paralítica pode provocar comprometimento motor progressivo e dificuldade de deglutição. O histórico epidemiológico é fundamental para orientar a suspeita, mas não substitui a confirmação laboratorial. O caso também destaca a importância da vigilância e da vacinação dos animais em áreas de risco."
+    },
+    {
+      id: "raiva-exposicao-morcego",
+      titulo: "Contato de gato doméstico com morcego",
+      especie: "Felina",
+      idade: "2 anos",
+      historico:
+        "Caso clínico fictício para fins didáticos. Um gato com acesso à rua foi encontrado em contato direto com um morcego no quintal da residência. O tutor não sabia informar se o felino havia sido mordido ou se possuía vacinação antirrábica atualizada. O animal não apresentava alterações clínicas no momento do atendimento.",
+      sinais: [
+        "Animal aparentemente assintomático",
+        "Histórico de contato direto com morcego",
+        "Ausência de informações seguras sobre a vacinação",
+        "Possibilidade de exposição à saliva do animal silvestre"
+      ],
+      exames:
+        "A ausência de sinais clínicos não exclui a possibilidade de exposição. A conduta deve seguir os protocolos oficiais de vigilância e avaliação de risco, considerando o contato com o morcego e o histórico vacinal do felino.",
+      diagnostico:
+        "Exposição suspeita ao vírus da raiva, sem confirmação de infecção no momento da avaliação.",
+      discussao:
+        "Este caso demonstra que a investigação da raiva não deve se limitar aos animais que já apresentam sinais neurológicos. O contato direto com morcegos representa uma situação epidemiologicamente importante, mesmo quando o animal doméstico está aparentemente saudável. É fundamental comunicar o ocorrido aos serviços de vigilância, evitar a manipulação do morcego e seguir as orientações oficiais para avaliação do animal e das pessoas potencialmente expostas."
+    }
+  ]
 },
+
+
 
 
 
@@ -6822,9 +9581,9 @@ ano:"2011"
 {
   id: "variola-bovina",
 
-  nome: "Varíola bovina",
+  nome: "Varíola Bovina",
 
-  agente: "Orthopoxvirus",
+  agente: "Poxvírus (família Poxviridae)",
 
   categoria: "Virais",
 
@@ -6832,41 +9591,499 @@ ano:"2011"
 
   zoonose: true,
 
-  vacina: false,
+  vacina: true,
 
   eutanasia: false,
 
-  notificacaoObrigatoria: true,
+  notificacaoObrigatoria: false,
 
   hospedeiros: [
     "Bovinos",
-    "Humanos"
+    "Humanos",
+    "Bubalinos",
+    "Camelos",
+    "Elefantes",
+    "Roedores",
+    "Felinos",
+    "Outras espécies domésticas"
   ],
 
   palavrasChave: [
-    "variola bovina",
-    "orthopoxvirus",
-    "boi",
-    "vaca",
-    "gado"
+    "varíola bovina",
+    "cowpox",
+    "vaccinia",
+    "pseudocowpox",
+    "poxvírus",
+    "Poxviridae",
+    "Orthopoxvirus",
+    "Parapoxvirus",
+    "varíola mamária",
+    "úbere",
+    "tetos",
+    "corpúsculos de Guarnieri",
+    "corpúsculos de Paschen",
+    "zoonose"
   ],
 
   imagem: "/images/doencas/variola-bovina.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    
+    {
+      src: "/images/doencas/variola/02-papula.jpg",
+      titulo: "Lesões",
+      categoria: "Evolução das lesões",
+      descricao:
+      "Lesões em bovinos por varíola"
+    },
+  
+    
+    {
+      src: "/images/doencas/variola/06-cicatriz.jpg",
+      titulo: "Cicatrização",
+      categoria: "Evolução das lesões",
+      descricao:
+        "Aspecto da pele após a resolução das lesões, com formação de cicatrizes."
+    },
+   
+    {
+      src: "/images/doencas/variola/08-virus-pox.jpg",
+      titulo: "Poxvírus",
+      categoria: "Agente etiológico",
+      descricao:
+        "Representação do agente viral, pertencente à família Poxviridae, com genoma de DNA de fita dupla."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A varíola bovina é uma enfermidade viral zoonótica que acomete principalmente bovinos, sendo caracterizada pelo desenvolvimento de lesões cutâneas, especialmente no úbere e nos tetos. As lesões podem evoluir de máculas e pápulas para vesículas, pústulas, ulcerações e crostas. Em alguns casos, a infecção pode apresentar distribuição generalizada.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        emoji: "⭐",
+        titulo: "Destaques",
+        itens: [
+          "Enfermidade viral de importância veterinária e zoonótica",
+          "Acomete principalmente a região do úbere e dos tetos",
+          "Pode apresentar evolução de lesões cutâneas em diferentes estágios",
+          "A transmissão pode ocorrer durante a ordenha",
+          "Possui importância ocupacional devido ao risco de infecção dos ordenhadores"
+        ]
+      },
+      {
+        emoji: "🦠",
+        titulo: "Características",
+        itens: [
+          "Agente pertencente à família Poxviridae",
+          "Vírus com DNA de fita dupla",
+          "Multiplicação viral no citoplasma",
+          "Formação de corpúsculos de inclusão de Guarnieri",
+          "Diferentes poxvírus podem estar envolvidos nas apresentações denominadas varíola bovina"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância zoonótica",
+        itens: [
+          "Transmissão ao ser humano pelo contato com lesões contaminadas",
+          "Ordenhadores e profissionais que manipulam animais infectados apresentam risco ocupacional",
+          "Pode provocar lesões cutâneas nas mãos e em outras regiões expostas",
+          "Exige medidas de higiene e biossegurança durante o manejo"
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A varíola bovina está associada a vírus da família Poxviridae. O material didático diferencia as formas vaccinia, varíola original bovina e varíola mamária, relacionadas a diferentes grupos de poxvírus.",
+
+    listas: [
+      {
+        emoji: "🧬",
+        titulo: "Classificação taxonômica",
+        itens: [
+          "Família: Poxviridae",
+          "Grupo: vírus DNA de fita dupla",
+          "Vaccinia: gênero Orthopoxvirus",
+          "Varíola original bovina: gênero Orthopoxvirus",
+          "Varíola mamária ou pseudovaríola: gênero Parapoxvirus"
+        ]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Características morfológicas",
+        itens: [
+          "Genoma de DNA de fita dupla",
+          "Vírus envelopado",
+          "Formato de paralelepípedo com bordas arredondadas",
+          "Tamanho aproximado de 300 a 450 nm",
+          "Multiplicação no citoplasma das células hospedeiras"
+        ]
+      },
+      {
+        emoji: "🧫",
+        titulo: "Inclusões citoplasmáticas",
+        itens: [
+          "Corpúsculos de Guarnieri: inclusões citoplasmáticas associadas à replicação viral",
+          "Corpúsculos elementares de Paschen: estruturas virais descritas no interior dos corpúsculos de Guarnieri no material didático"
+        ]
+      },
+      {
+        emoji: "🦠",
+        titulo: "Principais formas virais descritas",
+        itens: [
+          "Vaccinia: associada ao gênero Orthopoxvirus, podendo infectar o homem e diferentes espécies domésticas",
+          "Cowpox ou varíola original bovina: associada ao gênero Orthopoxvirus, com capacidade de infectar bovinos e outras espécies",
+          "Varíola mamária ou pseudovaríola: associada ao gênero Parapoxvirus, também denominada paravaccínia"
+        ]
+      },
+      {
+        emoji: "🧪",
+        titulo: "Resistência e sensibilidade",
+        itens: [
+          "Apresenta resistência a álcool, éter, clorofórmio e acetona, conforme o material didático",
+          "É sensível a desinfetantes comuns",
+          "Apresenta sensibilidade à luz solar e à fervura"
+        ]
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A infecção ocorre pela penetração do vírus através da pele lesionada ou das mucosas. Após a entrada no organismo, o agente se multiplica no citoplasma das células, provocando alterações teciduais e o desenvolvimento progressivo de lesões cutâneas.",
+
+    blocos: [
+      {
+        emoji: "🚪",
+        titulo: "Entrada do vírus",
+        texto:
+          "O vírus penetra principalmente através de lesões na pele ou pelas mucosas. O contato com animais infectados, secreções e materiais contaminados favorece a transmissão."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Multiplicação viral",
+        texto:
+          "Após penetrar no organismo, o vírus invade as células suscetíveis e realiza sua multiplicação no citoplasma, formando inclusões citoplasmáticas denominadas corpúsculos de Guarnieri."
+      },
+      {
+        emoji: "🫧",
+        titulo: "Desenvolvimento das lesões",
+        texto:
+          "O processo infeccioso provoca alterações cutâneas que evoluem progressivamente de máculas para pápulas, vesículas e pústulas."
+      },
+      {
+        emoji: "🩹",
+        titulo: "Ulceração e formação de crostas",
+        texto:
+          "Com a progressão das lesões, ocorre ruptura das estruturas vesiculares e pustulares, formando úlceras que podem apresentar crostas, com ou sem hemorragias."
+      },
+      {
+        emoji: "🛡️",
+        titulo: "Recuperação e imunidade",
+        texto:
+          "Após a resolução da enfermidade, pode ocorrer imunidade duradoura. O material didático descreve imunidade vitalícia após a doença, com proteção cruzada entre vaccinia e cowpox, mas proteção escassa ou praticamente nula na varíola mamária."
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A varíola bovina apresenta distribuição mundial, podendo ocorrer em diferentes espécies animais e no ser humano. Sua transmissão está relacionada principalmente ao contato direto com lesões e materiais contaminados, especialmente durante as atividades de ordenha.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição",
+        texto:
+          "A enfermidade apresenta distribuição mundial, com ocorrência de surtos em diferentes regiões. Os vírus envolvidos podem apresentar diferentes hospedeiros e padrões de disseminação."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Hospedeiros suscetíveis",
+        texto:
+          "O material didático descreve a infecção em bovinos, humanos e diferentes espécies animais. A varíola original bovina pode infectar também búfalos, camelos, elefantes, roedores e felinos."
+      },
+      {
+        emoji: "🤝",
+        titulo: "Transmissão por contato direto",
+        texto:
+          "A transmissão ocorre pelo contato direto com lesões presentes na pele ou nas mucosas, especialmente quando há solução de continuidade nos tecidos."
+      },
+      {
+        emoji: "🥛",
+        titulo: "Transmissão durante a ordenha",
+        texto:
+          "As mãos dos ordenhadores podem atuar na disseminação do agente entre os animais. O contato com lesões contaminadas durante a ordenha representa uma importante via de transmissão."
+      },
+      {
+        emoji: "🦟",
+        titulo: "Transmissão indireta",
+        texto:
+          "Artrópodes também são citados como possíveis participantes da transmissão. Mãos e materiais contaminados podem favorecer a disseminação entre animais e propriedades."
+      },
+      {
+        emoji: "👤",
+        titulo: "Importância zoonótica",
+        texto:
+          "O ser humano pode adquirir a infecção pelo contato com lesões de animais infectados, especialmente durante a ordenha e a manipulação do úbere e dos tetos."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A manifestação clínica mais característica é o aparecimento de lesões cutâneas, principalmente no úbere e nos tetos. A evolução ocorre em diferentes estágios, podendo apresentar febre irregular e dor nas regiões afetadas.",
+
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Sinais gerais",
+        itens: [
+          "Febre irregular",
+          "Desconforto",
+          "Dor na região dos tetos e do úbere"
+        ]
+      },
+      {
+        emoji: "🔴",
+        titulo: "Fase inicial",
+        itens: [
+          "Máculas",
+          "Alterações na coloração da pele",
+          "Início das lesões cutâneas"
+        ]
+      },
+      {
+        emoji: "🫧",
+        titulo: "Evolução das lesões",
+        itens: [
+          "Pápulas",
+          "Vesículas",
+          "Pústulas",
+          "Ulcerações",
+          "Formação de crostas"
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Localização das lesões",
+        itens: [
+          "Úbere",
+          "Tetos",
+          "Pele adjacente",
+          "Possibilidade de apresentação generalizada, embora menos frequente"
+        ]
+      },
+      {
+        emoji: "🩹",
+        titulo: "Fase de resolução",
+        itens: [
+          "Formação de crostas",
+          "Lesões com ou sem hemorragias",
+          "Desprendimento das crostas",
+          "Cicatrização"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico considera o histórico epidemiológico e a avaliação das lesões cutâneas. A confirmação pode ser realizada por métodos histopatológicos, isolamento viral e técnicas de identificação do agente. A presença de corpúsculos de inclusão citoplasmáticos é um achado importante na avaliação histopatológica. A PCR também é utilizada atualmente para identificação e diferenciação dos poxvírus.",
+
+    metodos: [
+      "pcr"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento é direcionado principalmente aos cuidados com as lesões cutâneas e à prevenção de infecções secundárias. O material didático descreve a utilização de pomadas ou sprays com antibióticos e medidas de higiene durante o manejo dos animais.",
+
+    blocos: [
+      {
+        emoji: "🩺",
+        titulo: "Cuidados com as lesões",
+        texto:
+          "As lesões devem ser acompanhadas durante sua evolução, com cuidados locais para favorecer a cicatrização e evitar traumatismos adicionais."
+      },
+      {
+        emoji: "💊",
+        titulo: "Tratamento tópico",
+        texto:
+          "O material didático descreve a utilização de pomadas ou sprays contendo antibióticos como medida terapêutica para o cuidado das lesões e prevenção de complicações bacterianas secundárias."
+      },
+      {
+        emoji: "🥛",
+        titulo: "Manejo durante a ordenha",
+        texto:
+          "Deve-se ter cuidado durante a ordenha dos animais acometidos, evitando traumatizar as lesões e reduzindo o contato dos profissionais com as áreas infectadas."
+      },
+      {
+        emoji: "🧼",
+        titulo: "Higiene e biossegurança",
+        texto:
+          "A higienização das mãos, dos equipamentos e das instalações é importante para reduzir a disseminação do agente entre os animais e evitar a transmissão ao ser humano."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da varíola bovina envolve medidas de biossegurança, controle da entrada de animais, higienização durante a ordenha e redução do contato com lesões contaminadas. A proteção dos trabalhadores também é fundamental devido ao caráter zoonótico da enfermidade.",
+
+    blocos: [
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        destaque: true,
+        texto:
+          "O material didático descreve a utilização de vírus original inativado ou de vaccinia em estratégias de imunização. Também informa que a obrigatoriedade da vacinação contra varíola bovina foi extinta no Brasil pela Portaria nº 55, de 29 de janeiro de 1980. A indicação de vacinação deve considerar a situação epidemiológica e as orientações sanitárias vigentes.",
+        tags: [
+          "IMUNIZAÇÃO ESPECÍFICA",
+          "🇧🇷 OBRIGATORIEDADE EXTINTA EM 1980"
+        ]
+      },
+      {
+        emoji: "🚧",
+        titulo: "Quarentena de animais recém-chegados",
+        texto:
+          "Animais recém-introduzidos na propriedade devem permanecer em quarentena e ser avaliados antes de serem incorporados ao rebanho, reduzindo o risco de introdução de agentes infecciosos."
+      },
+      {
+        emoji: "🥛",
+        titulo: "Higienização durante a ordenha",
+        texto:
+          "O úbere e os tetos devem ser higienizados e desinfetados entre as ordenhas. As mãos dos ordenhadores e os equipamentos utilizados devem receber atenção especial."
+      },
+      {
+        emoji: "🧤",
+        titulo: "Proteção dos trabalhadores",
+        texto:
+          "O contato direto com lesões deve ser evitado. Recomenda-se o uso de luvas e outros equipamentos de proteção individual durante a manipulação de animais suspeitos ou infectados."
+      },
+      {
+        emoji: "🧼",
+        titulo: "Desinfecção das instalações",
+        texto:
+          "A limpeza e a desinfecção de equipamentos, utensílios e superfícies utilizadas durante a ordenha contribuem para reduzir a transmissão indireta."
+      },
+      {
+        emoji: "🔍",
+        titulo: "Identificação de animais suspeitos",
+        texto:
+          "Animais com lesões cutâneas sugestivas devem ser avaliados e manejados separadamente até a investigação diagnóstica, evitando a disseminação da enfermidade."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Varíola de bovinos em bovinos",
+      autores: "Merck Veterinary Manual",
+      fonte: "Manual MSD de Veterinária",
+      ano: "2024",
+      link: "https://www.msdvetmanual.com/pt/integumentary-system/doen%C3%A7as-causadas-por-var%C3%ADola/var%C3%ADola-de-bovinos-em-bovinos"
+    },
+    {
+      titulo: "Pseudovaríola em bovinos",
+      autores: "Paul Gibbs",
+      fonte: "Manual MSD de Veterinária",
+      ano: "2024",
+      link: "https://www.msdvetmanual.com/pt/integumentary-system/pox-diseases/pseudocowpox-in-cattle"
+    },
+    {
+      titulo: "Poxviruses diagnosed in cattle from Distrito Federal, Brazil (2015–2018)",
+      autores: "Estudo retrospectivo de casos diagnosticados pelo Serviço Veterinário Oficial",
+      fonte: "Transboundary and Emerging Diseases",
+      ano: "2020",
+      link: "https://pubmed.ncbi.nlm.nih.gov/31971341/"
+    },
+    {
+      titulo: "Action Plan for FMD Response to the Notification of Suspected Vesicular Disease – Appendix 7: Cowpox",
+      autores: "Ministério da Agricultura e Pecuária",
+      fonte: "Plano de ação para resposta a doenças vesiculares",
+      ano: "2009",
+      link: "https://www.gov.br/agricultura/pt-br/assuntos/sanidade-animal-e-vegetal/saude-animal/arquivos-das-publicacoes-de-saude-animal/action-plan-for-fmd-response-to-the-notification-of-suspected-vesicular-disease-vol_1-2009.pdf"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "variola-bovina-caso-01",
+      titulo: "Lesões cutâneas no úbere e nos tetos",
+      especie: "Bovino",
+      idade: "Fêmea adulta em lactação",
+      historico:
+        "Uma vaca leiteira apresenta dor durante a ordenha e alterações cutâneas no úbere e nos tetos. O produtor relata que as lesões começaram como pequenas manchas avermelhadas e evoluíram progressivamente ao longo dos dias.",
+      sinais: [
+        "Febre irregular",
+        "Dor nos tetos e no úbere",
+        "Máculas",
+        "Pápulas",
+        "Vesículas",
+        "Pústulas",
+        "Ulcerações e formação de crostas"
+      ],
+      exames:
+        "A avaliação inclui exame clínico das lesões e investigação histopatológica para identificação de alterações celulares e corpúsculos de inclusão. A confirmação etiológica pode envolver PCR, isolamento viral em cultivo celular ou inoculação em ovos embrionados, conforme o agente investigado.",
+      diagnostico:
+        "Suspeita de varíola bovina, com necessidade de identificação laboratorial do poxvírus envolvido.",
+      discussao:
+        "A evolução das lesões cutâneas, associada à localização no úbere e nos tetos, é compatível com uma infecção por poxvírus. A confirmação laboratorial é importante para diferenciar os agentes envolvidos, uma vez que vaccinia, cowpox e pseudocowpox podem apresentar manifestações clínicas semelhantes."
+    },
+    {
+      id: "variola-bovina-caso-02",
+      titulo: "Disseminação de lesões após introdução de novos animais",
+      especie: "Bovino",
+      idade: "Vacas adultas",
+      historico:
+        "Em uma propriedade leiteira, diferentes vacas passam a apresentar lesões cutâneas nos tetos e no úbere após a introdução de animais recém-chegados. O produtor relata que não foi realizado período de quarentena e que os equipamentos de ordenha são compartilhados entre os animais.",
+      sinais: [
+        "Lesões cutâneas nos tetos",
+        "Pápulas",
+        "Vesículas",
+        "Pústulas",
+        "Ulcerações",
+        "Formação de crostas"
+      ],
+      exames:
+        "Investigação epidemiológica do rebanho, avaliação clínica e coleta de material das lesões para diagnóstico laboratorial. A PCR pode ser utilizada para identificação do agente, complementada por exame histopatológico.",
+      diagnostico:
+        "Suspeita de infecção por poxvírus associada à varíola bovina.",
+      discussao:
+        "A introdução de animais sem quarentena e o compartilhamento de equipamentos podem favorecer a disseminação de agentes infecciosos dentro da propriedade. A investigação deve identificar o vírus envolvido e orientar as medidas de controle, incluindo isolamento dos animais afetados, higienização dos equipamentos e acompanhamento dos demais indivíduos."
+    },
+    {
+      id: "variola-bovina-caso-03",
+      titulo: "Infecção zoonótica associada à atividade de ordenha",
+      especie: "Bovino",
+      idade: "Fêmea adulta",
+      historico:
+        "Uma vaca apresenta lesões ulceradas e crostas nos tetos, causando desconforto durante a ordenha. Após alguns dias de contato frequente com o animal, um funcionário apresenta lesões cutâneas nas mãos, especialmente nas regiões que tiveram contato direto com as áreas afetadas.",
+      sinais: [
+        "Lesões nos tetos",
+        "Vesículas e pústulas",
+        "Ulcerações",
+        "Formação de crostas",
+        "Dor durante a ordenha"
+      ],
+      exames:
+        "No animal, recomenda-se avaliação das lesões e investigação laboratorial por PCR e histopatologia. A avaliação das lesões cutâneas do trabalhador deve ser realizada por profissional de saúde, considerando a possibilidade de transmissão zoonótica.",
+      diagnostico:
+        "Suspeita de infecção por poxvírus com possível transmissão zoonótica.",
+      discussao:
+        "A transmissão de poxvírus de bovinos para seres humanos pode ocorrer pelo contato direto com lesões contaminadas. Ordenhadores e profissionais que manipulam animais infectados apresentam risco ocupacional. O caso reforça a importância do uso de luvas, da higienização das mãos e da desinfecção dos equipamentos utilizados na ordenha."
+    }
+  ]
 },
+
+
+
+
 // 🦠 PROTOZOOSES
 
 
