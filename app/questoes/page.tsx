@@ -359,20 +359,25 @@ export default function QuestoesPage() {
 
 
   function iniciarProva() {
+  setCategoriaAberta(false);
+  setDoencaAberta(false);
 
+  const todasCategorias =
+    categoriasSelecionadas.length === categorias.length;
 
-    setCategoriaAberta(false);
+  const todasDoencas =
+    doencasSelecionadas.length === listaDoencas.length;
 
-    setDoencaAberta(false);
+  const categoriasParaEnviar =
+    todasCategorias ? [] : categoriasSelecionadas;
 
+  const doencasParaEnviar =
+    todasDoencas ? [] : doencasSelecionadas;
 
-
-    router.push(
-      `/questoes/prova?categorias=${categoriasSelecionadas.join(",")}&doencas=${doencasSelecionadas.join(",")}&quantidade=${quantidade}`
-    );
-
-
-  }
+  router.push(
+    `/questoes/prova?categorias=${categoriasParaEnviar.join(",")}&doencas=${doencasParaEnviar.join(",")}&quantidade=${quantidade}`
+  );
+}
     return (
 
     <>
@@ -803,7 +808,9 @@ export default function QuestoesPage() {
                   50 questões
                 </option>
 
-
+<option value="todas">
+  Todas as questões
+</option>
               </select>
 
 

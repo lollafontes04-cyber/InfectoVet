@@ -10087,12 +10087,13 @@ imagens: [
 // 🦠 PROTOZOOSES
 
 
+
 {
   id: "leishmaniose",
 
   nome: "Leishmaniose",
 
-  agente: "Leishmania spp.",
+  agente: "Protozoários do gênero Leishmania, principalmente Leishmania infantum na leishmaniose visceral canina.",
 
   categoria: "Protozooses",
 
@@ -10108,36 +10109,625 @@ imagens: [
 
   hospedeiros: [
     "Cães",
-    "Humanos"
+    "Gatos",
+    "Humanos",
+    "Mamíferos silvestres"
   ],
 
   palavrasChave: [
     "leishmaniose",
     "leishmania",
+    "leishmania infantum",
+    "leishmaniose visceral",
+    "leishmaniose tegumentar",
+    "leishmaniose canina",
     "cão",
     "cao",
     "cachorro",
     "canino",
-    "mosquito palha",
-    "flebotomineo"
+    "gato",
+    "felino",
+    "mosquito-palha",
+    "flebotomíneo",
+    "calazar",
+    "zoonose"
   ],
 
   imagem: "/images/doencas/leishmaniose.jpg",
+  imagens: [
+  {
+    src: "/images/doencas/leishmaniose/01-lesoes-cutaneas.jpg",
+    titulo: "Lesões cutâneas",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Cão com manifestações dermatológicas associadas à leishmaniose visceral, incluindo alopecia, descamação e alterações cutâneas."
+  },
+  {
+    src: "/images/doencas/leishmaniose/02-amastigotas.jpg",
+    titulo: "Formas amastigotas de Leishmania",
+    categoria: "Diagnóstico",
+    descricao:
+      "Visualização microscópica de formas amastigotas de Leishmania infantum no interior de macrófago."
+  },
+  {
+    src: "/images/doencas/leishmaniose/03-ciclo-biologico.jpg",
+    titulo: "Ciclo biológico da Leishmania",
+    categoria: "Epidemiologia",
+    descricao:
+      "Representação do ciclo do parasito envolvendo o flebotomíneo e os hospedeiros mamíferos."
+  },
+  {
+    src: "/images/doencas/leishmaniose/04-manifestacoes-clinicas.jpg",
+    titulo: "Manifestações clínicas",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Diferentes manifestações dermatológicas e sistêmicas observadas em cães com leishmaniose."
+  }
+],
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  visaoGeral: {
+    introducao:
+      "A leishmaniose é uma enfermidade parasitária causada por protozoários do gênero Leishmania, que acomete seres humanos, animais domésticos e silvestres. Apresenta grande importância para a medicina veterinária e para a saúde pública, especialmente devido à participação dos cães no ciclo epidemiológico da leishmaniose visceral causada por Leishmania infantum.",
 
-  referencias: [],
+    cards: [
+      {
+        emoji: "⭐",
+        titulo: "Destaques",
+        itens: [
+          "Enfermidade parasitária de caráter zoonótico",
+          "Transmitida principalmente por fêmeas de flebotomíneos infectadas",
+          "Apresenta diferentes manifestações clínicas, desde infecções assintomáticas até doença sistêmica grave",
+          "Possui importância epidemiológica e impacto na saúde pública",
+          "O cão doméstico apresenta papel relevante no ciclo da leishmaniose visceral"
+        ]
+      },
+      {
+        emoji: "🦠",
+        titulo: "Características",
+        itens: [
+          "Protozoário intracelular obrigatório",
+          "Pertence à família Trypanosomatidae",
+          "Apresenta formas promastigotas e amastigotas",
+          "As formas amastigotas são encontradas principalmente no interior de células do sistema fagocítico mononuclear",
+          "Pode acometer diferentes órgãos e tecidos"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância clínica",
+        itens: [
+          "Pode provocar alterações dermatológicas, oculares, renais e hematológicas",
+          "A doença renal é uma das principais complicações associadas à evolução grave da leishmaniose visceral canina",
+          "Existem animais infectados sem manifestações clínicas",
+          "A confirmação laboratorial é fundamental para o diagnóstico"
+        ]
+      }
+    ]
+  },
 
-  casosClinicos: [],
+  etiologia: {
+    introducao:
+      "A leishmaniose é causada por protozoários do gênero Leishmania, pertencentes à família Trypanosomatidae. Diferentes espécies estão associadas às apresentações clínicas e epidemiológicas da doença. Nas Américas, Leishmania infantum e Leishmania braziliensis estão entre as espécies frequentemente identificadas em cães.",
 
+    listas: [
+      {
+        emoji: "🦠",
+        titulo: "Principais espécies de Leishmania",
+        itens: [
+          "Leishmania infantum – principal agente associado à leishmaniose visceral nas Américas",
+          "Leishmania braziliensis – associada principalmente à leishmaniose tegumentar",
+          "Leishmania amazonensis – relacionada a manifestações cutâneas e outras apresentações clínicas",
+          "Leishmania guyanensis – associada à leishmaniose tegumentar",
+          "Leishmania panamensis – identificada em diferentes regiões das Américas",
+          "Leishmania mexicana – associada principalmente à leishmaniose cutânea"
+        ]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Formas evolutivas",
+        itens: [
+          "Promastigota: forma alongada e flagelada, encontrada no tubo digestório do flebotomíneo e responsável pela infecção do hospedeiro vertebrado",
+          "Amastigota: forma arredondada ou oval, sem flagelo externo livre, encontrada no interior de células do hospedeiro vertebrado"
+        ]
+      }
+    ],
+
+    tabelas: [
+      {
+        emoji: "🧬",
+        titulo: "Características das formas evolutivas",
+        colunas: [
+          "Forma",
+          "Características",
+          "Localização"
+        ],
+        linhas: [
+          [
+            "Promastigota",
+            "Alongada e flagelada",
+            "Flebotomíneo"
+          ],
+          [
+            "Amastigota",
+            "Arredondada ou oval, intracelular",
+            "Células do hospedeiro vertebrado"
+          ]
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        emoji: "🧫",
+        titulo: "Localização intracelular",
+        itens: [
+          "As formas amastigotas apresentam tropismo por células do sistema fagocítico mononuclear, especialmente macrófagos.",
+          "A multiplicação intracelular contribui para a persistência do parasito no organismo."
+        ]
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A infecção ocorre principalmente durante o repasto sanguíneo de fêmeas de flebotomíneos infectadas. Após a inoculação das formas promastigotas, os parasitos são fagocitados por células do hospedeiro, transformam-se em amastigotas e passam a se multiplicar intracelularmente.",
+
+    blocos: [
+      {
+        emoji: "🦟",
+        titulo: "Inoculação do parasito",
+        texto:
+          "Durante o repasto sanguíneo, a fêmea infectada do flebotomíneo inocula formas promastigotas metacíclicas na pele do hospedeiro vertebrado."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Fagocitose e transformação",
+        texto:
+          "As formas promastigotas são fagocitadas principalmente por macrófagos. No interior dessas células, transformam-se em formas amastigotas, adaptadas à sobrevivência intracelular."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Multiplicação intracelular",
+        texto:
+          "As formas amastigotas multiplicam-se por divisão binária dentro das células hospedeiras. Com o aumento da carga parasitária, ocorre comprometimento celular e liberação de parasitos capazes de infectar novas células."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Disseminação sistêmica",
+        texto:
+          "Os parasitos podem disseminar-se pelo organismo, principalmente por meio de células do sistema fagocítico mononuclear, atingindo órgãos como linfonodos, baço, fígado e medula óssea."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Resposta imunológica e lesões",
+        texto:
+          "A resposta imunológica do hospedeiro influencia a evolução da infecção. A produção exacerbada de anticorpos e a formação de imunocomplexos podem contribuir para lesões inflamatórias, especialmente nos rins, articulações, olhos e pele."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Comprometimento orgânico",
+        texto:
+          "A evolução da doença pode provocar dermatopatias, alterações oftálmicas, anemia, hipergamaglobulinemia, glomerulonefrite, proteinúria e doença renal crônica, podendo evoluir para quadros graves."
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A leishmaniose apresenta distribuição em diferentes regiões do mundo, especialmente em áreas tropicais e subtropicais. Nas Américas, a enfermidade possui importância epidemiológica devido à circulação de diferentes espécies de Leishmania, à presença de vetores flebotomíneos e à participação de hospedeiros domésticos e silvestres.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "A leishmaniose ocorre em diferentes países das Américas. No Brasil, a leishmaniose visceral apresenta ampla distribuição geográfica, com registros em diversas regiões."
+      },
+      {
+        emoji: "🦟",
+        titulo: "Vetores",
+        texto:
+          "A transmissão ocorre principalmente por fêmeas infectadas de flebotomíneos. No Brasil, Lutzomyia longipalpis é o principal vetor de Leishmania infantum, embora outras espécies também possam participar da transmissão em determinadas regiões."
+      },
+      {
+        emoji: "🐕",
+        titulo: "Reservatórios e hospedeiros",
+        texto:
+          "Os cães domésticos possuem importante participação no ciclo epidemiológico da leishmaniose visceral. Outros mamíferos domésticos e silvestres também podem participar dos ciclos de transmissão, dependendo da espécie de Leishmania e da região."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Ciclo de transmissão",
+        texto:
+          "O flebotomíneo infecta-se ao realizar o repasto sanguíneo em um hospedeiro contendo formas amastigotas. No intestino do vetor, os parasitos transformam-se em promastigotas e passam por multiplicação e diferenciação até atingirem a forma infectante."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Vias secundárias de transmissão",
+        texto:
+          "Além da transmissão vetorial, existem relatos de transmissão vertical, venérea e por transfusão sanguínea em cães. Essas vias são importantes na epidemiologia e devem ser consideradas nas medidas de controle."
+      },
+      {
+        emoji: "🏙️",
+        titulo: "Fatores de risco",
+        texto:
+          "A expansão urbana, as alterações ambientais, o desmatamento, a presença de matéria orgânica e a adaptação dos vetores aos ambientes modificados podem favorecer a aproximação entre flebotomíneos, animais e seres humanos."
+      },
+      {
+        emoji: "🌱",
+        titulo: "Saúde Única",
+        texto:
+          "A leishmaniose representa um importante exemplo de interação entre saúde animal, humana e ambiental. O controle depende da vigilância epidemiológica, educação em saúde, proteção dos animais contra vetores e ações integradas entre os setores envolvidos."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A leishmaniose canina apresenta manifestações clínicas variadas, podendo ocorrer infecção assintomática, doença localizada ou comprometimento sistêmico. Não existe sinal clínico patognomônico, e as alterações podem ocorrer isoladamente ou em associação.",
+
+    blocos: [
+      {
+        emoji: "🐕",
+        titulo: "Manifestações gerais",
+        itens: [
+          "Emagrecimento progressivo",
+          "Apatia e fraqueza",
+          "Hiporexia ou anorexia",
+          "Linfadenomegalia generalizada",
+          "Hepatomegalia e esplenomegalia",
+          "Caquexia em casos avançados"
+        ]
+      },
+      {
+        emoji: "🧴",
+        titulo: "Dermatopatias",
+        itens: [
+          "Dermatite descamativa",
+          "Alopecia, principalmente periocular",
+          "Dermatite ulcerativa",
+          "Dermatite papular ou nodular",
+          "Hiperqueratose nasal e digital",
+          "Despigmentação nasal",
+          "Vasculite de ponta de orelha",
+          "Onicogrifose"
+        ]
+      },
+      {
+        emoji: "👁️",
+        titulo: "Alterações oftálmicas",
+        itens: [
+          "Blefarite",
+          "Conjuntivite",
+          "Uveíte",
+          "Ceratite",
+          "Cerato-conjuntivite seca",
+          "Esclerite e episclerite",
+          "Glaucoma em casos graves"
+        ]
+      },
+      {
+        emoji: "🩸",
+        titulo: "Alterações hematológicas",
+        itens: [
+          "Anemia normocítica e normocrômica",
+          "Trombocitopatias",
+          "Hipergamaglobulinemia",
+          "Hipoalbuminemia",
+          "Alterações inflamatórias e imunomediadas"
+        ]
+      },
+      {
+        emoji: "🩺",
+        titulo: "Alterações renais",
+        itens: [
+          "Proteinúria",
+          "Hematúria",
+          "Azotemia",
+          "Glomerulonefrite",
+          "Nefrite intersticial",
+          "Doença renal crônica",
+          "Insuficiência renal em quadros avançados"
+        ]
+      },
+      {
+        emoji: "🦴",
+        titulo: "Alterações locomotoras",
+        itens: [
+          "Poliartrite",
+          "Miosite",
+          "Osteomielite",
+          "Dor e dificuldade de locomoção",
+          "Atrofia muscular",
+          "Perda de massa muscular"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Infecção assintomática",
+        itens: [
+          "Alguns animais infectados não apresentam sinais clínicos.",
+          "A ausência de manifestações não exclui a infecção.",
+          "Animais infectados e assintomáticos podem apresentar importância epidemiológica."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+  introducao:
+    "O diagnóstico da leishmaniose canina deve ser realizado por meio da associação entre avaliação clínica, histórico epidemiológico e exames laboratoriais. A escolha dos métodos depende da apresentação clínica, do estágio da infecção e da finalidade da investigação. A identificação de anticorpos, isoladamente, não deve ser interpretada como comprovação de doença clínica.",
+
+  metodos: [
+    "exame-parasitologico-direto",
+    "citologia",
+    "histopatologia",
+    "imuno-histoquimica",
+    "rifi",
+    "elisa",
+    "imunocromatografia",
+    "pcr"
+  ]
 },
+
+  tratamento: {
+    introducao:
+      "O tratamento da leishmaniose canina deve ser individualizado, considerando a confirmação da infecção, o estadiamento clínico, as alterações laboratoriais e o comprometimento dos órgãos. Os protocolos podem combinar fármacos leishmanicidas, leishmaniostáticos e imunomoduladores. O tratamento deve ser realizado sob acompanhamento permanente do médico-veterinário, pois a melhora clínica não significa necessariamente eliminação completa do parasito.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Miltefosina",
+        texto:
+          "A miltefosina é um fármaco com ação leishmanicida utilizado no tratamento da leishmaniose canina. No Brasil, apresenta registro para essa finalidade. Pode promover melhora clínica e redução da carga parasitária, mas exige acompanhamento devido à possibilidade de efeitos adversos gastrointestinais, como vômitos, diarreia e redução do apetite."
+      },
+      {
+        emoji: "💊",
+        titulo: "Marbofloxacina",
+        texto:
+          "A marbofloxacina é um fármaco utilizado em protocolos terapêuticos para leishmaniose canina no Brasil. Sua utilização deve considerar o estadiamento do paciente, a avaliação clínica e o risco de desenvolvimento de resistência bacteriana."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Alopurinol",
+        texto:
+          "O alopurinol apresenta ação leishmaniostática e pode ser utilizado em associação com outros medicamentos. Atua reduzindo a multiplicação parasitária, contribuindo para o controle da infecção. Seu uso prolongado exige monitoramento devido ao risco de formação de urólitos de xantina e alterações renais."
+      },
+      {
+        emoji: "🛡️",
+        titulo: "Imunomodulação",
+        texto:
+          "A imunomodulação pode integrar os protocolos terapêuticos, buscando melhorar a resposta imunológica do hospedeiro. A escolha dos medicamentos deve considerar as condições clínicas do animal e as evidências disponíveis."
+      },
+      {
+        emoji: "📊",
+        titulo: "Tratamento conforme o estadiamento",
+        texto:
+          "A escolha do protocolo depende da classificação do animal em relação à exposição, infecção e presença de doença clínica. Animais expostos ou infectados sem manifestações clínicas podem exigir monitoramento individualizado, enquanto pacientes com doença clínica necessitam de avaliação terapêutica conforme a gravidade e o comprometimento renal."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Acompanhamento terapêutico",
+        texto:
+          "O acompanhamento deve incluir exame físico, hemograma, perfil bioquímico renal e hepático, proteínas séricas, urinálise, relação proteína-creatinina urinária e, quando indicado, sorologia quantitativa, PCR quantitativa e exames de imagem. O monitoramento permite avaliar a evolução clínica, identificar recidivas e acompanhar possíveis efeitos adversos."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Considerações importantes",
+        texto:
+          "A melhora clínica não representa necessariamente cura parasitológica. O tratamento não elimina obrigatoriamente a capacidade de transmissão do animal. As medidas de proteção contra flebotomíneos devem ser mantidas durante todo o acompanhamento."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da leishmaniose depende principalmente da redução do contato entre os flebotomíneos e os hospedeiros. As medidas incluem proteção individual dos animais, controle vetorial, manejo ambiental, vigilância epidemiológica e educação em saúde. A prevenção deve ser integrada, considerando a interface entre saúde humana, animal e ambiental.",
+
+    blocos: [
+      {
+        emoji: "🦟",
+        titulo: "Controle do vetor",
+        destaque: true,
+        texto:
+          "A utilização de produtos tópicos com ação repelente ou inseticida contra flebotomíneos é uma das principais estratégias de prevenção da leishmaniose canina. Coleiras impregnadas com deltametrina e outros produtos com eficácia documentada podem reduzir a exposição dos animais ao vetor.",
+        tags: [
+          "PREVENÇÃO VETORIAL",
+          "PROTEÇÃO CONTÍNUA"
+        ],
+        informacoes: [
+          {
+            titulo: "Produtos tópicos",
+            texto:
+              "A escolha deve considerar a espécie, a idade, o peso do animal, as indicações de bula e a eficácia demonstrada contra flebotomíneos."
+          },
+          {
+            titulo: "Atenção aos felinos",
+            texto:
+              "Gatos apresentam sensibilidade a determinados piretroides, especialmente à permetrina. Produtos destinados a cães não devem ser utilizados em gatos sem indicação específica para essa espécie. A flumetrina associada à imidacloprida possui formulação disponível para felinos."
+          }
+        ]
+      },
+      {
+        emoji: "🌱",
+        titulo: "Manejo ambiental",
+        texto:
+          "A limpeza de quintais e instalações, remoção de folhas, frutos e matéria orgânica acumulada e manutenção de ambientes adequados contribuem para reduzir condições favoráveis ao desenvolvimento de flebotomíneos."
+      },
+      {
+        emoji: "🏠",
+        titulo: "Proteção dos animais",
+        texto:
+          "Recomenda-se reduzir a exposição dos animais aos vetores, especialmente durante o período crepuscular e noturno, além de utilizar barreiras físicas e produtos repelentes adequados."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Vigilância e diagnóstico precoce",
+        texto:
+          "A triagem e o acompanhamento de animais em áreas de transmissão permitem identificar precocemente a exposição e a infecção. A investigação deve integrar avaliação clínica e exames laboratoriais."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Controle da transmissão secundária",
+        texto:
+          "Cães infectados, independentemente da presença de sinais clínicos, devem ser excluídos de programas de doação de sangue e reprodução, considerando os relatos de transmissão transfusional, vertical e venérea."
+      },
+      {
+        emoji: "📢",
+        titulo: "Educação em saúde",
+        texto:
+          "A orientação dos responsáveis pelos animais e da comunidade sobre a transmissão, os vetores, os sinais clínicos e as medidas de prevenção é essencial para o controle da enfermidade."
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação",
+        texto:
+          "Segundo as Diretrizes Brasileish de 2025, não havia vacina contra a leishmaniose canina disponível na América Latina. A prevenção deve priorizar as medidas de proteção contra flebotomíneos e o manejo epidemiológico."
+      },
+      {
+        emoji: "🌎",
+        titulo: "Saúde Única",
+        texto:
+          "O controle da leishmaniose exige integração entre medicina veterinária, saúde pública e gestão ambiental, com vigilância dos casos humanos e animais, controle vetorial e participação da comunidade."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo:
+        "Diretrizes Brasileish para o diagnóstico, tratamento e prevenção da leishmaniose canina na América Latina – Edição 2025",
+
+      autores:
+        "Brasileish – Grupo de Estudos sobre Leishmaniose Animal",
+
+      fonte:
+        "Revista Clínica Veterinária",
+
+      ano:
+        "2025",
+
+      link:
+        "https://www.revistaclinicaveterinaria.com.br/wp-content/uploads/2025/11/Diretrizes-Brasileish-2025.pdf"
+    },
+    {
+      titulo:
+        "Manual de Vigilância e Controle da Leishmaniose Visceral",
+
+      autores:
+        "Brasil. Ministério da Saúde",
+
+      fonte:
+        "Ministério da Saúde",
+
+      ano:
+        "2026",
+
+      link:
+        "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2026/manual-de-vigilancia-e-controle-da-leishmaniose-visceral.pdf"
+    },
+    {
+      titulo:
+        "Leishmaniasis worldwide and global estimates of its incidence",
+
+      autores:
+        "Alvar J. et al.",
+
+      fonte:
+        "PLoS ONE",
+
+      ano:
+        "2012",
+
+      link:
+        "https://doi.org/10.1371/journal.pone.0035671"
+    },
+    {
+      titulo:
+        "Canine leishmaniosis",
+
+      autores:
+        "LeishVet",
+
+      fonte:
+        "LeishVet – Guidelines",
+
+      ano:
+        "2024",
+
+      link:
+        "https://www.leishvet.org/leishmaniose-canina-e-felina/"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "leishmaniose-caso-01",
+
+      titulo:
+        "Cão com alterações dermatológicas e emagrecimento progressivo",
+
+      especie:
+        "Canino",
+
+      idade:
+        "Adulto",
+
+      historico:
+        "Um cão proveniente de região endêmica é atendido apresentando emagrecimento progressivo, apatia e alterações dermatológicas. O responsável relata evolução gradual dos sinais clínicos, incluindo perda de pelos na região periocular e crescimento acentuado das unhas.",
+
+      sinais: [
+        "Alopecia periocular",
+        "Dermatite descamativa",
+        "Onicogrifose",
+        "Emagrecimento progressivo",
+        "Linfadenomegalia"
+      ],
+
+      exames:
+        "O hemograma e o perfil bioquímico demonstram alterações compatíveis com processo inflamatório crônico. A investigação sorológica é associada à pesquisa parasitológica em amostra de linfonodo e à PCR para detecção de DNA de Leishmania spp.",
+
+      diagnostico:
+        "Leishmaniose canina associada à infecção por Leishmania infantum.",
+
+      discussao:
+        "A associação entre manifestações dermatológicas, alterações sistêmicas e histórico epidemiológico levanta forte suspeita de leishmaniose. A confirmação deve envolver exames laboratoriais, pois os sinais clínicos não são patognomônicos. A avaliação renal é fundamental para o estadiamento e a definição da conduta terapêutica."
+    },
+    {
+      id: "leishmaniose-caso-02",
+
+      titulo:
+        "Cão infectado com comprometimento renal",
+
+      especie:
+        "Canino",
+
+      idade:
+        "Adulto",
+
+      historico:
+        "Um cão de área endêmica apresenta apatia, redução do apetite, emagrecimento e alterações dermatológicas. Durante a investigação clínica, são identificadas alterações laboratoriais sugestivas de comprometimento renal.",
+
+      sinais: [
+        "Hiporexia",
+        "Emagrecimento",
+        "Apatia",
+        "Alterações dermatológicas",
+        "Linfadenomegalia"
+      ],
+
+      exames:
+        "A investigação inclui hemograma, perfil bioquímico, urinálise, relação proteína-creatinina urinária e testes para pesquisa de Leishmania spp. A avaliação demonstra proteinúria e alterações de parâmetros relacionados à função renal. Exames parasitológicos e/ou moleculares são utilizados para confirmação da infecção.",
+
+      diagnostico:
+        "Leishmaniose visceral canina com comprometimento renal associado.",
+
+      discussao:
+        "O comprometimento renal é uma das complicações mais importantes da leishmaniose visceral canina e pode estar relacionado à deposição de imunocomplexos e à inflamação renal. O estadiamento clínico e a avaliação da função renal são essenciais para determinar o prognóstico e orientar o tratamento. O acompanhamento laboratorial periódico é indispensável."
+    }
+  ]
+},
+
 
 
 

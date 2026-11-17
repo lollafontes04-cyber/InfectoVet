@@ -392,6 +392,61 @@ doencasRelacionadas:[
 },
 
 {
+  id: "rifi",
+
+  nome: "Reação de Imunofluorescência Indireta (RIFI)",
+
+  categoria: "Método Sorológico",
+
+  tipo: "Indireto",
+
+  finalidade: [
+    "Triagem",
+    "Diagnóstico sorológico"
+  ],
+
+  caracteristicas: [
+    "Detecção de anticorpos IgG",
+    "Reação antígeno-anticorpo",
+    "Utilização de conjugado fluorescente"
+  ],
+
+  descricao:
+    "Método sorológico utilizado para detectar anticorpos específicos contra Leishmania infantum, auxiliando no diagnóstico da leishmaniose visceral canina.",
+
+  principio:
+    "Baseia-se na ligação dos anticorpos presentes no soro do animal aos antígenos de Leishmania fixados em lâminas. Posteriormente, adiciona-se um conjugado anti-imunoglobulina marcado com fluorocromo, que permite visualizar a reação por meio de microscopia de fluorescência.",
+
+  aplicacao: [
+    "Investigação sorológica da leishmaniose visceral canina",
+    "Detecção de anticorpos anti-Leishmania",
+    "Avaliação de amostras suspeitas",
+    "Apoio à investigação epidemiológica"
+  ],
+
+  vantagens: [
+    "Permite detectar anticorpos específicos",
+    "Possibilita a determinação de títulos de anticorpos",
+    "Método tradicionalmente utilizado no diagnóstico sorológico"
+  ],
+
+  limitacoes: [
+    "Não demonstra diretamente a presença do parasito",
+    "Pode apresentar reações cruzadas",
+    "A presença de anticorpos não comprova isoladamente doença clínica",
+    "Necessita de microscópio de fluorescência e interpretação especializada"
+  ],
+
+  imagem:
+    "/images/diagnosticos/rifi.jpg",
+
+  doencasRelacionadas: [
+    "Leishmaniose"
+  ]
+
+},
+
+{
   id: "elisa",
 
   nome: "ELISA",

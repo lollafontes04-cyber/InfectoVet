@@ -29,28 +29,7 @@ export const questoes = [
 },
 
 
-{
-  id: 3,
-  categoria: "Virais",
-  doencaId: "raiva",
-  doenca: "Viroses em cães e gatos",
 
-  pergunta:
-    "As infecções virais em cães e gatos são importantes moléstias causadoras de mortes em muitos animais. Marque como verdadeiras (V) ou falsas (F) as seguintes informações.",
-
-  alternativas: [
-    "A) F; V; V; F; V",
-    "B) V; V; F; V; F",
-    "C) F; F; V; V; F",
-    "D) V; V; V; F; V",
-    "E) F; F; F; V; V"
-  ],
-
-  resposta: "B",
-
-  comentario:
-    "A sequência correta é B. O período de incubação da raiva pode variar amplamente, a cinomose acomete principalmente cães jovens e a vacinação contra calicivírus felino pode utilizar diferentes vias. As demais afirmações apresentam erros conceituais."
-},
 
 
 {
@@ -814,7 +793,7 @@ export const questoes = [
   resposta: "B",
 
   comentario:
-    "O CPV-2 pertence à família Parvoviridae e ao gênero Protoparvovirus. Conforme a aula, é um vírus não envelopado, com capsídeo icosaédrico e genoma constituído por DNA de fita simples (ssDNA)."
+    "O CPV-2 pertence à família Parvoviridae e ao gênero Protoparvovirus. É um vírus não envelopado, com capsídeo icosaédrico e genoma constituído por DNA de fita simples (ssDNA)."
 },
 {
   id: 114,
@@ -823,7 +802,7 @@ export const questoes = [
   doenca: "Parvovirose canina",
 
   pergunta:
-    "De acordo com a aula, qual é o período de incubação da parvovirose canina?",
+    "Qual é o período de incubação da parvovirose canina?",
 
   alternativas: [
     "A) 12 a 24 horas.",
@@ -836,7 +815,7 @@ export const questoes = [
   resposta: "C",
 
   comentario:
-    "O período de incubação apresentado na aula varia de 2 a 14 dias, com ocorrência mais frequente entre 4 e 7 dias."
+    "O período de incubação varia de 2 a 14 dias, com ocorrência mais frequente entre 4 e 7 dias."
 },
 {
   id: 115,
@@ -858,7 +837,7 @@ export const questoes = [
   resposta: "C",
 
   comentario:
-    "A aula descreve a exposição oro-nasal, o alcance dos tecidos linfoides da orofaringe e, posteriormente, a viremia, com disseminação para a medula óssea, órgãos linfoides, jejuno, íleo e outros tecidos."
+    "Exposição oro-nasal, o alcance dos tecidos linfoides da orofaringe e, posteriormente, a viremia, com disseminação para a medula óssea, órgãos linfoides, jejuno, íleo e outros tecidos."
 },
 {
   id: 116,
@@ -880,7 +859,7 @@ export const questoes = [
   resposta: "B",
 
   comentario:
-    "Segundo a aula, a necrose das criptas no jejuno e no íleo provoca diarreia por má absorção e favorece infecções secundárias. Nas formas severas, pode ocorrer sepse e coagulação intravascular disseminada (CID)."
+    "A necrose das criptas no jejuno e no íleo provoca diarreia por má absorção e favorece infecções secundárias. Nas formas severas, pode ocorrer sepse e coagulação intravascular disseminada (CID)."
 },
 {
   id: 117,
@@ -902,7 +881,7 @@ export const questoes = [
   resposta: "C",
 
   comentario:
-    "A aula descreve a gastroenterite hemorrágica principalmente em cães jovens não vacinados, com prostração súbita, anorexia, vômitos frequentes, sialorreia, febre, dor abdominal e diarreia hemorrágica. A evolução pode ocorrer entre 12 e 24 horas."
+    "A gastroenterite hemorrágica ocorre principalmente em cães jovens não vacinados, com prostração súbita, anorexia, vômitos frequentes, sialorreia, febre, dor abdominal e diarreia hemorrágica. A evolução pode ocorrer entre 12 e 24 horas."
 },
 {
   id: 118,
@@ -911,7 +890,7 @@ export const questoes = [
   doenca: "Parvovirose canina",
 
   pergunta:
-    "Sobre o diagnóstico da parvovirose canina, assinale a alternativa que corresponde ao conteúdo apresentado na aula:",
+    "Sobre o diagnóstico da parvovirose canina, assinale a alternativa correta:",
 
   alternativas: [
     "A) O diagnóstico presuntivo considera histórico, sinais clínicos e hemograma; entre os métodos laboratoriais citados estão ELISA para antígeno fecal, SNAP Parvo Test, hemaglutinação e isolamento viral em células MDCK.",
@@ -924,7 +903,7 @@ export const questoes = [
   resposta: "A",
 
   comentario:
-    "A aula diferencia o diagnóstico clínico presuntivo, baseado na rotina clínica, histórico, sinais clínicos e hemograma, do diagnóstico laboratorial definitivo. São citados ELISA para antígeno nas fezes, SNAP Parvo Test, hemaglutinação (HA) e isolamento viral em células MDCK."
+    "Diagnóstico clínico presuntivo, baseado na rotina clínica, histórico, sinais clínicos e hemograma, do diagnóstico laboratorial definitivo. ELISA para antígeno nas fezes, SNAP Parvo Test, hemaglutinação (HA) e isolamento viral em células MDCK."
 },
 {
   id: 119,
@@ -933,7 +912,7 @@ export const questoes = [
   doenca: "Parvovirose canina",
 
   pergunta:
-    "Quais medidas de suporte são apresentadas na aula para o tratamento da parvovirose canina?",
+    "Quais medidas de suporte para o tratamento da parvovirose canina?",
 
   alternativas: [
     "A) Apenas vacinação e vermifugação.",
@@ -946,30 +925,9 @@ export const questoes = [
   resposta: "B",
 
   comentario:
-    "O tratamento descrito na aula é de suporte e inclui fluidoterapia, antibioticoterapia para infecções secundárias, antiemético, controle de hipoglicemia e hipocalemia e transfusão sanguínea ou de plasma."
+    "O tratamento é de suporte e inclui fluidoterapia, antibioticoterapia para infecções secundárias, antiemético, controle de hipoglicemia e hipocalemia e transfusão sanguínea ou de plasma."
 },
-{
-  id: 120,
-  categoria: "Virais",
-  doencaId: "parvovirose",
-  doenca: "Parvovirose canina",
 
-  pergunta:
-    "Sobre a profilaxia ambiental da parvovirose canina, assinale a alternativa correta conforme a aula:",
-
-  alternativas: [
-    "A) O vírus é pouco resistente no ambiente, sendo suficiente apenas a ventilação do local.",
-    "B) A limpeza deve ser feita exclusivamente com água, sem necessidade de desinfecção.",
-    "C) A aula recomenda isolamento e tratamento dos animais acometidos, limpeza e desinfecção de equipamentos, hipoclorito de sódio a 0,3% por no mínimo 10 minutos e limpeza a vapor.",
-    "D) A desinfecção ambiental não é necessária após a recuperação do animal.",
-    "E) O vírus permanece viável no ambiente por, no máximo, algumas horas."
-  ],
-
-  resposta: "C",
-
-  comentario:
-    "A aula destaca a elevada resistência ambiental do vírus e recomenda isolamento e tratamento dos animais, limpeza e desinfecção dos equipamentos, uso de hipoclorito de sódio a 0,3% por pelo menos 10 minutos e limpeza a vapor."
-},
 {
   id: 121,
   categoria: "Virais",
@@ -977,7 +935,7 @@ export const questoes = [
   doenca: "Parvovirose canina",
 
   pergunta:
-    "Qual protocolo de primovacinação de filhotes contra parvovirose é apresentado no material da aula?",
+    "Qual protocolo de primovacinação de filhotes contra parvovirose?",
 
   alternativas: [
     "A) Uma dose única ao nascimento, sem reforços.",
@@ -990,7 +948,7 @@ export const questoes = [
   resposta: "C",
 
   comentario:
-    "O material apresenta primovacinação em três doses: primeira entre 6 e 12 semanas, segunda quatro semanas depois e terceira após mais quatro semanas. O slide também menciona a possibilidade de uma quarta dose em alguns casos e reforço anual."
+    "A primovacinação acontece em três doses: primeira entre 6 e 12 semanas, segunda quatro semanas depois e terceira após mais quatro semanas. Existe também a possibilidade de uma quarta dose em alguns casos e reforço anual."
 },
 
 
@@ -1775,6 +1733,122 @@ export const questoes = [
   ],
   resposta: "C",
   comentario: "A Lei nº 8.080/1990 define a vigilância sanitária como um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde."
-}
+},
+
+
+{
+  id: 160,
+  categoria: "Protozooses",
+  doencaId: "leishmaniose",
+  doenca: "Leishmaniose",
+  pergunta:
+    "Um cão proveniente de região endêmica para leishmaniose visceral apresenta emagrecimento progressivo, onicogrifose, alopecia periocular, dermatite esfoliativa e linfadenomegalia. Diante da suspeita clínica, o médico-veterinário solicita exames laboratoriais para investigação da doença. Considerando os métodos diagnósticos disponíveis, assinale a alternativa correta.",
+  alternativas: [
+    "A) A avaliação clínica isolada é suficiente para confirmar a infecção por Leishmania infantum.",
+    "B) A pesquisa parasitológica pode identificar formas amastigotas do parasito em amostras de tecidos, enquanto a PCR permite detectar seu material genético.",
+    "C) A sorologia negativa exclui definitivamente a possibilidade de infecção, independentemente do estágio clínico.",
+    "D) A PCR é um método exclusivamente sorológico, utilizado para detectar anticorpos contra o parasito.",
+    "E) A citologia não apresenta utilidade diagnóstica, pois as formas amastigotas não são visualizadas em amostras biológicas."
+  ],
+  resposta: "B",
+  comentario:
+    "O diagnóstico deve integrar avaliação clínica, histórico epidemiológico e exames laboratoriais. A pesquisa parasitológica permite visualizar formas amastigotas, enquanto a PCR detecta DNA do parasito. Nenhum resultado deve ser interpretado isoladamente."
+},
+
+{
+  id: 161,
+  categoria: "Protozooses",
+  doencaId: "leishmaniose",
+  doenca: "Leishmaniose",
+  pergunta:
+    "Durante a investigação de um cão suspeito de leishmaniose visceral, foram solicitados exames sorológicos e parasitológicos. O médico-veterinário explicou ao tutor que os testes possuem finalidades diferentes e devem ser interpretados em conjunto. Sobre esses métodos, assinale a alternativa correta.",
+  alternativas: [
+    "A) A RIFI e o ELISA detectam diretamente formas amastigotas nos tecidos.",
+    "B) A imunocromatografia identifica exclusivamente o DNA de Leishmania infantum.",
+    "C) Os métodos sorológicos detectam anticorpos contra o parasito, enquanto os métodos parasitológicos buscam demonstrar sua presença nas amostras.",
+    "D) A PCR detecta anticorpos circulantes e, por isso, é considerada um teste sorológico.",
+    "E) A pesquisa parasitológica é incapaz de confirmar a infecção, sendo utilizada apenas para avaliar a resposta imunológica."
+  ],
+  resposta: "C",
+  comentario:
+    "RIFI e ELISA são métodos sorológicos que detectam anticorpos. A imunocromatografia é utilizada como teste rápido de triagem. Já a citologia, a histopatologia e a pesquisa parasitológica buscam demonstrar o agente, enquanto a PCR detecta seu material genético."
+},
+
+{
+  id: 162,
+  categoria: "Protozooses",
+  doencaId: "leishmaniose",
+  doenca: "Leishmaniose",
+  pergunta:
+    "Um cão apresenta sorologia reagente para Leishmania infantum, mas não demonstra alterações clínicas ou laboratoriais. Na investigação complementar, um exame parasitológico ou molecular identifica o parasito. De acordo com as Diretrizes Brasileish 2025, a interpretação desse quadro deve considerar que:",
+  alternativas: [
+    "A) Todo animal sororreagente apresenta obrigatoriamente doença clínica moderada ou grave.",
+    "B) A ausência de sinais clínicos exclui a possibilidade de infecção pelo parasito.",
+    "C) A identificação do parasito em um animal sem manifestações clínicas é compatível com a classificação de infectado sadio.",
+    "D) O resultado positivo demonstra que o animal está em estágio terminal da doença.",
+    "E) A presença de anticorpos impede a realização de exames parasitológicos e moleculares."
+  ],
+  resposta: "C",
+  comentario:
+    "As diretrizes diferenciam exposição, infecção sem doença clínica e doença manifesta. Um cão pode apresentar evidência parasitológica ou molecular de infecção mesmo sem sinais clínicos ou alterações laboratoriais. A classificação depende da integração dos resultados."
+},
+
+{
+  id: 163,
+  categoria: "Protozooses",
+  doencaId: "leishmaniose",
+  doenca: "Leishmaniose",
+  pergunta:
+    "Durante o acompanhamento de um cão com leishmaniose visceral, o médico-veterinário identifica anemia não regenerativa, hiperglobulinemia, hipoalbuminemia e proteinúria. Considerando a fisiopatologia e a avaliação clínica da doença, assinale a alternativa que melhor interpreta esses achados.",
+  alternativas: [
+    "A) São alterações incompatíveis com a leishmaniose visceral, indicando necessariamente uma doença viral.",
+    "B) A hiperglobulinemia e a hipoalbuminemia podem estar associadas à resposta inflamatória e imunológica, enquanto a proteinúria exige investigação do comprometimento renal.",
+    "C) A proteinúria é um achado sem importância clínica e não deve ser considerada no estadiamento.",
+    "D) A anemia não regenerativa demonstra que o parasito está restrito ao sistema nervoso central.",
+    "E) A hiperglobulinemia exclui a possibilidade de comprometimento renal associado à doença."
+  ],
+  resposta: "B",
+  comentario:
+    "A leishmaniose visceral pode provocar alterações hematológicas e bioquímicas importantes. Hiperglobulinemia, hipoalbuminemia e anemia podem acompanhar a doença. A proteinúria merece atenção especial, pois pode indicar comprometimento renal, sendo necessária a avaliação da função renal e da razão proteína-creatinina urinária."
+},
+
+{
+  id: 164,
+  categoria: "Protozooses",
+  doencaId: "leishmaniose",
+  doenca: "Leishmaniose",
+  pergunta:
+    "Um cão diagnosticado com leishmaniose visceral apresenta lesões cutâneas difusas, onicogrifose, ulcerações, anorexia e emagrecimento. Os exames laboratoriais também revelam alterações hematológicas, porém o perfil renal permanece preservado. Considerando o estadiamento clínico proposto pelas Diretrizes Brasileish 2025, esse quadro é mais compatível com:",
+  alternativas: [
+    "A) Estágio I - Exposto.",
+    "B) Estágio II - Infectado sadio.",
+    "C) Estágio III - Doença leve.",
+    "D) Estágio IV - Doença moderada.",
+    "E) Estágio V - Doença muito grave."
+  ],
+  resposta: "D",
+  comentario:
+    "O estágio IV corresponde à doença moderada, caracterizada por sinais clínicos mais expressivos, como lesões cutâneas difusas, onicogrifose, ulcerações, anorexia e emagrecimento. Podem ocorrer alterações laboratoriais, com subdivisão conforme a presença ou ausência de alterações no perfil renal."
+},
+
+{
+  id: 165,
+  categoria: "Protozooses",
+  doencaId: "leishmaniose",
+  doenca: "Leishmaniose",
+  pergunta:
+    "Um cão em acompanhamento por leishmaniose visceral apresenta melhora clínica após o tratamento. O tutor acredita que a ausência de lesões e a redução dos sinais clínicos significam que o animal está completamente livre do parasito e não necessita mais de acompanhamento. Considerando as recomendações para o manejo da doença, assinale a alternativa correta.",
+  alternativas: [
+    "A) A melhora clínica comprova a eliminação completa do parasito, dispensando novos exames.",
+    "B) O acompanhamento deve ser mantido, incluindo avaliações clínicas e laboratoriais, pois a melhora dos sinais não comprova cura parasitológica estéril.",
+    "C) Após o desaparecimento das lesões, o animal deixa de apresentar qualquer possibilidade de transmissão.",
+    "D) A avaliação renal é desnecessária após o início do tratamento.",
+    "E) A sorologia deve ser utilizada isoladamente para determinar a cura definitiva."
+  ],
+  resposta: "B",
+  comentario:
+    "O tratamento pode promover melhora clínica e redução da carga parasitária, mas não garante a eliminação completa do agente. O acompanhamento periódico é fundamental para avaliar a evolução clínica, os parâmetros laboratoriais e a resposta ao tratamento."
+},
+
 ];
 
