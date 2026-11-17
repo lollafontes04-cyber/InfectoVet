@@ -10737,10 +10737,11 @@ imagens: [
 // 🪱 HELMINTOSAS
 
 
+
 {
   id: "dirofilariose",
 
-  nome: "Dirofilariose",
+  nome: "Dirofilariose Canina",
 
   agente: "Dirofilaria immitis",
 
@@ -10757,34 +10758,489 @@ imagens: [
   notificacaoObrigatoria: false,
 
   hospedeiros: [
-    "Cães"
+    "Cães",
+    "Canídeos silvestres",
+    "Felinos"
   ],
 
   palavrasChave: [
     "dirofilariose",
+    "dirofilariose canina",
     "dirofilaria",
+    "dirofilaria immitis",
     "verme do coração",
-    "cão",
-    "cao",
-    "cachorro",
-    "mosquito"
+    "heartworm",
+    "parasita cardíaco",
+    "mosquito",
+    "microfilárias"
   ],
 
   imagem: "/images/doencas/dirofilariose.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/dirofilariose/01-dirofilaria-adulta.jpg",
+      titulo: "Dirofilaria immitis adulta",
+      categoria: "Agente etiológico",
+      descricao:
+        "Nematoides adultos de Dirofilaria immitis, que se alojam principalmente nas artérias pulmonares e, em infecções graves, nas câmaras cardíacas direitas."
+    },
+    {
+      src: "/images/doencas/dirofilariose/02-ciclo-biologico.jpg",
+      titulo: "Ciclo biológico",
+      categoria: "Ciclo biológico",
+      descricao:
+        "Representação do ciclo de vida do parasito, envolvendo o cão como hospedeiro definitivo e mosquitos como vetores e hospedeiros intermediários."
+    },
+    {
+      src: "/images/doencas/dirofilariose/03-microfilaria.jpg",
+      titulo: "Microfilária em amostra sanguínea",
+      categoria: "Diagnóstico",
+      descricao:
+        "Microfilárias de Dirofilaria immitis circulantes no sangue periférico, identificadas por técnicas microscópicas."
+    },
+    {
+      src: "/images/doencas/dirofilariose/04-vermes-arteria-pulmonar.jpg",
+      titulo: "Parasitos nas artérias pulmonares",
+      categoria: "Lesão macroscópica",
+      descricao:
+        "Localização dos nematoides adultos na circulação pulmonar, podendo provocar lesões vasculares, hipertensão pulmonar e comprometimento cardíaco."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A dirofilariose canina é uma enfermidade parasitária cardiopulmonar causada pelo nematoide Dirofilaria immitis, popularmente conhecido como verme do coração. Sua transmissão ocorre por meio da picada de mosquitos infectados. Os parasitos adultos se alojam principalmente nas artérias pulmonares, podendo atingir o coração direito em infecções avançadas. A doença pode apresentar evolução silenciosa, mas também provocar alterações respiratórias e cardiovasculares graves.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Destaques",
+        emoji: "⭐",
+        itens: [
+          "Enfermidade parasitária de evolução geralmente crônica",
+          "Transmissão por mosquitos hematófagos",
+          "Acomete principalmente o sistema cardiopulmonar",
+          "Pode evoluir para hipertensão pulmonar e insuficiência cardíaca direita",
+          "Possui potencial zoonótico"
+        ]
+      },
+      {
+        titulo: "Características",
+        emoji: "🪱",
+        itens: [
+          "Agente etiológico: Dirofilaria immitis",
+          "Nematoide da família Onchocercidae",
+          "Parasitos adultos localizados principalmente nas artérias pulmonares",
+          "Microfilárias podem circular no sangue periférico",
+          "Larvas infectantes são transmitidas por mosquitos"
+        ]
+      },
+      {
+        titulo: "Informações relevantes",
+        emoji: "💡",
+        itens: [
+          "A infecção pode permanecer assintomática por longos períodos",
+          "A gravidade depende da carga parasitária e das alterações cardiopulmonares",
+          "O diagnóstico combina pesquisa de antígenos e microfilárias",
+          "A prevenção contínua é fundamental em áreas de risco",
+          "O tratamento exige restrição rigorosa de atividade física"
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A dirofilariose é causada por Dirofilaria immitis, um nematoide filarídeo que apresenta ciclo biológico indireto, necessitando de mosquitos hematófagos para completar seu desenvolvimento. Os cães são os principais hospedeiros definitivos, nos quais os parasitos atingem a maturidade sexual e as fêmeas liberam microfilárias na circulação sanguínea.",
+
+    listas: [
+      {
+        titulo: "Classificação taxonômica",
+        emoji: "🔬",
+        itens: [
+          "Reino: Animalia",
+          "Filo: Nematoda",
+          "Classe: Chromadorea",
+          "Ordem: Spirurida",
+          "Família: Onchocercidae",
+          "Gênero: Dirofilaria",
+          "Espécie: Dirofilaria immitis"
+        ]
+      },
+      {
+        titulo: "Características do agente",
+        emoji: "🪱",
+        itens: [
+          "Nematoide filarídeo de corpo alongado e cilíndrico",
+          "Apresenta dimorfismo sexual",
+          "Fêmeas adultas liberam microfilárias na circulação sanguínea",
+          "Os parasitos adultos habitam principalmente as artérias pulmonares",
+          "As larvas de terceiro estágio (L3) são infectantes para o hospedeiro vertebrado"
+        ]
+      },
+      {
+        titulo: "Vetores",
+        emoji: "🦟",
+        itens: [
+          "Mosquitos do gênero Aedes",
+          "Mosquitos do gênero Culex",
+          "Mosquitos do gênero Anopheles",
+          "Outros culicídeos com competência vetorial"
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Formas evolutivas",
+        emoji: "🧬",
+        itens: [
+          "Microfilárias: formas embrionárias circulantes no sangue do hospedeiro vertebrado",
+          "L1 e L2: estágios larvais desenvolvidos no interior do mosquito",
+          "L3: estágio infectante transmitido ao hospedeiro vertebrado",
+          "L4 e L5: estágios de desenvolvimento no hospedeiro definitivo",
+          "Adultos: formas maduras que se alojam principalmente nas artérias pulmonares"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A dirofilariose apresenta distribuição mundial e sua ocorrência está relacionada à presença de hospedeiros infectados, mosquitos vetores competentes e condições ambientais favoráveis ao desenvolvimento larval. Regiões litorâneas e áreas com elevada densidade de mosquitos podem apresentar condições favoráveis à transmissão.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "A enfermidade possui distribuição mundial, sendo registrada em diferentes regiões tropicais, subtropicais e temperadas. Sua ocorrência depende principalmente da presença de vetores e das condições ambientais necessárias ao desenvolvimento do parasito."
+      },
+      {
+        emoji: "🐶",
+        titulo: "Hospedeiros",
+        texto:
+          "Os cães domésticos e canídeos silvestres são importantes hospedeiros definitivos e reservatórios da infecção. Felinos também podem ser infectados, embora apresentem particularidades na evolução da doença."
+      },
+      {
+        emoji: "🦟",
+        titulo: "Vetor e transmissão",
+        texto:
+          "A transmissão ocorre por meio da picada de mosquitos hematófagos infectados com larvas L3. Durante o repasto sanguíneo, as larvas infectantes são depositadas na pele do hospedeiro e penetram pelo local da picada."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Fonte de infecção",
+        texto:
+          "Animais infectados que apresentam microfilárias circulantes funcionam como fontes de infecção para mosquitos suscetíveis. Após a ingestão de sangue, as microfilárias desenvolvem-se no interior do vetor até atingirem o estágio infectante."
+      },
+      {
+        emoji: "🌡️",
+        titulo: "Fatores ambientais",
+        texto:
+          "Temperatura, umidade e disponibilidade de criadouros influenciam a densidade dos mosquitos e o desenvolvimento das larvas no vetor. Ambientes com água parada e condições climáticas favoráveis podem contribuir para a manutenção da transmissão."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância zoonótica",
+        texto:
+          "Dirofilaria immitis apresenta potencial zoonótico. Em seres humanos, as larvas geralmente não completam o desenvolvimento, podendo provocar lesões pulmonares, frequentemente identificadas como nódulos."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia da dirofilariose está relacionada à migração das formas larvais, ao desenvolvimento dos parasitos adultos e à resposta inflamatória vascular e pulmonar do hospedeiro. As principais alterações ocorrem nas artérias pulmonares, podendo evoluir para hipertensão pulmonar e comprometimento cardíaco.",
+
+    blocos: [
+      {
+        emoji: "🦟",
+        titulo: "Inoculação das larvas",
+        texto:
+          "Durante o repasto sanguíneo, o mosquito infectado deposita larvas L3 na pele do hospedeiro. As larvas penetram pelo local da picada e iniciam seu desenvolvimento nos tecidos subcutâneos e musculares."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Desenvolvimento larval",
+        texto:
+          "As larvas sofrem mudas sucessivas, passando pelos estágios L3, L4 e L5. Durante esse período, migram pelos tecidos e alcançam a circulação venosa, sendo transportadas em direção ao coração e aos pulmões."
+      },
+      {
+        emoji: "❤️",
+        titulo: "Localização dos parasitos adultos",
+        texto:
+          "Os parasitos imaturos alcançam a circulação pulmonar e se estabelecem principalmente nas artérias pulmonares, onde completam seu desenvolvimento até a fase adulta. Em infecções intensas, podem alcançar o ventrículo direito, o átrio direito e a veia cava."
+      },
+      {
+        emoji: "🫁",
+        titulo: "Lesões vasculares e pulmonares",
+        texto:
+          "A presença dos parasitos provoca lesões endoteliais, inflamação vascular e alterações na circulação pulmonar. O comprometimento das artérias pode favorecer o desenvolvimento de hipertensão pulmonar e alterações no parênquima pulmonar."
+      },
+      {
+        emoji: "💔",
+        titulo: "Comprometimento cardíaco",
+        texto:
+          "A elevação da resistência vascular pulmonar aumenta a sobrecarga do ventrículo direito, podendo provocar hipertrofia, dilatação e insuficiência cardíaca direita. Nos quadros graves, pode ocorrer síndrome da veia cava."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Microfilaremia",
+        texto:
+          "Após a maturação sexual, as fêmeas adultas liberam microfilárias na circulação sanguínea. Essas formas podem ser ingeridas por mosquitos durante o repasto sanguíneo, permitindo a continuidade do ciclo."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A apresentação clínica da dirofilariose varia conforme a carga parasitária, o tempo de infecção e a intensidade das lesões cardiopulmonares. Animais infectados podem permanecer assintomáticos durante períodos prolongados, enquanto os casos avançados apresentam alterações respiratórias e cardiovasculares.",
+
+    blocos: [
+      {
+        emoji: "🫁",
+        titulo: "Alterações respiratórias",
+        itens: [
+          "Tosse persistente",
+          "Dispneia",
+          "Intolerância ao exercício",
+          "Taquipneia",
+          "Hemoptise em casos mais graves"
+        ]
+      },
+      {
+        emoji: "❤️",
+        titulo: "Alterações cardiovasculares",
+        itens: [
+          "Sons cardíacos anormais",
+          "Sinais de insuficiência cardíaca direita",
+          "Dilatação cardíaca direita",
+          "Síncope",
+          "Fraqueza e intolerância ao exercício"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Quadros avançados",
+        itens: [
+          "Ascite",
+          "Hepatomegalia",
+          "Perda de peso",
+          "Prostração",
+          "Hemoglobinúria",
+          "Colapso circulatório"
+        ]
+      },
+      {
+        emoji: "🚨",
+        titulo: "Síndrome da veia cava",
+        itens: [
+          "Aparecimento súbito de fraqueza e letargia",
+          "Hemoglobinemia",
+          "Hemoglobinúria",
+          "Anemia",
+          "Comprometimento cardiovascular agudo"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "A American Heartworm Society recomenda a realização de testes anuais para detecção de antígenos circulantes associados à pesquisa de microfilárias. O diagnóstico deve considerar os resultados dos testes laboratoriais, o histórico do animal e a avaliação clínica. Quando há resultado positivo para antígeno, a confirmação deve incluir pesquisa de microfilárias. Caso não sejam detectadas, recomenda-se confirmar o resultado do teste de antígeno utilizando uma segunda amostra e outra plataforma ou fabricante.",
+
+    metodos: [
+      "elisa",
+      "microscopia"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento da dirofilariose deve ser realizado sob acompanhamento veterinário, após confirmação diagnóstica e avaliação da gravidade da infecção. A diretriz da American Heartworm Society revisada em 2024 recomenda um protocolo multimodal que associa lactona macrocíclica, doxiciclina e três aplicações de melarsomina. O objetivo é eliminar os parasitos adultos e reduzir as complicações inflamatórias e tromboembólicas decorrentes de sua morte.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Etapa inicial: preventivo e doxiciclina",
+        texto:
+          "Após a confirmação da infecção, recomenda-se iniciar um preventivo à base de lactona macrocíclica, conforme avaliação veterinária. A doxiciclina é administrada na dose de 10 mg/kg, duas vezes ao dia, durante 28 dias. Essa associação contribui para reduzir a população de Wolbachia, bactéria endossimbionte associada à Dirofilaria immitis, diminuindo a resposta inflamatória relacionada à morte dos parasitos."
+      },
+      {
+        emoji: "⏳",
+        titulo: "Intervalo antes da terapia adulticida",
+        texto:
+          "Após a conclusão dos 28 dias de doxiciclina, recomenda-se aguardar aproximadamente um mês antes de iniciar a administração da melarsomina. Esse intervalo permite a redução adicional de Wolbachia e de componentes associados à resposta inflamatória."
+      },
+      {
+        emoji: "💉",
+        titulo: "Terapia adulticida: melarsomina",
+        texto:
+          "A melarsomina é o fármaco utilizado para eliminar os parasitos adultos. A diretriz recomenda o protocolo de três aplicações: a primeira injeção de 2,5 mg/kg por via intramuscular, seguida, aproximadamente 30 dias depois, por duas aplicações da mesma dose, com intervalo de 24 horas entre elas. Esse esquema é recomendado para cães sintomáticos e assintomáticos, conforme avaliação clínica."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Controle da resposta inflamatória",
+        texto:
+          "A utilização de prednisona em esquema decrescente pode ser indicada após as aplicações de melarsomina, conforme avaliação veterinária. O objetivo é auxiliar no controle da inflamação pulmonar associada à morte dos parasitos e reduzir complicações respiratórias."
+      },
+      {
+        emoji: "🚫",
+        titulo: "Restrição rigorosa de atividade física",
+        texto:
+          "A restrição de exercícios deve começar desde o diagnóstico e ser intensificada durante a terapia adulticida. Após a terceira aplicação de melarsomina, recomenda-se manter restrição rigorosa por mais 6 a 8 semanas. O retorno às atividades deve ser gradual e orientado pelo médico-veterinário."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Monitoramento de complicações",
+        texto:
+          "A morte dos parasitos adultos pode provocar tromboembolismo pulmonar e agravamento dos sinais respiratórios. O acompanhamento clínico é essencial durante o tratamento. Pacientes com manifestações graves podem necessitar de estabilização e terapia de suporte antes da administração da melarsomina."
+      },
+      {
+        emoji: "🚨",
+        titulo: "Síndrome da veia cava",
+        texto:
+          "A síndrome da veia cava é uma complicação grave associada à presença de grande quantidade de parasitos no coração direito e na veia cava. Pode exigir estabilização emergencial e remoção dos parasitos por procedimento especializado."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Acompanhamento após o tratamento",
+        texto:
+          "A pesquisa de microfilárias deve ser repetida aproximadamente 120 dias após o início do protocolo, independentemente do resultado inicial. A avaliação de antígenos e microfilárias deve ser retomada no acompanhamento anual, aproximadamente nove meses após a última aplicação de melarsomina. Caso o teste de antígeno permaneça positivo, a necessidade de retratamento deve ser avaliada pelo médico-veterinário."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da dirofilariose é baseada na administração contínua de medicamentos preventivos, na redução da exposição aos mosquitos e na realização periódica de testes diagnósticos. A American Heartworm Society recomenda a prevenção durante todo o ano, associada ao monitoramento anual dos animais.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Quimioprofilaxia",
+        destaque: true,
+        texto:
+          "A utilização de lactonas macrocíclicas é uma das principais medidas de prevenção da dirofilariose. A administração deve ser contínua e seguir a orientação do médico-veterinário e as recomendações do fabricante.",
+        tags: [
+          "PREVENÇÃO CONTÍNUA",
+          "ORIENTAÇÃO VETERINÁRIA"
+        ],
+        informacoes: [
+          {
+            titulo: "Principais princípios ativos",
+            texto:
+              "Ivermectina, milbemicina oxima, moxidectina e selamectina são exemplos de lactonas macrocíclicas utilizadas na prevenção da dirofilariose."
+          }
+        ]
+      },
+      {
+        emoji: "🦟",
+        titulo: "Controle dos vetores",
+        texto:
+          "A redução da exposição aos mosquitos envolve o controle ambiental, a eliminação de criadouros e a redução de água parada. Quando possível, recomenda-se diminuir a exposição dos animais ao ar livre nos períodos de maior atividade dos mosquitos."
+      },
+      {
+        emoji: "🧴",
+        titulo: "Proteção contra mosquitos",
+        texto:
+          "A utilização de produtos veterinários com atividade repelente ou inseticida contra mosquitos pode complementar as medidas preventivas. A escolha deve considerar a espécie, a segurança do produto e a orientação veterinária."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Monitoramento diagnóstico",
+        texto:
+          "A realização anual de teste para detecção de antígenos circulantes associado à pesquisa de microfilárias permite identificar infecções e verificar a eficácia das medidas preventivas."
+      },
+      {
+        emoji: "📅",
+        titulo: "Prevenção durante todo o ano",
+        texto:
+          "A prevenção não deve ser interrompida apenas porque há redução sazonal da presença de mosquitos. A manutenção do protocolo preventivo durante todo o ano é recomendada pela American Heartworm Society."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo:
+        "Canine Heartworm Guidelines for the Prevention, Diagnosis, and Management of Heartworm (Dirofilaria immitis) Infection in Dogs",
+
+      autores:
+        "American Heartworm Society",
+
+      fonte:
+        "American Heartworm Society (AHS)",
+
+      ano: "2024",
+
+      link:
+        "https://d3ft8sckhnqim2.cloudfront.net/images/AHS_Canine_Guidelines_WEB_19JUN2025.pdf?1764662053"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "dirofilariose-caso-01",
+
+      titulo:
+        "Tosse persistente e intolerância ao exercício em cão adulto",
+
+      especie: "Canina",
+
+      idade: "6 anos",
+
+      historico:
+        "Cão adulto, residente em região litorânea, apresenta histórico de tosse persistente e redução progressiva da tolerância ao exercício. O tutor relata ausência de protocolo preventivo regular contra dirofilariose.",
+
+      sinais: [
+        "Tosse persistente",
+        "Intolerância ao exercício",
+        "Taquipneia",
+        "Prostração"
+      ],
+
+      exames:
+        "Teste de detecção de antígenos circulantes positivo, confirmado conforme protocolo diagnóstico. Pesquisa de microfilárias realizada por técnica de concentração. Radiografia torácica demonstrou alterações vasculares pulmonares compatíveis com a enfermidade.",
+
+      diagnostico:
+        "Dirofilariose canina causada por Dirofilaria immitis.",
+
+      discussao:
+        "A associação entre sinais respiratórios, histórico de exposição a mosquitos e resultados positivos nos testes diagnósticos é compatível com dirofilariose. A radiografia auxilia na avaliação das alterações vasculares e da gravidade do comprometimento cardiopulmonar."
+    },
+    {
+      id: "dirofilariose-caso-02",
+
+      titulo:
+        "Quadro agudo de síndrome da veia cava",
+
+      especie: "Canina",
+
+      idade: "8 anos",
+
+      historico:
+        "Cão adulto apresenta início súbito de fraqueza intensa, prostração e alteração da coloração da urina. O exame clínico evidencia sinais de comprometimento cardiovascular.",
+
+      sinais: [
+        "Fraqueza intensa",
+        "Letargia",
+        "Hemoglobinúria",
+        "Mucosas pálidas",
+        "Sinais de comprometimento circulatório"
+      ],
+
+      exames:
+        "Exames laboratoriais evidenciaram alterações compatíveis com hemólise. A ecocardiografia demonstrou estruturas compatíveis com nematoides adultos em câmaras cardíacas direitas.",
+
+      diagnostico:
+        "Dirofilariose canina complicada por síndrome da veia cava.",
+
+      discussao:
+        "A síndrome da veia cava é uma complicação grave associada à elevada carga de parasitos adultos, que podem ocupar o coração direito e interferir no fluxo sanguíneo e na função valvar. Trata-se de uma emergência que exige estabilização e avaliação para remoção dos parasitos."
+    }
+  ]
 },
 
 
@@ -10960,53 +11416,471 @@ imagens: [
 
 {
   id: "anaplasmose",
-
   nome: "Anaplasmose",
-
   agente: "Anaplasma spp.",
-
   categoria: "Ectoparasitoses",
-
   icone: "🕷️",
-
-  zoonose: false,
-
+  zoonose: true,
   vacina: false,
-
   eutanasia: false,
-
   notificacaoObrigatoria: false,
 
   hospedeiros: [
     "Cães",
+    "Gatos",
     "Bovinos",
+    "Ovinos",
+    "Caprinos",
+    "Búfalos",
+    "Ruminantes silvestres"
   ],
 
   palavrasChave: [
-    "anaplasmose",
-    "anaplasma",
-    "carrapato",
-    "Cães",
-    "Bovinos",
-    "Vaca",
+    "Anaplasma",
+    "Anaplasma marginale",
+    "Anaplasma centrale",
+    "Anaplasma phagocytophilum",
+    "Anaplasma platys",
+    "Anaplasmose bovina",
+    "Anaplasmose canina",
+    "Anaplasmose felina",
+    "Hemoparasitose",
+    "Anemia hemolítica",
+    "Trombocitopenia",
+    "Carrapatos",
+    "Morulas"
   ],
 
   imagem: "/images/doencas/anaplasmose.jpg",
 
-  visaoGeral: "",
-  etiologia: "O agente etiológico da anaplasmose faz parte da Ordem Rickettsiales, Família Anaplasmataceae, Gênero Anaplasma com as espécies: Anaplasma marginale, é o mais relevante apresentando alta patogenicidade nos ruminantes domésticos e silvestres; A. centrale, normalmente causa doença subclínica com evolução benigna, raramente os animais evoluem para óbito; A. caudatum têm baixa casuística, possuindo baixa representatividade; A. ovis, acomete principalmente pequenos ruminantes (caprinos e ovinos). Em 2001, foi proposta uma reorganização da Ordem Rickettsiales e foram incluídas no gênero Anaplasma algumas espécies de Ehrlichia. Dessa forma, passaram a ser incluídas no gênero as spécies A. phagocytophilum, que é uma zoonose, acometendo humanos, cães, bovinos, caprinos, ovinos e equinos e A. bovis, recentemente descrito acometendo bovinos em Campos dos Goytacazes.",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "A prevenção da anaplasmose baseia-se principalmente no controle rigoroso e contínuo de carrapatos, uso de produtos antiparasitários adequados e na inspeção constante do pet ou do ambiente. Não há vacina comercial ampla e eficaz contra a bactéria no Brasil.",
+  imagens: [
+    {
+      src: "/images/doencas/anaplasmose/anaplasma-marginale.jpg",
+      titulo: "Anaplasma marginale em hemácias bovinas",
+      categoria: "Microscopia",
+      descricao: "Inclusões basofílicas arredondadas, geralmente localizadas próximas à margem dos eritrócitos."
+    },
+    {
+      src: "/images/doencas/anaplasmose/anaplasma-phagocytophilum.jpg",
+      titulo: "Anaplasma phagocytophilum",
+      categoria: "Microscopia",
+      descricao: "Morulas de Anaplasma phagocytophilum no interior de granulócitos, principalmente neutrófilos."
+    },
+    {
+      src: "/images/doencas/anaplasmose/anaplasma-platys.jpg",
+      titulo: "Anaplasma platys",
+      categoria: "Microscopia",
+      descricao: "Inclusões bacterianas no interior de plaquetas, associadas à trombocitopenia cíclica infecciosa canina."
+    },
+    {
+      src: "/images/doencas/anaplasmose/carrapato-vetor.jpg",
+      titulo: "Carrapatos transmissores",
+      categoria: "Vetores",
+      descricao: "Carrapatos envolvidos na transmissão de diferentes espécies de Anaplasma."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao: "A anaplasmose é uma doença infecciosa causada por bactérias do gênero Anaplasma, pertencentes à família Anaplasmataceae. Acomete diferentes espécies de animais e apresenta manifestações clínicas que variam conforme a espécie bacteriana e o hospedeiro. Em cães e gatos, destacam-se Anaplasma phagocytophilum, que infecta principalmente granulócitos, e Anaplasma platys, que apresenta tropismo por plaquetas. Nos bovinos, a principal espécie envolvida na doença clínica é Anaplasma marginale, que parasita os eritrócitos e provoca anemia hemolítica.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Agentes principais",
+        emoji: "🦠",
+        itens: [
+          "A. phagocytophilum: infecta principalmente neutrófilos e outros granulócitos.",
+          "A. platys: infecta plaquetas e provoca trombocitopenia cíclica em cães.",
+          "A. marginale: infecta eritrócitos e causa anaplasmose bovina.",
+          "A. centrale: geralmente apresenta menor patogenicidade em bovinos."
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🕷️",
+        itens: [
+          "Principalmente por carrapatos infectados.",
+          "Transmissão mecânica por insetos hematófagos em determinadas situações.",
+          "Uso compartilhado de agulhas e instrumentos contaminados.",
+          "A importância de cada via varia conforme a espécie de Anaplasma e o hospedeiro."
+        ]
+      },
+      {
+        titulo: "Principais alterações",
+        emoji: "🩸",
+        itens: [
+          "Trombocitopenia em cães e gatos.",
+          "Anemia hemolítica em bovinos.",
+          "Febre, apatia e redução do apetite.",
+          "Alterações hematológicas que variam conforme o agente envolvido."
+        ]
+      },
+      {
+        titulo: "Importância zoonótica",
+        emoji: "⚠️",
+        itens: [
+          "A. phagocytophilum possui potencial zoonótico.",
+          "A transmissão para humanos ocorre principalmente pela picada de carrapatos infectados.",
+          "A. marginale, responsável pela anaplasmose bovina clássica, não é considerada zoonótica.",
+          "A. platys não é reconhecida como agente zoonótico estabelecido."
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao: "As bactérias do gênero Anaplasma são gram-negativas, intracelulares obrigatórias e apresentam tropismo por diferentes células sanguíneas. A espécie bacteriana envolvida determina o tipo celular parasitado e as principais alterações clínicas observadas.",
+
+    listas: [
+      {
+        titulo: "Principais espécies e células parasitadas",
+        emoji: "🔬",
+        itens: [
+          "Anaplasma phagocytophilum: infecta granulócitos, especialmente neutrófilos, sendo associada à anaplasmose granulocítica.",
+          "Anaplasma platys: apresenta tropismo por plaquetas e está relacionada à trombocitopenia cíclica infecciosa canina.",
+          "Anaplasma marginale: infecta eritrócitos de bovinos e é o principal agente da anaplasmose bovina.",
+          "Anaplasma centrale: infecta eritrócitos e geralmente provoca infecções menos graves em bovinos."
+        ]
+      },
+      {
+        titulo: "Características bacterianas",
+        emoji: "🧫",
+        itens: [
+          "Bactérias gram-negativas.",
+          "Intracelulares obrigatórias.",
+          "Pertencentes à família Anaplasmataceae.",
+          "Apresentam tropismo por células sanguíneas específicas.",
+          "Podem formar agregados intracelulares denominados mórulas, dependendo da espécie e da célula infectada."
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Anaplasmose em cães e gatos",
+        emoji: "🐶",
+        itens: [
+          "A. phagocytophilum está associada à infecção de granulócitos, principalmente neutrófilos.",
+          "A. platys infecta plaquetas e pode provocar episódios recorrentes de trombocitopenia.",
+          "A infecção pode ser subclínica ou apresentar manifestações sistêmicas.",
+          "Coinfecções com outros agentes transmitidos por carrapatos podem agravar o quadro clínico."
+        ]
+      },
+      {
+        titulo: "Anaplasmose bovina",
+        emoji: "🐄",
+        itens: [
+          "A. marginale é o principal agente da anaplasmose bovina clínica.",
+          "A. centrale geralmente apresenta menor patogenicidade e é utilizada como vacina viva em alguns países.",
+          "A bactéria parasita os eritrócitos, provocando sua remoção pelo sistema fagocítico mononuclear.",
+          "A destruição extravascular das hemácias resulta em anemia progressiva e pode provocar icterícia.",
+          "Animais que se recuperam da fase aguda podem permanecer persistentemente infectados e atuar como portadores."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao: "A anaplasmose apresenta distribuição mundial, especialmente em regiões onde há condições favoráveis à presença de carrapatos vetores. A ocorrência e a gravidade da doença variam conforme a espécie bacteriana, a região geográfica, a idade do hospedeiro e a presença de outros agentes infecciosos.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto: "As infecções por Anaplasma ocorrem em diferentes regiões do mundo. A distribuição dos agentes está relacionada à presença de vetores competentes e às condições ambientais que favorecem sua manutenção. A anaplasmose bovina é especialmente importante em regiões tropicais e subtropicais, incluindo a América Central e do Sul."
+      },
+      {
+        emoji: "🕷️",
+        titulo: "Transmissão em cães e gatos",
+        texto: "A transmissão ocorre principalmente pela picada de carrapatos infectados. A. phagocytophilum está associada a carrapatos do gênero Ixodes em diferentes regiões, enquanto A. platys é frequentemente relacionada ao carrapato Rhipicephalus sanguineus. A distribuição dos vetores varia conforme a região."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Epidemiologia em bovinos",
+        texto: "A anaplasmose bovina ocorre principalmente em regiões tropicais e subtropicais. A transmissão biológica acontece por carrapatos vetores, incluindo espécies dos gêneros Rhipicephalus e Dermacentor, conforme a região. Também pode ocorrer transmissão mecânica por insetos hematófagos, agulhas contaminadas e instrumentos cirúrgicos ou de descorna utilizados em diferentes animais. Bovinos que se recuperam da fase aguda podem permanecer portadores crônicos, funcionando como reservatórios do agente."
+      },
+      {
+        emoji: "🐮",
+        titulo: "Influência da idade nos bovinos",
+        texto: "A gravidade da anaplasmose bovina está relacionada à idade. Bezerros geralmente apresentam infecções subclínicas ou quadros mais leves, enquanto bovinos adultos sem exposição prévia podem desenvolver doença grave, com anemia intensa e risco de morte."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Fatores de risco",
+        texto: "A presença de carrapatos, a ausência de controle de ectoparasitas, a introdução de animais infectados nos rebanhos, o compartilhamento de materiais perfurocortantes e a ocorrência de coinfecções favorecem a disseminação da doença."
+      },
+      {
+        emoji: "🌱",
+        titulo: "Importância econômica",
+        texto: "A anaplasmose bovina pode provocar perdas econômicas relacionadas à mortalidade, redução da produção de leite, perda de peso, gastos com tratamento e comprometimento da produtividade do rebanho."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao: "Após a transmissão, as bactérias do gênero Anaplasma alcançam a circulação sanguínea e invadem células específicas do hospedeiro. A localização intracelular e a resposta imunológica desencadeada determinam as alterações hematológicas e sistêmicas.",
+
+    blocos: [
+      {
+        emoji: "🩸",
+        titulo: "Infecção em cães e gatos por A. phagocytophilum",
+        texto: "Após a inoculação pelo carrapato, a bactéria alcança a circulação sanguínea e invade principalmente neutrófilos. No interior dessas células, multiplica-se formando agregados bacterianos denominados mórulas. A infecção pode desencadear alterações inflamatórias e imunológicas, sendo a trombocitopenia uma das alterações hematológicas frequentemente observadas."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Infecção em cães por A. platys",
+        texto: "A. platys apresenta tropismo por plaquetas, nas quais se multiplica e pode formar mórulas. A infecção está associada a episódios cíclicos de trombocitopenia, que podem ocorrer em intervalos variáveis. A redução do número de plaquetas pode favorecer manifestações hemorrágicas, especialmente quando há coinfecções."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Infecção bovina por A. marginale",
+        texto: "Após a entrada no organismo, A. marginale invade os eritrócitos e multiplica-se em seu interior. As hemácias infectadas são reconhecidas e removidas principalmente pelo sistema fagocítico mononuclear, especialmente no baço e no fígado. A remoção extravascular de eritrócitos infectados e não infectados provoca anemia progressiva, hipóxia tecidual e, nos casos graves, comprometimento sistêmico."
+      },
+      {
+        emoji: "🛡️",
+        titulo: "Persistência da infecção",
+        texto: "Em bovinos, após a recuperação da fase aguda, o agente pode permanecer no organismo em níveis baixos, caracterizando o estado de portador. Esses animais podem atuar como fontes de infecção para vetores e outros bovinos suscetíveis. Em cães e gatos, a evolução depende da espécie bacteriana, da resposta imunológica e da ocorrência de coinfecções."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao: "As manifestações clínicas variam conforme a espécie de Anaplasma e o hospedeiro. Alguns animais permanecem assintomáticos, enquanto outros desenvolvem alterações hematológicas e manifestações sistêmicas.",
+
+    blocos: [
+      {
+        emoji: "🐶",
+        titulo: "Sinais clínicos em cães",
+        itens: [
+          "Febre.",
+          "Apatia e letargia.",
+          "Redução do apetite.",
+          "Perda de peso.",
+          "Linfadenomegalia.",
+          "Esplenomegalia.",
+          "Claudicação, rigidez e dor articular, especialmente em infecções por A. phagocytophilum.",
+          "Petéquias, equimoses e outros sinais hemorrágicos em animais com trombocitopenia.",
+          "Palidez de mucosas em alguns casos."
+        ]
+      },
+      {
+        emoji: "🐱",
+        titulo: "Sinais clínicos em gatos",
+        itens: [
+          "Febre.",
+          "Apatia.",
+          "Anorexia.",
+          "Letargia.",
+          "Linfadenomegalia.",
+          "Alterações hematológicas, especialmente trombocitopenia.",
+          "Possíveis manifestações sistêmicas associadas a coinfecções."
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Sinais clínicos em bovinos",
+        itens: [
+          "Febre, principalmente durante a fase aguda.",
+          "Anemia progressiva.",
+          "Mucosas inicialmente pálidas.",
+          "Icterícia, geralmente observada em fases mais avançadas.",
+          "Apatia, anorexia e fraqueza.",
+          "Taquicardia e aumento da frequência respiratória.",
+          "Redução acentuada da produção de leite.",
+          "Perda de peso e queda da condição corporal.",
+          "Abortamento em alguns casos.",
+          "Morte em quadros graves, especialmente em bovinos adultos suscetíveis."
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Infecções subclínicas e coinfecções",
+        itens: [
+          "Animais infectados podem não apresentar sinais clínicos evidentes.",
+          "A presença de outros agentes transmitidos por carrapatos pode agravar o quadro.",
+          "A intensidade dos sinais depende da espécie bacteriana, da idade e da resposta imunológica do hospedeiro."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao: "O diagnóstico deve considerar o histórico epidemiológico, a presença de carrapatos, os sinais clínicos e os achados laboratoriais. A confirmação pode ser realizada por métodos diretos, como a microscopia e a PCR, e por métodos sorológicos, como ELISA e imunofluorescência. A interpretação dos resultados deve considerar a espécie hospedeira e a fase da infecção. Em bovinos, a identificação de A. marginale em eritrócitos é especialmente importante para confirmar a doença clínica.",
+
+    metodos: [
+      "microscopia",
+      "pcr",
+      "elisa",
+      "rifi",
+      "fixacao-complemento"
+    ]
+  },
+
+  tratamento: {
+    introducao: "O tratamento depende da espécie hospedeira, do agente envolvido e da gravidade do quadro clínico. As tetraciclinas são amplamente utilizadas nas infecções por Anaplasma. O acompanhamento veterinário é essencial para avaliar a resposta terapêutica, identificar coinfecções e instituir suporte clínico quando necessário.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Tratamento em cães e gatos",
+        texto: "A doxiciclina é o antimicrobiano de escolha para o tratamento das infecções por A. phagocytophilum e A. platys. Em cães, protocolos frequentemente recomendados utilizam 10 mg/kg uma vez ao dia ou 5 mg/kg a cada 12 horas, por aproximadamente 28 dias. A indicação e a duração devem ser avaliadas pelo médico-veterinário. O tratamento de suporte pode incluir fluidoterapia, controle da dor e manejo de alterações hematológicas, conforme a necessidade clínica."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Tratamento em bovinos",
+        texto: "O tratamento da anaplasmose bovina pode envolver o uso de tetraciclinas, especialmente oxitetraciclina, e, conforme a avaliação veterinária e a regulamentação local, imidocarbe. A escolha do medicamento depende da gravidade da doença, do histórico do animal e das condições do rebanho. Em casos de anemia intensa, pode ser necessária transfusão sanguínea e suporte clínico. Devem ser respeitados os períodos de carência para leite e carne."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Acompanhamento clínico",
+        texto: "O acompanhamento deve incluir avaliação dos sinais clínicos e repetição de exames hematológicos, especialmente hemograma e contagem de plaquetas em cães e gatos, além de hematócrito e parâmetros eritrocitários em bovinos. A ausência de melhora clínica exige investigação de coinfecções, diagnósticos diferenciais e possíveis complicações."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Cuidados importantes",
+        texto: "A identificação de anticorpos isoladamente não significa necessariamente infecção ativa ou necessidade de tratamento. Em bovinos, a presença de animais portadores deve ser considerada no controle do rebanho. A escolha dos medicamentos deve respeitar a espécie, a indicação clínica, a legislação e os períodos de carência."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao: "A prevenção da anaplasmose depende principalmente do controle dos vetores, da adoção de medidas de biossegurança e da identificação de animais infectados. As estratégias devem ser adaptadas à espécie hospedeira e às condições epidemiológicas da região.",
+
+    blocos: [
+      {
+        emoji: "🕷️",
+        titulo: "Controle de carrapatos",
+        texto: "A adoção de medidas eficazes de controle de carrapatos é fundamental para reduzir a transmissão. Em cães e gatos, devem ser utilizados produtos ectoparasiticidas adequados à espécie e ao peso do animal. Nos bovinos, o controle deve ser estratégico, considerando o ciclo dos carrapatos e as características do sistema de produção.",
+        tags: ["Controle de vetores", "Ectoparasitas"]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Biossegurança em bovinos",
+        texto: "Devem ser utilizadas agulhas descartáveis ou esterilizadas adequadamente para cada animal. Instrumentos cirúrgicos, de descorna e outros materiais que possam entrar em contato com sangue precisam ser higienizados e desinfetados entre os procedimentos. Essas medidas reduzem a transmissão mecânica.",
+        tags: ["Biossegurança", "Manejo sanitário"]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Monitoramento dos animais",
+        texto: "A avaliação clínica e laboratorial de animais com suspeita de infecção auxilia na identificação de casos e no planejamento das medidas de controle. Em bovinos, a identificação de portadores pode ser importante para o manejo sanitário do rebanho.",
+        tags: ["Monitoramento", "Diagnóstico"]
+      },
+      {
+        emoji: "💉",
+        titulo: "Vacinação em bovinos",
+        texto: "Em alguns países, vacinas vivas atenuadas contendo A. centrale são utilizadas para reduzir a gravidade da anaplasmose causada por A. marginale. Essas vacinas não estão disponíveis ou regulamentadas de maneira uniforme em todos os países e podem apresentar limitações de segurança. Sua utilização deve seguir as recomendações sanitárias e a regulamentação local.",
+        tags: ["Imunização", "Bovinos"]
+      },
+      {
+        emoji: "🌎",
+        titulo: "Prevenção da exposição humana",
+        texto: "A prevenção da anaplasmose humana associada a A. phagocytophilum envolve evitar picadas de carrapatos, utilizar roupas protetoras em áreas de risco e realizar inspeção corporal após exposição ambiental. A transmissão direta de cães infectados para humanos não é considerada uma via habitual; o risco está relacionado principalmente aos carrapatos infectados.",
+        tags: ["Saúde pública", "Uma Só Saúde"]
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Anaplasmose em gatos e cães: o que o médico-veterinário deve saber para conduzir o caso?",
+      autores: "ROYAL CANIN",
+      fonte: "Portal Vet Royal Canin",
+      ano: "2025",
+      link: "https://portalvet.royalcanin.com.br/guia-de-doencas/anaplasmose/"
+    },
+    {
+      titulo: "Anaplasma spp. Guidelines",
+      autores: "COMPANION ANIMAL PARASITE COUNCIL (CAPC)",
+      fonte: "CAPC Veterinary Guidelines",
+      ano: "2026",
+      link: "https://capcvet.org/guidelines/anaplasma-spp"
+    },
+    {
+      titulo: "Control of Vector-Borne Diseases in Dogs and Cats",
+      autores: "EUROPEAN SCIENTIFIC COUNSEL COMPANION ANIMAL PARASITES (ESCCAP)",
+      fonte: "ESCCAP Guideline 5",
+      ano: "2024",
+      link: "https://www.esccap.org/uploads/docs/ucnbni4a_0775_ESCCAP_Guideline_GL5_20241002_1p.pdf"
+    },
+    {
+      titulo: "Anaplasmose em ruminantes",
+      autores: "TABOR, A. E.",
+      fonte: "Manual MSD de Veterinária",
+      ano: "2025",
+      link: "https://www.msdvetmanual.com/pt/circulatory-system/parasitas-do-sangue/anaplasmose-em-ruminantes"
+    },
+    {
+      titulo: "Bovine anaplasmosis – Terrestrial Manual, Chapter 3.4.1",
+      autores: "WORLD ORGANISATION FOR ANIMAL HEALTH (WOAH)",
+      fonte: "WOAH Terrestrial Manual",
+      ano: "2024",
+      link: "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.04.01_BOV_ANAPLASM.pdf"
+    }
+  ],
+ casosClinicos: [
+    {
+      id: "anaplasmose-caso-01",
+
+      titulo:
+        "Trombocitopenia em cão com histórico de infestação por carrapatos",
+
+      especie: "Canina",
+
+      idade: "4 anos",
+
+      historico:
+        "Cão adulto, com histórico de infestação por carrapatos, apresenta episódios de apatia, febre intermitente e redução do apetite. O tutor relata que o animal não recebe controle regular de ectoparasitas.",
+
+      sinais: [
+        "Febre intermitente",
+        "Letargia",
+        "Anorexia",
+        "Mucosas discretamente pálidas",
+        "Petéquias"
+      ],
+
+      exames:
+        "Hemograma evidenciou trombocitopenia. A avaliação microscópica do esfregaço sanguíneo demonstrou estruturas compatíveis com mórulas em plaquetas. A PCR foi solicitada para confirmação e identificação do agente.",
+
+      diagnostico:
+        "Anaplasmose trombocitotrópica associada a Anaplasma platys.",
+
+      discussao:
+        "A trombocitopenia associada ao histórico de exposição a carrapatos é sugestiva de infecção por A. platys. A confirmação molecular auxilia na identificação do agente e na diferenciação de outras doenças transmitidas por carrapatos."
+    },
+    {
+      id: "anaplasmose-caso-02",
+
+      titulo:
+        "Febre e claudicação em cão com suspeita de anaplasmose granulocítica",
+
+      especie: "Canina",
+
+      idade: "6 anos",
+
+      historico:
+        "Cão adulto apresenta febre, apatia, perda de apetite e dificuldade para caminhar. Durante a avaliação clínica, são identificados desconforto articular e histórico de exposição a carrapatos.",
+
+      sinais: [
+        "Febre",
+        "Letargia",
+        "Anorexia",
+        "Claudicação",
+        "Rigidez articular"
+      ],
+
+      exames:
+        "Hemograma evidenciou trombocitopenia e alterações leucocitárias. A pesquisa molecular foi solicitada para investigação de Anaplasma phagocytophilum e de outros agentes transmitidos por carrapatos.",
+
+      diagnostico:
+        "Suspeita de anaplasmose granulocítica associada a Anaplasma phagocytophilum, com necessidade de confirmação molecular.",
+
+      discussao:
+        "A associação de febre, letargia e manifestações articulares pode ocorrer na anaplasmose granulocítica. A PCR auxilia na confirmação da infecção, enquanto a investigação de outras doenças transmitidas por vetores é importante para avaliar possíveis coinfecções."
+    }
+  ]
 },
+
+
 
 
 
@@ -11015,7 +11889,7 @@ imagens: [
 {
   id: "babesiose",
 
-  nome: "Babesiose",
+  nome: "Babesiose Canina",
 
   agente: "Babesia spp.",
 
@@ -11032,37 +11906,545 @@ imagens: [
   notificacaoObrigatoria: false,
 
   hospedeiros: [
-    "Bovinos",
-    "Cães"
+    "Cães domésticos",
+    "Canídeos silvestres"
   ],
 
   palavrasChave: [
     "babesiose",
+    "babesiose canina",
     "babesia",
+    "babesia vogeli",
+    "babesia canis",
+    "babesia rossi",
+    "babesia gibsoni",
+    "piroplasmose",
+    "hemoparasitose",
     "carrapato",
-    "boi",
-    "vaca",
-    "gado",
-    "cão",
-    "cao"
+    "anemia hemolítica"
   ],
 
   imagem: "/images/doencas/babesiose-2.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/babesiose/01-babesia-eritrocito.jpg",
+      titulo: "Babesia no interior de hemácias",
+      categoria: "Agente etiológico",
+      descricao:
+        "Formas intraeritrocitárias de Babesia spp. observadas em esfregaço sanguíneo. Os parasitos podem apresentar morfologia piriforme ou anelar."
+    },
+    {
+      src: "/images/doencas/babesiose/02-babesia-pares.jpg",
+      titulo: "Formas piriformes de Babesia",
+      categoria: "Agente etiológico",
+      descricao:
+        "Formas pareadas de Babesia no interior das hemácias, características de algumas espécies de piroplasmas."
+    },
+    {
+      src: "/images/doencas/babesiose/03-carrapato-rhipicephalus.jpg",
+      titulo: "Rhipicephalus sanguineus",
+      categoria: "Vetor",
+      descricao:
+        "Carrapato-marrom-do-cão, importante vetor de Babesia vogeli em cães."
+    },
+    {
+      src: "/images/doencas/babesiose/04-esfregaco-sanguineo.jpg",
+      titulo: "Esfregaço sanguíneo",
+      categoria: "Diagnóstico",
+      descricao:
+        "Exame microscópico de sangue periférico utilizado para identificar formas intraeritrocitárias do parasito."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A babesiose canina é uma enfermidade hemoparasitária causada por protozoários do gênero Babesia, que parasitam as hemácias e são transmitidos principalmente por carrapatos ixodídeos. A infecção pode provocar hemólise, anemia, trombocitopenia e alterações sistêmicas, apresentando manifestações clínicas que variam desde infecções subclínicas até quadros graves e potencialmente fatais. A gravidade depende da espécie envolvida, da carga parasitária e da resposta imunológica do hospedeiro.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Destaques",
+        emoji: "⭐",
+        itens: [
+          "Doença hemoparasitária transmitida principalmente por carrapatos",
+          "Parasitos apresentam localização intraeritrocitária",
+          "A hemólise é uma das principais alterações patológicas",
+          "Pode provocar anemia e trombocitopenia",
+          "A gravidade varia conforme a espécie de Babesia"
+        ]
+      },
+      {
+        titulo: "Características",
+        emoji: "🦠",
+        itens: [
+          "Agente etiológico: Babesia spp.",
+          "Protozoário do filo Apicomplexa",
+          "Reprodução assexuada nas hemácias",
+          "Fase sexuada ocorre no carrapato vetor",
+          "Pode apresentar formas grandes ou pequenas"
+        ]
+      },
+      {
+        titulo: "Informações relevantes",
+        emoji: "💡",
+        itens: [
+          "Babesia vogeli é importante na babesiose canina brasileira",
+          "Babesia gibsoni apresenta maior dificuldade terapêutica",
+          "A PCR auxilia na identificação da espécie envolvida",
+          "Animais tratados podem permanecer portadores",
+          "O controle de carrapatos é fundamental na prevenção"
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A babesiose canina é causada por protozoários do gênero Babesia, pertencentes ao filo Apicomplexa e à ordem Piroplasmida. Esses parasitos apresentam ciclo heteroxênico, envolvendo um hospedeiro vertebrado, no qual ocorre a multiplicação assexuada nas hemácias, e um carrapato vetor, no qual ocorre a fase sexuada e o desenvolvimento de formas infectantes.",
+
+    listas: [
+      {
+        titulo: "Classificação taxonômica",
+        emoji: "🔬",
+        itens: [
+          "Reino: Protista",
+          "Filo: Apicomplexa",
+          "Classe: Aconoidasida",
+          "Ordem: Piroplasmida",
+          "Família: Babesiidae",
+          "Gênero: Babesia"
+        ]
+      },
+      {
+        titulo: "Principais espécies em cães",
+        emoji: "🦠",
+        itens: [
+          "Babesia vogeli: espécie de grande porte, distribuída mundialmente e transmitida principalmente por Rhipicephalus sanguineus",
+          "Babesia canis: espécie de grande porte, associada principalmente a Dermacentor spp.",
+          "Babesia rossi: espécie de grande porte, altamente patogênica e associada principalmente à África",
+          "Babesia gibsoni: espécie de pequeno porte, que pode apresentar transmissão por carrapatos e contato com sangue infectado"
+        ]
+      },
+      {
+        titulo: "Características do agente",
+        emoji: "🧬",
+        itens: [
+          "Protozoário intraeritrocitário",
+          "Apresenta formas piriformes, anelares ou arredondadas",
+          "Pode ser classificado morfologicamente em formas grandes e pequenas",
+          "Realiza multiplicação assexuada nas hemácias",
+          "Apresenta diferenciação genética entre espécies"
+        ]
+      },
+      {
+        titulo: "Vetores",
+        emoji: "🕷️",
+        itens: [
+          "Rhipicephalus sanguineus: importante vetor de Babesia vogeli",
+          "Dermacentor spp.: associado à transmissão de Babesia canis",
+          "Haemaphysalis elliptica: vetor de Babesia rossi",
+          "Haemaphysalis longicornis: associado à transmissão de Babesia gibsoni em determinadas regiões"
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Formas evolutivas",
+        emoji: "🔄",
+        itens: [
+          "Esporozoítos: formas infectantes inoculadas pelo carrapato durante o repasto sanguíneo",
+          "Trofozoítos: formas que se desenvolvem no interior das hemácias",
+          "Merozoítos: formas resultantes da multiplicação assexuada, capazes de infectar novas hemácias",
+          "Gametócitos: formas que participam da fase sexuada no vetor"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A babesiose canina apresenta distribuição mundial e sua ocorrência está relacionada à presença de carrapatos vetores, hospedeiros infectados e condições ambientais favoráveis à manutenção desses artrópodes. No Brasil, Babesia vogeli apresenta importância epidemiológica, sendo associada ao carrapato Rhipicephalus sanguineus, amplamente encontrado em ambientes urbanos e periurbanos.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "A babesiose canina ocorre em diferentes regiões do mundo. A distribuição das espécies varia conforme a presença dos vetores competentes. Babesia vogeli apresenta distribuição ampla, enquanto B. rossi é particularmente associada à África e B. canis à Europa."
+      },
+      {
+        emoji: "🇧🇷",
+        titulo: "Importância no Brasil",
+        texto:
+          "Babesia vogeli é uma das espécies de maior relevância na babesiose canina brasileira. Estudos realizados na região metropolitana do Rio de Janeiro também demonstram a ocorrência de infecções por essa espécie em cães."
+      },
+      {
+        emoji: "🐶",
+        titulo: "Hospedeiros",
+        texto:
+          "Os cães domésticos são os principais hospedeiros vertebrados de importância clínica. Canídeos silvestres também podem participar da manutenção de algumas espécies de Babesia na natureza."
+      },
+      {
+        emoji: "🕷️",
+        titulo: "Vetor e transmissão",
+        texto:
+          "A transmissão ocorre principalmente pela picada de carrapatos infectados. Durante o repasto sanguíneo, o vetor inocula formas infectantes do parasito no hospedeiro. A transmissão transovariana pode contribuir para a manutenção de algumas espécies no ciclo do carrapato."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Outras formas de transmissão",
+        texto:
+          "A transmissão também pode ocorrer por transfusão de sangue contaminado e contato com sangue infectado. A transmissão por mordeduras e brigas entre cães é particularmente relevante para Babesia gibsoni."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Fatores de risco",
+        texto:
+          "A exposição a carrapatos, a ausência de controle parasitário, a convivência com animais infestados e a realização de transfusões sanguíneas sem triagem adequada aumentam o risco de infecção."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia da babesiose está relacionada à invasão e multiplicação dos protozoários nas hemácias, provocando destruição eritrocitária e alterações inflamatórias e imunológicas. Além da hemólise diretamente associada ao parasito, mecanismos imunomediados e respostas inflamatórias sistêmicas podem contribuir para a gravidade da enfermidade.",
+
+    blocos: [
+      {
+        emoji: "🕷️",
+        titulo: "Inoculação do parasito",
+        texto:
+          "Durante o repasto sanguíneo, o carrapato infectado transmite formas infectantes de Babesia ao hospedeiro. Os parasitos alcançam a circulação sanguínea e invadem as hemácias."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Invasão e multiplicação eritrocitária",
+        texto:
+          "Após a entrada nas hemácias, os protozoários se desenvolvem e realizam multiplicação assexuada. A ruptura das células parasitadas libera novos merozoítos, que podem infectar outras hemácias."
+      },
+      {
+        emoji: "🔴",
+        titulo: "Hemólise",
+        texto:
+          "A destruição das hemácias ocorre por mecanismos intravasculares e extravasculares. Além da ação direta do parasito, mecanismos imunomediados podem contribuir para a remoção de eritrócitos pelo sistema fagocítico mononuclear."
+      },
+      {
+        emoji: "🛡️",
+        titulo: "Resposta imunológica",
+        texto:
+          "A resposta inflamatória e imunológica do hospedeiro pode intensificar a destruição eritrocitária. Em alguns casos, desenvolve-se anemia hemolítica imunomediada associada à infecção, agravando o quadro clínico."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Alterações hematológicas",
+        texto:
+          "A hemólise provoca anemia e pode estar acompanhada de hiperbilirrubinemia, icterícia e hemoglobinúria. A trombocitopenia também é frequente e pode estar relacionada à resposta inflamatória, ao consumo periférico e a alterações imunológicas."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Comprometimento sistêmico",
+        texto:
+          "Nos quadros complicados, a resposta inflamatória pode provocar lesões renais, hepáticas, pulmonares, neurológicas e cardiovasculares. A gravidade dessas alterações depende da espécie de Babesia e da resposta do hospedeiro."
+      },
+      {
+        emoji: "🚨",
+        titulo: "Babesiose complicada",
+        texto:
+          "Alguns animais desenvolvem manifestações graves que não podem ser explicadas apenas pela anemia hemolítica. Podem ocorrer inflamação sistêmica intensa, lesão renal aguda, comprometimento neurológico, pancreatite, síndrome do desconforto respiratório agudo e disfunção miocárdica."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas da babesiose canina variam de acordo com a espécie envolvida, a carga parasitária, a idade e o estado imunológico do animal. A enfermidade pode apresentar evolução subclínica, aguda ou grave, sendo a anemia hemolítica uma das principais alterações observadas.",
+
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Sinais gerais",
+        itens: [
+          "Febre",
+          "Apatia",
+          "Anorexia",
+          "Letargia",
+          "Fraqueza",
+          "Perda de peso"
+        ]
+      },
+      {
+        emoji: "🩸",
+        titulo: "Alterações hematológicas",
+        itens: [
+          "Anemia",
+          "Mucosas pálidas",
+          "Icterícia",
+          "Hemoglobinúria",
+          "Bilirrubinúria",
+          "Trombocitopenia"
+        ]
+      },
+      {
+        emoji: "🫀",
+        titulo: "Alterações sistêmicas",
+        itens: [
+          "Esplenomegalia",
+          "Hepatomegalia",
+          "Linfadenomegalia",
+          "Taquicardia",
+          "Taquipneia",
+          "Desidratação"
+        ]
+      },
+      {
+        emoji: "🚨",
+        titulo: "Quadros complicados",
+        itens: [
+          "Insuficiência renal aguda",
+          "Alterações neurológicas",
+          "Pancreatite",
+          "Dificuldade respiratória",
+          "Coagulopatias",
+          "Colapso circulatório",
+          "Disfunção miocárdica"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico da babesiose canina envolve a avaliação clínica, exames hematológicos e métodos específicos para identificação do parasito. A microscopia de esfregaços sanguíneos permite visualizar formas intraeritrocitárias, enquanto a reação em cadeia da polimerase (PCR) auxilia na confirmação da infecção e na diferenciação entre espécies. A identificação molecular é especialmente importante porque a espécie envolvida influencia o prognóstico e a escolha terapêutica.",
+
+    metodos: [
+      "microscopia",
+      "pcr"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento da babesiose canina depende da espécie de Babesia envolvida e da gravidade das manifestações clínicas. A terapia deve contemplar a redução ou eliminação da parasitemia, o controle das alterações hematológicas e o suporte aos órgãos comprometidos. É importante considerar que a melhora clínica não significa necessariamente eliminação completa do parasito, e alguns animais podem permanecer portadores.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Tratamento das espécies grandes",
+        texto:
+          "Babesia vogeli, Babesia canis e Babesia rossi geralmente apresentam resposta ao dipropionato de imidocarb, utilizado conforme avaliação veterinária. O medicamento pode provocar efeitos colinérgicos, como salivação, vômitos, diarreia e desconforto no local da aplicação. A escolha do protocolo deve considerar a espécie envolvida e a condição clínica do paciente."
+      },
+      {
+        emoji: "💊",
+        titulo: "Tratamento de Babesia gibsoni",
+        texto:
+          "Babesia gibsoni apresenta maior dificuldade terapêutica e menor resposta a alguns fármacos utilizados contra as espécies grandes. A associação de atovaquona e azitromicina é uma das principais opções descritas na literatura. Entretanto, podem ocorrer persistência da infecção, recidivas e desenvolvimento de resistência, sendo necessário acompanhamento laboratorial."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Suporte hematológico",
+        texto:
+          "Animais com anemia grave podem necessitar de transfusão sanguínea, conforme avaliação clínica e hematológica. A escolha do hemocomponente e a indicação transfusional devem considerar a intensidade da anemia e o comprometimento do paciente."
+      },
+      {
+        emoji: "💧",
+        titulo: "Terapia de suporte",
+        texto:
+          "A fluidoterapia pode ser indicada para corrigir desidratação e alterações circulatórias, com cuidado especial em pacientes com comprometimento renal ou cardiovascular. Outras medidas de suporte devem ser direcionadas às complicações apresentadas."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Controle das complicações",
+        texto:
+          "Pacientes com babesiose complicada podem necessitar de internação e monitoramento intensivo. Alterações renais, hepáticas, respiratórias, neurológicas e imunomediadas devem ser identificadas e tratadas individualmente."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Acompanhamento terapêutico",
+        texto:
+          "O acompanhamento deve incluir avaliação clínica, hemograma e, quando indicado, testes moleculares. A PCR pode auxiliar no monitoramento da persistência da infecção, embora um resultado negativo isolado não garanta necessariamente a eliminação definitiva do parasito."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da babesiose canina está fundamentada principalmente no controle dos carrapatos, na inspeção frequente dos animais e na prevenção da transmissão por sangue contaminado. A adoção de medidas integradas reduz a exposição aos vetores e contribui para diminuir a circulação do parasito.",
+
+    blocos: [
+      {
+        emoji: "🕷️",
+        titulo: "Controle de carrapatos",
+        destaque: true,
+        texto:
+          "A utilização regular de produtos carrapaticidas veterinários é uma das principais medidas preventivas. O protocolo deve ser adequado ao animal e seguir as recomendações do fabricante e do médico-veterinário.",
+        tags: [
+          "CONTROLE DE VETORES",
+          "PREVENÇÃO CONTÍNUA"
+        ],
+        informacoes: [
+          {
+            titulo: "Medidas de controle",
+            texto:
+              "Utilização de ectoparasiticidas, inspeção frequente da pelagem, remoção adequada dos carrapatos e controle ambiental de infestações."
+          }
+        ]
+      },
+      {
+        emoji: "🏠",
+        titulo: "Controle ambiental",
+        texto:
+          "A higienização dos ambientes, o controle de infestações e o tratamento adequado dos locais frequentados pelos animais ajudam a reduzir a população de carrapatos."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Segurança transfusional",
+        texto:
+          "Os doadores de sangue devem ser avaliados para hemoparasitoses. A utilização de testes moleculares, como PCR, auxilia na identificação de animais infectados, inclusive aqueles sem manifestações clínicas."
+      },
+      {
+        emoji: "🐕",
+        titulo: "Redução de exposição",
+        texto:
+          "A prevenção de brigas e mordeduras entre cães é importante, especialmente considerando a possibilidade de transmissão de Babesia gibsoni por contato com sangue infectado."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Monitoramento",
+        texto:
+          "Animais com histórico de babesiose ou exposição frequente a carrapatos podem necessitar de investigação laboratorial, especialmente antes de serem utilizados como doadores de sangue."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo:
+        "Canine babesiosis: a perspective on clinical complications, biomarkers, and treatment",
+
+      autores:
+        "Köster, L. S.; Lobetti, R. G.; Kelly, P.",
+
+      fonte:
+        "Veterinary Medicine: Research and Reports, v. 6, p. 119–128",
+
+      ano: "2015",
+
+      link:
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6065580/"
+    },
+    {
+      titulo:
+        "Molecular detection and hematological changes in dogs naturally infected by Babesia vogeli in metropolitan region of Rio de Janeiro",
+
+      autores:
+        "Assad, R. Q. et al.",
+
+      fonte:
+        "Brazilian Journal of Veterinary Medicine",
+
+      ano: "2020",
+
+      link:
+        "https://bjvm.org.br/BJVM/article/download/321/998/5920"
+    },
+    {
+      titulo:
+        "Babesia spp. – General Guidelines",
+
+      autores:
+        "Companion Animal Parasite Council (CAPC)",
+
+      fonte:
+        "CAPC",
+
+      ano: "2025",
+
+      link:
+        "https://capcvet.org/guidelines/babesia/"
+    },
+    {
+      titulo:
+        "Control of Vector-Borne Diseases in Dogs and Cats – Guideline 05",
+
+      autores:
+        "European Scientific Counsel Companion Animal Parasites (ESCCAP)",
+
+      fonte:
+        "ESCCAP",
+
+      ano: "2024",
+
+      link:
+        "https://www.esccap.org/uploads/docs/8nl8z5pl_0775_ESCCAP_Guideline_GL5_20241203_1p.pdf"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "babesiose-caso-01",
+
+      titulo:
+        "Anemia hemolítica em cão com histórico de infestação por carrapatos",
+
+      especie: "Canina",
+
+      idade: "5 anos",
+
+      historico:
+        "Cão adulto, com histórico de infestação por carrapatos, apresenta apatia, anorexia e redução progressiva da atividade. O tutor relata ausência de controle regular de ectoparasitas.",
+
+      sinais: [
+        "Febre",
+        "Apatia",
+        "Mucosas pálidas",
+        "Icterícia",
+        "Fraqueza"
+      ],
+
+      exames:
+        "Hemograma evidenciou anemia e trombocitopenia. A avaliação microscópica do esfregaço sanguíneo demonstrou estruturas intraeritrocitárias compatíveis com Babesia spp. A PCR foi solicitada para confirmação e identificação da espécie.",
+
+      diagnostico:
+        "Babesiose canina associada à infecção por Babesia spp.",
+
+      discussao:
+        "A presença de anemia hemolítica, trombocitopenia e histórico de exposição a carrapatos é sugestiva de babesiose. A microscopia pode permitir a identificação do parasito, enquanto a PCR auxilia na confirmação e diferenciação da espécie, contribuindo para a escolha terapêutica."
+    },
+    {
+      id: "babesiose-caso-02",
+
+      titulo:
+        "Babesiose complicada com comprometimento sistêmico",
+
+      especie: "Canina",
+
+      idade: "7 anos",
+
+      historico:
+        "Cão adulto apresenta prostração intensa, anorexia, febre e urina de coloração escura. Durante a avaliação clínica, são identificados sinais de comprometimento sistêmico.",
+
+      sinais: [
+        "Anemia intensa",
+        "Icterícia",
+        "Hemoglobinúria",
+        "Fraqueza",
+        "Taquipneia",
+        "Prostração"
+      ],
+
+      exames:
+        "Hemograma evidenciou anemia e trombocitopenia. Exames bioquímicos demonstraram alterações compatíveis com comprometimento orgânico. A pesquisa molecular identificou Babesia spp.",
+
+      diagnostico:
+        "Babesiose canina complicada, associada a anemia hemolítica e comprometimento sistêmico.",
+
+      discussao:
+        "A babesiose complicada pode envolver mecanismos hemolíticos, imunomediados e inflamatórios. A presença de alterações sistêmicas exige investigação de possíveis complicações renais, hepáticas, respiratórias e cardiovasculares, além de tratamento direcionado à espécie identificada."
+    }
+  ]
 },
+
 
 
 
