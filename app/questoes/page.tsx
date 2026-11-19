@@ -16,15 +16,14 @@ export default function QuestoesPage() {
   const router = useRouter();
 
 
-
-  const categorias = [
-    "Bacterianas",
-    "Virais",
-    "Protozooses",
-    "Helmintoses",
-    "Ectoparasitoses",
-    "Prionicas",
-  ];
+const categorias = [
+  "Bacterianas",
+  "Virais",
+  "Parasitárias",
+  "Priônicas",
+  "Epidemiologia e Saúde Coletiva",
+  "Diagnóstico e Conceitos Gerais",
+];
 
 
 

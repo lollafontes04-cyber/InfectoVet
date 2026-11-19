@@ -1,10 +1,10 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
 
 import Navbar from "@/components/layout/Navbar";
 import { questoes } from "@/data/questoes";
-
 
 type Props = {
   categorias: string[];
@@ -17,166 +17,128 @@ export default function ProvaContent({
   doencas,
   quantidade
 }: Props) {
-  
+
   const [prova, setProva] =
     useState<typeof questoes>([]);
-
 
   const [questaoAtual, setQuestaoAtual] =
     useState(0);
 
-
   const [alternativaSelecionada, setAlternativaSelecionada] =
     useState("");
-
 
   const [respondeu, setRespondeu] =
     useState(false);
 
-
   const [mostrarComentario, setMostrarComentario] =
     useState(false);
-
 
   const [respostas, setRespostas] =
     useState<Record<number, string>>({});
 
-
   const [finalizou, setFinalizou] =
     useState(false);
 
+  const [carregou, setCarregou] =
+    useState(false);
 
 
+  useEffect(() => {
 
- useEffect(() => {
+    console.log("CATEGORIAS RECEBIDAS:", categorias);
+    console.log("DOENÇAS RECEBIDAS:", doencas);
+    console.log("QUANTIDADE:", quantidade);
 
-console.log("CATEGORIAS RECEBIDAS:", categorias);
-console.log("DOENÇAS RECEBIDAS:", doencas);
-console.log("QUANTIDADE:", quantidade);
+    const filtradas = questoes.filter((questao) => {
 
-const filtradas = questoes.filter((questao) => {
-      
-const categoriaOk =
+      const categoriaOk =
         categorias.length === 0 ||
         categorias.includes(questao.categoria);
 
-
-
       const doencaOk =
-  doencas.length === 0 ||
-  doencas.includes(questao.doenca) ||
-  doencas.includes(questao.doencaId);
-
-
+        doencas.length === 0 ||
+        doencas.includes(questao.doenca) ||
+        doencas.includes(questao.doencaId);
 
       return categoriaOk && doencaOk;
 
-
     });
 
+    console.log("Questões filtradas:", filtradas.length);
 
-console.log("Questões filtradas:", filtradas.length);
-console.log(
-  questoes.map(q => ({
-    doenca: q.doenca,
-    id: q.doencaId
-  }))
-);
+    // Quando quantidade for NaN, considera todas as questões.
+    const limite =
+      Number.isFinite(quantidade) && quantidade > 0
+        ? quantidade
+        : filtradas.length;
 
-    const novaProva =
-  [...filtradas]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, quantidade === 0 ? filtradas.length : quantidade);
-
-
+    const novaProva = [...filtradas]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, limite);
 
     setProva(novaProva);
+    setQuestaoAtual(0);
+    setRespostas({});
+    setFinalizou(false);
+    setAlternativaSelecionada("");
+    setRespondeu(false);
+    setMostrarComentario(false);
+    setCarregou(true);
 
-
-}, [quantidade, categorias.join(","), doencas.join(",")]);
-
-
-
-
+  }, [quantidade, categorias.join(","), doencas.join(",")]);
 
 
   const questao = prova[questaoAtual];
 
+
   function formatarPergunta(texto: string) {
-  return texto
-    .replace(/\s(I\.|II\.|III\.|IV\.|V\.)/g, "\n\n$1");
-}
-
-
-
-
+    return texto.replace(
+      /\s(III\.|II\.|IV\.|I\.|V\.)/g,
+      "\n\n$1"
+    );
+  }
 
 
   function confirmarResposta() {
 
-
     if (!alternativaSelecionada) return;
 
-
-
     setRespostas((anterior) => ({
-
       ...anterior,
-
       [questao.id]: alternativaSelecionada
-
     }));
-
-
 
     setRespondeu(true);
 
-
   }
-
-
-
-
 
 
   function proximaQuestao() {
 
-
     if (questaoAtual === prova.length - 1) {
-
 
       setFinalizou(true);
 
-
       return;
-
 
     }
 
-
-
     setQuestaoAtual((atual) => atual + 1);
-
-
 
     setAlternativaSelecionada("");
 
-
-
     setRespondeu(false);
-
-
 
     setMostrarComentario(false);
 
-
   }
-    return (
+
+
+  return (
 
     <>
 
       <Navbar />
-
 
       <main
         className="
@@ -190,15 +152,12 @@ console.log(
         }}
       >
 
-
         <section
           className="
             mx-auto
             max-w-[850px]
           "
         >
-
-
 
           {finalizou ? (
 
@@ -218,12 +177,8 @@ console.log(
                   text-[#075334]
                 "
               >
-
                 Prova finalizada!
-
               </h1>
-
-
 
               <p
                 className="
@@ -231,16 +186,10 @@ console.log(
                   text-gray-600
                 "
               >
-
                 Você respondeu todas as questões.
-
               </p>
 
-
-
-
               <button
-
                 onClick={() => {
 
                   localStorage.setItem(
@@ -251,13 +200,10 @@ console.log(
                     })
                   );
 
-
                   window.location.href =
                     "/questoes/resultado";
 
                 }}
-
-
                 className="
                   mt-6
                   rounded-md
@@ -268,36 +214,25 @@ console.log(
                   font-semibold
                   text-white
                 "
-
               >
-
                 Ver resultado →
-
               </button>
-
-
 
             </div>
 
-
-
           ) : !questao ? (
-
 
             <p className="text-gray-600">
 
-              Carregando questões...
+              {!carregou
+                ? "Carregando questões..."
+                : "Nenhuma questão encontrada para os filtros selecionados."}
 
             </p>
 
-
-
           ) : (
 
-
             <>
-
-
 
               <div
                 className="
@@ -308,9 +243,7 @@ console.log(
                 "
               >
 
-
                 <div>
-
 
                   <h1
                     className="
@@ -319,12 +252,8 @@ console.log(
                       text-[#075334]
                     "
                   >
-
                     Prova InfectoVet
-
                   </h1>
-
-
 
                   <p
                     className="
@@ -332,27 +261,15 @@ console.log(
                       text-gray-500
                     "
                   >
-
                     Questão {questaoAtual + 1} de {prova.length}
-
                   </p>
-
-
 
                 </div>
 
-
-
-
-
                 {respondeu && (
 
-
                   <button
-
                     onClick={proximaQuestao}
-
-
                     className="
                       rounded-md
                       bg-[#075334]
@@ -362,27 +279,16 @@ console.log(
                       font-semibold
                       text-white
                     "
-
                   >
-
                     {questaoAtual === prova.length - 1
                       ? "Finalizar prova"
                       : "Próxima questão →"
                     }
-
-
                   </button>
-
 
                 )}
 
-
-
               </div>
-
-
-
-
 
 
               <div
@@ -393,38 +299,17 @@ console.log(
                 "
               >
 
-
-
-                <p
+                <h2
                   className="
-                    mb-2
-                    text-xs
-                    font-bold
-                    text-[#075334]
+                    text-base
+                    font-semibold
+                    leading-snug
+                    text-gray-800
+                    whitespace-pre-line
                   "
                 >
-
-                  {questao.doenca}
-
-                </p>
-
-
-
-
-
-                <h2
-  className="
-    text-base
-    font-semibold
-    leading-snug
-    text-gray-800
-    whitespace-pre-line
-  "
->
-  {formatarPergunta(questao.pergunta)}
-</h2>
-
-
+                  {formatarPergunta(questao.pergunta)}
+                </h2>
 
 
                 <div
@@ -434,45 +319,26 @@ console.log(
                   "
                 >
 
-
-
                   {questao.alternativas.map((alternativa) => {
-
 
                     const letra =
                       alternativa.charAt(0);
 
-
-
                     const correta =
                       letra === questao.resposta;
-
-
 
                     const selecionada =
                       alternativaSelecionada === letra;
 
-
-
-
                     return (
 
                       <button
-
-
                         key={alternativa}
-
-
                         disabled={respondeu}
-
-
                         onClick={() =>
                           setAlternativaSelecionada(letra)
                         }
-
-
                         className={`
-
                           w-full
                           rounded-md
                           border
@@ -481,75 +347,50 @@ console.log(
                           text-left
                           text-sm
 
-
                           ${
                             !respondeu &&
                             selecionada
-
-                            ? "border-[#075334] bg-[#E8F5EE] text-[#075334] font-semibold"
-
-                            : ""
-
+                              ? "border-[#075334] bg-[#E8F5EE] text-[#075334] font-semibold"
+                              : ""
                           }
-
-
 
                           ${
                             !respondeu &&
                             !selecionada
-
-                            ? "border-gray-200 bg-white hover:border-[#075334]"
-
-                            : ""
-
+                              ? "border-gray-200 bg-white hover:border-[#075334]"
+                              : ""
                           }
-
-
 
                           ${
                             respondeu &&
                             correta
-
-                            ? "border-green-500 bg-green-50 text-green-700 font-semibold"
-
-                            : ""
-
+                              ? "border-green-500 bg-green-50 text-green-700 font-semibold"
+                              : ""
                           }
-
-
 
                           ${
                             respondeu &&
                             selecionada &&
                             !correta
-
-                            ? "border-red-500 bg-red-50 text-red-700 font-semibold"
-
-                            : ""
-
+                              ? "border-red-500 bg-red-50 text-red-700 font-semibold"
+                              : ""
                           }
-
                         `}
-
                       >
-
                         {alternativa}
-
                       </button>
 
                     );
 
-
                   })}
 
-
                 </div>
-                                {!respondeu && (
+
+
+                {!respondeu && (
 
                   <button
-
                     onClick={confirmarResposta}
-
                     className="
                       mt-4
                       rounded-md
@@ -560,18 +401,11 @@ console.log(
                       font-semibold
                       text-white
                     "
-
                   >
-
                     Responder
-
                   </button>
 
                 )}
-
-
-
-
 
 
                 {respondeu && (
@@ -585,7 +419,6 @@ console.log(
                     "
                   >
 
-
                     <h3
                       className="
                         text-sm
@@ -593,12 +426,8 @@ console.log(
                         text-[#075334]
                       "
                     >
-
                       Gabarito comentado
-
                     </h3>
-
-
 
 
                     <p
@@ -608,47 +437,32 @@ console.log(
                         text-gray-700
                       "
                     >
-
                       <strong>
                         Resposta correta:
                       </strong>{" "}
 
                       {questao.resposta}
-
                     </p>
 
 
-
-
-
                     <button
-
                       onClick={() =>
                         setMostrarComentario(
                           !mostrarComentario
                         )
                       }
-
                       className="
                         mt-2
                         text-xs
                         font-semibold
                         text-[#075334]
                       "
-
                     >
-
                       {mostrarComentario
                         ? "Ocultar comentário"
                         : "Ver comentário"
                       }
-
                     </button>
-
-
-
-
-
 
 
                     {mostrarComentario && (
@@ -661,41 +475,27 @@ console.log(
                           text-gray-600
                         "
                       >
-
                         {questao.comentario}
-
                       </p>
 
                     )}
-
-
 
                   </div>
 
                 )}
 
-
-
-
               </div>
-
 
             </>
 
-
           )}
-
-
 
         </section>
 
-
       </main>
-
 
     </>
 
   );
-
 
 }

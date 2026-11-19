@@ -12,7 +12,7 @@ export const questoes = [
     "( ) Os equinos parecem ser sensíveis a todos os sorotipos de neurotoxinas botulínicas, porém os bovinos são susceptíveis aos tipos C e D.\n" +
     "( ) O Clostridium difficile é agente causador de diarreia em suínos e equinos, sendo a vacinação a principal forma de controle.\n" +
     "( ) Gatos, caprinos e ovinos apresentam maior sensibilidade à neurotoxina de C. tetani.\n" +
-    "( ) O carbúnculo sintomático é causado exclusivamente por C. chauvoei.",
+    "( ) O carbúnculo sintomático é causado principalmente por C. chauvoei, embora outras espécies de Clostridium possam produzir quadros semelhantes.",
 
   alternativas: [
     "A) V; F; F; F; F",
@@ -25,7 +25,7 @@ export const questoes = [
   resposta: "D",
 
   comentario:
-    "A sequência correta é D. Algumas afirmações estão incorretas porque o Clostridium difficile não tem vacinação como principal controle e o carbúnculo sintomático está principalmente associado ao C. chauvoei, mas a afirmação utiliza o termo 'exclusivamente', tornando-a inadequada."
+    "A sequência correta é V; V; F; F; V. Clostridium perfringens está associado a diferentes formas de enterotoxemia, conforme o tipo toxigênico envolvido. Equinos são suscetíveis a diferentes neurotoxinas botulínicas, enquanto os tipos C e D têm importância na doença em bovinos. A vacinação não é a principal medida de controle da infecção por C. difficile. A afirmação sobre a sensibilidade de gatos, caprinos e ovinos à toxina tetânica está incorreta, pois a suscetibilidade varia entre as espécies. O carbúnculo sintomático está principalmente associado a C. chauvoei."
 },
 
 
@@ -85,20 +85,20 @@ export const questoes = [
   doenca: "Leptospirose",
 
   pergunta:
-    "Assinale a alternativa que contém o método diagnóstico para a leptospirose e sua respectiva vantagem.",
+    "Assinale a alternativa que apresenta corretamente uma vantagem do método diagnóstico utilizado na investigação da leptospirose:",
 
   alternativas: [
-    "A) A visualização direta da Leptospira ao microscópio óptico permite a identificação do respectivo serovar.",
-    "B) A cultura para isolamento bacteriano da Leptospira pode ser realizada após terapia antimicrobiana.",
-    "C) O teste de reação em cadeia da polimerase (PCR) possui acurácia mesmo antes da produção de anticorpos antileptospira.",
-    "D) O teste de imunoensaio enzimático ELISA permite a obtenção do resultado em poucas horas.",
-    "E) O teste de aglutinação microscópica (MAT) tem sensibilidade maior que o teste ELISA."
+    "A) A visualização direta da Leptospira ao microscópio óptico permite identificar com precisão o sorovar infectante.",
+    "B) A cultura para isolamento bacteriano apresenta resultados rápidos e não sofre interferência da administração prévia de antimicrobianos.",
+    "C) A reação em cadeia da polimerase (PCR) pode detectar o material genético da Leptospira durante a fase de leptospiremia, antes da produção de anticorpos detectáveis.",
+    "D) O ELISA identifica diretamente a bactéria e permite determinar o sorovar responsável pela infecção.",
+    "E) A soroaglutinação microscópica (MAT) confirma a infecção em qualquer fase da doença por meio de uma única amostra, independentemente do momento da coleta."
   ],
 
-  resposta: "D",
+  resposta: "C",
 
   comentario:
-    "O ELISA apresenta como vantagem a rapidez na obtenção dos resultados, podendo fornecer diagnóstico em poucas horas. A visualização direta da bactéria não permite identificação do sorovar, a cultura apresenta limitações devido ao crescimento lento da Leptospira e o uso de antimicrobianos pode interferir no isolamento. O MAT é um teste sorológico importante, porém não apresenta necessariamente maior sensibilidade que o ELISA."
+    "A PCR é um método direto que detecta o material genético da Leptospira. Durante a fase de leptospiremia, pode identificar o agente antes da soroconversão. A cultura é demorada e pode apresentar menor sensibilidade após o uso de antimicrobianos. A MAT e os testes sorológicos detectam a resposta de anticorpos e devem ser interpretados considerando o estágio da infecção e o momento da coleta."
 },
 
 
@@ -150,29 +150,6 @@ export const questoes = [
 },
 
 
-{
-  id: 8,
-  categoria: "Bacterianas",
-  doencaId: "tuberculose",
-  doenca: "Tuberculose por Mycobacterium bovis",
-
-  pergunta:
-    "Bovinos infectados podem ser responsáveis por parte dos casos de tuberculose humana causada pelo Mycobacterium bovis. Avalie as afirmações como verdadeiras (V) ou falsas (F):",
-
-  alternativas: [
-    "A) Verdadeira / Falsa / Falsa",
-    "B) Falsa / Verdadeira / Verdadeira",
-    "C) Falsa / Verdadeira / Falsa",
-    "D) Verdadeira / Verdadeira / Falsa",
-    "E) Falsa / Falsa / Verdadeira"
-  ],
-
-  resposta: "E",
-
-  comentario:
-    "A sequência correta é E. A pasteurização do leite foi um fator importante para reduzir a transmissão de Mycobacterium bovis para humanos."
-},
-
 
 {
   id: 10,
@@ -195,28 +172,6 @@ export const questoes = [
 
   comentario:
     "A brucelose bovina apresenta principalmente sinais reprodutivos, como aborto, retenção de placenta e problemas de fertilidade. Mastite e fístulas na cernelha não são manifestações típicas da Brucella abortus."
-},
-{
-  id: 11,
-  categoria: "Bacterianas",
-  doencaId: "tuberculose",
-  doenca: "Tuberculose bovina",
-
-  pergunta:
-    "A Tuberculose causada pelo Mycobacterium bovis é uma doença de grande importância que acomete várias espécies de animais, inclusive o homem. Quais alternativas relacionadas à doença são verdadeiras (V) ou falsas (F)?",
-
-  alternativas: [
-    "A) V; F; F; F; F",
-    "B) F; V; V; V; F",
-    "C) F; F; V; F; V",
-    "D) V; V; V; F; F",
-    "E) V; V; F; F; V"
-  ],
-
-  resposta: "E",
-
-  comentario:
-    "A sequência correta é E. O gado zebuíno apresenta maior resistência relativa à tuberculose, fêmeas próximas ao parto possuem menor resposta ao teste tuberculínico e a anergia pode ocorrer em animais com doença avançada devido à imunossupressão específica."
 },
 
 
@@ -1544,7 +1499,7 @@ export const questoes = [
 },
 {
   id: 148,
-  categoria: "Diagnóstico",
+  categoria: "Diagnóstico e Conceitos Gerais",
   doencaId: "geral",
   doenca: "Diagnóstico laboratorial",
   pergunta: "Os métodos diagnósticos podem ser classificados em diretos e indiretos, de acordo com aquilo que detectam. Assinale a alternativa que apresenta um método diagnóstico direto:",
@@ -1560,7 +1515,7 @@ export const questoes = [
 },
 {
   id: 149,
-  categoria: "Diagnóstico",
+  categoria: "Diagnóstico e Conceitos Gerais",
   doencaId: "geral",
   doenca: "Diagnóstico laboratorial",
   pergunta: "Na rotina de diagnóstico das enfermidades infecciosas, diferentes técnicas laboratoriais são utilizadas. Assinale a alternativa que apresenta exclusivamente métodos indiretos:",
@@ -1576,7 +1531,7 @@ export const questoes = [
 },
 {
   id: 150,
-  categoria: "Conceitos gerais",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Conceitos epidemiológicos",
   pergunta: "Na epidemiologia das doenças infecciosas e parasitárias, os termos infecção e infestação possuem significados distintos. Assinale a alternativa correta:",
@@ -1592,7 +1547,7 @@ export const questoes = [
 },
 {
   id: 151,
-  categoria: "Conceitos gerais",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Conceitos epidemiológicos",
   pergunta: "A infectividade é uma característica importante na compreensão da capacidade de um agente etiológico provocar infecções. Esse conceito corresponde:",
@@ -1608,7 +1563,7 @@ export const questoes = [
 },
 {
   id: 152,
-  categoria: "Conceitos gerais",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Conceitos epidemiológicos",
   pergunta: "O tropismo de um agente infeccioso corresponde:",
@@ -1672,7 +1627,7 @@ export const questoes = [
 },
 {
   id: 156,
-  categoria: "Conceitos gerais",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Epidemiologia",
   pergunta: "A tríade epidemiológica é utilizada para compreender os fatores envolvidos no desenvolvimento das doenças. Ela é formada pela interação entre:",
@@ -1688,7 +1643,7 @@ export const questoes = [
 },
 {
   id: 157,
-  categoria: "Conceitos gerais",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Epidemiologia",
   pergunta: "Na epidemiologia das enfermidades infecciosas, a virulência representa:",
@@ -1702,25 +1657,10 @@ export const questoes = [
   resposta: "C",
   comentario: "A virulência está relacionada ao grau de patogenicidade de um agente e à intensidade dos danos que ele provoca no hospedeiro. É diferente de infectividade, que corresponde à capacidade de instalação e multiplicação."
 },
-{
-  id: 158,
-  categoria: "Conceitos gerais",
-  doencaId: "geral",
-  doenca: "História natural da doença",
-  pergunta: "Na história natural das doenças, a convalescença corresponde à fase em que:",
-  alternativas: [
-    "A) Os primeiros sinais clínicos começam a aparecer.",
-    "B) O agente infeccioso inicia sua multiplicação no organismo.",
-    "C) A doença atinge sua manifestação clínica mais grave.",
-    "D) O animal apresenta recuperação gradual, com diminuição dos sinais clínicos.",
-    "E) O agente infeccioso é transmitido para outros hospedeiros."
-  ],
-  resposta: "D",
-  comentario: "A convalescença é a fase de recuperação progressiva do indivíduo após o período de doença, caracterizada pela diminuição dos sinais clínicos e retomada gradual das condições normais."
-},
+
 {
   id: 159,
-  categoria: "Saúde coletiva",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Vigilância sanitária",
   pergunta: "De acordo com a Lei nº 8.080/1990, a vigilância sanitária é definida como:",
@@ -1738,7 +1678,7 @@ export const questoes = [
 
 {
   id: 160,
-  categoria: "Protozooses",
+  categoria: "Parasitárias",
   doencaId: "leishmaniose",
   doenca: "Leishmaniose",
   pergunta:
@@ -1757,7 +1697,7 @@ export const questoes = [
 
 {
   id: 161,
-  categoria: "Protozooses",
+  categoria: "Parasitárias",
   doencaId: "leishmaniose",
   doenca: "Leishmaniose",
   pergunta:
@@ -1776,7 +1716,7 @@ export const questoes = [
 
 {
   id: 162,
-  categoria: "Protozooses",
+  categoria: "Parasitárias",
   doencaId: "leishmaniose",
   doenca: "Leishmaniose",
   pergunta:
@@ -1795,7 +1735,7 @@ export const questoes = [
 
 {
   id: 163,
-  categoria: "Protozooses",
+  categoria: "Parasitárias",
   doencaId: "leishmaniose",
   doenca: "Leishmaniose",
   pergunta:
@@ -1814,7 +1754,7 @@ export const questoes = [
 
 {
   id: 164,
-  categoria: "Protozooses",
+  categoria: "Parasitárias",
   doencaId: "leishmaniose",
   doenca: "Leishmaniose",
   pergunta:
@@ -1833,7 +1773,7 @@ export const questoes = [
 
 {
   id: 165,
-  categoria: "Protozooses",
+  categoria: "Parasitárias",
   doencaId: "leishmaniose",
   doenca: "Leishmaniose",
   pergunta:
@@ -1875,21 +1815,29 @@ Está correto o que se afirma em:`,
   resposta: "E",
   comentario: "A questão apresenta três afirmações sobre o PNEFA, os animais suscetíveis e a caracterização das doenças vesiculares."
 },
+
+
 {
   id: 177,
-  categoria: "Geral",
+  categoria: "Diagnóstico e Conceitos Gerais",
   doencaId: "geral",
   doenca: "Diagnóstico",
-  pergunta: `Com relação ao estudo das doenças infecciosas e parasitárias, a coleta de material para envio ao laboratório muitas vezes será fundamental para o sucesso do diagnóstico. Com relação às técnicas de diagnóstico usuais para cada agente etiológico, marque a correta:`,
+
+  pergunta:
+    "Com relação ao estudo das doenças infecciosas e parasitárias, a coleta de material para envio ao laboratório muitas vezes será fundamental para o sucesso do diagnóstico. Com relação às técnicas de diagnóstico usuais para cada agente etiológico, marque a correta:",
+
   alternativas: [
     "A) Sintomas como diarreia, vômito e dores abdominais marcam a maioria das doenças parasitárias em pequenos animais, sendo imprescindível enviar o material sorológico coletado para o laboratório, a fim de realizar a coprocultura.",
-    "B) O padrão-ouro para diagnóstico de doença infecciosas será, quase sempre, o exame físico juntamente com a correta anamnese do animal.",
-    "C) Em termos gerais, as suspeitas de doenças virais poderão ser confirmadas por exames sorológicos, cujas técnicas mais utilizadas são as de ensaio imunoenzimático e imunofluorescência indireta.",
+    "B) O padrão-ouro para diagnóstico de doenças infecciosas será, quase sempre, o exame físico juntamente com a correta anamnese do animal.",
+    "C) Métodos sorológicos, como ELISA e imunofluorescência indireta, podem ser utilizados na investigação de infecções virais por meio da detecção de anticorpos específicos, conforme o agente e a fase da infecção.",
     "D) Quando a suspeita for de doença causada por vírus, o material deverá ser encaminhado ao laboratório para cultivo dos vírus e observação destes à microscopia óptica.",
     "E) Doenças de pele causadas por dermatófitos geralmente são caracterizadas por prurido, alopecia e vermelhidão. O diagnóstico de predileção neste caso é o PCR."
   ],
+
   resposta: "C",
-  comentario: "A questão aborda técnicas laboratoriais utilizadas no diagnóstico de doenças infecciosas e parasitárias."
+
+  comentario:
+    "A alternativa C está correta. ELISA e imunofluorescência indireta podem detectar anticorpos específicos contra determinados agentes virais. A interpretação depende do agente investigado, do momento da coleta e do histórico vacinal. A anamnese e o exame físico são fundamentais, mas não constituem, isoladamente, o padrão-ouro para a maioria das doenças infecciosas."
 },
 
 {
@@ -1908,38 +1856,56 @@ Está correto o que se afirma em:`,
   resposta: "C",
   comentario: "O mormo é uma enfermidade infecciosa causada por Burkholderia mallei, que acomete principalmente equídeos e possui potencial zoonótico."
 },
+
+
+
 {
   id: 180,
   categoria: "Bacterianas",
   doencaId: "mormo",
   doenca: "Mormo",
-  pergunta: `O Mormo, enfermidade de equídeos, pertencente à lista B da OIE e considerada extinta no Brasil, reemergiu em Pernambuco. Dentre os testes laboratoriais utilizados para o diagnóstico, a Legislação Brasileira e o Código Zoossanitário Internacional recomendam:`,
+
+  pergunta:
+    "De acordo com as diretrizes brasileiras para o diagnóstico laboratorial do mormo, assinale a alternativa correta:",
+
   alternativas: [
-    "A) isolamento do agente e prova de soroaglutinação.",
-    "B) histopatologia e isolamento do agente.",
-    "C) teste da maleína e isolamento do agente.",
-    "D) fixação do complemento e teste da maleína.",
-    "E) fixação do complemento e reação em cadeia da polimerase."
+    "A) A fixação de complemento ou o ELISA podem ser utilizados como testes de triagem, enquanto o Western Blotting é empregado como teste complementar.",
+    "B) A maleinização é o único método laboratorial oficial de triagem para todos os equídeos.",
+    "C) A soroaglutinação microscópica é o teste confirmatório obrigatório para o diagnóstico do mormo.",
+    "D) O Western Blotting é utilizado exclusivamente como teste de triagem, sendo a fixação de complemento o único método confirmatório.",
+    "E) A cultura bacteriana é o único método permitido para a investigação de animais suspeitos."
   ],
-  resposta: "E",
-  comentario: "A questão aborda métodos laboratoriais utilizados no diagnóstico do mormo."
+
+  resposta: "A",
+
+  comentario:
+    "A alternativa A está correta. Conforme a regulamentação brasileira, a fixação de complemento ou o ELISA podem ser utilizados como testes de triagem, e o Western Blotting é o teste complementar. A maleinização intrapalpebral possui indicação restrita a equídeos com menos de seis meses, com sinais clínicos compatíveis e mediante autorização do serviço oficial."
 },
+
 {
   id: 181,
   categoria: "Bacterianas",
   doencaId: "tuberculose",
   doenca: "Tuberculose Bovina",
-  pergunta: `A tuberculose bovina é causada principalmente pelo Mycobacterium bovis e acomete comumente animais estabulados. Considerando que é uma zoonose e acomete outras espécies, indique a principal forma de controle desta enfermidade:`,
+
+  pergunta:
+    "A tuberculose bovina é causada principalmente pelo Mycobacterium bovis e acomete comumente animais estabulados. Considerando que é uma zoonose e acomete outras espécies, indique a principal forma de controle desta enfermidade:",
+
   alternativas: [
-    "A) Prova de tuberculina e aplicação anual de vermífugo no rebanho",
-    "B) Prova de tuberculina e vacinação anual do rebanho",
-    "C) Vacinação anual do rebanho",
-    "D) Prova de tuberculina e sacrifício dos animais que reagiram positivamente",
-    "E) Vacinação anual do rebanho e sacrifício dos animais positivos"
+    "A) Prova de tuberculina e aplicação anual de vermífugo no rebanho.",
+    "B) Prova de tuberculina e vacinação anual do rebanho.",
+    "C) Vacinação anual do rebanho.",
+    "D) Realização de testes de diagnóstico e abate sanitário dos animais considerados positivos, conforme as medidas previstas pelo PNCEBT.",
+    "E) Vacinação anual do rebanho e abate sanitário dos animais positivos."
   ],
+
   resposta: "D",
-  comentario: "A questão aborda o controle da tuberculose bovina por meio da identificação dos animais reagentes e adoção das medidas sanitárias previstas."
+
+  comentario:
+    "A alternativa D está correta. O controle da tuberculose bovina no âmbito do PNCEBT envolve a identificação dos animais infectados por meio de testes diagnósticos e a adoção das medidas sanitárias oficiais, incluindo o abate sanitário dos animais positivos. Não existe vacinação de rotina autorizada para bovinos no programa."
 },
+
+
 {
   id: 182,
   categoria: "Bacterianas",
@@ -2045,7 +2011,7 @@ Está correto o que se afirma em:`,
 },
 {
   id: 187,
-  categoria: "Geral",
+  categoria: "Diagnóstico e Conceitos Gerais",
   doencaId: "geral",
   doenca: "Testes Diagnósticos",
   pergunta: `Os testes diagnósticos são amplamente utilizados na rotina médico veterinária. Acerca dos principais testes diagnósticos, assinale a correta:`,
@@ -2077,7 +2043,7 @@ Está correto o que se afirma em:`,
 },
 {
   id: 189,
-  categoria: "Geral",
+  categoria: "Diagnóstico e Conceitos Gerais",
   doencaId: "geral",
   doenca: "Doenças Infecciosas e Parasitárias",
   pergunta: `As doenças infecciosas e parasitárias representam um grande desafio para a saúde pública. Assinale a alternativa INCORRETA em relação às características gerais:`,
@@ -2092,72 +2058,98 @@ Está correto o que se afirma em:`,
   comentario: "A transmissão de doenças infecciosas não ocorre exclusivamente por contato direto. Pode ocorrer também por vias indiretas, vetores, água, alimentos e outras formas."
 },
 
+
 {
   id: 190,
   categoria: "Bacterianas",
   doencaId: "brucelose",
   doenca: "Brucelose Bovina",
+
   pergunta: `Um pequeno produtor de leite adquiriu três fêmeas da raça holandesa, com idades de 6 meses, 18 meses e 4 anos, respectivamente. O proprietário informou que nenhum animal foi vacinado contra brucelose. Nesse caso, o médico veterinário deve orientar o proprietário a:
 
-I. imunizar a fêmea de 6 meses de idade com a vacina B19.
+I. Imunizar a fêmea de 6 meses de idade com a vacina B19.
 
-II. descartar do plantel os animais adultos considerados positivos no teste sorológico.
+II. Adotar as medidas sanitárias previstas para os animais adultos com diagnóstico confirmado de brucelose.
 
-III. aguardar que a fêmea de 18 meses atinja 24 meses de idade para realizar o teste sorológico.
+III. Aguardar que a fêmea de 18 meses atinja 24 meses de idade para realizar o teste sorológico.
 
-IV. vacinar a fêmea de 4 anos de idade com a vacina B19, caso seja considerada negativa no teste sorológico.
+IV. Vacinar a fêmea de 4 anos de idade com a vacina B19, caso seja considerada negativa no teste sorológico.
 
 Nessa situação é correto o que se afirma apenas em:`,
+
   alternativas: [
-    "a) II e IV.",
-    "b) II e III.",
-    "c) I e II.",
-    "d) III e IV.",
-    "e) I e III."
+    "A) II e IV.",
+    "B) II e III.",
+    "C) I e II.",
+    "D) III e IV.",
+    "E) I e III."
   ],
+
   resposta: "C",
-  comentario: "O gabarito indicado no documento é a alternativa C. A questão aborda vacinação e manejo sanitário de fêmeas bovinas no contexto do controle da brucelose."
+
+  comentario:
+    "As afirmativas I e II estão corretas. A vacina B19 é indicada para fêmeas bovinas e bubalinas entre 3 e 8 meses de idade. Animais adultos com diagnóstico confirmado devem ser submetidos às medidas sanitárias previstas pelo PNCEBT. A afirmativa III está incorreta, pois fêmeas não vacinadas podem ser testadas a partir dos 8 meses. A afirmativa IV está incorreta porque a B19 não é indicada para vacinação de fêmeas adultas."
 },
+
 {
   id: 191,
   categoria: "Bacterianas",
   doencaId: "clostridioses",
   doenca: "Clostridioses em Ruminantes",
+
   pergunta: `As clostridioses são um grupo de doenças causadas por bactérias do tipo Clostridium, sendo as mais importantes em rebanhos bovinos o tétano e o botulismo. Acerca destas duas doenças e sua importância em Medicina Veterinária, assinale a alternativa correta:`,
+
   alternativas: [
-    "a) O tétano atinge somente bovinos, não sendo encontrado em outras espécies animais.",
-    "b) Não existem vacinas disponíveis para ambas as doenças, sendo o manejo profilático baseado na higienização do ambiente.",
-    "c) São doenças de curso crônico e lento, cujos sintomas demoram a aparecer e deixam os animais fracos durante um longo período de tempo.",
-    "d) O botulismo caracteriza-se por uma paralisia espástica, sendo os sintomas mais comuns em cavalo, a posição em cavalete, protusão de terceira pálpebra e enrijecimento de pescoço.",
-    "e) Tanto o botulismo quanto o tétano são doenças causadas pelas toxinas produzidas pelas bactérias C. botulinum e C. tetani, respectivamente, que agem na fenda pós-sináptica da junção neuromuscular."
+    "A) O tétano atinge somente bovinos, não sendo encontrado em outras espécies animais.",
+    "B) Não existem vacinas disponíveis para ambas as doenças, sendo o manejo profilático baseado na higienização do ambiente.",
+    "C) São doenças de curso crônico e lento, cujos sintomas demoram a aparecer e deixam os animais fracos durante um longo período de tempo.",
+    "D) O botulismo caracteriza-se por uma paralisia espástica, sendo os sintomas mais comuns em cavalo, a posição em cavalete, protusão de terceira pálpebra e enrijecimento de pescoço.",
+    "E) Tanto o botulismo quanto o tétano são doenças causadas pelas toxinas produzidas pelas bactérias C. botulinum e C. tetani, respectivamente. A toxina botulínica inibe a liberação de acetilcolina, enquanto a toxina tetânica bloqueia a liberação de neurotransmissores inibitórios no sistema nervoso central."
   ],
+
   resposta: "E",
-  comentario: "A alternativa E está indicada como gabarito no documento original. Entretanto, a descrição do mecanismo de ação das toxinas está incorreta: a toxina botulínica inibe a liberação de acetilcolina, enquanto a tetânica bloqueia a liberação de neurotransmissores inibitórios."
+
+  comentario:
+    "A alternativa E está correta. A toxina botulínica impede a liberação de acetilcolina nas terminações nervosas pré-sinápticas, provocando paralisia flácida. Já a toxina tetânica bloqueia a liberação de neurotransmissores inibitórios, principalmente GABA e glicina, causando hiperatividade dos neurônios motores e paralisia espástica. As demais alternativas apresentam erros sobre a distribuição da doença, a prevenção ou as manifestações clínicas."
 },
+
 {
   id: 192,
   categoria: "Virais",
   doencaId: "geral",
   doenca: "Febre Aftosa e Estomatite Vesicular",
+
   pergunta: `Durante investigação em uma propriedade de criação mista no Centro-Oeste, bovinos e equinos apresentaram sinais de apatia, anorexia, salivação intensa e vesículas erosivas na mucosa oral e na região interdigital. O técnico da defesa agropecuária alertou para a necessidade de distinguir entre Febre Aftosa (FA) e Estomatite Vesicular (EV). Analise as sentenças:
 
 I. A presença de lesões vesiculares em equinos é compatível com Estomatite Vesicular, visto que essa espécie não é suscetível ao vírus da Febre Aftosa.
 
-II. A Febre Aftosa é uma doença de alta morbidade e baixa letalidade, com maior impacto econômico e sanitário.
+II. A Febre Aftosa é uma doença de alta morbidade e baixa letalidade, com grande impacto econômico e sanitário.
 
-III. O diagnóstico definitivo depende de exames laboratoriais, sendo a soronutralização a técnica de escolha nos estágios iniciais.`,
+III. O diagnóstico definitivo depende de exames laboratoriais, sendo a soroneutralização a técnica de escolha nos estágios iniciais.`,
+
   alternativas: [
-    "Gabarito: I, II e III estão corretas."
+    "A) I, II e III estão corretas.",
+    "B) I e II estão corretas.",
+    "C) Somente I está correta.",
+    "D) I e III estão corretas.",
+    "E) II e III estão corretas."
   ],
-  resposta: "I, II e III",
-  comentario: "O documento apresenta como gabarito que as três afirmativas estão corretas."
+
+  resposta: "B",
+
+  comentario:
+    "As afirmativas I e II estão corretas. Os equinos são suscetíveis à estomatite vesicular, mas não à febre aftosa. A febre aftosa apresenta alta morbidade e grande impacto econômico e sanitário. A afirmativa III está incorreta porque a confirmação laboratorial de doenças vesiculares depende de métodos definidos para a investigação, incluindo técnicas de detecção viral e caracterização do agente, não sendo a soroneutralização a técnica universal de escolha para os estágios iniciais."
 },
+
+
 {
   id: 193,
-  categoria: "Geral",
+  categoria: "Diagnóstico e Conceitos Gerais",
   doencaId: "geral",
   doenca: "Testes Diagnósticos Veterinários",
+
   pergunta: `Os testes diagnósticos são amplamente utilizados na rotina médico-veterinária e caracterizam-se pela identificação da doença circulante na região. Acerca dos principais testes sorológicos utilizados em medicina veterinária, assinale a alternativa correta:`,
+
   alternativas: [
     "A) Caracterizam-se como métodos diagnósticos indiretos: o ensaio imunoenzimático (ELISA), cultura bacteriana, provas bioquímicas e imunofluorescência indireta (RIFI).",
     "B) A reação em cadeia de polimerase (PCR) é um método diagnóstico direto que detecta o material genético do agente infeccioso de interesse (DNA ou RNA) na amostra estudada.",
@@ -2165,12 +2157,18 @@ III. O diagnóstico definitivo depende de exames laboratoriais, sendo a soronutr
     "D) Os testes diagnósticos diretos baseiam-se na detecção de uma resposta imunológica gerada pelo paciente, frente à presença do agente etiológico.",
     "E) Testes diagnósticos de triagem geralmente possuem alta especificidade, enquanto testes diagnósticos confirmatórios geralmente possuem uma alta sensibilidade."
   ],
+
   resposta: "B",
-  comentario: "A PCR é um método diagnóstico direto, pois identifica material genético do agente infeccioso na amostra."
+
+  comentario:
+    "A alternativa B está correta. A PCR é um método direto porque detecta o material genético do agente infeccioso na amostra. A alternativa A está incorreta porque cultura bacteriana e provas bioquímicas são métodos diretos de investigação do agente. A alternativa C está incorreta porque o AAT é um teste de triagem para brucelose, não confirmatório. A alternativa D descreve métodos indiretos, e a alternativa E inverte a característica geralmente desejada: testes de triagem priorizam sensibilidade, enquanto testes confirmatórios priorizam especificidade."
 },
+
+
+
 {
   id: 194,
-  categoria: "Geral",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Cadeia Epidemiológica",
   pergunta: `A cadeia epidemiológica de transmissão das doenças é o processo de identificação dos mecanismos envolvidos nos processos de propagação das enfermidades, e das relações que existem entre os diferentes elementos que levam ao seu aparecimento. Assim, marque abaixo a alternativa CORRETA:`,
@@ -2184,67 +2182,33 @@ III. O diagnóstico definitivo depende de exames laboratoriais, sendo a soronutr
   resposta: "A",
   comentario: "A tríade epidemiológica é formada pela interação entre agente, hospedeiro e ambiente."
 },
-{
-  id: 195,
-  categoria: "Bacterianas",
-  doencaId: "brucelose",
-  doenca: "Brucelose Bovina",
-  pergunta: `Um pequeno produtor de leite adquiriu três fêmeas da raça holandesa, com idades de 6 meses, 18 meses e 4 anos, respectivamente. O proprietário informou que nenhum animal foi vacinado contra brucelose. Nesse caso, o médico veterinário deve orientar o proprietário a:
 
-I. imunizar a fêmea de 6 meses de idade com a vacina B19.
-
-II. descartar do plantel os animais adultos considerados positivos no teste sorológico.
-
-III. aguardar que a fêmea de 18 meses atinja 24 meses de idade para realizar o teste sorológico.
-
-IV. vacinar a fêmea de 3 anos de idade, caso seja considerada negativa no teste sorológico.
-
-Nessa situação é correto o que se afirma apenas em:`,
-  alternativas: [
-    "A) II e III.",
-    "B) I e III.",
-    "C) III e IV.",
-    "D) I e II.",
-    "E) II e IV."
-  ],
-  resposta: "D",
-  comentario: "O gabarito indicado no documento para esta versão da questão é a alternativa D."
-},
 {
   id: 196,
   categoria: "Virais",
   doencaId: "febre-aftosa",
   doenca: "Febre Aftosa",
-  pergunta: `"De acordo com o Ministério da Agricultura, Pecuária e Abastecimento (MAPA), o Brasil continua em busca da erradicação da Febre Aftosa, uma doença viral altamente contagiosa que afeta bovinos, suínos e outros animais. Em estados livres de febre aftosa sem vacinação, o monitoramento é intensificado para evitar surtos." (Fonte: MAPA, 2023). Com base nas características epidemiológicas da Febre Aftosa, qual das seguintes alternativas apresenta a estratégia mais importante para evitar a introdução do vírus em áreas livres de febre aftosa sem vacinação?`,
+
+  pergunta: `O Brasil recebeu, em maio de 2025, o reconhecimento internacional de país livre de febre aftosa sem vacinação. Considerando as estratégias necessárias para manter esse status sanitário, qual das alternativas apresenta uma medida importante para evitar a reintrodução do vírus?`,
+
   alternativas: [
-    "A) Administração de antibióticos para controle de infecções secundárias.",
-    "B) Controle rigoroso das fronteiras e quarentena de animais importados.",
+    "A) Administração preventiva de antibióticos aos animais suscetíveis.",
+    "B) Controle do trânsito de animais, fiscalização de fronteiras e vigilância epidemiológica.",
     "C) Implementação de campanhas de vermifugação em animais suscetíveis.",
-    "D) Realização de vacinação anual em todos os animais.",
-    "E) Redução da densidade populacional de bovinos nas regiões afetadas."
+    "D) Realização de vacinação anual obrigatória em todos os bovinos e bubalinos.",
+    "E) Redução da densidade populacional de bovinos nas regiões de fronteira."
   ],
+
   resposta: "B",
-  comentario: "O controle do trânsito de animais e a adoção de medidas de vigilância e quarentena são estratégias importantes para evitar a introdução do vírus em áreas livres sem vacinação."
+
+  comentario:
+    "A alternativa B está correta. Após o reconhecimento do Brasil como país livre de febre aftosa sem vacinação, a manutenção do status depende de vigilância epidemiológica, fiscalização do trânsito de animais e produtos de origem animal, controle de fronteiras e capacidade de resposta rápida diante de suspeitas."
 },
-{
-  id: 197,
-  categoria: "Geral",
-  doencaId: "geral",
-  doenca: "História Natural da Doença",
-  pergunta: `A história natural de uma doença é uma descrição, ou seja, algo que possui uma evolução, do processo de adoecimento de indivíduo até sua cura ou morte. Qual das seguintes opções descreve corretamente o conceito de convalescença na história natural das doenças em animais?`,
-  alternativas: [
-    "A) É o estágio em que os sintomas da doença começam a se manifestar no animal.",
-    "B) Refere-se ao período em que a doença atinge seu estágio mais grave no animal.",
-    "C) É o estágio em que a doença se espalha rapidamente dentro da população animal.",
-    "D) É o estágio em que o animal está imune à doença após ser infectado.",
-    "E) Representa a fase em que o animal infectado se recupera gradualmente e os sintomas diminuem."
-  ],
-  resposta: "E",
-  comentario: "A convalescença corresponde ao período de recuperação gradual do organismo após a fase clínica da doença."
-},
+
+
 {
   id: 198,
-  categoria: "Geral",
+  categoria: "Epidemiologia e Saúde Coletiva",
   doencaId: "geral",
   doenca: "Vigilância Sanitária",
   pergunta: `As ações da Vigilância em Saúde se distribuem entre a Vigilância Epidemiológica, a Vigilância Sanitária, a Vigilância Ambiental em Saúde e a Vigilância em Saúde do Trabalhador. Nesse sentido, a Lei 8.080/90 (Lei Orgânica da Saúde) definiu a vigilância sanitária como:`,
@@ -2274,108 +2238,219 @@ Nessa situação é correto o que se afirma apenas em:`,
   resposta: "D",
   comentario: "O documento indica como correta a alternativa D, que reúne manifestações clínicas frequentemente associadas à leishmaniose visceral canina."
 },
+
+
 {
   id: 200,
   categoria: "Virais",
   doencaId: "geral",
   doenca: "Gastroenterites Virais em Pequenos Animais",
+
   pergunta: `Os vírus causadores de gastroenterites virais infecciosas em pequenos animais possuem comportamento diferente quanto ao seu hospedeiro animal. Em relação à apresentação das doenças nos cães e gatos, assinale a alternativa correta:`,
+
   alternativas: [
     "A) O tratamento dos animais com parvovirose e coronavirose baseia-se principalmente no controle da carga viral através de medicamentos antirretrovirais.",
     "B) O coronavírus canino e felino possuem apresentação clínica mista semelhante ao SARS-CoV-2.",
-    "C) O vírus da panleucopenia felina leva os animais afetados à imunossupressão devido à necrose e atrofia dos linfonodos.",
-    "D) O Parvovírus felino, causador da PIF, acomete gatos de todas as idades, sendo mais grave nos jovens.",
+    "C) O vírus da panleucopenia felina pode provocar imunossupressão devido à destruição de células em divisão rápida, incluindo células da medula óssea e tecidos linfoides.",
+    "D) O parvovírus felino, causador da PIF, acomete gatos de todas as idades, sendo mais grave nos jovens.",
     "E) A parvovirose canina caracteriza-se pela destruição do ápice das vilosidades intestinais, resultando em má absorção e diarreia moderada com ausência de sangue."
   ],
+
   resposta: "C",
-  comentario: "O documento indica a alternativa C. A panleucopenia felina pode causar depleção de tecidos linfoides e imunossupressão."
+
+  comentario:
+    "A alternativa C está correta. O vírus da panleucopenia felina apresenta tropismo por células em intensa divisão, como as células da medula óssea, tecidos linfoides e criptas intestinais. A destruição dessas células pode provocar leucopenia, comprometimento da resposta imune e alterações gastrointestinais. A PIF, por sua vez, está associada ao coronavírus felino, e não ao parvovírus."
 },
+
+
 {
   id: 201,
   categoria: "Virais",
   doencaId: "febre-aftosa",
   doenca: "Febre Aftosa",
-  pergunta: `A febre aftosa é uma doença de ampla distribuição geográfica, altamente contagiosa, própria de físsipedes, de evolução aguda e febril. Acerca da dinâmica da doença e controle no Brasil, assinale a correta:`,
+
+  pergunta: `A febre aftosa é uma doença viral altamente contagiosa, de grande importância para a defesa sanitária animal. Considerando as medidas de vigilância e resposta a uma suspeita da doença no Brasil, assinale a alternativa correta:`,
+
   alternativas: [
-    "A) Não existe vacinação para a doença, sendo o controle feito exclusivamente por sacrifício.",
-    "B) Apresenta lesões em vesículas e erosões nas mucosas do aparelho digestivo, espaço interdigital e rodete coronário de bovinos e equinos.",
-    "C) Após notificação de caso positivo, a propriedade deve ser interditada, os animais testados e os positivos sacrificados para posterior liberação.",
-    "D) É uma doença de notificação facultativa, mais importante ao sul do país onde a vacinação é obrigatória.",
-    "E) O tratamento da doença é indicado para todos os animais e apenas os graves são eutanasiados."
+    "A) Não existe vacinação contra a doença, sendo o controle feito exclusivamente por meio de tratamento antimicrobiano.",
+    "B) A febre aftosa provoca lesões vesiculares em bovinos e equinos, sendo ambas as espécies igualmente suscetíveis.",
+    "C) Diante de suspeita de doença vesicular, deve ocorrer notificação imediata ao Serviço Veterinário Oficial, que realizará investigação, interdição e coleta de amostras, adotando as medidas sanitárias cabíveis.",
+    "D) É uma doença de notificação facultativa, cuja vigilância é realizada somente durante campanhas de vacinação.",
+    "E) O tratamento clínico dos animais é a principal estratégia de controle e erradicação da febre aftosa."
   ],
+
   resposta: "C",
-  comentario: "O documento indica a alternativa C como correta. A questão aborda medidas de controle sanitário após a confirmação de um foco."
+
+  comentario:
+    "A alternativa C está correta. A suspeita de doença vesicular deve ser comunicada imediatamente ao Serviço Veterinário Oficial. A investigação envolve avaliação clínica e epidemiológica, interdição da unidade quando indicada, coleta de amostras e realização de exames laboratoriais. As medidas de contenção e erradicação são definidas pelo serviço oficial."
 },
+
 {
   id: 202,
   categoria: "Virais",
   doencaId: "anemia-infecciosa-equina",
   doenca: "Anemia Infecciosa Equina",
-  pergunta: `Um equino adulto no Rio de Janeiro apresentou febre, prostração e perda de apetite. Diagnosticado positivo para Anemia Infecciosa Equina pelo teste de Coggins, o procedimento legal correto segundo o MAPA é:`,
+
+  pergunta: `Um equino adulto apresenta resultado positivo em exame laboratorial para Anemia Infecciosa Equina (AIE). Considerando as características da doença e as medidas gerais de controle sanitário, assinale a alternativa correta:`,
+
   alternativas: [
-    "A) Iniciar imediatamente tratamento antiviral durante 15 dias.",
-    "B) Manter animal isolado, repetir teste de Coggins e vacinar com vacina viva se positivo.",
-    "C) Iniciar tratamento antiviral e eutanásia se não responder.",
-    "D) Manter isolado por 30 dias e revacinar com vacina inativada.",
-    "E) Manter animal isolado, o proprietário pode requerer contraprova, repetir o teste de Coggins e, se positivo, proceder à eutanásia."
+    "A) A doença pode ser eliminada por meio de tratamento antiviral específico, dispensando medidas de isolamento.",
+    "B) A vacinação anual é a principal medida de prevenção e controle da AIE.",
+    "C) A doença é causada por uma bactéria do gênero Burkholderia e apresenta tratamento antimicrobiano específico.",
+    "D) A AIE é uma enfermidade viral que pode acometer equídeos de qualquer idade e sexo, não possuindo tratamento ou vacina eficaz para sua prevenção e controle.",
+    "E) A transmissão ocorre exclusivamente pela picada de mosquitos, não sendo necessária a adoção de medidas de biossegurança."
   ],
-  resposta: "E",
-  comentario: "A alternativa E está indicada como gabarito no documento original. A aplicação das medidas legais deve ser conferida conforme a regulamentação vigente."
+
+  resposta: "D",
+
+  comentario:
+    "A alternativa D está correta. A anemia infecciosa equina é causada por um lentivírus e pode acometer equinos, asininos e muares de qualquer idade e sexo. Não existe tratamento ou vacina eficaz. O controle depende de diagnóstico laboratorial, medidas de biossegurança, controle do trânsito e cumprimento das determinações do Serviço Veterinário Oficial."
 },
 {
   id: 203,
   categoria: "Virais",
   doencaId: "parvovirose",
   doenca: "Parvovirose Canina",
-  pergunta: `A parvovirose é uma doença gastrentérica altamente contagiosa que acomete cães em todo o mundo, principalmente filhotes de 2 a 6 meses. Com relação a esta enfermidade, é correto afirmar que:`,
+
+  pergunta: `A parvovirose é uma doença gastrentérica altamente contagiosa que acomete cães em todo o mundo, principalmente filhotes. Com relação a esta enfermidade, é correto afirmar que:`,
+
   alternativas: [
-    "A) A forma neurológica é a mais grave observada nos cães.",
-    "B) A profilaxia mais eficiente é a vacinação de filhotes a partir das 6 semanas de vida.",
-    "C) Apesar de gastrentérica, o cão acometido apresenta fezes com aspecto normal.",
-    "D) O vírus tem tropismo por qualquer tipo de célula.",
-    "E) Com apenas uma dose de vacina o filhote já estará totalmente protegido."
+    "A) A forma neurológica é a apresentação clínica mais comum e grave da parvovirose canina.",
+    "B) A vacinação dos filhotes, iniciada a partir de aproximadamente 6 a 8 semanas de idade e realizada conforme o esquema completo recomendado, é uma das principais medidas de prevenção.",
+    "C) Apesar de ser uma doença gastrentérica, os cães acometidos apresentam fezes com aspecto normal.",
+    "D) O vírus apresenta tropismo por qualquer tipo de célula, independentemente de sua atividade mitótica.",
+    "E) Uma única dose de vacina aplicada no filhote garante proteção completa e duradoura contra a doença."
   ],
+
   resposta: "B",
-  comentario: "O documento indica a alternativa B como correta. A vacinação de filhotes é uma das principais medidas de prevenção da parvovirose."
+
+  comentario:
+    "A alternativa B está correta. A vacinação é a principal medida de prevenção da parvovirose canina. O esquema deve incluir doses seriadas durante a fase de filhote, com a última dose aplicada em idade adequada para reduzir a interferência dos anticorpos maternos. Uma única dose não garante proteção completa."
 },
-{
-  id: 204,
-  categoria: "Geral",
-  doencaId: "geral",
-  doenca: "Conceitos Epidemiológicos",
-  pergunta: `Na compreensão de conceitos de saúde-doença abordados em sala de aula:
 
-Infestação: Invasão interna de um hospedeiro por organismos (vírus, bactérias, helmintos...)
-
-Infetividade: Capacidade do agente se instalar e se multiplicar em um certo hospedeiro
-
-Suscetibilidade: Condições de oposição oferecidas pelo hospedeiro
-
-Tropismo: Predileção de um agente por determinadas células ou tecidos de seu hospedeiro`,
-  alternativas: [
-    "Infestação: Falso.",
-    "Infetividade: Verdadeiro.",
-    "Suscetibilidade: Falso.",
-    "Tropismo: Verdadeiro."
-  ],
-  resposta: "F-V-F-V",
-  comentario: "O próprio documento apresenta a sequência: infestação falsa; infetividade verdadeira; suscetibilidade falsa; tropismo verdadeiro."
-},
 {
   id: 205,
   categoria: "Virais",
   doencaId: "anemia-infecciosa-equina",
   doenca: "Anemia Infecciosa Equina",
-  pergunta: `De acordo com o Plano Nacional de Sanidade Equina, assinale a alternativa correta:`,
+
+  pergunta: `De acordo com as características da Anemia Infecciosa Equina, assinale a alternativa correta:`,
+
   alternativas: [
-    "A) Para diagnóstico de AIE utiliza-se IFI oficial e animais positivos são tratados.",
-    "B) AIE está entre doenças passíveis de Defesa Sanitária, sendo obrigatório o tratamento.",
-    "C) AIE tem como agente etiológico a bactéria Burkholderia mallei.",
+    "A) Para diagnóstico da AIE utiliza-se imunofluorescência indireta como teste oficial, e os animais positivos devem receber tratamento antiviral.",
+    "B) A AIE é uma enfermidade bacteriana de tratamento obrigatório pelo Serviço Veterinário Oficial.",
+    "C) A AIE tem como agente etiológico a bactéria Burkholderia mallei.",
     "D) A anemia infecciosa equina é uma enfermidade viral contagiosa que pode infectar equídeos de qualquer idade e sexo.",
-    "E) É obrigatória a vacinação anual em todos os equinos da propriedade."
+    "E) É obrigatória a vacinação anual de todos os equinos da propriedade."
+  ],
+
+  resposta: "D",
+
+  comentario:
+    "A alternativa D está correta. A anemia infecciosa equina é causada por um lentivírus e pode acometer equinos, asininos e muares, independentemente da idade ou sexo. Burkholderia mallei é a bactéria causadora do mormo, não da AIE. Não existe vacina eficaz ou tratamento específico para a doença."
+},
+
+{
+  id: 206,
+  categoria: "Epidemiologia e Saúde Coletiva",
+  doencaId: "geral",
+  doenca: "Testes Diagnósticos",
+  pergunta: `Durante a investigação de uma enfermidade infecciosa em um rebanho bovino, um animal que apresentava sinais clínicos compatíveis foi submetido a um teste diagnóstico. O resultado foi positivo e, posteriormente, a confirmação por um método de referência demonstrou que o animal realmente estava infectado.
+
+Considerando a classificação dos resultados dos testes diagnósticos, assinale a alternativa correta:`,
+  alternativas: [
+    "A) O resultado é considerado falso positivo, pois o teste inicial não representa necessariamente a confirmação definitiva da enfermidade.",
+    "B) O resultado é considerado verdadeiro negativo, uma vez que houve confirmação por um segundo método diagnóstico.",
+    "C) O resultado é considerado verdadeiro positivo, pois o teste identificou corretamente um animal que realmente apresentava a enfermidade.",
+    "D) O resultado é considerado falso negativo, pois a confirmação foi realizada por outro método diagnóstico.",
+    "E) O resultado não pode ser classificado, pois a presença de sinais clínicos interfere na interpretação do teste."
+  ],
+  resposta: "C",
+  comentario: "O verdadeiro positivo corresponde à situação em que o teste apresenta resultado positivo em um indivíduo que realmente possui a enfermidade. A confirmação por um método de referência demonstra que o resultado inicial estava correto. A classificação depende da comparação entre o resultado do teste e a condição real do animal."
+},
+{
+  id: 207,
+  categoria: "Epidemiologia e Saúde Coletiva",
+  doencaId: "geral",
+  doenca: "Testes Diagnósticos",
+  pergunta: `Em um programa de vigilância sanitária, determinado teste é utilizado para identificar animais livres de uma enfermidade antes de sua movimentação entre propriedades. Um bovino apresenta resultado negativo no exame e, após investigação complementar, confirma-se que ele realmente não estava infectado.
+
+Com base nessa situação, assinale a alternativa que classifica corretamente o resultado obtido:`,
+  alternativas: [
+    "A) Falso negativo, pois o teste não identificou a presença do agente etiológico.",
+    "B) Verdadeiro negativo, pois o resultado negativo corresponde à ausência real da enfermidade.",
+    "C) Falso positivo, pois a ausência de sinais clínicos não comprova a ausência de infecção.",
+    "D) Verdadeiro positivo, pois o animal foi corretamente identificado como livre da enfermidade.",
+    "E) Resultado inconclusivo, pois testes negativos não permitem avaliar a condição sanitária do animal."
+  ],
+  resposta: "B",
+  comentario: "O verdadeiro negativo ocorre quando o teste apresenta resultado negativo em um indivíduo que realmente não possui a enfermidade. É importante compreender que um resultado negativo não é automaticamente um verdadeiro negativo: é necessário considerar a condição real do animal."
+},
+{
+  id: 208,
+  categoria: "Epidemiologia e Saúde Coletiva",
+  doencaId: "geral",
+  doenca: "Testes Diagnósticos",
+  pergunta: `Em uma propriedade com histórico de determinada doença infecciosa, vários animais foram submetidos a um teste sorológico. Um dos bovinos apresentou resultado positivo, mas a investigação complementar demonstrou que ele não estava infectado. Uma possível explicação para esse resultado seria a ocorrência de reação cruzada com anticorpos produzidos contra outro agente.
+
+Nesse contexto, como deve ser classificado o resultado do teste?`,
+  alternativas: [
+    "A) Verdadeiro positivo, pois a presença de anticorpos demonstra necessariamente infecção ativa.",
+    "B) Verdadeiro negativo, pois a investigação complementar descartou a enfermidade.",
+    "C) Falso negativo, pois o teste não conseguiu identificar corretamente a condição sanitária do animal.",
+    "D) Falso positivo, pois o teste indicou a presença da enfermidade em um animal que não estava infectado.",
+    "E) Resultado inconclusivo, pois reações cruzadas não interferem na interpretação dos testes sorológicos."
   ],
   resposta: "D",
-  comentario: "A anemia infecciosa equina é uma enfermidade viral contagiosa que pode acometer equídeos de qualquer idade e sexo."
+  comentario: "O falso positivo ocorre quando o teste apresenta resultado positivo em um indivíduo que não possui a condição investigada. Reações cruzadas podem comprometer a especificidade de determinados testes, levando à identificação incorreta de animais como positivos."
+},
+{
+  id: 209,
+  categoria: "Epidemiologia e Saúde Coletiva",
+  doencaId: "geral",
+  doenca: "Testes Diagnósticos",
+  pergunta: `Um cão apresenta sinais clínicos sugestivos de uma enfermidade transmitida por vetores. Entretanto, o teste diagnóstico realizado inicialmente apresenta resultado negativo. Diante da persistência da suspeita clínica, o médico-veterinário solicita novos exames, que confirmam a presença da infecção.
+
+Considerando a discordância entre o resultado inicial e a condição real do paciente, assinale a alternativa correta:`,
+  alternativas: [
+    "A) O primeiro resultado foi um falso negativo, situação que pode ocorrer quando o animal está infectado, mas o teste não consegue detectar a doença.",
+    "B) O primeiro resultado foi um falso positivo, pois o exame não identificou corretamente a presença da enfermidade.",
+    "C) O primeiro resultado foi um verdadeiro negativo, pois exames iniciais negativos devem ser considerados conclusivos.",
+    "D) O primeiro resultado foi um verdadeiro positivo, pois a suspeita clínica já indicava a presença da infecção.",
+    "E) O primeiro resultado não pode ser classificado, pois testes realizados em momentos diferentes não podem ser comparados."
+  ],
+  resposta: "A",
+  comentario: "O falso negativo ocorre quando o teste apresenta resultado negativo em um indivíduo que realmente está infectado. Entre as possíveis causas estão a realização do exame durante a janela diagnóstica, baixa carga do agente, quantidade insuficiente de material na amostra e limitações de sensibilidade do método."
+},
+{
+  id: 210,
+  categoria: "Epidemiologia e Saúde Coletiva",
+  doencaId: "geral",
+  doenca: "Testes Diagnósticos",
+  pergunta: `Durante uma aula de diagnóstico veterinário, foram apresentados quatro resultados possíveis da comparação entre um teste diagnóstico e a condição real de um animal.
+
+Analise as afirmativas:
+
+I. Um verdadeiro positivo ocorre quando o teste identifica corretamente um animal que apresenta a enfermidade.
+
+II. Um verdadeiro negativo ocorre quando o teste identifica corretamente um animal que não apresenta a enfermidade.
+
+III. Um falso positivo corresponde a um resultado negativo em um animal que realmente está infectado.
+
+IV. Um falso negativo pode ocorrer quando um animal infectado apresenta resultado negativo no teste diagnóstico.
+
+V. A ocorrência de falsos positivos e falsos negativos demonstra que os testes diagnósticos possuem limitações e devem ser interpretados considerando o contexto clínico e epidemiológico.
+
+Assinale a alternativa correta:`,
+  alternativas: [
+    "A) Apenas as afirmativas I, II e III estão corretas.",
+    "B) Apenas as afirmativas I, III e IV estão corretas.",
+    "C) Apenas as afirmativas II, III e V estão corretas.",
+    "D) Apenas as afirmativas I, II, IV e V estão corretas.",
+    "E) Todas as afirmativas estão corretas."
+  ],
+  resposta: "D",
+  comentario: "As afirmativas I, II, IV e V estão corretas. A afirmativa III está incorreta porque descreve o falso negativo. O falso positivo ocorre quando o teste apresenta resultado positivo em um indivíduo que não possui a enfermidade. A interpretação dos resultados deve considerar as limitações do método, a suspeita clínica e o contexto epidemiológico."
 },
 
 ];

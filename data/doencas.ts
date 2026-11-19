@@ -11247,6 +11247,7 @@ imagens: [
 
 
 
+
 {
   id: "haemoncose",
 
@@ -11281,25 +11282,489 @@ imagens: [
     "cabra",
     "caprino",
     "anemia",
-    "verme"
+    "verme",
+    "verme do barbeiro",
+    "abomaso",
+    "famacha"
   ],
 
   imagem: "/images/doencas/haemoncose.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  
+  imagens: [
+    {
+      src: "/images/doencas/haemoncose/01-haemonchus-adulto.jpg",
+      titulo: "Haemonchus contortus adulto",
+      categoria: "Agente etiológico",
+      descricao:
+        "Nematoide adulto de Haemonchus contortus, parasito hematófago que se instala principalmente no abomaso de ovinos e caprinos."
+    },
+    {
+      src: "/images/doencas/haemoncose/02-ciclo-biologico.jpg",
+      titulo: "Ciclo biológico",
+      categoria: "Ciclo biológico",
+      descricao:
+        "Representação do ciclo direto de Haemonchus contortus, com desenvolvimento das larvas no ambiente e infecção dos animais pela ingestão de larvas infectantes L3 presentes na pastagem."
+    },
+    {
+      src: "/images/doencas/haemoncose/03-parasitos-abomaso.jpg",
+      titulo: "Parasitos no abomaso",
+      categoria: "Localização do parasito",
+      descricao:
+        "Localização dos nematoides adultos na mucosa do abomaso, onde se alimentam de sangue e podem provocar lesões hemorrágicas."
+    },
+    {
+      src: "/images/doencas/haemoncose/04-anemia-famacha.jpg",
+      titulo: "Avaliação pelo método FAMACHA",
+      categoria: "Sinais clínicos e diagnóstico",
+      descricao:
+        "Avaliação da coloração da mucosa conjuntival para estimar o grau de anemia, uma das principais manifestações clínicas da haemoncose."
+    },
+    {
+      src: "/images/doencas/haemoncose/05-edema-submandibular.jpg",
+      titulo: "Edema submandibular",
+      categoria: "Sinais clínicos",
+      descricao:
+        "Edema na região submandibular, conhecido como papeira ou bottle jaw, associado à perda de proteínas e à anemia em casos de parasitismo intenso."
+    }
+  ],
 
-  referencias: [],
 
-  casosClinicos: [],
+  visaoGeral: {
+    introducao:
+      "A haemoncose é uma enfermidade parasitária causada pelo nematoide Haemonchus contortus, que acomete principalmente ovinos e caprinos. O parasito adulto se instala no abomaso e alimenta-se de sangue, provocando perda sanguínea contínua e anemia, que pode evoluir para quadros graves e até a morte. A doença apresenta grande importância na criação de pequenos ruminantes, especialmente em regiões de clima quente e úmido, onde as condições ambientais favorecem o desenvolvimento das formas infectantes nas pastagens.",
 
+    cards: [
+      {
+        titulo: "Destaques",
+        emoji: "⭐",
+        itens: [
+          "Importante causa de anemia em ovinos e caprinos",
+          "Agente hematófago localizado no abomaso",
+          "Transmissão pela ingestão de larvas infectantes nas pastagens",
+          "Pode provocar edema submandibular, conhecido como papada d'água",
+          "Infecções intensas podem causar morte súbita"
+        ]
+      },
+      {
+        titulo: "Características",
+        emoji: "🪱",
+        itens: [
+          "Agente etiológico: Haemonchus contortus",
+          "Nematoide da família Trichostrongylidae",
+          "Localização dos adultos: abomaso",
+          "Fêmeas apresentam elevada capacidade de produção de ovos",
+          "Parasito hematófago em seus estágios parasitários"
+        ]
+      },
+      {
+        titulo: "Informações relevantes",
+        emoji: "💡",
+        itens: [
+          "A anemia é a principal alteração clínica",
+          "O sistema FAMACHA auxilia na identificação de animais anêmicos",
+          "A contagem de ovos por grama de fezes auxilia no monitoramento da infecção",
+          "Os ovos são morfologicamente semelhantes aos de outros estrongilídeos",
+          "A resistência aos anti-helmínticos representa um desafio importante para o controle"
+        ]
+      }
+    ]
+  },
+
+  etiologia: {
+    introducao:
+      "A haemoncose é causada por Haemonchus contortus, um nematoide gastrointestinal hematófago pertencente à família Trichostrongylidae. Os parasitos adultos habitam o abomaso dos hospedeiros, onde se alimentam de sangue. Apresentam ciclo biológico direto, sem necessidade de hospedeiro intermediário, e possuem elevada capacidade reprodutiva, contribuindo para a contaminação das pastagens.",
+
+    listas: [
+      {
+        titulo: "Classificação taxonômica",
+        emoji: "🔬",
+        itens: [
+          "Reino: Animalia",
+          "Filo: Nematoda",
+          "Classe: Chromadorea",
+          "Ordem: Strongylida",
+          "Família: Trichostrongylidae",
+          "Gênero: Haemonchus",
+          "Espécie: Haemonchus contortus"
+        ]
+      },
+      {
+        titulo: "Características do agente",
+        emoji: "🪱",
+        itens: [
+          "Nematoide de corpo cilíndrico e alongado",
+          "Parasito hematófago do abomaso",
+          "Apresenta dimorfismo sexual",
+          "As fêmeas possuem elevada capacidade de produção de ovos",
+          "A fêmea adulta apresenta aparência avermelhada e esbranquiçada em padrão semelhante a um poste de barbeiro, devido à disposição do trato digestório com sangue ao redor do aparelho reprodutor"
+        ]
+      },
+      {
+        titulo: "Formas evolutivas",
+        emoji: "🧬",
+        itens: [
+          "Ovos: eliminados nas fezes do hospedeiro",
+          "L1: larva rabditoide que se desenvolve no ambiente",
+          "L2: segundo estágio larval de vida livre",
+          "L3: larva infectante, que permanece na pastagem e é ingerida pelo hospedeiro",
+          "L4 e L5: estágios de desenvolvimento no hospedeiro",
+          "Adultos: formas sexuadas que habitam o abomaso"
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Ciclo biológico",
+        emoji: "🔄",
+        itens: [
+          "Os ovos são eliminados nas fezes dos animais parasitados",
+          "No ambiente, os ovos eclodem e liberam larvas L1",
+          "As larvas passam pelos estágios L1 e L2 até atingirem o estágio L3",
+          "As larvas L3 infectantes migram para a vegetação",
+          "Os animais ingerem as larvas durante o pastejo",
+          "Após a ingestão, as larvas desenvolvem-se no abomaso até atingirem a fase adulta",
+          "Os parasitos adultos realizam a postura de ovos, que são eliminados nas fezes e reiniciam o ciclo"
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A haemoncose apresenta distribuição mundial e possui maior importância em regiões tropicais e subtropicais, especialmente em ambientes quentes e úmidos. A temperatura e a umidade influenciam diretamente o desenvolvimento e a sobrevivência das formas de vida livre nas pastagens. A intensidade da infecção também depende da idade, da condição nutricional, da resposta imunológica e do nível de exposição dos animais às larvas infectantes.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "Haemonchus contortus apresenta ampla distribuição geográfica, sendo especialmente favorecido por regiões de clima quente e úmido. Condições ambientais favoráveis permitem o desenvolvimento das larvas nas pastagens e contribuem para a manutenção da transmissão."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Hospedeiros suscetíveis",
+        texto:
+          "Ovinos e caprinos são os principais hospedeiros de importância veterinária. Animais jovens e indivíduos com menor capacidade de resposta imunológica podem apresentar maior susceptibilidade aos efeitos da infecção."
+      },
+      {
+        emoji: "🌱",
+        titulo: "Ambiente e pastagens",
+        texto:
+          "A umidade e a temperatura influenciam o desenvolvimento dos ovos e das larvas no ambiente. Pastagens contaminadas por fezes de animais parasitados representam importante fonte de infecção para os rebanhos."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Transmissão",
+        texto:
+          "A transmissão ocorre pela ingestão de larvas infectantes de terceiro estágio (L3) presentes na vegetação durante o pastejo. O ciclo é direto e não envolve hospedeiro intermediário."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Fatores de risco",
+        texto:
+          "A elevada contaminação das pastagens, a exposição contínua às larvas infectantes, a deficiência nutricional e a baixa imunidade podem favorecer o desenvolvimento de infecções intensas. O período próximo ao parto e o início da lactação também podem estar associados ao aumento da eliminação de ovos por fêmeas adultas."
+      },
+      {
+        emoji: "🐐",
+        titulo: "Importância na produção animal",
+        texto:
+          "A doença pode provocar anemia, perda de peso, redução do desempenho produtivo e mortalidade. As consequências econômicas incluem prejuízos relacionados à diminuição da produção de carne, leite e lã, além dos custos com tratamento e manejo sanitário."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia da haemoncose está diretamente relacionada à atividade hematófaga das larvas em desenvolvimento e dos parasitos adultos no abomaso. A ingestão contínua de sangue provoca perda sanguínea, redução da concentração de hemoglobina e desenvolvimento de anemia. Em infecções intensas, a perda de proteínas plasmáticas também contribui para o aparecimento de edema e alterações sistêmicas.",
+
+    blocos: [
+      {
+        emoji: "🌱",
+        titulo: "Infecção do hospedeiro",
+        texto:
+          "A infecção ocorre quando ovinos ou caprinos ingerem larvas L3 presentes na vegetação. Após a ingestão, as larvas chegam ao trato gastrointestinal e se estabelecem no abomaso, onde continuam seu desenvolvimento."
+      },
+      {
+        emoji: "🪱",
+        titulo: "Desenvolvimento no abomaso",
+        texto:
+          "As larvas passam por estágios de desenvolvimento até atingirem a fase adulta. Tanto os estágios larvais parasitários quanto os adultos apresentam atividade hematófaga, causando perda sanguínea no hospedeiro."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Perda sanguínea e anemia",
+        texto:
+          "A alimentação dos parasitos provoca perda contínua de sangue. Quando a intensidade da infecção supera a capacidade de reposição do organismo, ocorre redução dos níveis de hemoglobina e do volume globular, resultando em anemia que pode ser progressiva e grave."
+      },
+      {
+        emoji: "💧",
+        titulo: "Hipoproteinemia e edema",
+        texto:
+          "A perda de proteínas plasmáticas pode provocar hipoproteinemia e redução da pressão oncótica do sangue. Como consequência, pode ocorrer acúmulo de líquido nos tecidos, especialmente na região submandibular, caracterizando a chamada papada d'água."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Comprometimento sistêmico",
+        texto:
+          "A anemia compromete o transporte de oxigênio para os tecidos, podendo provocar fraqueza, redução da capacidade física, perda de condição corporal e queda do desempenho produtivo. Nos casos de infecção intensa, a perda sanguínea pode levar à morte."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas da haemoncose variam de acordo com a intensidade da infecção, a capacidade de resposta do hospedeiro e o tempo de evolução da doença. A anemia é o principal achado clínico, podendo estar acompanhada de edema submandibular, fraqueza e perda progressiva de peso. Em infecções muito intensas, a evolução pode ser rápida e ocorrer morte antes da observação de sinais clínicos evidentes.",
+
+    blocos: [
+      {
+        emoji: "🩸",
+        titulo: "Sinais associados à anemia",
+        itens: [
+          "Mucosas pálidas",
+          "Fraqueza",
+          "Letargia",
+          "Redução da capacidade física",
+          "Taquicardia em quadros mais intensos",
+          "Taquipneia associada à anemia grave"
+        ]
+      },
+      {
+        emoji: "💧",
+        titulo: "Alterações relacionadas à perda proteica",
+        itens: [
+          "Edema submandibular",
+          "Hipoproteinemia",
+          "Edema generalizado em casos graves"
+        ]
+      },
+      {
+        emoji: "📉",
+        titulo: "Alterações produtivas e nutricionais",
+        itens: [
+          "Redução do apetite",
+          "Perda progressiva de peso",
+          "Diminuição do ganho de peso",
+          "Redução da condição corporal",
+          "Queda da produção de leite, carne e lã"
+        ]
+      },
+      {
+        emoji: "🚨",
+        titulo: "Quadros graves",
+        itens: [
+          "Anemia intensa",
+          "Fraqueza acentuada",
+          "Decúbito",
+          "Morte súbita ou evolução rápida para óbito"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico da haemoncose deve considerar o histórico epidemiológico, os sinais clínicos e os exames laboratoriais. A identificação de anemia em animais mantidos em pastagens, especialmente em regiões favoráveis ao desenvolvimento do parasito, é um importante indicativo. A contagem de ovos por grama de fezes (OPG), a coprocultura e a avaliação hematológica auxiliam na investigação. Entretanto, os ovos de Haemonchus contortus são semelhantes aos de outros nematoides da superfamília Trichostrongyloidea, sendo necessária investigação complementar para identificação do gênero ou da espécie.",
+
+    metodos: [
+      "avaliacao-clinica",
+      "hemograma",
+      "opg",
+      "famacha",
+      "coprocultura"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento da haemoncose deve considerar a gravidade da infecção, a condição clínica dos animais e a eficácia dos anti-helmínticos utilizados na propriedade. A resistência parasitária aos medicamentos é um problema importante na criação de pequenos ruminantes, tornando inadequado o uso indiscriminado de vermífugos. A escolha do princípio ativo deve ser orientada por avaliação veterinária e, sempre que possível, por testes de eficácia anti-helmíntica.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Tratamento anti-helmíntico",
+        texto:
+          "O controle medicamentoso pode envolver anti-helmínticos de diferentes grupos farmacológicos, como benzimidazóis, imidazotiazóis e lactonas macrocíclicas. A escolha deve considerar a eficácia comprovada na propriedade, a espécie animal, a condição clínica e as orientações do médico-veterinário. Não se deve presumir que determinado princípio ativo seja eficaz sem considerar a possibilidade de resistência."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Tratamento de suporte",
+        texto:
+          "Animais com anemia intensa e comprometimento sistêmico podem necessitar de suporte clínico individualizado. A abordagem pode incluir cuidados nutricionais, hidratação e avaliação da necessidade de intervenções adicionais conforme a gravidade do quadro."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Tratamento seletivo",
+        texto:
+          "O tratamento seletivo direcionado aos animais que apresentam sinais de anemia ou comprometimento clínico permite reduzir o uso desnecessário de anti-helmínticos. Essa estratégia contribui para preservar populações de parasitos suscetíveis no ambiente e retardar a seleção de resistência."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Avaliação da eficácia terapêutica",
+        texto:
+          "O teste de redução da contagem de ovos por grama de fezes (TRCOF) permite avaliar a eficácia dos anti-helmínticos utilizados no rebanho. O monitoramento é importante para identificar possíveis falhas terapêuticas e investigar a ocorrência de resistência anti-helmíntica."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da haemoncose depende da integração entre manejo das pastagens, monitoramento parasitológico, nutrição adequada e uso racional de anti-helmínticos. O objetivo é reduzir a exposição dos animais às larvas infectantes e controlar a carga parasitária sem favorecer a seleção de populações resistentes.",
+
+    blocos: [
+      {
+        emoji: "🌱",
+        titulo: "Manejo das pastagens",
+        texto:
+          "O manejo adequado das pastagens contribui para reduzir a exposição dos animais às larvas infectantes. A lotação, o período de ocupação e descanso das áreas devem ser planejados considerando as condições climáticas e a dinâmica de sobrevivência das larvas no ambiente."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Monitoramento pelo sistema FAMACHA",
+        texto:
+          "A avaliação periódica da coloração da mucosa conjuntival auxilia na identificação de animais com anemia. O sistema FAMACHA é uma ferramenta de apoio ao tratamento seletivo, mas não substitui a avaliação clínica e os exames laboratoriais."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Monitoramento parasitológico",
+        texto:
+          "A realização periódica da contagem de ovos por grama de fezes e de testes de eficácia dos anti-helmínticos permite acompanhar a dinâmica da infecção e orientar as estratégias de controle."
+      },
+      {
+        emoji: "💊",
+        titulo: "Uso racional de anti-helmínticos",
+        texto:
+          "Os tratamentos devem ser realizados de maneira criteriosa, evitando vermifugações indiscriminadas e repetidas sem avaliação da necessidade. A escolha dos medicamentos deve considerar a eficácia dos princípios ativos na propriedade e a orientação veterinária."
+      },
+      {
+        emoji: "🥬",
+        titulo: "Nutrição e condição corporal",
+        texto:
+          "O fornecimento de alimentação adequada contribui para a manutenção da condição corporal e da capacidade de resposta dos animais à infecção. O acompanhamento nutricional é especialmente importante para animais jovens, gestantes e lactantes."
+      },
+      {
+        emoji: "🐐",
+        titulo: "Manejo sanitário do rebanho",
+        texto:
+          "A observação frequente dos animais permite identificar precocemente mucosas pálidas, edema submandibular e perda de condição corporal. Animais que apresentam sinais clínicos devem ser avaliados individualmente e receber acompanhamento adequado."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo:
+        "A Review: Haemonchus contortus Infection in Pasture-Based Sheep Production Systems, with a Focus on the Pathogenesis of Anaemia and Changes in Haematological Parameters",
+
+      autores:
+        "Flay, K. J.; Hill, F. I.; Hernandez Muguiro, D.",
+
+      fonte:
+        "Animals, v. 12, n. 10, artigo 1238",
+
+      ano: "2022",
+
+      link:
+        "https://doi.org/10.3390/ani12101238"
+    },
+    {
+      titulo:
+        "Diagnosis, Treatment and Management of Haemonchus contortus in Small Ruminants",
+
+      autores:
+        "Besier, R. B.; Kahn, L. P.; Sargison, N. D.; Van Wyk, J. A.",
+
+      fonte:
+        "Advances in Parasitology, v. 93, p. 181–238",
+
+      ano: "2016",
+
+      link:
+        "https://doi.org/10.1016/bs.apar.2016.02.024"
+    },
+    {
+      titulo:
+        "Parasitas gastrointestinais comuns em ruminantes de pequeno porte",
+
+      autores:
+        "Merck Veterinary Manual",
+
+      fonte:
+        "Merck Veterinary Manual",
+
+      ano: "2024",
+
+      link:
+        "https://www.msdvetmanual.com/pt/digestive-system/parasitas-gastrointestinais-em-ruminantes/parasitas-gastrointestinais-comuns-em-ruminantes-de-pequeno-porte"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "haemoncose-caso-01",
+
+      titulo:
+        "Anemia e edema submandibular em ovinos mantidos a pasto",
+
+      especie: "Ovina",
+
+      idade: "Animais adultos",
+
+      historico:
+        "Em uma propriedade de criação de ovinos, alguns animais apresentam perda progressiva de peso, redução do desempenho e mucosas pálidas. O produtor relata que o rebanho permanece em pastagens durante todo o ano e que as vermifugações são realizadas sem avaliação prévia da carga parasitária.",
+
+      sinais: [
+        "Mucosas conjuntivais pálidas",
+        "Fraqueza",
+        "Perda de peso",
+        "Edema submandibular",
+        "Redução da condição corporal"
+      ],
+
+      exames:
+        "A avaliação clínica identificou anemia e edema submandibular. A contagem de ovos por grama de fezes apresentou elevada eliminação de ovos do tipo estrongilídeo. A coprocultura demonstrou predominância de larvas compatíveis com Haemonchus spp. O hemograma evidenciou redução do volume globular e da concentração de hemoglobina.",
+
+      diagnostico:
+        "Haemoncose causada por Haemonchus contortus.",
+
+      discussao:
+        "A presença de anemia, edema submandibular e histórico de exposição contínua às pastagens é compatível com haemoncose. A atividade hematófaga de Haemonchus contortus explica a perda sanguínea e as alterações observadas. A identificação do parasito deve considerar a necessidade de diferenciação em relação a outros nematoides estrongilídeos, e o tratamento deve ser orientado pela avaliação da eficácia dos anti-helmínticos utilizados na propriedade."
+    },
+    {
+      id: "haemoncose-caso-02",
+
+      titulo:
+        "Morte súbita associada à infecção intensa por Haemonchus contortus",
+
+      especie: "Caprina",
+
+      idade: "Jovem",
+
+      historico:
+        "Em uma criação de caprinos localizada em região de clima quente e úmido, um animal jovem foi encontrado morto após período de permanência em pastagem compartilhada com outros animais. O responsável relata que outros caprinos apresentam fraqueza e redução do apetite.",
+
+      sinais: [
+        "Fraqueza intensa nos animais do rebanho",
+        "Redução do apetite",
+        "Mucosas pálidas em animais examinados",
+        "Perda de condição corporal",
+        "Morte súbita do animal acometido"
+      ],
+
+      exames:
+        "Na avaliação post-mortem, foram observados numerosos nematoides adultos no abomaso, com mucosa pálida e alterações compatíveis com perda sanguínea. A identificação morfológica dos parasitos foi compatível com Haemonchus contortus.",
+
+      diagnostico:
+        "Haemoncose aguda associada à infecção intensa por Haemonchus contortus.",
+
+      discussao:
+        "Infecções intensas por Haemonchus contortus podem apresentar evolução rápida e provocar anemia grave, podendo ocorrer morte antes que os sinais clínicos sejam claramente percebidos. A identificação de numerosos parasitos no abomaso durante o exame post-mortem auxilia na confirmação diagnóstica. A ocorrência de outros animais com sinais semelhantes exige investigação do rebanho e revisão das estratégias de controle parasitário."
+    }
+  ]
 },
+
+
 
 
 
@@ -11332,29 +11797,440 @@ imagens: [
   palavrasChave: [
     "monieziose",
     "moniezia",
+    "moniezia expansa",
+    "moniezia benedeni",
+    "cestódeo",
+    "cestódeos",
     "tenia",
     "tênia",
+    "proglotes",
+    "proglótides",
+    "ácaro oribatídeo",
     "ovelha",
     "ovino",
     "cabra",
-    "caprino"
+    "caprino",
+    "intestino delgado",
+    "verminose"
   ],
 
   imagem: "/images/doencas/monieziose.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/monieziose/01-moniezia-adulta.jpg",
+      titulo: "Moniezia adulta",
+      categoria: "Agente etiológico",
+      descricao:
+        "Cestódeo adulto do gênero Moniezia, caracterizado pelo corpo achatado, alongado e segmentado, semelhante a uma fita, que parasita o intestino delgado dos ruminantes."
+    },
+    {
+      src: "/images/doencas/monieziose/02-ciclo-biologico.jpg",
+      titulo: "Ciclo biológico",
+      categoria: "Ciclo biológico",
+      descricao:
+        "Representação do ciclo indireto de Moniezia spp., que envolve ácaros oribatídeos como hospedeiros intermediários. Os ruminantes se infectam ao ingerir ácaros contendo cisticercoides durante o pastejo."
+    },
+    {
+      src: "/images/doencas/monieziose/03-proglotes-fezes.jpg",
+      titulo: "Proglótides nas fezes",
+      categoria: "Sinais e diagnóstico",
+      descricao:
+        "Segmentos do corpo do cestódeo eliminados nas fezes, podendo ser observados macroscopicamente e auxiliar na identificação da infecção."
+    },
+    {
+      src: "/images/doencas/monieziose/04-ovos-microscopia.jpg",
+      titulo: "Ovos de Moniezia",
+      categoria: "Diagnóstico",
+      descricao:
+        "Ovos de Moniezia observados ao microscópio. A morfologia dos ovos pode auxiliar na diferenciação entre espécies, como Moniezia expansa e Moniezia benedeni."
+    },
+    {
+      src: "/images/doencas/monieziose/05-parasito-intestino.jpg",
+      titulo: "Localização no intestino delgado",
+      categoria: "Localização do parasito",
+      descricao:
+        "Representação da localização dos cestódeos adultos no intestino delgado dos ruminantes, onde permanecem aderidos à mucosa por meio do escólex."
+    }
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A monieziose é uma enfermidade parasitária causada por cestódeos do gênero Moniezia, que acometem principalmente o intestino delgado de ruminantes, especialmente ovinos e caprinos jovens. A infecção ocorre pela ingestão de ácaros oribatídeos infectados presentes na pastagem. Na maioria dos animais, apresenta baixa patogenicidade e pode permanecer assintomática. Entretanto, infecções intensas em animais jovens podem provocar alterações digestivas, comprometimento do desenvolvimento e, ocasionalmente, obstrução intestinal.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Destaques",
+        emoji: "⭐",
+        itens: [
+          "Enfermidade parasitária causada por cestódeos do gênero Moniezia",
+          "Acomete principalmente ovinos e caprinos jovens",
+          "Parasitos adultos localizam-se no intestino delgado",
+          "Transmissão indireta por ingestão de ácaros oribatídeos infectados",
+          "Infecções geralmente apresentam baixa patogenicidade"
+        ]
+      },
+      {
+        titulo: "Características",
+        emoji: "🪱",
+        itens: [
+          "Agente etiológico: Moniezia spp.",
+          "Cestódeo de corpo achatado e segmentado",
+          "Possui ciclo biológico indireto",
+          "Moniezia expansa é frequentemente encontrada em ovinos",
+          "Moniezia benedeni está associada principalmente aos bovinos"
+        ]
+      },
+      {
+        titulo: "Informações relevantes",
+        emoji: "💡",
+        itens: [
+          "A presença de proglótides nas fezes pode auxiliar na identificação da infecção",
+          "Animais jovens são mais suscetíveis a cargas parasitárias elevadas",
+          "A identificação dos ovos pode ser realizada por exame coproparasitológico",
+          "A infecção não é considerada zoonótica",
+          "A presença do parasito nem sempre representa doença clínica"
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A monieziose é causada por cestódeos do gênero Moniezia, pertencentes à família Anoplocephalidae. São parasitos achatados, segmentados e hermafroditas, que habitam o intestino delgado dos ruminantes. Apresentam ciclo biológico indireto, necessitando de ácaros oribatídeos como hospedeiros intermediários para completar seu desenvolvimento.",
+
+    listas: [
+      {
+        titulo: "Classificação taxonômica",
+        emoji: "🔬",
+        itens: [
+          "Filo: Platyhelminthes",
+          "Classe: Cestoda",
+          "Ordem: Cyclophyllidea",
+          "Família: Anoplocephalidae",
+          "Gênero: Moniezia"
+        ]
+      },
+      {
+        titulo: "Principais espécies",
+        emoji: "🪱",
+        itens: [
+          "Moniezia expansa: frequentemente encontrada em ovinos e também descrita em caprinos",
+          "Moniezia benedeni: associada principalmente aos bovinos",
+          "Moniezia caprae: também descrita em pequenos ruminantes"
+        ]
+      },
+      {
+        titulo: "Características morfológicas",
+        emoji: "🧬",
+        itens: [
+          "Corpo achatado dorsoventralmente e dividido em proglótides",
+          "Escólex com quatro ventosas utilizadas para fixação no intestino",
+          "Ausência de ganchos no escólex",
+          "Proglótides geralmente mais largas do que compridas",
+          "Cada proglótide apresenta estruturas reprodutivas masculinas e femininas"
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Ciclo biológico",
+        emoji: "🔄",
+        itens: [
+          "Os cestódeos adultos vivem no intestino delgado dos ruminantes.",
+          "Proglótides grávidas contendo ovos são eliminadas nas fezes.",
+          "Os ovos são ingeridos por ácaros oribatídeos presentes no solo e na vegetação.",
+          "No interior dos ácaros, ocorre o desenvolvimento da forma larval denominada cisticercoide.",
+          "Os ruminantes ingerem os ácaros infectados durante o pastejo.",
+          "Os cisticercoides são liberados no trato digestório, desenvolvem-se e originam cestódeos adultos no intestino delgado."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A monieziose apresenta distribuição ampla, acompanhando a presença de ruminantes e de ácaros oribatídeos, seus hospedeiros intermediários. A infecção está relacionada ao sistema de criação a pasto, sendo mais frequentemente observada em animais jovens.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "Espécies do gênero Moniezia apresentam distribuição em diferentes regiões do mundo onde existem condições ambientais favoráveis à manutenção dos ácaros oribatídeos e dos hospedeiros ruminantes."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Faixa etária de maior ocorrência",
+        texto:
+          "Animais jovens, especialmente cordeiros e cabritos, apresentam maior probabilidade de desenvolver cargas parasitárias elevadas. Animais adultos tendem a apresentar maior resistência adquirida à infecção."
+      },
+      {
+        emoji: "🌱",
+        titulo: "Fatores ambientais",
+        texto:
+          "A presença de ácaros oribatídeos no solo e na vegetação é fundamental para a manutenção do ciclo. Condições de pastagem, umidade, temperatura e características do solo influenciam a disponibilidade desses hospedeiros intermediários."
+      },
+      {
+        emoji: "🐐",
+        titulo: "Sistemas de criação",
+        texto:
+          "A exposição ocorre principalmente em animais criados a pasto, durante a ingestão acidental de ácaros infectados presentes na vegetação."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "Após a ingestão de ácaros oribatídeos infectados, os cisticercoides são liberados no intestino delgado, onde se desenvolvem em cestódeos adultos. A ação do parasito geralmente apresenta baixa repercussão clínica. Entretanto, cargas parasitárias elevadas podem provocar alterações mecânicas e irritativas no trato intestinal, especialmente em animais jovens.",
+
+    blocos: [
+      {
+        emoji: "🪱",
+        titulo: "Fixação intestinal",
+        texto:
+          "Os cestódeos adultos utilizam as quatro ventosas presentes no escólex para se fixar à mucosa do intestino delgado. Essa localização permite a permanência do parasito no hospedeiro."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Alterações intestinais",
+        texto:
+          "Em infecções intensas, a presença de grande quantidade de parasitos pode provocar irritação intestinal e alterações no funcionamento do trato digestório."
+      },
+      {
+        emoji: "🚧",
+        titulo: "Obstrução intestinal",
+        texto:
+          "Em situações de elevada carga parasitária, pode ocorrer obstrução do lúmen intestinal pela concentração de cestódeos, embora essa complicação seja incomum."
+      },
+      {
+        emoji: "📉",
+        titulo: "Comprometimento do desenvolvimento",
+        texto:
+          "Animais jovens com infecções intensas podem apresentar redução do desempenho produtivo, dificuldade de crescimento e piora da condição corporal."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "A maioria das infecções por Moniezia spp. apresenta evolução assintomática ou manifestações discretas. Quando presentes, os sinais clínicos são mais frequentes em animais jovens e estão associados principalmente a cargas parasitárias elevadas.",
+
+    blocos: [
+      {
+        emoji: "🐑",
+        titulo: "Manifestações digestivas",
+        itens: [
+          "Diarreia leve ou alterações na consistência das fezes",
+          "Constipação em alguns casos",
+          "Distensão abdominal",
+          "Desconforto abdominal"
+        ]
+      },
+      {
+        emoji: "📉",
+        titulo: "Alterações no desenvolvimento",
+        itens: [
+          "Atraso no crescimento",
+          "Baixo ganho de peso",
+          "Piora da condição corporal",
+          "Pelagem áspera ou sem brilho"
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Complicações em infecções intensas",
+        itens: [
+          "Obstrução intestinal, embora incomum",
+          "Comprometimento do estado nutricional",
+          "Possível anemia em animais com infecções intensas ou parasitismo concomitante"
+        ]
+      },
+      {
+        emoji: "👁️",
+        titulo: "Achados observáveis",
+        itens: [
+          "Presença de proglótides nas fezes",
+          "Segmentos do parasito aderidos à região perianal",
+          "Eliminação de segmentos esbranquiçados e achatados"
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico da monieziose é realizado por meio da identificação de proglótides ou ovos do parasito nas fezes. A avaliação coproparasitológica auxilia na confirmação da infecção, enquanto a identificação morfológica dos ovos e dos segmentos permite direcionar a identificação da espécie.",
+
+    metodos: [
+      "opg",
+      "microscopia",
+      "avaliacao-clinica",
+      "necropsia"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento deve ser avaliado individualmente, considerando a idade do animal, a intensidade da infecção, a presença de manifestações clínicas e a possibilidade de parasitismo concomitante por outros helmintos. Como muitas infecções são assintomáticas e apresentam baixa patogenicidade, nem todo animal positivo necessita de tratamento específico.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Tratamento anti-helmíntico",
+        texto:
+          "Quando indicado pelo médico-veterinário, podem ser utilizados fármacos com atividade cestocida, como alguns benzimidazóis. A escolha do princípio ativo deve considerar a espécie animal, a indicação de bula, a legislação aplicável e a eficácia esperada contra Moniezia spp."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Avaliação de parasitismo concomitante",
+        texto:
+          "É importante investigar a presença de outros parasitos gastrointestinais, especialmente nematódeos e protozoários, pois os sinais clínicos podem estar relacionados a infecções mistas."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Suporte clínico",
+        texto:
+          "Animais que apresentam comprometimento nutricional ou alterações digestivas devem receber avaliação clínica e suporte de acordo com suas necessidades individuais."
+      },
+      {
+        emoji: "📋",
+        titulo: "Acompanhamento",
+        texto:
+          "A resposta ao tratamento deve ser acompanhada por avaliação clínica e exames coproparasitológicos, quando indicados, para verificar a persistência da infecção."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "O controle da monieziose é dificultado pela presença dos ácaros oribatídeos no ambiente, que atuam como hospedeiros intermediários. As medidas preventivas devem priorizar o manejo sanitário, o monitoramento dos animais e a redução de fatores que favoreçam a exposição.",
+
+    blocos: [
+      {
+        emoji: "🌱",
+        titulo: "Manejo das pastagens",
+        texto:
+          "Adotar práticas adequadas de manejo das pastagens e evitar condições que favoreçam a concentração de animais em áreas contaminadas. A rotação de pastagens pode integrar o manejo sanitário, embora não elimine isoladamente o risco de infecção."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Monitoramento parasitológico",
+        texto:
+          "Realizar exames coproparasitológicos em animais jovens e em indivíduos com sinais clínicos ou desempenho abaixo do esperado, permitindo identificar a presença de ovos e proglótides."
+      },
+      {
+        emoji: "🐐",
+        titulo: "Atenção aos animais jovens",
+        texto:
+          "Acompanhar o desenvolvimento de cordeiros e cabritos, observando ganho de peso, condição corporal e possíveis alterações digestivas."
+      },
+      {
+        emoji: "💊",
+        titulo: "Uso racional de antiparasitários",
+        texto:
+          "Evitar tratamentos indiscriminados. A utilização de antiparasitários deve ser baseada em avaliação veterinária, identificação dos parasitos envolvidos e escolha adequada do medicamento."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Cestódeos",
+      autores:
+        "Alves, F. S. F.; Pinheiro, R. R.; Vieira, L. S.; Pinheiro, A. A.; Cavalcante, A. C. R.",
+      fonte: "Embrapa - Agência de Informação Tecnológica",
+      ano: "2021",
+      link:
+        "https://www.embrapa.br/en/web/agencia-de-informacao-tecnologica/criacoes/ovinos-de-corte/producao/sanidade/doencas-parasitarias/etiologia/cestodeos"
+    },
+    {
+      titulo:
+        "Parasitas gastrointestinais comuns em ruminantes de pequeno porte",
+      autores: "VanHoy, G.",
+      fonte: "Manual MSD de Veterinária",
+      ano: "2024",
+      link:
+        "https://www.msdvetmanual.com/pt/digestive-system/parasitas-gastrointestinais-em-ruminantes/parasitas-gastrointestinais-comuns-em-ruminantes-de-pequeno-porte"
+    },
+    {
+      titulo: "Moniezia and Thysanosoma",
+      autores: "Western College of Veterinary Medicine",
+      fonte: "University of Saskatchewan - Learn About Parasites",
+      ano: "2020",
+      link:
+        "https://wcvm.usask.ca/learnaboutparasites/parasites/moniezia-and-thysanosoma.php"
+    },
+    {
+      titulo:
+        "Educational Tips for Farmers: Tapeworms (Moniezia expansa) in Sheep and Goats",
+      autores:
+        "Callender, E.; Rios, L.; Pesato, M.",
+      fonte: "Mississippi State University Extension Service",
+      ano: "2025",
+      link:
+        "https://accessibility.extension.msstate.edu/publications/educational-tips-for-farmers-tapeworms-moniezia-expansa-sheep-and-goats"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "monieziose-01",
+
+      titulo: "Infecção por Moniezia em cordeiro jovem",
+
+      especie: "Ovino",
+
+      idade: "4 meses",
+
+      historico:
+        "Cordeiro criado em sistema extensivo, com acesso frequente à pastagem. O responsável relata baixo ganho de peso e observação de segmentos esbranquiçados nas fezes.",
+
+      sinais: [
+        "Atraso no crescimento",
+        "Condição corporal abaixo do esperado",
+        "Pelagem áspera",
+        "Presença de proglótides nas fezes"
+      ],
+
+      exames:
+        "Exame coproparasitológico com identificação de ovos compatíveis com Moniezia spp. e observação macroscópica de proglótides nas fezes.",
+
+      diagnostico:
+        "Monieziose por Moniezia spp.",
+
+      discussao:
+        "A idade do animal, o histórico de criação a pasto e a identificação de proglótides e ovos nas fezes são compatíveis com monieziose. A infecção pode contribuir para alterações no desenvolvimento quando há carga parasitária elevada. É importante investigar possíveis infecções concomitantes por outros parasitos gastrointestinais."
+    },
+    {
+      id: "monieziose-02",
+
+      titulo: "Identificação de Moniezia em caprino",
+
+      especie: "Caprino",
+
+      idade: "6 meses",
+
+      historico:
+        "Cabrito mantido em sistema semi-intensivo, com acesso a piquetes. Durante a avaliação das fezes, foram observados segmentos esbranquiçados, achatados e semelhantes a pequenas fitas.",
+
+      sinais: [
+        "Presença de proglótides nas fezes",
+        "Desenvolvimento abaixo do esperado",
+        "Leve distensão abdominal"
+      ],
+
+      exames:
+        "Exame coproparasitológico por técnica de flutuação, com identificação de ovos compatíveis com Moniezia spp., associado à avaliação macroscópica dos segmentos eliminados.",
+
+      diagnostico:
+        "Infecção por Moniezia spp. (monieziose).",
+
+      discussao:
+        "A identificação de proglótides e ovos compatíveis com Moniezia spp. sustenta o diagnóstico da infecção. A avaliação da intensidade do parasitismo e a investigação de outros agentes gastrointestinais são importantes para determinar a relevância clínica do achado e a necessidade de tratamento."
+    }
+  ]
 },
 
 
@@ -11392,25 +12268,399 @@ imagens: [
     "ovino",
     "cabra",
     "caprino",
-    "verminose"
+    "verminose",
+    "nematódeos",
+    "parasitas gastrointestinais",
+    "diarreia",
+    "enterite"
   ],
 
   imagem: "/images/doencas/tricostrongilose.jpg",
+imagens: [
+  {
+    src: "/images/doencas/tricostrongilose/01-parasito-adulto.jpg",
+    titulo: "Parasito adulto",
+    categoria: "Morfologia",
+    descricao: "Nematódeos adultos do gênero Trichostrongylus, de pequeno porte e aspecto delgado."
+  },
+  {
+    src: "/images/doencas/tricostrongilose/02-ovos.jpg",
+    titulo: "Ovos nas fezes",
+    categoria: "Diagnóstico",
+    descricao: "Ovos do tipo estrongilídeo identificados em exame coproparasitológico."
+  },
+  {
+    src: "/images/doencas/tricostrongilose/03-ciclo-biologico.jpg",
+    titulo: "Ciclo biológico",
+    categoria: "Ciclo biológico",
+    descricao: "Ciclo direto com desenvolvimento das larvas no ambiente e ingestão de L3 durante o pastejo."
+  },
+  
+  
+],
+  visaoGeral: {
+    introducao:
+      "A tricostrongilose é uma helmintose gastrointestinal causada por nematódeos do gênero Trichostrongylus, que acometem principalmente ovinos e caprinos. A infecção ocorre durante o pastejo, pela ingestão de larvas infectantes presentes na vegetação. Os parasitos podem comprometer a mucosa do abomaso ou do intestino delgado, provocando alterações digestivas, redução do aproveitamento dos nutrientes e prejuízos ao desenvolvimento dos animais.",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+    cards: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🪱",
+        itens: [
+          "Nematódeos do gênero Trichostrongylus.",
+          "Trichostrongylus colubriformis é encontrado principalmente no intestino delgado.",
+          "Trichostrongylus axei pode parasitar o abomaso dos ruminantes."
+        ]
+      },
+      {
+        titulo: "Principais hospedeiros",
+        emoji: "🐑",
+        itens: [
+          "Ovinos.",
+          "Caprinos.",
+          "Animais jovens podem apresentar maior suscetibilidade aos efeitos de infecções intensas."
+        ]
+      },
+      {
+        titulo: "Localização no organismo",
+        emoji: "🩺",
+        itens: [
+          "Intestino delgado, especialmente nas infecções por T. colubriformis.",
+          "Abomaso, nas infecções por T. axei."
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🌱",
+        itens: [
+          "Via oral, pela ingestão de larvas infectantes L3 presentes nas pastagens.",
+          "O ciclo é direto, sem necessidade de hospedeiro intermediário."
+        ]
+      }
+    ]
+  },
 
-  referencias: [],
+  etiologia: {
+    introducao:
+      "A tricostrongilose é causada por nematódeos pertencentes à família Trichostrongylidae. São parasitos de pequeno tamanho, com ciclo biológico direto e desenvolvimento de estágios de vida livre no ambiente. Diferentes espécies apresentam preferência por determinadas regiões do trato gastrointestinal.",
 
-  casosClinicos: [],
+    listas: [
+      {
+        titulo: "Principais espécies",
+        emoji: "🔬",
+        itens: [
+          "Trichostrongylus colubriformis: parasita principalmente o intestino delgado.",
+          "Trichostrongylus axei: parasita o abomaso de ruminantes.",
+          "Trichostrongylus vitrinus: encontrado no intestino delgado de pequenos ruminantes.",
+          "Trichostrongylus rugatus: também pode acometer o intestino delgado."
+        ]
+      },
+      {
+        titulo: "Características do parasito",
+        emoji: "🧬",
+        itens: [
+          "Nematódeos de pequeno porte e aspecto delgado.",
+          "Apresentam dimorfismo sexual.",
+          "Os ovos são do tipo estrongilídeo, com casca fina e conteúdo embrionário segmentado.",
+          "Os ovos de diferentes gêneros de estrongilídeos são morfologicamente semelhantes, dificultando a identificação específica pelo exame coproparasitológico convencional."
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Ciclo biológico",
+        emoji: "🔄",
+        itens: [
+          "Os vermes adultos realizam reprodução sexuada no trato gastrointestinal do hospedeiro.",
+          "As fêmeas eliminam ovos que são liberados nas fezes.",
+          "No ambiente, os ovos eclodem, originando larvas de primeiro estágio (L1).",
+          "As larvas evoluem para L2 e, posteriormente, L3, que é o estágio infectante.",
+          "As larvas L3 migram para a vegetação e são ingeridas pelos animais durante o pastejo.",
+          "Após a ingestão, as larvas desenvolvem-se no trato gastrointestinal até atingirem a fase adulta."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A tricostrongilose apresenta distribuição mundial e está associada principalmente à criação de ruminantes em sistemas de pastejo. A ocorrência e a intensidade das infecções dependem da contaminação das pastagens, das condições ambientais e das práticas de manejo.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "Os parasitos do gênero Trichostrongylus apresentam ampla distribuição geográfica, sendo encontrados em diferentes regiões de criação de ovinos e caprinos."
+      },
+      {
+        emoji: "🌧️",
+        titulo: "Condições ambientais",
+        texto:
+          "Temperatura, umidade e disponibilidade de sombra influenciam o desenvolvimento e a sobrevivência das fases de vida livre. Ambientes favoráveis à manutenção das larvas infectantes podem aumentar a contaminação das pastagens."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Fatores de risco",
+        texto:
+          "O pastejo em áreas contaminadas, a elevada lotação animal, a ausência de monitoramento parasitológico e o manejo inadequado dos animais favorecem a transmissão. Animais jovens podem apresentar manifestações mais evidentes."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância econômica",
+        texto:
+          "As infecções podem provocar redução do ganho de peso, atraso no desenvolvimento, queda na produtividade e aumento dos custos com tratamento e controle sanitário."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia está relacionada à ação dos estágios parasitários sobre a mucosa gastrointestinal. A intensidade das alterações depende da espécie envolvida, da carga parasitária, da idade e das condições nutricionais e imunológicas do hospedeiro.",
+
+    blocos: [
+      {
+        emoji: "🦠",
+        titulo: "Ação sobre a mucosa",
+        texto:
+          "As larvas e os vermes adultos provocam lesões e processos inflamatórios na mucosa do trato gastrointestinal. Nas infecções por T. colubriformis, ocorre comprometimento da mucosa do intestino delgado, enquanto T. axei está associado a alterações no abomaso."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Alterações intestinais",
+        texto:
+          "A lesão das vilosidades intestinais pode provocar atrofia e redução da superfície de absorção, prejudicando a digestão e o aproveitamento dos nutrientes."
+      },
+      {
+        emoji: "💧",
+        titulo: "Perda de proteínas",
+        texto:
+          "O comprometimento da barreira intestinal pode favorecer a perda de proteínas através da mucosa, contribuindo para alterações metabólicas e redução da condição corporal."
+      },
+      {
+        emoji: "📉",
+        titulo: "Consequências sistêmicas",
+        texto:
+          "A associação entre anorexia, diarreia, má absorção e perda proteica pode resultar em emagrecimento, desidratação, atraso no crescimento e redução da produtividade."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas variam conforme a intensidade da infecção. Animais com baixa carga parasitária podem permanecer assintomáticos, enquanto infecções intensas podem comprometer significativamente a função gastrointestinal.",
+
+    blocos: [
+      {
+        emoji: "🍽️",
+        titulo: "Alterações alimentares",
+        itens: [
+          "Redução do apetite.",
+          "Anorexia em infecções mais intensas.",
+          "Diminuição do ganho de peso."
+        ]
+      },
+      {
+        emoji: "💩",
+        titulo: "Alterações gastrointestinais",
+        itens: [
+          "Diarreia persistente.",
+          "Fezes amolecidas.",
+          "Alterações na digestão e absorção dos nutrientes."
+        ]
+      },
+      {
+        emoji: "🐑",
+        titulo: "Alterações corporais",
+        itens: [
+          "Perda de peso progressiva.",
+          "Atraso no desenvolvimento.",
+          "Emagrecimento e piora da condição corporal.",
+          "Pelagem com aspecto arrepiado ou sem brilho."
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Casos graves",
+        itens: [
+          "Desidratação.",
+          "Fraqueza e apatia.",
+          "Hipoproteinemia.",
+          "Comprometimento importante do desenvolvimento e da produtividade."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico deve considerar o histórico de criação, as manifestações clínicas, o manejo das pastagens e os exames coproparasitológicos. A identificação do gênero ou da espécie pode exigir técnicas complementares, pois os ovos de diferentes nematódeos estrongilídeos apresentam características morfológicas semelhantes.",
+
+    metodos: [
+      "avaliacao-clinica",
+      "opg",
+      "microscopia",
+      "coprocultura",
+      "necropsia"
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "O tratamento é realizado com anti-helmínticos selecionados de acordo com a espécie animal, a avaliação clínica, o histórico de tratamentos e a eficácia dos medicamentos na propriedade. A resistência anti-helmíntica é um problema importante no controle dos nematódeos gastrointestinais de pequenos ruminantes.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Tratamento anti-helmíntico",
+        texto:
+          "Podem ser utilizados princípios ativos pertencentes aos grupos dos benzimidazóis, imidazotiazóis e lactonas macrocíclicas, conforme indicação veterinária, aprovação para a espécie e avaliação da eficácia local. Não existe um protocolo único adequado para todas as propriedades."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Avaliação da eficácia",
+        texto:
+          "A realização de exames coproparasitológicos antes e após o tratamento pode auxiliar na avaliação da redução da eliminação de ovos e na identificação de possíveis falhas terapêuticas associadas à resistência parasitária."
+      },
+      {
+        emoji: "💧",
+        titulo: "Suporte clínico",
+        texto:
+          "Animais com diarreia, desidratação ou comprometimento nutricional podem necessitar de suporte individualizado, incluindo correção hidroeletrolítica e adequação nutricional."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "O controle da tricostrongilose depende da integração entre monitoramento parasitológico, manejo das pastagens, nutrição adequada e uso racional de anti-helmínticos.",
+
+    blocos: [
+      {
+        emoji: "🌱",
+        titulo: "Manejo das pastagens",
+        texto:
+          "Evitar a superlotação, reduzir a exposição dos animais a áreas intensamente contaminadas e planejar o uso das pastagens de acordo com as condições ambientais e o risco parasitário."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Monitoramento parasitológico",
+        texto:
+          "Realizar exames coproparasitológicos periodicamente para acompanhar a eliminação de ovos e orientar as decisões de controle, evitando tratamentos indiscriminados."
+      },
+      {
+        emoji: "💊",
+        titulo: "Uso racional de anti-helmínticos",
+        texto:
+          "Utilizar medicamentos somente quando indicados, com escolha baseada na eficácia comprovada na propriedade. O tratamento seletivo pode contribuir para retardar a seleção de parasitos resistentes."
+      },
+      {
+        emoji: "🐐",
+        titulo: "Manejo sanitário",
+        texto:
+          "Avaliar animais recém-introduzidos no rebanho, manter boas condições nutricionais e sanitárias e acompanhar especialmente os animais jovens."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo:
+        "Parasitas gastrointestinais comuns em ruminantes de pequeno porte",
+      autores: "MSD Veterinary Manual",
+      fonte: "Manual MSD de Veterinária",
+      ano: "2024",
+      link:
+        "https://www.msdvetmanual.com/pt/digestive-system/parasitas-gastrointestinais-em-ruminantes/parasitas-gastrointestinais-comuns-em-ruminantes-de-pequeno-porte"
+    },
+    {
+      titulo:
+        "Handbook for the Control of Internal Parasites of Sheep and Goats",
+      autores: "University of Guelph",
+      fonte: "Canadian Animal Health Surveillance System",
+      ano: "2019",
+      link:
+        "https://www.cahss.ca/CAHSS/Assets/Documents/Handbook%20for%20the%20Control%20of%20Internal%20Parasites%20of%20Sheep%20and%20Goats%20%281%29.pdf"
+    },
+    {
+      titulo: "Trichostrongylosis",
+      autores: "Centers for Disease Control and Prevention",
+      fonte: "CDC - DPDx",
+      ano: "2024",
+      link: "https://www.cdc.gov/dpdx/trichostrongylosis/"
+    },
+    {
+      titulo:
+        "Trichostrongylosis: a zoonotic disease of small ruminants",
+      autores: "Revisão científica",
+      fonte: "PubMed",
+      ano: "2023",
+      link: "https://pubmed.ncbi.nlm.nih.gov/36810301/"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "tricostrongilose-01",
+
+      titulo: "Diarreia e perda de peso em ovinos",
+
+      especie: "Ovino",
+
+      idade: "8 meses",
+
+      historico:
+        "Um cordeiro criado em sistema de pastejo apresenta perda progressiva de peso e redução do apetite. Outros animais do mesmo lote também apresentam fezes amolecidas. O rebanho não recebe monitoramento coproparasitológico periódico.",
+
+      sinais: [
+        "Diarreia persistente.",
+        "Redução do apetite.",
+        "Perda de peso.",
+        "Atraso no desenvolvimento."
+      ],
+
+      exames:
+        "O exame coproparasitológico quantitativo demonstra elevada eliminação de ovos do tipo estrongilídeo. A coprocultura permite a obtenção de larvas infectantes para identificação do gênero envolvido.",
+
+      diagnostico:
+        "Tricostrongilose por Trichostrongylus spp.",
+
+      discussao:
+        "A presença de diarreia, anorexia e perda de peso em um animal jovem submetido ao pastejo levanta a suspeita de parasitismo gastrointestinal. Os ovos do tipo estrongilídeo não permitem a identificação segura do gênero apenas pela morfologia, sendo necessária a utilização de técnicas complementares, como a coprocultura."
+    },
+    {
+      id: "tricostrongilose-02",
+
+      titulo: "Baixo desempenho produtivo em caprinos",
+
+      especie: "Caprino",
+
+      idade: "10 meses",
+
+      historico:
+        "Um lote de caprinos apresenta redução do ganho de peso e episódios recorrentes de diarreia. Os animais permanecem em uma área de pastejo com elevada lotação e histórico de tratamentos anti-helmínticos frequentes.",
+
+      sinais: [
+        "Fezes amolecidas.",
+        "Emagrecimento progressivo.",
+        "Redução do ganho de peso.",
+        "Piora da condição corporal."
+      ],
+
+      exames:
+        "O exame coproparasitológico identifica ovos do tipo estrongilídeo. A coprocultura e a identificação morfológica das larvas demonstram a presença de Trichostrongylus spp. A avaliação da eficácia do tratamento anti-helmíntico é indicada diante do histórico de uso frequente de medicamentos.",
+
+      diagnostico:
+        "Tricostrongilose por Trichostrongylus spp., associada à contaminação das pastagens.",
+
+      discussao:
+        "O caso demonstra a importância do manejo ambiental e do monitoramento parasitológico no controle das helmintoses. A repetição de tratamentos sem avaliação da eficácia pode favorecer a seleção de populações resistentes. O controle deve combinar manejo das pastagens, exames periódicos e uso racional de anti-helmínticos."
+    }
+  ],
 
 },
+
 // 🕷️ ECTOPARASITOSES
 
 
