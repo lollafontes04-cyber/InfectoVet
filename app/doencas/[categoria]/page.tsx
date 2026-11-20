@@ -16,33 +16,48 @@ export default async function CategoriaPage({
 }) {
   const { categoria } = await params;
 
-  // Decodifica a URL e preserva o nome original da categoria
+  // Converte o endereço da página em nome de categoria
   const categoriaFormatada = decodeURIComponent(categoria)
     .replace(/-/g, " ")
     .trim();
 
-  // Normaliza os nomes para realizar a comparação
+  // Normaliza os nomes, ignorando acentos e diferenças de maiúsculas
   const normalizarCategoria = (nome: string) =>
-    nome.trim().toLocaleLowerCase("pt-BR");
+    nome
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .trim()
+      .toLowerCase()
+      .replace(/-/g, " ")
+      .replace(/\s+/g, " ");
 
-  // Filtra as doenças pertencentes à categoria selecionada
+  // Busca todas as doenças pertencentes à categoria
   const listaDoencas = doencas.filter(
     (doenca) =>
       normalizarCategoria(doenca.categoria) ===
       normalizarCategoria(categoriaFormatada)
   );
 
+  // Recupera o nome original da categoria, preservando os acentos
+  const nomeCategoria =
+    listaDoencas[0]?.categoria || categoriaFormatada;
+
   return (
     <>
       <Navbar />
 
       <main className="min-h-screen bg-[#F8FBF9]">
-        <CategoryHeader categoria={categoriaFormatada} />
+
+        <CategoryHeader categoria={nomeCategoria} />
 
         <section className="mx-auto max-w-[1200px] px-10 py-12">
+
           {listaDoencas.length > 0 ? (
+
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
               {listaDoencas.map((doenca) => (
+
                 <DiseaseCard
                   key={doenca.id}
                   id={doenca.id}
@@ -56,19 +71,29 @@ export default async function CategoriaPage({
                   notificacaoObrigatoria={doenca.notificacaoObrigatoria}
                   imagem={doenca.imagem}
                 />
+
               ))}
+
             </div>
+
           ) : (
+
             <div className="py-16 text-center">
+
               <h2 className="text-xl font-semibold text-[#075334]">
                 Nenhuma doença encontrada
               </h2>
+
               <p className="mt-2 text-gray-500">
                 Não foram encontradas doenças cadastradas nesta categoria.
               </p>
+
             </div>
+
           )}
+
         </section>
+
       </main>
 
       <Footer />

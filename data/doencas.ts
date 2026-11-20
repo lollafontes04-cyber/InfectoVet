@@ -13184,13 +13184,7 @@ imagens: [
       descricao:
         "Formas intraeritrocitárias de Babesia spp. observadas em esfregaço sanguíneo. Os parasitos podem apresentar morfologia piriforme ou anelar."
     },
-    {
-      src: "/images/doencas/babesiose/02-babesia-pares.jpg",
-      titulo: "Formas piriformes de Babesia",
-      categoria: "Agente etiológico",
-      descricao:
-        "Formas pareadas de Babesia no interior das hemácias, características de algumas espécies de piroplasmas."
-    },
+    
     {
       src: "/images/doencas/babesiose/03-carrapato-rhipicephalus.jpg",
       titulo: "Rhipicephalus sanguineus",
@@ -13198,13 +13192,7 @@ imagens: [
       descricao:
         "Carrapato-marrom-do-cão, importante vetor de Babesia vogeli em cães."
     },
-    {
-      src: "/images/doencas/babesiose/04-esfregaco-sanguineo.jpg",
-      titulo: "Esfregaço sanguíneo",
-      categoria: "Diagnóstico",
-      descricao:
-        "Exame microscópico de sangue periférico utilizado para identificar formas intraeritrocitárias do parasito."
-    }
+    
   ],
 
   visaoGeral: {
@@ -13700,54 +13688,409 @@ imagens: [
 
 
 
+
 {
   id: "erliquiose",
-
   nome: "Erliquiose",
-
-  agente: "Ehrlichia spp.",
-
+  agente: "Ehrlichia canis",
   categoria: "Doenças associadas a artrópodes",
-
-  icone: "🕷️",
-
+  icone: "🦠",
   zoonose: false,
-
   vacina: false,
-
   eutanasia: false,
-
   notificacaoObrigatoria: false,
 
   hospedeiros: [
-    "Cães"
+    "Cães",
+    "Canídeos silvestres",
+    "Gatos (infecções ocasionais)"
   ],
 
   palavrasChave: [
-    "erliquiose",
-    "ehrlichia",
-    "carrapato",
-    "cão",
-    "cao",
-    "cachorro"
+    "Erliquiose",
+    "Ehrlichia canis",
+    "Erliquiose monocítica canina",
+    "Doença do carrapato",
+    "Carrapato-marrom-do-cão",
+    "Rhipicephalus sanguineus",
+    "Trombocitopenia",
+    "Pancitopenia",
+    "Mórulas",
+    "Hemoparasitose"
   ],
 
   imagem: "/images/doencas/erliquiose.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+  imagens: [
+    {
+      src: "/images/doencas/erliquiose/ehrlichia-canis.jpg",
+      titulo: "Ehrlichia canis",
+      categoria: "Agente etiológico",
+      descricao: "Bactéria intracelular obrigatória responsável pela erliquiose monocítica canina."
+    },
+    {
+      src: "/images/doencas/erliquiose/morula-monocito.jpg",
+      titulo: "Mórula de Ehrlichia canis",
+      categoria: "Microscopia",
+      descricao: "Agregado bacteriano intracitoplasmático observado em monócitos."
+    },
+    {
+      src: "/images/doencas/erliquiose/carrapato.jpg",
+      titulo: "Rhipicephalus sanguineus",
+      categoria: "Vetor",
+      descricao: "Carrapato-marrom-do-cão, principal vetor associado à transmissão de Ehrlichia canis."
+    },
+   
+  ],
 
-  referencias: [],
+  visaoGeral: {
+    introducao: "A erliquiose monocítica canina é uma doença infecciosa causada principalmente pela bactéria Ehrlichia canis, pertencente à família Anaplasmataceae. É uma bactéria gram-negativa, intracelular obrigatória, que apresenta tropismo por células do sistema fagocítico mononuclear, especialmente monócitos. A transmissão ocorre principalmente pela picada do carrapato Rhipicephalus sanguineus. A doença apresenta evolução variável, podendo ocorrer nas formas aguda, subclínica e crônica. É considerada uma das principais hemoparasitoses de cães em regiões tropicais e subtropicais.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🦠",
+        itens: [
+          "Ehrlichia canis.",
+          "Bactéria gram-negativa e intracelular obrigatória.",
+          "Apresenta tropismo por monócitos.",
+          "Multiplica-se no interior de vacúolos citoplasmáticos, formando mórulas."
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🕷️",
+        itens: [
+          "Principalmente pela picada do carrapato Rhipicephalus sanguineus.",
+          "O carrapato transmite a bactéria durante o repasto sanguíneo.",
+          "Pode ocorrer transmissão por transfusão sanguínea de animais infectados.",
+          "A transmissão está relacionada à presença de carrapatos infectados."
+        ]
+      },
+      {
+        titulo: "Formas clínicas",
+        emoji: "🩺",
+        itens: [
+          "Fase aguda: febre, apatia, anorexia e trombocitopenia.",
+          "Fase subclínica: ausência de sinais evidentes, com persistência do agente.",
+          "Fase crônica: alterações hematológicas graves, podendo ocorrer pancitopenia e hipoplasia de medula óssea."
+        ]
+      },
+      {
+        titulo: "Importância clínica",
+        emoji: "⚠️",
+        itens: [
+          "Pode provocar alterações hemorrágicas.",
+          "A trombocitopenia é uma alteração hematológica frequente.",
+          "A fase crônica pode apresentar prognóstico desfavorável.",
+          "Coinfecções com outros agentes transmitidos por carrapatos podem agravar o quadro."
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao: "A erliquiose monocítica canina é causada principalmente por Ehrlichia canis, bactéria pertencente à ordem Rickettsiales e à família Anaplasmataceae. Trata-se de um microrganismo intracelular obrigatório que apresenta tropismo por células mononucleares, especialmente monócitos, onde se multiplica e forma estruturas intracitoplasmáticas denominadas mórulas.",
+
+    listas: [
+      {
+        titulo: "Características do agente",
+        emoji: "🔬",
+        itens: [
+          "Bactéria gram-negativa.",
+          "Intracelular obrigatória.",
+          "Pertencente à família Anaplasmataceae.",
+          "Apresenta tropismo por monócitos.",
+          "Multiplica-se no interior de vacúolos citoplasmáticos.",
+          "Pode formar mórulas visíveis em células infectadas."
+        ]
+      },
+      {
+        titulo: "Outras espécies de Ehrlichia",
+        emoji: "🧫",
+        itens: [
+          "Ehrlichia ewingii: infecta principalmente granulócitos, especialmente neutrófilos, podendo causar manifestações articulares e sistêmicas.",
+          "Ehrlichia chaffeensis: infecta células mononucleares e é um importante agente de erliquiose humana.",
+          "Ehrlichia canis: principal agente da erliquiose monocítica canina."
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Morfologia e multiplicação",
+        emoji: "🧬",
+        itens: [
+          "Após invadir a célula hospedeira, a bactéria permanece em vacúolos intracitoplasmáticos.",
+          "Multiplica-se por divisão binária.",
+          "Os agrupamentos de microrganismos formam estruturas denominadas mórulas.",
+          "As mórulas podem ser observadas em monócitos por meio de esfregaços sanguíneos corados, embora sua identificação apresente baixa sensibilidade."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao: "A erliquiose apresenta distribuição mundial, com maior importância em regiões tropicais e subtropicais, onde as condições ambientais favorecem a presença do carrapato vetor. No Brasil, é uma enfermidade de grande relevância na clínica de pequenos animais, especialmente em áreas com elevada infestação por Rhipicephalus sanguineus.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto: "A doença ocorre em diferentes regiões do mundo, especialmente em áreas tropicais e subtropicais. Sua ocorrência está relacionada à distribuição do carrapato vetor e à circulação de animais infectados."
+      },
+      {
+        emoji: "🕷️",
+        titulo: "Vetor e transmissão",
+        texto: "O principal vetor de Ehrlichia canis é Rhipicephalus sanguineus, conhecido como carrapato-marrom-do-cão. A bactéria é transmitida durante o repasto sanguíneo de carrapatos infectados. O agente pode permanecer no carrapato durante as fases de desenvolvimento, mas não é transmitido transovarianamente de forma significativa."
+      },
+      {
+        emoji: "🐕",
+        titulo: "Hospedeiros e reservatórios",
+        texto: "Os cães domésticos são os principais hospedeiros de importância epidemiológica. Canídeos silvestres também podem participar da manutenção do agente na natureza. Animais infectados podem permanecer portadores e contribuir para a manutenção da circulação bacteriana entre os vetores."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Fatores de risco",
+        texto: "A ausência de controle de carrapatos, o acesso a ambientes infestados, a presença de outros animais infectados e a utilização de transfusões sanguíneas sem triagem adequada aumentam o risco de transmissão."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Importância clínica",
+        texto: "A enfermidade pode provocar alterações hematológicas persistentes, comprometimento da medula óssea e manifestações hemorrágicas. A forma crônica é especialmente preocupante devido à possibilidade de pancitopenia e à dificuldade de recuperação de alguns animais."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao: "Após a picada do carrapato infectado, Ehrlichia canis é inoculada no organismo do cão e alcança a circulação sanguínea. A bactéria invade principalmente monócitos, onde se multiplica e forma mórulas. A infecção desencadeia alterações imunológicas, inflamatórias e hematológicas que variam de acordo com a fase da doença.",
+
+    blocos: [
+      {
+        emoji: "🕷️",
+        titulo: "Inoculação e disseminação",
+        texto: "Durante o repasto sanguíneo, o carrapato infectado inocula Ehrlichia canis no hospedeiro. A bactéria alcança a circulação e invade células mononucleares, principalmente monócitos, iniciando sua multiplicação intracelular."
+      },
+      {
+        emoji: "🧫",
+        titulo: "Multiplicação intracelular",
+        texto: "No interior dos monócitos, a bactéria multiplica-se dentro de vacúolos citoplasmáticos, formando agregados denominados mórulas. As células infectadas contribuem para a disseminação do agente pelos tecidos e órgãos do hospedeiro."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Alterações hematológicas",
+        texto: "A infecção está associada à trombocitopenia, que pode ocorrer por mecanismos imunomediados, sequestro esplênico, consumo e alterações na produção plaquetária. Também podem ocorrer anemia, leucopenia e alterações na função das plaquetas, contribuindo para manifestações hemorrágicas."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Evolução crônica",
+        texto: "Em alguns animais, a persistência da infecção pode desencadear alterações imunológicas e comprometimento progressivo da medula óssea. A hipoplasia medular pode resultar em pancitopenia, caracterizada pela redução de hemácias, leucócitos e plaquetas. Essa condição está associada a prognóstico desfavorável."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao: "As manifestações clínicas da erliquiose variam de acordo com a fase da infecção e a resposta imunológica do hospedeiro. A doença pode apresentar evolução aguda, subclínica ou crônica, com sinais que variam de alterações inespecíficas até comprometimento hematológico grave.",
+
+    blocos: [
+      {
+        emoji: "🌡️",
+        titulo: "Fase aguda",
+        itens: [
+          "Febre.",
+          "Apatia e letargia.",
+          "Anorexia.",
+          "Perda de peso.",
+          "Linfadenomegalia.",
+          "Esplenomegalia.",
+          "Petéquias e equimoses.",
+          "Epistaxe.",
+          "Vômitos e, ocasionalmente, diarreia.",
+          "Alterações oculares, como uveíte."
+        ]
+      },
+      {
+        emoji: "🩺",
+        titulo: "Fase subclínica",
+        itens: [
+          "Ausência de manifestações clínicas evidentes.",
+          "Possibilidade de persistência da infecção.",
+          "Trombocitopenia variável.",
+          "Alterações hematológicas discretas.",
+          "Manutenção do animal como portador do agente."
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Fase crônica",
+        itens: [
+          "Fraqueza intensa.",
+          "Perda de peso progressiva.",
+          "Palidez de mucosas.",
+          "Petéquias e hemorragias.",
+          "Epistaxe recorrente.",
+          "Edemas.",
+          "Infecções secundárias.",
+          "Pancitopenia.",
+          "Sangramentos persistentes.",
+          "Comprometimento sistêmico grave."
+        ]
+      },
+      {
+        emoji: "👁️",
+        titulo: "Manifestações oculares e articulares",
+        itens: [
+          "Uveíte anterior.",
+          "Hifema.",
+          "Edema de córnea.",
+          "Dor ocular.",
+          "Poliartrite e claudicação em alguns casos.",
+          "Alterações inflamatórias associadas à deposição de imunocomplexos."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao: "O diagnóstico da erliquiose deve ser realizado por meio da associação entre histórico epidemiológico, sinais clínicos e exames laboratoriais. O hemograma frequentemente evidencia trombocitopenia, podendo apresentar anemia e leucopenia. A confirmação pode ser realizada por métodos sorológicos, como ELISA e RIFI, e por métodos moleculares, como PCR. A identificação de mórulas em monócitos pode auxiliar no diagnóstico, mas apresenta baixa sensibilidade, não sendo indicada como único método confirmatório.",
+
+    metodos: [
+      "microscopia",
+      "pcr",
+      "elisa",
+      "rifi"
+    ]
+  },
+
+  tratamento: {
+    introducao: "O tratamento da erliquiose é baseado principalmente na administração de antimicrobianos da classe das tetraciclinas, especialmente a doxiciclina. A abordagem terapêutica depende da fase da doença, da gravidade das alterações hematológicas e da presença de complicações. O acompanhamento laboratorial é fundamental para avaliar a resposta ao tratamento.",
+
+    blocos: [
+      {
+        emoji: "💊",
+        titulo: "Tratamento antimicrobiano",
+        texto: "A doxiciclina é o antimicrobiano de escolha para o tratamento da erliquiose canina. A dose frequentemente recomendada é de 10 mg/kg uma vez ao dia ou 5 mg/kg a cada 12 horas, por 28 dias. A administração deve ser orientada pelo médico-veterinário, considerando as condições clínicas do animal."
+      },
+      {
+        emoji: "🩺",
+        titulo: "Tratamento de suporte",
+        texto: "Animais com manifestações clínicas importantes podem necessitar de fluidoterapia, suporte nutricional e controle das complicações. Nos casos de anemia grave ou hemorragias intensas, pode ser necessária transfusão sanguínea, conforme avaliação clínica e laboratorial."
+      },
+      {
+        emoji: "🩸",
+        titulo: "Manejo da forma crônica",
+        texto: "Nos casos crônicos, especialmente quando há hipoplasia de medula óssea e pancitopenia, o prognóstico é reservado a desfavorável. Mesmo após o início do tratamento, as alterações hematológicas podem persistir por meses. O acompanhamento por hemogramas seriados é essencial para avaliar a evolução do paciente."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Acompanhamento pós-tratamento",
+        texto: "A persistência de anticorpos após o tratamento não significa necessariamente falha terapêutica, pois os títulos sorológicos podem permanecer elevados durante meses ou anos. A avaliação deve considerar a evolução clínica, os parâmetros hematológicos e, quando indicado, a investigação molecular."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao: "A prevenção da erliquiose depende principalmente do controle do carrapato vetor e da adoção de medidas de biossegurança. A proteção contínua dos animais é essencial, pois a exposição ao vetor pode ocorrer mesmo em ambientes domiciliares.",
+
+    blocos: [
+      {
+        emoji: "🕷️",
+        titulo: "Controle de carrapatos",
+        texto: "A utilização regular de produtos carrapaticidas adequados à espécie e ao peso do animal é a principal medida preventiva. O controle deve ser contínuo, respeitando os intervalos de aplicação recomendados pelo fabricante.",
+        tags: ["Controle de vetores", "Ectoparasitas"]
+      },
+      {
+        emoji: "🏠",
+        titulo: "Controle ambiental",
+        texto: "A higienização do ambiente e o controle de carrapatos em locais onde os animais permanecem são importantes para reduzir a infestação. Deve-se considerar que Rhipicephalus sanguineus pode sobreviver e completar parte de seu ciclo no ambiente.",
+        tags: ["Manejo ambiental", "Biossegurança"]
+      },
+      {
+        emoji: "🩸",
+        titulo: "Triagem de doadores",
+        texto: "Animais candidatos à doação de sangue devem passar por avaliação clínica e laboratorial, incluindo investigação de agentes transmitidos por carrapatos. A utilização de sangue de doadores infectados pode transmitir Ehrlichia canis ao receptor.",
+        tags: ["Hemoterapia", "Prevenção"]
+      },
+      {
+        emoji: "🔬",
+        titulo: "Monitoramento dos animais",
+        texto: "Animais com histórico de infestação por carrapatos ou que vivem em regiões endêmicas devem ser avaliados periodicamente. A investigação laboratorial é importante quando há suspeita clínica ou alterações hematológicas.",
+        tags: ["Monitoramento", "Diagnóstico"]
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Ehrlichiosis in Dogs",
+      autores: "PALERME, J. S.",
+      fonte: "Merck Veterinary Manual",
+      ano: "2025",
+      link: "https://www.merckvetmanual.com/infectious-diseases/rickettsial-diseases-in-dogs/ehrlichiosis-in-dogs"
+    },
+    {
+      titulo: "Ehrlichia spp. Guidelines",
+      autores: "COMPANION ANIMAL PARASITE COUNCIL (CAPC)",
+      fonte: "CAPC Veterinary Guidelines",
+      ano: "2026",
+      link: "https://capcvet.org/guidelines/ehrlichia-spp"
+    },
+    {
+      titulo: "Control of Vector-Borne Diseases in Dogs and Cats",
+      autores: "EUROPEAN SCIENTIFIC COUNSEL COMPANION ANIMAL PARASITES (ESCCAP)",
+      fonte: "ESCCAP Guideline 5",
+      ano: "2024",
+      link: "https://www.esccap.org/uploads/docs/8nl8z5pl_0775_ESCCAP_Guideline_GL5_20241203_1p.pdf"
+    },
+    {
+      titulo: "Guideline for veterinary practitioners on canine ehrlichiosis and anaplasmosis in Europe",
+      autores: "BEAUFILS, J. P. et al.",
+      fonte: "Parasites & Vectors",
+      ano: "2015",
+      link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4324656/"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "erliquiose-caso-01",
+      titulo: "Erliquiose monocítica canina em fase aguda",
+      especie: "Canina",
+      idade: "4 anos",
+      historico: "Cão com histórico de infestação por carrapatos, apresentando febre, apatia, redução do apetite e episódios de sangramento nasal há alguns dias.",
+      sinais: [
+        "Febre",
+        "Apatia",
+        "Anorexia",
+        "Petéquias",
+        "Epistaxe",
+        "Linfadenomegalia"
+      ],
+      exames: "Hemograma evidenciando trombocitopenia e anemia discreta. Pesquisa de mórulas em monócitos sem visualização do agente. Teste sorológico positivo para anticorpos contra Ehrlichia spp. e PCR positiva para Ehrlichia canis.",
+      diagnostico: "Erliquiose monocítica canina em fase aguda, causada por Ehrlichia canis.",
+      discussao: "O histórico de infestação por carrapatos associado à febre, apatia e trombocitopenia sugere uma doença transmitida por vetores. A PCR positiva confirma a presença do material genético de Ehrlichia canis. A ausência de mórulas no esfregaço sanguíneo não exclui a doença, pois a sensibilidade da microscopia é limitada. A doxiciclina é o tratamento de escolha, sendo necessário acompanhar a evolução clínica e hematológica."
+    },
+    {
+      id: "erliquiose-caso-02",
+      titulo: "Erliquiose canina em fase crônica com pancitopenia",
+      especie: "Canina",
+      idade: "7 anos",
+      historico: "Cão com histórico de infestação recorrente por carrapatos e episódios anteriores de apatia e perda de peso. Apresenta fraqueza progressiva, palidez de mucosas e sangramentos espontâneos.",
+      sinais: [
+        "Fraqueza intensa",
+        "Perda de peso",
+        "Palidez de mucosas",
+        "Petéquias",
+        "Epistaxe",
+        "Hemorragias espontâneas"
+      ],
+      exames: "Hemograma evidenciando anemia não regenerativa, leucopenia e trombocitopenia acentuada, caracterizando pancitopenia. Exames complementares demonstram alterações compatíveis com comprometimento da medula óssea. Investigação molecular e sorológica compatível com infecção por Ehrlichia canis.",
+      diagnostico: "Erliquiose monocítica canina em fase crônica, associada à pancitopenia e comprometimento medular.",
+      discussao: "A fase crônica da erliquiose pode provocar hipoplasia da medula óssea, resultando em redução das três linhagens celulares sanguíneas. A pancitopenia é uma alteração grave e está associada a prognóstico desfavorável. O acompanhamento hematológico e a avaliação da medula óssea podem auxiliar na determinação da gravidade e na condução do caso. Mesmo com tratamento antimicrobiano, a recuperação pode ser limitada quando há comprometimento medular avançado."
+    }
+  ]
 },
+
 
 
 
