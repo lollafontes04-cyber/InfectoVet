@@ -219,7 +219,7 @@ export const questoes = [
   resposta: "A",
 
   comentario:
-    "A alternativa correta é A. As afirmações I, II e III estão relacionadas às características epidemiológicas e sanitárias da febre aftosa. A afirmação IV está incorreta conforme a classificação apresentada na prova."
+    "A alternativa correta é A. As afirmações I, II e III estão relacionadas às características epidemiológicas e sanitárias da febre aftosa. A afirmação IV está incorreta pois o Paraná só conquistou esse reconhecimento de zona livre sem vacinação em 2021."
 },
 
 
@@ -1577,22 +1577,7 @@ export const questoes = [
   resposta: "C",
   comentario: "Tropismo é a preferência de determinado agente infeccioso por células, tecidos ou órgãos específicos. Essa característica influencia a distribuição das lesões e as manifestações clínicas da doença."
 },
-{
-  id: 153,
-  categoria: "Bacterianas",
-  doencaId: "geral",
-  doenca: "Enfermidades bacterianas",
-  pergunta: "Associe as enfermidades bacterianas às suas respectivas características:\n\n1. Mastite bacteriana\n2. Febre maculosa\n3. Listeriose\n4. Linfadenite caseosa\n\nA. Doença associada à formação de abscessos, especialmente em linfonodos de ovinos.\nB. Enfermidade transmitida por carrapatos, causada por bactérias do gênero Rickettsia.\nC. Infecção da glândula mamária, frequentemente associada a agentes como Staphylococcus aureus e Streptococcus agalactiae.\nD. Doença que pode apresentar manifestações neurológicas.",
-  alternativas: [
-    "A) 1-A; 2-C; 3-B; 4-D.",
-    "B) 1-C; 2-B; 3-D; 4-A.",
-    "C) 1-B; 2-D; 3-A; 4-C.",
-    "D) 1-D; 2-A; 3-C; 4-B.",
-    "E) 1-C; 2-A; 3-B; 4-D."
-  ],
-  resposta: "B",
-  comentario: "A mastite bacteriana acomete a glândula mamária; a febre maculosa é transmitida por carrapatos e causada por Rickettsia; a listeriose pode provocar manifestações neurológicas; e a linfadenite caseosa é caracterizada pela formação de abscessos, principalmente nos linfonodos de ovinos."
-},
+
 {
   id: 154,
   categoria: "Parasitárias",
@@ -1658,22 +1643,6 @@ export const questoes = [
   comentario: "A virulência está relacionada ao grau de patogenicidade de um agente e à intensidade dos danos que ele provoca no hospedeiro. É diferente de infectividade, que corresponde à capacidade de instalação e multiplicação."
 },
 
-{
-  id: 159,
-  categoria: "Epidemiologia e Saúde Coletiva",
-  doencaId: "geral",
-  doenca: "Vigilância sanitária",
-  pergunta: "De acordo com a Lei nº 8.080/1990, a vigilância sanitária é definida como:",
-  alternativas: [
-    "A) Um conjunto de ações voltadas exclusivamente à fiscalização de hospitais e clínicas.",
-    "B) Uma atividade destinada somente à investigação de surtos de doenças infecciosas.",
-    "C) Um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários.",
-    "D) Um conjunto de medidas restrito ao controle de medicamentos e vacinas.",
-    "E) Uma atividade realizada exclusivamente por instituições privadas."
-  ],
-  resposta: "C",
-  comentario: "A Lei nº 8.080/1990 define a vigilância sanitária como um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde."
-},
 
 
 {
@@ -1906,33 +1875,7 @@ Está correto o que se afirma em:`,
 },
 
 
-{
-  id: 182,
-  categoria: "Bacterianas",
-  doencaId: "geral",
-  doenca: "Doenças Bacterianas",
-  pergunta: `Associe as descrições de 1 a 4 com as respectivas doenças bacterianas:
 
-1. Mastite em bovinos por S. aureus, S. agalactiae e coliformes.
-
-2. Doença por bactéria intracelular do gênero Rickettsia transmitida por carrapatos.
-
-3. Doença bacteriana com sintomatologia neurológica principal.
-
-4. Doença em ovinos com formação de abcessos submandibulares.
-
-Doenças: A. Febre maculosa | B. Mastite Bacteriana | C. Listeriose | D. Linfadenite caseosa
-
-Alternativa correta:`,
-  alternativas: [
-    "A) 1-C; 2-D; 3-A; 4-B.",
-    "B) 1-B; 2-A; 3-C; 4-D.",
-    "C) 1-D; 2-A; 3-B; 4-C.",
-    "D) 1-B; 2-A; 3-D; 4-C."
-  ],
-  resposta: "B",
-  comentario: "A associação correta relaciona mastite bacteriana aos agentes descritos, febre maculosa às Rickettsia, listeriose aos sinais neurológicos e linfadenite caseosa aos abscessos em ovinos."
-},
 {
   id: 183,
   categoria: "Parasitárias",
@@ -2236,7 +2179,7 @@ III. O diagnóstico definitivo depende de exames laboratoriais, sendo a soroneut
     "E) Linfadenopatia, insuficiência cardíaca crônica, anorexia e febre."
   ],
   resposta: "D",
-  comentario: "O documento indica como correta a alternativa D, que reúne manifestações clínicas frequentemente associadas à leishmaniose visceral canina."
+  comentario: "Alternativa D, que reúne manifestações clínicas frequentemente associadas à leishmaniose visceral canina."
 },
 
 
@@ -2328,27 +2271,7 @@ III. O diagnóstico definitivo depende de exames laboratoriais, sendo a soroneut
     "A alternativa B está correta. A vacinação é a principal medida de prevenção da parvovirose canina. O esquema deve incluir doses seriadas durante a fase de filhote, com a última dose aplicada em idade adequada para reduzir a interferência dos anticorpos maternos. Uma única dose não garante proteção completa."
 },
 
-{
-  id: 205,
-  categoria: "Virais",
-  doencaId: "anemia-infecciosa-equina",
-  doenca: "Anemia Infecciosa Equina",
 
-  pergunta: `De acordo com as características da Anemia Infecciosa Equina, assinale a alternativa correta:`,
-
-  alternativas: [
-    "A) Para diagnóstico da AIE utiliza-se imunofluorescência indireta como teste oficial, e os animais positivos devem receber tratamento antiviral.",
-    "B) A AIE é uma enfermidade bacteriana de tratamento obrigatório pelo Serviço Veterinário Oficial.",
-    "C) A AIE tem como agente etiológico a bactéria Burkholderia mallei.",
-    "D) A anemia infecciosa equina é uma enfermidade viral contagiosa que pode infectar equídeos de qualquer idade e sexo.",
-    "E) É obrigatória a vacinação anual de todos os equinos da propriedade."
-  ],
-
-  resposta: "D",
-
-  comentario:
-    "A alternativa D está correta. A anemia infecciosa equina é causada por um lentivírus e pode acometer equinos, asininos e muares, independentemente da idade ou sexo. Burkholderia mallei é a bactéria causadora do mormo, não da AIE. Não existe vacina eficaz ou tratamento específico para a doença."
-},
 
 {
   id: 206,
@@ -2451,6 +2374,365 @@ Assinale a alternativa correta:`,
   ],
   resposta: "D",
   comentario: "As afirmativas I, II, IV e V estão corretas. A afirmativa III está incorreta porque descreve o falso negativo. O falso positivo ocorre quando o teste apresenta resultado positivo em um indivíduo que não possui a enfermidade. A interpretação dos resultados deve considerar as limitações do método, a suspeita clínica e o contexto epidemiológico."
+},
+
+
+{
+  id: 211,
+  categoria: "Prionicas",
+  doencaId: "bse",
+  doenca: "Encefalopatia Espongiforme Bovina (BSE)",
+  pergunta: `Em uma propriedade de criação de bovinos, um animal adulto passou a apresentar alterações comportamentais progressivas, hiperestesia ao toque e aos estímulos sonoros, além de incoordenação motora. O médico-veterinário, considerando o caráter progressivo dos sinais neurológicos, levantou a suspeita de Encefalopatia Espongiforme Bovina (EEB).
+
+A respeito da etiopatogenia dessa enfermidade, assinale a alternativa correta:`,
+  alternativas: [
+    "A) A doença é causada por um vírus neurotrópico que provoca inflamação intensa do tecido nervoso e destruição neuronal.",
+    "B) O agente etiológico é uma bactéria resistente aos antimicrobianos, capaz de alcançar o sistema nervoso central por disseminação hematógena.",
+    "C) A enfermidade é causada por uma proteína priônica anormal, denominada PrPSc, que induz a conversão de proteínas priônicas celulares normais em conformações anormais, promovendo seu acúmulo no sistema nervoso central.",
+    "D) A doença é causada por um protozoário intracelular que invade os neurônios e provoca formação de vacúolos por multiplicação parasitária.",
+    "E) O agente etiológico é uma toxina de origem alimentar que provoca alterações neurológicas reversíveis após sua eliminação do organismo."
+  ],
+  resposta: "C",
+  comentario: "A EEB é uma encefalopatia espongiforme transmissível causada por príons. A proteína anormal PrPSc induz alterações conformacionais na proteína priônica celular normal (PrPC), favorecendo o acúmulo de proteínas anormais no sistema nervoso central e o desenvolvimento de alterações neurodegenerativas. Príons não possuem material genético, diferentemente de vírus, bactérias e protozoários."
+},
+
+{
+  id: 212,
+  categoria: "Prionicas",
+  doencaId: "bse",
+  doenca: "Encefalopatia Espongiforme Bovina (BSE)",
+  pergunta: `A ocorrência de casos de Encefalopatia Espongiforme Bovina no Reino Unido, na década de 1980, esteve associada a práticas de alimentação animal que permitiam a exposição dos bovinos a tecidos contaminados por príons. Como medida de controle, foram implementadas restrições ao uso de determinados ingredientes de origem animal na alimentação de ruminantes.
+
+Considerando a epidemiologia e as medidas de prevenção da EEB, analise as afirmativas:
+
+I. A ingestão de alimentos contaminados por príons está associada à transmissão da forma clássica da EEB.
+
+II. A proibição do fornecimento de determinadas proteínas de origem animal aos ruminantes constitui uma medida importante de prevenção.
+
+III. A transmissão da EEB clássica ocorre predominantemente pelo contato direto entre bovinos infectados e suscetíveis.
+
+IV. O controle da fabricação e da composição das rações contribui para reduzir o risco de circulação do agente na cadeia produtiva.
+
+Assinale a alternativa correta:`,
+  alternativas: [
+    "A) Apenas I e II estão corretas.",
+    "B) Apenas II e III estão corretas.",
+    "C) Apenas I, III e IV estão corretas.",
+    "D) Apenas I, II e IV estão corretas.",
+    "E) Todas as afirmativas estão corretas."
+  ],
+  resposta: "D",
+  comentario: "As afirmativas I, II e IV estão corretas. A forma clássica da EEB está associada principalmente à ingestão de alimentos contaminados por príons. O controle da alimentação de ruminantes e da fabricação de rações é essencial para prevenir a exposição ao agente. A afirmativa III está incorreta, pois o contato direto entre bovinos não representa a principal via de transmissão da forma clássica."
+},
+
+{
+  id: 213,
+  categoria: "Prionicas",
+  doencaId: "bse",
+  doenca: "Encefalopatia Espongiforme Bovina (BSE)",
+  pergunta: `Um bovino adulto apresenta sinais neurológicos progressivos, incluindo ataxia, hiperestesia e alterações comportamentais. Diante da suspeita de EEB, o animal é submetido aos procedimentos de investigação sanitária. Após sua morte, amostras do sistema nervoso central são encaminhadas para análise laboratorial.
+
+Considerando os métodos utilizados na investigação da enfermidade, assinale a alternativa que apresenta uma abordagem adequada para a confirmação laboratorial:`,
+  alternativas: [
+    "A) Cultura bacteriana do líquido cefalorraquidiano, seguida de antibiograma para identificação do agente.",
+    "B) Detecção da proteína priônica anormal em tecido encefálico por métodos como imuno-histoquímica ou Western blot.",
+    "C) Hemograma completo, pois a presença de leucocitose é um achado específico da EEB.",
+    "D) Pesquisa de anticorpos séricos específicos, uma vez que os príons induzem resposta humoral característica e facilmente detectável.",
+    "E) Exame parasitológico de fezes, utilizado para identificar a forma infectante responsável pela neurodegeneração."
+  ],
+  resposta: "B",
+  comentario: "A confirmação laboratorial da EEB é realizada principalmente pela detecção da proteína priônica anormal em tecidos do sistema nervoso central. Métodos como imuno-histoquímica e Western blot são utilizados nessa investigação. A avaliação clínica permite estabelecer a suspeita, mas não confirma isoladamente a enfermidade. Não há teste sorológico convencional baseado em anticorpos que seja utilizado para confirmar a EEB."
+},
+
+{
+  id: 214,
+  categoria: "Prionicas",
+  doencaId: "bse",
+  doenca: "Encefalopatia Espongiforme Bovina (BSE)",
+  pergunta: `As encefalopatias espongiformes transmissíveis são caracterizadas por alterações neurodegenerativas associadas ao acúmulo de proteínas priônicas anormais. Na EEB, a análise histopatológica do sistema nervoso central pode revelar alterações características.
+
+A respeito dos achados anatomopatológicos dessa enfermidade, assinale a alternativa correta:`,
+  alternativas: [
+    "A) Observa-se principalmente infiltrado purulento intenso, com formação de abscessos disseminados no encéfalo.",
+    "B) A principal alteração é a presença de granulomas multifocais, característicos de infecções bacterianas crônicas.",
+    "C) A lesão característica consiste em necrose hemorrágica extensa do tecido nervoso, associada à intensa infiltração de neutrófilos.",
+    "D) A principal alteração é a formação de cistos parasitários no neurópilo, acompanhada de reação inflamatória eosinofílica.",
+    "E) A doença apresenta vacuolização do neurópilo e dos corpos celulares neuronais, conferindo ao tecido nervoso aspecto espongiforme."
+  ],
+  resposta: "E",
+  comentario: "A EEB caracteriza-se histopatologicamente pela vacuolização do neurópilo e dos corpos celulares neuronais, conferindo ao tecido nervoso aspecto espongiforme. Essas alterações estão relacionadas ao processo neurodegenerativo associado ao acúmulo de proteína priônica anormal. Não se trata de uma enfermidade caracterizada por processo inflamatório purulento ou formação de granulomas."
+},
+
+{
+  id: 215,
+  categoria: "Prionicas",
+  doencaId: "bse",
+  doenca: "Encefalopatia Espongiforme Bovina (BSE)",
+  pergunta: `A Encefalopatia Espongiforme Bovina apresenta importância sanitária e econômica, além de relevância para a saúde pública. A forma clássica da enfermidade está relacionada à ocorrência da variante da doença de Creutzfeldt-Jakob em humanos.
+
+Considerando a abordagem de Saúde Única e as medidas de vigilância da EEB, analise as afirmativas:
+
+I. A forma clássica da EEB apresenta importância zoonótica, estando associada à variante da doença de Creutzfeldt-Jakob em humanos.
+
+II. A suspeita de EEB deve ser comunicada ao Serviço Veterinário Oficial para investigação e adoção das medidas sanitárias pertinentes.
+
+III. A ausência de tratamento curativo torna desnecessária a investigação laboratorial dos animais suspeitos.
+
+IV. A vigilância epidemiológica e o controle de subprodutos de origem animal são fundamentais para prevenir a circulação do agente.
+
+V. Os príons apresentam elevada resistência a procedimentos convencionais de inativação, exigindo cuidados específicos de biossegurança.
+
+Assinale a alternativa correta:`,
+  alternativas: [
+    "A) Apenas I, II e III estão corretas.",
+    "B) Apenas I, III e IV estão corretas.",
+    "C) Apenas I, II, IV e V estão corretas.",
+    "D) Apenas II, III e V estão corretas.",
+    "E) Todas as afirmativas estão corretas."
+  ],
+  resposta: "C",
+  comentario: "As afirmativas I, II, IV e V estão corretas. A forma clássica da EEB está associada à variante da doença de Creutzfeldt-Jakob em humanos. A suspeita deve ser comunicada ao Serviço Veterinário Oficial, e a vigilância, o controle alimentar e o controle de subprodutos são medidas essenciais. A afirmativa III está incorreta: mesmo sem tratamento curativo, a investigação laboratorial é indispensável para a confirmação e o controle sanitário da enfermidade."
+},
+
+
+{
+  id: 216,
+  categoria: "Prionicas",
+  doencaId: "scrapie",
+  doenca: "Scrapie (Tremor Epizoótico)",
+  pergunta: `Em uma propriedade de criação de ovinos, um animal adulto apresenta prurido intenso, perda de lã, tremores e dificuldade progressiva de locomoção. O produtor relata que o animal frequentemente esfrega o corpo contra cercas e estruturas da instalação, provocando lesões na pele.
+
+Considerando a apresentação clínica da Scrapie, assinale a alternativa correta:`,
+  alternativas: [
+    "A) O prurido ocorre exclusivamente devido à presença de ectoparasitas, sendo incompatível com enfermidades priônicas.",
+    "B) A doença caracteriza-se por alterações neurológicas progressivas, podendo apresentar prurido intenso, perda de lã, tremores e ataxia.",
+    "C) A principal manifestação clínica é a ocorrência de diarreia hemorrágica aguda, acompanhada de febre elevada.",
+    "D) A enfermidade apresenta evolução rápida, com recuperação espontânea após a eliminação do agente infeccioso.",
+    "E) A perda de lã é provocada diretamente pela invasão de fungos nos folículos pilosos, sem comprometimento neurológico."
+  ],
+  resposta: "B",
+  comentario: "A Scrapie é uma encefalopatia espongiforme transmissível que apresenta evolução progressiva e fatal. Na forma clássica, o prurido intenso é uma manifestação característica, podendo provocar atrito contra objetos, perda de lã e lesões cutâneas secundárias. Tremores e ataxia também podem ocorrer. Os sinais clínicos devem ser associados à investigação epidemiológica e laboratorial."
+},
+
+{
+  id: 217,
+  categoria: "Prionicas",
+  doencaId: "scrapie",
+  doenca: "Scrapie (Tremor Epizoótico)",
+  pergunta: `Em um rebanho ovino, foram identificados animais com suspeita de Scrapie. Durante a investigação epidemiológica, o médico-veterinário observou que a ocorrência de casos estava relacionada a áreas utilizadas para parição de fêmeas infectadas.
+
+Sobre a transmissão da forma clássica da Scrapie, analise as afirmativas:
+
+I. Placenta e líquidos fetais de animais infectados podem representar fontes de contaminação.
+
+II. O ambiente de parição pode permanecer contaminado por príons, expondo outros animais suscetíveis.
+
+III. A transmissão ocorre exclusivamente por picadas de artrópodes hematófagos.
+
+IV. O contato com materiais contaminados durante o período perinatal apresenta importância epidemiológica.
+
+Assinale a alternativa correta:`,
+  alternativas: [
+    "A) Apenas I e II estão corretas.",
+    "B) Apenas I e III estão corretas.",
+    "C) Apenas II e III estão corretas.",
+    "D) Apenas I, II e IV estão corretas.",
+    "E) Todas as afirmativas estão corretas."
+  ],
+  resposta: "D",
+  comentario: "As afirmativas I, II e IV estão corretas. Na forma clássica da Scrapie, a exposição a placenta, líquidos fetais e outros materiais contaminados durante o período perinatal tem grande importância. Os príons podem persistir no ambiente e favorecer a transmissão. A afirmativa III está incorreta porque artrópodes hematófagos não representam a via de transmissão característica da enfermidade."
+},
+
+{
+  id: 218,
+  categoria: "Prionicas",
+  doencaId: "scrapie",
+  doenca: "Scrapie (Tremor Epizoótico)",
+  pergunta: `Uma propriedade iniciou um programa de melhoramento genético de ovinos após a identificação de casos de Scrapie na região. O médico-veterinário orientou a avaliação de polimorfismos no gene PRNP, relacionados à susceptibilidade dos animais à enfermidade.
+
+A respeito dessa estratégia, assinale a alternativa correta:`,
+  alternativas: [
+    "A) A análise genética permite identificar diretamente a presença de príons no sistema nervoso central.",
+    "B) Todos os ovinos apresentam a mesma susceptibilidade à Scrapie, independentemente de seu genótipo.",
+    "C) Determinados genótipos do gene PRNP estão associados à maior resistência ou susceptibilidade, podendo auxiliar em programas de seleção genética.",
+    "D) A seleção genética substitui completamente a vigilância epidemiológica e os cuidados de biossegurança.",
+    "E) A presença de um genótipo associado à resistência garante que o animal nunca entre em contato com o agente."
+  ],
+  resposta: "C",
+  comentario: "Polimorfismos no gene PRNP influenciam a susceptibilidade dos ovinos à Scrapie. A seleção de animais com genótipos associados à resistência pode ser utilizada como ferramenta complementar de controle. Entretanto, essa estratégia não substitui a vigilância, o manejo sanitário e a prevenção da exposição ao agente."
+},
+
+{
+  id: 219,
+  categoria: "Prionicas",
+  doencaId: "scrapie",
+  doenca: "Scrapie (Tremor Epizoótico)",
+  pergunta: `Um ovino apresenta sinais neurológicos progressivos e histórico compatível com exposição à Scrapie. Após a morte do animal, amostras de encéfalo são encaminhadas ao laboratório para investigação.
+
+Considerando os métodos diagnósticos utilizados para a enfermidade, assinale a alternativa correta:`,
+  alternativas: [
+    "A) A confirmação é realizada exclusivamente por cultura bacteriana do tecido encefálico.",
+    "B) A identificação de anticorpos séricos específicos é o principal método confirmatório.",
+    "C) A presença de leucocitose intensa é considerada patognomônica da doença.",
+    "D) O diagnóstico depende da identificação de ovos do agente em amostras fecais.",
+    "E) A imuno-histoquímica e o Western blot podem ser utilizados para detectar a proteína priônica anormal nos tecidos."
+  ],
+  resposta: "E",
+  comentario: "A confirmação laboratorial da Scrapie envolve a detecção da proteína priônica anormal (PrPSc). Métodos como imuno-histoquímica e Western blot são utilizados nessa investigação. A histopatologia também pode revelar vacuolização neuronal e do neurópilo. Não se trata de uma infecção bacteriana ou parasitária, e a sorologia convencional não é utilizada como método confirmatório."
+},
+
+{
+  id: 220,
+  categoria: "Prionicas",
+  doencaId: "scrapie",
+  doenca: "Scrapie (Tremor Epizoótico)",
+  pergunta: `Durante uma atividade de vigilância sanitária, foram discutidas as diferenças entre as formas clássica e atípica da Scrapie. O médico-veterinário destacou que essas apresentações possuem características epidemiológicas distintas.
+
+Sobre as formas da enfermidade, assinale a alternativa correta:`,
+  alternativas: [
+    "A) A forma clássica está associada à transmissão entre animais e à exposição a materiais contaminados, enquanto a forma atípica apresenta características epidemiológicas distintas e é frequentemente identificada em animais mais velhos.",
+    "B) A forma atípica é transmitida exclusivamente por artrópodes, enquanto a forma clássica é causada por bactérias.",
+    "C) Ambas as formas são causadas por vírus diferentes e apresentam resposta satisfatória ao tratamento antiviral.",
+    "D) A forma clássica ocorre exclusivamente em caprinos, enquanto a forma atípica acomete somente bovinos.",
+    "E) A forma atípica é obrigatoriamente transmitida por contato direto, apresentando maior capacidade de disseminação entre animais que a forma clássica."
+  ],
+  resposta: "A",
+  comentario: "A Scrapie clássica é uma forma transmissível, associada à exposição a materiais contaminados e à transmissão no período perinatal. A forma atípica apresenta características epidemiológicas distintas, sendo frequentemente identificada em animais mais velhos e sem evidência consistente de transmissão natural entre animais. Ambas são enfermidades priônicas."
+},
+
+{
+  id: 221,
+  categoria: "Prionicas",
+  doencaId: "cwd",
+  doenca: "Doença Debilitante Crônica (CWD)",
+  pergunta: `Em uma região de criação de cervídeos, um animal adulto passou a apresentar emagrecimento progressivo, apatia, hipersalivação e incoordenação motora. O histórico epidemiológico revelou que outros animais da região também apresentavam alterações semelhantes.
+
+Considerando a apresentação clínica da Doença Debilitante Crônica (CWD), assinale a alternativa correta:`,
+  alternativas: [
+    "A) A enfermidade caracteriza-se por episódios agudos de febre e diarreia, com recuperação espontânea.",
+    "B) O emagrecimento ocorre exclusivamente por deficiência nutricional, não estando associado a alterações neurológicas.",
+    "C) A hipersalivação é um sinal exclusivo de intoxicação por plantas e descarta a possibilidade de doença priônica.",
+    "D) A CWD pode provocar emagrecimento progressivo, alterações comportamentais, hipersalivação e sinais neurológicos, apresentando evolução fatal.",
+    "E) A doença acomete exclusivamente bovinos jovens e não apresenta importância para populações de cervídeos."
+  ],
+  resposta: "D",
+  comentario: "A CWD é uma encefalopatia espongiforme transmissível que acomete diferentes espécies de cervídeos. Entre suas manifestações estão emagrecimento progressivo, apatia, alterações comportamentais, hipersalivação, aumento da ingestão de água e incoordenação motora. A enfermidade apresenta evolução progressiva e fatal."
+},
+
+{
+  id: 222,
+  categoria: "Prionicas",
+  doencaId: "cwd",
+  doenca: "Doença Debilitante Crônica (CWD)",
+  pergunta: `Uma equipe de vigilância identificou casos de CWD em uma população de cervídeos de vida livre. Durante a investigação, observou-se que animais suscetíveis frequentavam áreas de alimentação e dessedentação utilizadas anteriormente por indivíduos infectados.
+
+Considerando a epidemiologia da enfermidade, analise as afirmativas:
+
+I. A transmissão pode ocorrer por contato direto entre animais infectados e suscetíveis.
+
+II. Saliva, urina e fezes podem contribuir para a contaminação ambiental.
+
+III. Os príons podem persistir no ambiente, favorecendo a exposição de animais suscetíveis.
+
+IV. A transmissão ocorre exclusivamente pela ingestão de carne contaminada, não existindo transmissão ambiental.
+
+Assinale a alternativa correta:`,
+  alternativas: [
+    "A) Apenas I e II estão corretas.",
+    "B) Apenas II e IV estão corretas.",
+    "C) Apenas I, II e III estão corretas.",
+    "D) Apenas I, III e IV estão corretas.",
+    "E) Todas as afirmativas estão corretas."
+  ],
+  resposta: "C",
+  comentario: "As afirmativas I, II e III estão corretas. A CWD pode ser transmitida pelo contato direto e pela exposição a secreções, excreções e ambientes contaminados. Os príons apresentam elevada persistência ambiental, podendo permanecer no solo e em outros componentes do ambiente por períodos prolongados. A afirmativa IV está incorreta porque a transmissão ambiental é epidemiologicamente importante."
+},
+
+{
+  id: 223,
+  categoria: "Prionicas",
+  doencaId: "cwd",
+  doenca: "Doença Debilitante Crônica (CWD)",
+  pergunta: `Um cervídeo encontrado morto em uma área com ocorrência de CWD foi encaminhado para investigação laboratorial. O laboratório recebeu amostras do tronco encefálico e de tecidos linfoides para pesquisa da proteína priônica anormal.
+
+Sobre o diagnóstico laboratorial da CWD, assinale a alternativa correta:`,
+  alternativas: [
+    "A) O diagnóstico é confirmado pela identificação de bactérias no líquido cefalorraquidiano.",
+    "B) A detecção da proteína priônica anormal pode ser realizada por métodos como imuno-histoquímica e ELISA, utilizando tecidos apropriados, como o óbex e linfonodos retrofaríngeos.",
+    "C) A confirmação depende exclusivamente da identificação de anticorpos específicos no soro.",
+    "D) A cultura viral do tecido nervoso é o método de eleição para identificação do agente.",
+    "E) A presença de eosinofilia intensa no hemograma confirma a enfermidade."
+  ],
+  resposta: "B",
+  comentario: "A confirmação da CWD depende da detecção da proteína priônica anormal em tecidos apropriados. O óbex, localizado no tronco encefálico, e os linfonodos retrofaríngeos são amostras importantes para a investigação. Imuno-histoquímica e ELISA são métodos utilizados nos protocolos diagnósticos. A escolha das amostras e dos testes deve seguir as orientações laboratoriais oficiais."
+},
+
+{
+  id: 224,
+  categoria: "Prionicas",
+  doencaId: "cwd",
+  doenca: "Doença Debilitante Crônica (CWD)",
+  pergunta: `Em uma área de ocorrência de CWD, pesquisadores identificaram que a proteína priônica anormal pode permanecer no solo e contribuir para a exposição de cervídeos suscetíveis. Essa característica representa um desafio para os programas de controle da enfermidade.
+
+A respeito da persistência ambiental dos príons, assinale a alternativa correta:`,
+  alternativas: [
+    "A) Os príons são rapidamente destruídos pela exposição ambiental, não representando risco após a eliminação do animal infectado.",
+    "B) A contaminação ambiental ocorre exclusivamente por aerossóis produzidos durante a respiração dos animais.",
+    "C) A permanência dos príons no ambiente é dependente da multiplicação bacteriana no solo.",
+    "D) A lavagem convencional das instalações garante a eliminação completa da infectividade dos príons.",
+    "E) A elevada resistência dos príons à degradação ambiental pode favorecer a manutenção da infectividade no solo e dificultar o controle da doença."
+  ],
+  resposta: "E",
+  comentario: "Os príons apresentam elevada resistência a processos convencionais de degradação e podem permanecer associados ao solo e a outros componentes ambientais por períodos prolongados. Essa característica favorece a exposição de animais suscetíveis e dificulta o controle da CWD, tornando a prevenção da contaminação ambiental uma medida importante."
+},
+
+{
+  id: 225,
+  categoria: "Prionicas",
+  doencaId: "cwd",
+  doenca: "Doença Debilitante Crônica (CWD)",
+  pergunta: `A CWD apresenta importância para a conservação de populações de cervídeos e para a saúde pública. Embora não existam casos confirmados de infecção humana pela doença, autoridades sanitárias recomendam medidas preventivas relacionadas ao manejo e ao consumo de animais provenientes de áreas afetadas.
+
+Considerando a abordagem de Saúde Única, analise as afirmativas:
+
+I. A CWD acomete diferentes espécies de cervídeos, incluindo cervos, alces e renas.
+
+II. A vigilância epidemiológica e o monitoramento laboratorial são importantes para identificar a circulação do agente.
+
+III. A ausência de casos humanos confirmados significa que o consumo de carne de animais positivos é considerado seguro.
+
+IV. Recomenda-se evitar o consumo de carne de animais com suspeita ou confirmação de CWD.
+
+V. O controle da movimentação de animais e a redução da contaminação ambiental são medidas importantes de prevenção.
+
+Assinale a alternativa correta:`,
+  alternativas: [
+    "A) Apenas I, II e III estão corretas.",
+    "B) Apenas II, III e IV estão corretas.",
+    "C) Apenas I, III e V estão corretas.",
+    "D) Apenas I, II, IV e V estão corretas.",
+    "E) Todas as afirmativas estão corretas."
+  ],
+  resposta: "D",
+  comentario: "As afirmativas I, II, IV e V estão corretas. A CWD acomete diferentes cervídeos e exige vigilância epidemiológica, monitoramento laboratorial e medidas de controle ambiental. Embora não existam casos confirmados de infecção humana, a possibilidade de transmissão entre espécies não foi definitivamente descartada. Por precaução, recomenda-se não consumir carne de animais positivos ou suspeitos."
+},
+
+
+{
+  id: 226,
+  categoria: "Prionicas",
+  doencaId: "bse",
+  doenca: "Encefalopatia Espongiforme Bovina (BSE)",
+  pergunta: `A Encefalopatia Espongiforme Bovina (BSE), conhecida popularmente como doença da vaca louca, é uma enfermidade priônica de grande importância sanitária e econômica. Considerando as medidas de prevenção e controle dessa doença, assinale a alternativa correta:`,
+  alternativas: [
+    "A) A vacinação periódica do rebanho é a principal medida para impedir a circulação do agente priônico.",
+    "B) A utilização de farinhas de carne e ossos de origem animal na alimentação de bovinos é recomendada para reduzir o risco de transmissão.",
+    "C) O controle da alimentação animal, com a proibição do fornecimento de proteínas de origem animal proibidas para ruminantes, associado à vigilância epidemiológica e à rastreabilidade dos animais, constitui medida fundamental de prevenção.",
+    "D) A prevenção depende exclusivamente do tratamento dos animais infectados com medicamentos antiparasitários.",
+    "E) A pasteurização convencional dos alimentos destinados aos bovinos é suficiente para eliminar completamente os príons e impedir a transmissão."
+  ],
+  resposta: "C",
+  comentario: "A prevenção da BSE depende principalmente do controle rigoroso da alimentação dos bovinos, especialmente da proibição do fornecimento de proteínas de origem animal proibidas para ruminantes, como farinhas de carne e ossos contaminadas. Também são fundamentais a vigilância epidemiológica, a rastreabilidade dos animais, o controle de ingredientes utilizados na fabricação de rações e a remoção de materiais de risco especificados da cadeia alimentar. Não existe vacina ou tratamento capaz de eliminar a infecção priônica."
 },
 
 ];

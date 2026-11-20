@@ -28,9 +28,9 @@ const categorias = [
   },
 
   {
-    nome: "Ectoparasitoses",
+    nome: "Doenças associadas a artrópodes",
     icone: "🕷️",
-    link: "/doencas/ectoparasitoses",
+    link: "/doencas/Doenças associadas a artrópodes",
   },
 
   {

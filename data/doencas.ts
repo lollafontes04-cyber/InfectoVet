@@ -25,7 +25,7 @@ export type Doenca = {
     | "Virais"
     | "Protozooses"
     | "Helmintoses"
-    | "Ectoparasitoses"
+    | "Doenças associadas a artrópodes"
     | "Prionicas";
 
   icone: string;
@@ -5679,7 +5679,7 @@ discussao:
         emoji: "🧫",
         itens: [
           "Pode ser cultivado em células de origem equina.",
-          "O material de aula também cita células HeLa e BHK."
+          "Tem-se também células HeLa e BHK."
         ]
       }
     ]
@@ -5696,7 +5696,7 @@ discussao:
       {
         emoji: "2️⃣",
         titulo: "Disseminação sanguínea",
-        texto: "Após a entrada, o vírus alcança a corrente sanguínea, estabelecendo viremia. O período de incubação descrito no material varia de 7 a 21 dias."
+        texto: "Após a entrada, o vírus alcança a corrente sanguínea, estabelecendo viremia. O período de incubação varia de 7 a 21 dias."
       },
       {
         emoji: "3️⃣",
@@ -7051,7 +7051,7 @@ imagens: [
 
   patogenia: {
     introducao:
-      "Após a entrada do vírus no organismo, ocorre multiplicação viral e disseminação, podendo resultar em lesões vesiculares na cavidade oral, nos membros e na região dos tetos e úbere. O período de incubação descrito no material é de aproximadamente sete dias.",
+      "Após a entrada do vírus no organismo, ocorre multiplicação viral e disseminação, podendo resultar em lesões vesiculares na cavidade oral, nos membros e na região dos tetos e úbere. O período de incubação é de aproximadamente sete dias.",
 
     blocos: [
       {
@@ -7120,7 +7120,7 @@ imagens: [
         emoji: "📊",
         titulo: "Morbidade e mortalidade",
         texto:
-          "O material descreve morbidade aproximada de 50% e mortalidade de 0%, com tendência à recuperação espontânea."
+          "Morbidade aproximada de 50% e mortalidade de 0%, com tendência à recuperação espontânea."
       }
     ]
   },
@@ -7679,7 +7679,7 @@ casosClinicos: [
       {
         emoji: "🩹",
         titulo: "Cuidados com as lesões",
-        texto: "O material de aula descreve a lavagem das lesões e a utilização de soluções tópicas, desinfetantes, sprays, pastas e ataduras como medidas sintomáticas."
+        texto: "Lavagem das lesões e a utilização de soluções tópicas, desinfetantes, sprays, pastas e ataduras como medidas sintomáticas."
       },
       {
         emoji: "💉",
@@ -7715,7 +7715,7 @@ casosClinicos: [
       {
         emoji: "💉",
         titulo: "Vacinação",
-        texto: "As vacinas contra a febre aftosa podem ser mono, bi ou trivalentes e devem considerar os sorotipos circulantes. O material de aula apresenta esquemas de vacinação utilizados em programas anteriores. No Brasil, a vacinação rotineira foi suspensa com o reconhecimento do status de país livre de febre aftosa sem vacinação. A vacinação de emergência poderá ser adotada pelas autoridades sanitárias, caso necessário."
+        texto: "As vacinas contra a febre aftosa podem ser mono, bi ou trivalentes e devem considerar os sorotipos circulantes. No Brasil, a vacinação rotineira foi suspensa com o reconhecimento do status de país livre de febre aftosa sem vacinação. A vacinação de emergência poderá ser adotada pelas autoridades sanitárias, caso necessário."
       },
       {
         emoji: "⚠️",
@@ -7883,7 +7883,7 @@ casosClinicos: [
         itens: [
           "Acomete felídeos domésticos e selvagens",
           "Possui distribuição mundial",
-          "Animais com mais de um ano apresentam soroprevalência de aproximadamente 75%, conforme o material da aula"
+          "Animais com mais de um ano apresentam soroprevalência de aproximadamente 75%."
         ]
       },
       {
@@ -7892,7 +7892,7 @@ casosClinicos: [
         itens: [
           "Pode apresentar elevada morbidade e mortalidade",
           "Formas clínicas graves são observadas principalmente em animais não vacinados",
-          "A letalidade indicada na aula para animais não vacinados entre três e cinco meses é de 50% a 90%"
+          "A letalidade para animais não vacinados entre três e cinco meses é de 50% a 90%"
         ]
       },
       {
@@ -7940,13 +7940,13 @@ casosClinicos: [
         emoji: "🐈",
         titulo: "Soroprevalência",
         texto:
-          "Segundo o material da aula, aproximadamente 75% dos animais com mais de um ano apresentam soroprevalência para o agente."
+          "Aproximadamente 75% dos animais com mais de um ano apresentam soroprevalência para o agente."
       },
       {
         emoji: "⚠️",
         titulo: "Susceptibilidade",
         texto:
-          "Os animais não vacinados apresentam maior risco de desenvolver a forma clínica da enfermidade. O material destaca animais entre três e cinco meses como grupo de atenção, com letalidade indicada entre 50% e 90%."
+          "Os animais não vacinados apresentam maior risco de desenvolver a forma clínica da enfermidade. Animais entre três e cinco meses devem ser destacados como grupo de atenção, com letalidade indicada entre 50% e 90%."
       },
       {
         emoji: "🔄",
@@ -8027,7 +8027,7 @@ casosClinicos: [
         emoji: "🩸",
         titulo: "Manifestações posteriores (3 a 4 dias)",
         itens: [
-          "Panleucopenia, com contagem inferior a 2.000 leucócitos, conforme o material da aula",
+          "Panleucopenia, com contagem inferior a 2.000 leucócitos",
           "Diarreia hemorrágica ou não hemorrágica",
           "Dor abdominal",
           "Coagulação intravascular disseminada (CID)",
@@ -8124,7 +8124,7 @@ casosClinicos: [
           {
             titulo: "Revacinação",
             texto:
-              "O material da aula indica revacinação anual por meio da tríplice felina."
+              "Revacinação anual por meio da tríplice felina."
           }
         ]
       }
@@ -8163,7 +8163,7 @@ casosClinicos: [
       especie: "Felina",
       idade: "4 meses",
       historico:
-        "Caso didático fictício elaborado com base nas manifestações clínicas apresentadas na aula. Filhote felino não vacinado é atendido com histórico de depressão progressiva, vômitos e redução da ingestão alimentar.",
+        "Caso didático fictício elaborado com base nas manifestações clínicas. Filhote felino não vacinado é atendido com histórico de depressão progressiva, vômitos e redução da ingestão alimentar.",
       sinais: [
         "Depressão profunda",
         "Hipertermia",
@@ -9697,7 +9697,7 @@ imagens: [
 
   etiologia: {
     introducao:
-      "A varíola bovina está associada a vírus da família Poxviridae. O material didático diferencia as formas vaccinia, varíola original bovina e varíola mamária, relacionadas a diferentes grupos de poxvírus.",
+      "A varíola bovina está associada a vírus da família Poxviridae.",
 
     listas: [
       {
@@ -9727,7 +9727,7 @@ imagens: [
         titulo: "Inclusões citoplasmáticas",
         itens: [
           "Corpúsculos de Guarnieri: inclusões citoplasmáticas associadas à replicação viral",
-          "Corpúsculos elementares de Paschen: estruturas virais descritas no interior dos corpúsculos de Guarnieri no material didático"
+          "Corpúsculos elementares de Paschen: estruturas virais descritas no interior dos corpúsculos de Guarnieri."
         ]
       },
       {
@@ -9743,7 +9743,7 @@ imagens: [
         emoji: "🧪",
         titulo: "Resistência e sensibilidade",
         itens: [
-          "Apresenta resistência a álcool, éter, clorofórmio e acetona, conforme o material didático",
+          "Apresenta resistência a álcool, éter, clorofórmio e acetona.",
           "É sensível a desinfetantes comuns",
           "Apresenta sensibilidade à luz solar e à fervura"
         ]
@@ -9784,7 +9784,7 @@ imagens: [
         emoji: "🛡️",
         titulo: "Recuperação e imunidade",
         texto:
-          "Após a resolução da enfermidade, pode ocorrer imunidade duradoura. O material didático descreve imunidade vitalícia após a doença, com proteção cruzada entre vaccinia e cowpox, mas proteção escassa ou praticamente nula na varíola mamária."
+          "Após a resolução da enfermidade, pode ocorrer imunidade duradoura. Há imunidade vitalícia após a doença, com proteção cruzada entre vaccinia e cowpox, mas proteção escassa ou praticamente nula na varíola mamária."
       }
     ]
   },
@@ -9804,7 +9804,7 @@ imagens: [
         emoji: "🐄",
         titulo: "Hospedeiros suscetíveis",
         texto:
-          "O material didático descreve a infecção em bovinos, humanos e diferentes espécies animais. A varíola original bovina pode infectar também búfalos, camelos, elefantes, roedores e felinos."
+          "Infecção em bovinos, humanos e diferentes espécies animais. A varíola original bovina pode infectar também búfalos, camelos, elefantes, roedores e felinos."
       },
       {
         emoji: "🤝",
@@ -9901,7 +9901,7 @@ imagens: [
 
   tratamento: {
     introducao:
-      "O tratamento é direcionado principalmente aos cuidados com as lesões cutâneas e à prevenção de infecções secundárias. O material didático descreve a utilização de pomadas ou sprays com antibióticos e medidas de higiene durante o manejo dos animais.",
+      "O tratamento é direcionado principalmente aos cuidados com as lesões cutâneas e à prevenção de infecções secundárias. Utilização de pomadas ou sprays com antibióticos e medidas de higiene durante o manejo dos animais.",
 
     blocos: [
       {
@@ -9914,7 +9914,7 @@ imagens: [
         emoji: "💊",
         titulo: "Tratamento tópico",
         texto:
-          "O material didático descreve a utilização de pomadas ou sprays contendo antibióticos como medida terapêutica para o cuidado das lesões e prevenção de complicações bacterianas secundárias."
+          "Utilização de pomadas ou sprays contendo antibióticos como medida terapêutica para o cuidado das lesões e prevenção de complicações bacterianas secundárias."
       },
       {
         emoji: "🥛",
@@ -9941,7 +9941,7 @@ imagens: [
         titulo: "Vacinação",
         destaque: true,
         texto:
-          "O material didático descreve a utilização de vírus original inativado ou de vaccinia em estratégias de imunização. Também informa que a obrigatoriedade da vacinação contra varíola bovina foi extinta no Brasil pela Portaria nº 55, de 29 de janeiro de 1980. A indicação de vacinação deve considerar a situação epidemiológica e as orientações sanitárias vigentes.",
+          "Utilização de vírus original inativado ou de vaccinia em estratégias de imunização. Também informa que a obrigatoriedade da vacinação contra varíola bovina foi extinta no Brasil pela Portaria nº 55, de 29 de janeiro de 1980. A indicação de vacinação deve considerar a situação epidemiológica e as orientações sanitárias vigentes.",
         tags: [
           "IMUNIZAÇÃO ESPECÍFICA",
           "🇧🇷 OBRIGATORIEDADE EXTINTA EM 1980"
@@ -12661,14 +12661,14 @@ imagens: [
 
 },
 
-// 🕷️ ECTOPARASITOSES
+// 🕷️ Doenças associadas a artrópodes
 
 
 {
   id: "anaplasmose",
   nome: "Anaplasmose",
   agente: "Anaplasma spp.",
-  categoria: "Ectoparasitoses",
+  categoria: "Doenças associadas a artrópodes",
   icone: "🕷️",
   zoonose: true,
   vacina: false,
@@ -13143,7 +13143,7 @@ imagens: [
 
   agente: "Babesia spp.",
 
-  categoria: "Ectoparasitoses",
+  categoria: "Doenças associadas a artrópodes",
 
   icone: "🕷️",
 
@@ -13707,7 +13707,7 @@ imagens: [
 
   agente: "Ehrlichia spp.",
 
-  categoria: "Ectoparasitoses",
+  categoria: "Doenças associadas a artrópodes",
 
   icone: "🕷️",
 
@@ -13777,35 +13777,463 @@ imagens: [
   notificacaoObrigatoria: true,
 
   hospedeiros: [
-    "Cervídeos"
+    "Cervos",
+    "Veados",
+    "Alces",
+    "Renas"
   ],
 
   palavrasChave: [
     "cwd",
+    "chronic wasting disease",
     "doença debilitante crônica",
     "cervo",
-    "cervideo",
+    "cervídeo",
+    "veado",
     "alce",
+    "rena",
+    "caribu",
     "prion",
-    "príon"
+    "príon",
+    "encefalopatia espongiforme"
   ],
 
   imagem: "/images/doencas/cwd.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+imagens: [
+  {
+    src: "/images/doencas/cwd/01-cervideo-sinais-clinicos.jpg",
+    titulo: "Cervídeo com sinais clínicos de CWD",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Cervídeo apresentando alterações de condição corporal e comportamento compatíveis com a evolução da Doença Debilitante Crônica."
+  },
+  {
+    src: "/images/doencas/cwd/02-emagrecimento-hipersalivacao.jpg",
+    titulo: "Emagrecimento e hipersalivação",
+    categoria: "Sinais clínicos",
+    descricao:
+      "O emagrecimento progressivo, a hipersalivação, a postura de cabeça baixa e as alterações comportamentais podem ocorrer em fases avançadas da enfermidade."
+  },
+  {
+    src: "/images/doencas/cwd/03-histopatologia-encefalo.jpg",
+    titulo: "Alterações histopatológicas no encéfalo",
+    categoria: "Histopatologia",
+    descricao:
+      "A vacuolização dos corpos celulares neuronais e do neurópilo confere ao tecido nervoso o aspecto espongiforme característico das encefalopatias priônicas."
+  },
+  {
+    src: "/images/doencas/cwd/04-imuno-histoquimica-prpsc.jpg",
+    titulo: "Detecção de proteína priônica anormal",
+    categoria: "Diagnóstico laboratorial",
+    descricao:
+      "A imuno-histoquímica permite identificar a deposição de PrPSc em tecidos nervosos, contribuindo para a confirmação laboratorial da CWD."
+  },
+  {
+    src: "/images/doencas/cwd/05-linfonodo-retrofaringeo.jpg",
+    titulo: "Linfonodo retrofaríngeo",
+    categoria: "Diagnóstico",
+    descricao:
+      "O linfonodo retrofaríngeo é uma importante amostra para investigação da proteína priônica anormal em cervídeos."
+  },
+  
+],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A Doença Debilitante Crônica (CWD), também conhecida como Chronic Wasting Disease, é uma encefalopatia espongiforme transmissível, progressiva e fatal que acomete cervídeos. É causada por príons e caracteriza-se pelo acúmulo de proteínas priônicas anormais no sistema nervoso central. A enfermidade provoca emagrecimento progressivo, alterações comportamentais, hipersalivação e comprometimento neurológico.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🧬",
+        itens: [
+          "Príon, proteína infecciosa anormal (PrPSc).",
+          "Não apresenta DNA ou RNA.",
+          "Provoca alterações neurodegenerativas progressivas."
+        ]
+      },
+      {
+        titulo: "Hospedeiros",
+        emoji: "🦌",
+        itens: [
+          "Cervos e veados.",
+          "Alces.",
+          "Renas e caribus.",
+          "Outros membros da família Cervidae."
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🌱",
+        itens: [
+          "Contato direto entre animais.",
+          "Exposição a saliva, urina e fezes contaminadas.",
+          "Contaminação indireta de solo, água e alimentos.",
+          "Persistência ambiental dos príons por anos."
+        ]
+      },
+      {
+        titulo: "Evolução",
+        emoji: "⚠️",
+        itens: [
+          "Período de incubação prolongado.",
+          "Emagrecimento progressivo.",
+          "Comprometimento neurológico.",
+          "Evolução fatal, sem tratamento curativo."
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A CWD é causada por príons, agentes infecciosos constituídos por proteínas com conformação anormal. A proteína priônica patológica (PrPSc) induz a conversão de proteínas celulares normais (PrPC) em conformações anormais, promovendo seu acúmulo nos tecidos e, principalmente, no sistema nervoso central.",
+
+    listas: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🧬",
+        itens: [
+          "Proteína priônica celular normal: PrPC.",
+          "Proteína priônica anormal: PrPSc.",
+          "Ausência de material genético.",
+          "Resistência elevada à degradação e a procedimentos convencionais de inativação."
+        ]
+      },
+      {
+        titulo: "Espécies suscetíveis",
+        emoji: "🦌",
+        itens: [
+          "Cervos-de-cauda-branca.",
+          "Cervos-mula.",
+          "Alces.",
+          "Renas e caribus.",
+          "Alces-americanos e outras espécies de cervídeos."
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Características do agente",
+        emoji: "🔬",
+        itens: [
+          "Não é bactéria, vírus ou parasita.",
+          "Não possui DNA ou RNA.",
+          "Induz alterações conformacionais em proteínas priônicas normais.",
+          "Apresenta elevada persistência ambiental."
+        ]
+      },
+      {
+        titulo: "Histórico da enfermidade",
+        emoji: "📚",
+        itens: [
+          "Identificada inicialmente em 1967, em cervídeos mantidos em cativeiro no Colorado, Estados Unidos.",
+          "Em 1978, foi reconhecida como uma encefalopatia espongiforme transmissível.",
+          "Posteriormente, foi identificada em populações de cervídeos de vida livre e em instalações de criação."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A CWD apresenta ocorrência em diferentes regiões da América do Norte e também foi identificada em países europeus e asiáticos. Sua epidemiologia é marcada pela transmissão entre cervídeos e pela persistência ambiental dos príons, que podem permanecer infectantes no solo e em outros elementos ambientais durante anos.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "A doença foi identificada inicialmente nos Estados Unidos e posteriormente registrada no Canadá, Noruega, Finlândia, Suécia e Coreia do Sul, entre outros locais. Sua distribuição geográfica tem aumentado, especialmente em populações de cervídeos da América do Norte."
+      },
+      {
+        emoji: "🦌",
+        titulo: "Hospedeiros suscetíveis",
+        texto:
+          "A CWD acomete diferentes espécies de cervídeos, incluindo cervos, veados, alces e renas. Pode afetar animais de vida livre e aqueles mantidos em instalações de criação."
+      },
+      {
+        emoji: "🔄",
+        titulo: "Transmissão direta",
+        texto:
+          "A transmissão pode ocorrer pelo contato entre animais infectados e suscetíveis, principalmente por meio da exposição a secreções e excreções contaminadas, como saliva, urina e fezes."
+      },
+      {
+        emoji: "🌱",
+        titulo: "Transmissão ambiental",
+        texto:
+          "Os príons liberados pelos animais infectados podem contaminar o solo, a água, os alimentos e outros componentes do ambiente. A elevada resistência ambiental favorece a manutenção da infectividade por anos, dificultando o controle da doença."
+      },
+      {
+        emoji: "⏳",
+        titulo: "Período de incubação",
+        texto:
+          "O período de incubação pode durar meses ou anos. Durante essa fase, animais infectados podem aparentar normalidade e eliminar príons no ambiente antes do aparecimento dos sinais clínicos."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância sanitária",
+        texto:
+          "A doença representa uma ameaça à conservação de populações de cervídeos e à criação desses animais. A persistência ambiental e a ausência de tratamento tornam a vigilância e o controle da movimentação de animais importantes para reduzir sua disseminação."
+      },
+      {
+        emoji: "👥",
+        titulo: "Importância zoonótica",
+        texto:
+          "Até o momento, não há casos confirmados de infecção humana por CWD. Entretanto, como estudos experimentais levantam questionamentos sobre a possibilidade de transmissão entre espécies, recomenda-se precaução e evitar o consumo de carne de animais positivos ou suspeitos."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia da CWD envolve a conversão da proteína priônica celular normal (PrPC) em sua conformação anormal (PrPSc), seguida de acúmulo progressivo nos tecidos linfoides e no sistema nervoso central. A deposição da proteína anormal provoca alterações neurodegenerativas que comprometem progressivamente as funções neurológicas.",
+
+    blocos: [
+      {
+        emoji: "🚪",
+        titulo: "1. Entrada do agente",
+        texto:
+          "A exposição ocorre principalmente pela via oral ou nasal, por contato direto com animais infectados ou pela ingestão de água e alimentos contaminados por príons."
+      },
+      {
+        emoji: "🧫",
+        titulo: "2. Acúmulo em tecidos",
+        texto:
+          "Após a entrada no organismo, ocorre acúmulo da proteína priônica anormal em tecidos linfoides, incluindo estruturas associadas ao trato digestório."
+      },
+      {
+        emoji: "🧠",
+        titulo: "3. Disseminação neural",
+        texto:
+          "O agente alcança o sistema nervoso central por vias neurais, promovendo a disseminação progressiva da proteína priônica anormal."
+      },
+      {
+        emoji: "🧬",
+        titulo: "4. Conversão proteica",
+        texto:
+          "A PrPSc induz a conversão de proteínas priônicas normais em conformações anormais, favorecendo o acúmulo progressivo dessas proteínas no tecido nervoso."
+      },
+      {
+        emoji: "🔬",
+        titulo: "5. Neurodegeneração",
+        texto:
+          "O acúmulo de proteínas anormais está associado à vacuolização neuronal, alterações do neurópilo e astrogliose, provocando comprometimento progressivo das funções do sistema nervoso central."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "6. Evolução clínica",
+        texto:
+          "A degeneração progressiva do tecido nervoso resulta em alterações comportamentais, incoordenação motora, hipersalivação, emagrecimento e, finalmente, morte."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "Os sinais clínicos da CWD são progressivos e podem demorar meses ou anos para aparecer após a infecção. As manifestações incluem alterações comportamentais, emagrecimento acentuado e comprometimento neurológico. Os sinais podem ser discretos nas fases iniciais e se intensificar com a evolução da enfermidade.",
+
+    blocos: [
+      {
+        emoji: "📉",
+        titulo: "Alterações de condição corporal",
+        itens: [
+          "Emagrecimento progressivo.",
+          "Perda acentuada de condição corporal.",
+          "Debilidade.",
+          "Aspecto caquético nas fases avançadas."
+        ]
+      },
+      {
+        emoji: "🧠",
+        titulo: "Alterações neurológicas",
+        itens: [
+          "Ataxia.",
+          "Incoordenação motora.",
+          "Dificuldade de deglutição.",
+          "Alterações de postura.",
+          "Dificuldade de locomoção."
+        ]
+      },
+      {
+        emoji: "💧",
+        titulo: "Alterações comportamentais e autonômicas",
+        itens: [
+          "Apatia e letargia.",
+          "Redução da interação com outros animais.",
+          "Hipersalivação.",
+          "Aumento da ingestão de água.",
+          "Aumento da frequência urinária.",
+          "Orelhas caídas e olhar fixo."
+        ]
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Fases avançadas",
+        itens: [
+          "Emagrecimento acentuado.",
+          "Fraqueza intensa.",
+          "Decúbito.",
+          "Dificuldade para se alimentar e deglutir.",
+          "Pneumonia por aspiração em alguns animais."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico da CWD é baseado na investigação epidemiológica, avaliação clínica e detecção da proteína priônica anormal em tecidos específicos. Os sinais clínicos não são exclusivos da enfermidade, e a confirmação depende de exames laboratoriais. A avaliação pós-morte é a principal abordagem utilizada na vigilância diagnóstica.",
+
+    metodos: [
+      "Avaliação clínica e epidemiológica: identificação de emagrecimento progressivo, alterações comportamentais, hipersalivação e sinais neurológicos em cervídeos.",
+      "Imuno-histoquímica: método de referência para detecção da proteína priônica anormal em amostras do sistema nervoso central e tecidos linfoides.",
+      "ELISA: utilizado em testes de triagem para identificação de proteína priônica anormal.",
+      "Western blot: método utilizado para detecção e caracterização bioquímica da proteína priônica anormal.",
+      "Histopatologia: pode evidenciar vacuolização neuronal e do neurópilo, compatível com encefalopatia espongiforme.",
+      "Amostra de óbex: região do tronco encefálico frequentemente utilizada para investigação laboratorial.",
+      "Linfonodos retrofaríngeos: tecidos linfoides utilizados na investigação pós-morte.",
+      "Biópsias de tecidos linfoides: podem ser investigadas em animais vivos, mas apresentam limitações de sensibilidade e não substituem os métodos oficiais de confirmação."
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "Não existe tratamento curativo ou vacina para a Doença Debilitante Crônica. A enfermidade apresenta evolução progressiva e fatal, e as medidas de manejo devem priorizar a vigilância, o controle da transmissão e a adoção de medidas sanitárias adequadas.",
+
+    blocos: [
+      {
+        emoji: "🚫",
+        titulo: "Ausência de tratamento",
+        texto:
+          "Não existem medicamentos capazes de eliminar os príons ou reverter as alterações neurodegenerativas provocadas pela enfermidade."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Conduta sanitária",
+        texto:
+          "Animais suspeitos devem ser avaliados e investigados conforme as orientações do serviço veterinário ou da autoridade sanitária responsável. Em rebanhos de criação, medidas de controle populacional podem ser adotadas conforme os protocolos oficiais."
+      },
+      {
+        emoji: "🦌",
+        titulo: "Manejo dos animais",
+        texto:
+          "Animais com alterações neurológicas e emagrecimento progressivo devem ser manejados com cuidado, evitando a disseminação de materiais potencialmente contaminados no ambiente."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da CWD depende da vigilância epidemiológica, do controle da movimentação de cervídeos, da biossegurança em instalações de criação e da redução da contaminação ambiental. A elevada persistência dos príons torna o controle da exposição ambiental uma das principais dificuldades sanitárias.",
+
+    blocos: [
+      {
+        emoji: "🔎",
+        titulo: "Vigilância epidemiológica",
+        texto:
+          "A investigação de cervídeos com emagrecimento progressivo, alterações comportamentais e sinais neurológicos é essencial para a identificação de possíveis casos e o monitoramento da doença."
+      },
+      {
+        emoji: "🚛",
+        titulo: "Controle de movimentação",
+        texto:
+          "A aquisição de animais de origem conhecida, a rastreabilidade e a restrição da movimentação de animais provenientes de áreas afetadas ajudam a reduzir a disseminação da doença."
+      },
+      {
+        emoji: "🧹",
+        titulo: "Biossegurança ambiental",
+        texto:
+          "É importante reduzir o contato dos animais com solo, água, alimentos e materiais potencialmente contaminados. A persistência dos príons no ambiente dificulta a descontaminação convencional."
+      },
+      {
+        emoji: "🦌",
+        titulo: "Manejo de populações",
+        texto:
+          "Em áreas afetadas, medidas de manejo populacional e vigilância de cervídeos de vida livre podem ser utilizadas para reduzir a disseminação, conforme as estratégias de controle da região."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Monitoramento laboratorial",
+        texto:
+          "A realização de testes em animais mortos, suspeitos ou submetidos a programas de vigilância permite identificar a circulação do agente e orientar as medidas sanitárias."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Segurança alimentar",
+        texto:
+          "Não se recomenda o consumo de carne de cervídeos com suspeita ou confirmação de CWD. Caçadores e manipuladores devem evitar o contato direto com tecidos do sistema nervoso central e linfonodos de animais suspeitos."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Chronic Wasting Disease in Animals",
+      autores: "Centers for Disease Control and Prevention (CDC)",
+      fonte: "CDC",
+      ano: "2026",
+      link: "https://www.cdc.gov/chronic-wasting/animals/"
+    },
+    {
+      titulo: "Chronic Wasting Disease Specifics",
+      autores: "United States Department of Agriculture (USDA - APHIS)",
+      fonte: "Animal and Plant Health Inspection Service",
+      ano: "2026",
+      link: "https://www.aphis.usda.gov/livestock-poultry-disease/cervid/chronic-wasting/cwd-specifics"
+    },
+    {
+      titulo: "Chronic Wasting Disease",
+      autores: "Merck Veterinary Manual",
+      fonte: "Merck Veterinary Manual",
+      ano: "2026",
+      link: "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease"
+    },
+    {
+      titulo: "Agent causing chronic wasting disease (CWD)",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "WOAH",
+      ano: "2022",
+      link: "https://www.woah.org/app/uploads/2022/01/agent-causing-chronic-wasting-disease-cwd.pdf"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "cwd-caso-01",
+
+      titulo: "Emagrecimento progressivo e alterações comportamentais em cervídeo",
+
+      especie: "Cervídeo",
+
+      idade: "Adulto",
+
+      historico:
+        "Caso clínico hipotético para fins didáticos. Um cervídeo adulto, mantido em uma instalação de criação, apresenta perda progressiva de peso, redução da interação com outros animais e alterações de comportamento. Com a evolução do quadro, passa a apresentar hipersalivação e dificuldade de coordenação motora.",
+
+      sinais: [
+        "Emagrecimento progressivo.",
+        "Apatia e letargia.",
+        "Hipersalivação.",
+        "Ataxia.",
+        "Redução da interação com outros animais.",
+        "Dificuldade de deglutição."
+      ],
+
+      exames:
+        "A avaliação clínica e epidemiológica levanta suspeita de enfermidade neurodegenerativa. A confirmação laboratorial deve ser realizada por detecção da proteína priônica anormal em amostras do sistema nervoso central, especialmente no óbex, e em tecidos linfoides, como os linfonodos retrofaríngeos. Podem ser utilizados métodos como imuno-histoquímica e ELISA, conforme os protocolos oficiais.",
+
+      diagnostico:
+        "Suspeita de Doença Debilitante Crônica (CWD), com necessidade de confirmação laboratorial.",
+
+      discussao:
+        "A associação entre emagrecimento progressivo, alterações comportamentais, hipersalivação e incoordenação motora é compatível com a apresentação clínica da CWD. Entretanto, esses sinais não são específicos e devem ser diferenciados de outras enfermidades neurológicas, alterações nutricionais e doenças sistêmicas. A confirmação depende da detecção laboratorial da proteína priônica anormal. A ausência de tratamento curativo torna a vigilância e o controle da disseminação ambiental fundamentais."
+    }
+  ]
 },
+
 
 
 
@@ -13837,29 +14265,414 @@ imagens: [
   palavrasChave: [
     "encefalopatia espongiforme bovina",
     "bse",
+    "eeB",
     "vaca louca",
     "prion",
     "príon",
+    "prpSc",
     "bovino",
     "gado",
-    "vaca"
+    "doença priônica"
   ],
 
   imagem: "/images/doencas/bse.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+imagens: [
+  {
+    src: "/images/doencas/bse/01-bovino-sinais-clinicos.jpg",
+    titulo: "Manifestações clínicas da EEB",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Bovino com alterações neurológicas e comportamentais compatíveis com a suspeita de encefalopatia espongiforme bovina."
+  },
+  {
+    src: "/images/doencas/bse/02-encefalo-bovino.jpg",
+    titulo: "Encéfalo bovino",
+    categoria: "Anatomia e patologia",
+    descricao:
+      "Representação do encéfalo bovino, órgão acometido pelas alterações neurodegenerativas associadas à doença."
+  },
+  {
+    src: "/images/doencas/bse/03-histopatologia.jpg",
+    titulo: "Alterações histopatológicas",
+    categoria: "Histopatologia",
+    descricao:
+      "Imagem histológica ilustrando a vacuolização do neurópilo e dos corpos celulares neuronais, característica das encefalopatias espongiformes."
+  },
+ 
+ 
+  {
+    src: "/images/doencas/bse/06-tronco-encefalico.jpg",
+    titulo: "Região do tronco encefálico",
+    categoria: "Diagnóstico",
+    descricao:
+      "Região do óbex, importante para a coleta de amostras destinadas à investigação laboratorial da EEB."
+  }
+],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "A Encefalopatia Espongiforme Bovina (EEB), popularmente conhecida como doença da vaca louca, é uma enfermidade neurodegenerativa, progressiva e fatal que acomete bovinos. É causada pelo acúmulo de proteínas priônicas anormais no sistema nervoso central, provocando alterações neurológicas e lesões encefálicas características.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🧬",
+        itens: [
+          "Príon: proteína priônica anormal (PrPSc).",
+          "Não possui material genético como vírus ou bactérias.",
+          "Induz a alteração conformacional de proteínas priônicas normais."
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🌾",
+        itens: [
+          "Forma clássica: ingestão de alimentos contaminados por príons.",
+          "Associada historicamente ao uso de farinha de carne e ossos contaminada.",
+          "Não ocorre transmissão por contato casual entre bovinos."
+        ]
+      },
+      {
+        titulo: "Importância sanitária",
+        emoji: "⚠️",
+        itens: [
+          "Enfermidade de notificação obrigatória.",
+          "A forma clássica apresenta importância zoonótica.",
+          "Relacionada à variante da doença de Creutzfeldt-Jakob em humanos."
+        ]
+      },
+      {
+        titulo: "Prognóstico",
+        emoji: "🚨",
+        itens: [
+          "Evolução progressiva e fatal.",
+          "Não existe tratamento curativo.",
+          "A confirmação diagnóstica depende de exames laboratoriais específicos."
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "A EEB é causada por príons, agentes infecciosos constituídos por proteínas anormais capazes de induzir o dobramento incorreto de proteínas priônicas celulares normais. A forma anormal, denominada PrPSc, apresenta elevada resistência a procedimentos convencionais de inativação.",
+
+    listas: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🧬",
+        itens: [
+          "Proteína priônica celular normal: PrPC.",
+          "Proteína priônica anormal: PrPSc.",
+          "A forma anormal apresenta maior resistência à degradação proteolítica.",
+          "O acúmulo de PrPSc está associado à neurodegeneração."
+        ]
+      },
+      {
+        titulo: "Formas da enfermidade",
+        emoji: "🔬",
+        itens: [
+          "EEB clássica: associada à ingestão de alimentos contaminados por príons.",
+          "EEB atípica do tipo H: associada a uma forma anormal de proteína priônica com perfil molecular distinto.",
+          "EEB atípica do tipo L: apresenta perfil molecular diferente da forma clássica e é identificada principalmente em bovinos mais velhos."
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Características dos príons",
+        emoji: "🧪",
+        itens: [
+          "Não apresentam DNA ou RNA.",
+          "São altamente resistentes a processos convencionais de desinfecção.",
+          "Podem permanecer infectantes após procedimentos térmicos utilizados no processamento habitual de alimentos de origem animal."
+        ]
+      },
+      {
+        titulo: "Histórico da enfermidade",
+        emoji: "📚",
+        itens: [
+          "Identificada no Reino Unido em 1986.",
+          "A epidemia esteve associada à utilização de farinha de carne e ossos contaminada na alimentação de bovinos.",
+          "As medidas de controle alimentar contribuíram para a redução expressiva dos casos."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "A EEB foi identificada inicialmente no Reino Unido, na década de 1980, e posteriormente registrada em outros países. A forma clássica está relacionada à ingestão de alimentos contaminados, enquanto as formas atípicas são consideradas eventos raros, identificados principalmente em bovinos idosos.",
+
+    blocos: [
+      {
+        emoji: "🐄",
+        titulo: "Espécies acometidas",
+        texto:
+          "Os bovinos são os principais hospedeiros epidemiologicamente relevantes da EEB. Outras espécies podem apresentar suscetibilidade, mas não possuem o mesmo papel epidemiológico."
+      },
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "A doença foi identificada inicialmente no Reino Unido e posteriormente detectada em diversos países. A ocorrência da forma clássica diminuiu significativamente após a implantação de medidas sanitárias e restrições alimentares."
+      },
+      {
+        emoji: "🌾",
+        titulo: "Fatores de risco",
+        texto:
+          "O principal fator de risco para a forma clássica é a ingestão de alimentos contendo ingredientes derivados de ruminantes infectados, especialmente farinhas de carne e ossos contaminadas."
+      },
+      {
+        emoji: "⏳",
+        titulo: "Período de incubação",
+        texto:
+          "A incubação é prolongada, podendo variar de aproximadamente dois a mais de dez anos. Os sinais clínicos geralmente aparecem em bovinos adultos."
+      },
+      {
+        emoji: "👥",
+        titulo: "Importância zoonótica",
+        texto:
+          "A forma clássica da EEB apresenta relação epidemiológica e clinicopatológica com a variante da doença de Creutzfeldt-Jakob em humanos, associada à exposição alimentar a tecidos contaminados. Não se deve atribuir automaticamente o mesmo risco zoonótico às formas atípicas."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia da EEB está relacionada à conversão da proteína priônica celular normal (PrPC) em sua conformação anormal (PrPSc). Essa proteína anormal favorece a conversão de outras proteínas normais, promovendo seu acúmulo progressivo no sistema nervoso central.",
+
+    blocos: [
+      {
+        emoji: "🌾",
+        titulo: "1. Entrada do agente",
+        texto:
+          "Na forma clássica, a infecção ocorre principalmente pela ingestão de alimentos contaminados por príons, especialmente produtos derivados de tecidos de bovinos infectados."
+      },
+      {
+        emoji: "🧬",
+        titulo: "2. Conversão proteica",
+        texto:
+          "A proteína priônica anormal induz alterações conformacionais na proteína celular normal, promovendo a formação de novas moléculas de PrPSc."
+      },
+      {
+        emoji: "🧠",
+        titulo: "3. Disseminação e acúmulo",
+        texto:
+          "O agente alcança o sistema nervoso central, onde ocorre o acúmulo progressivo da proteína priônica anormal."
+      },
+      {
+        emoji: "🔬",
+        titulo: "4. Neurodegeneração",
+        texto:
+          "O acúmulo de proteínas anormais está associado à vacuolização do tecido nervoso, alterações degenerativas e perda progressiva da função neuronal."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "5. Alteração espongiforme",
+        texto:
+          "A lesão característica é a encefalopatia espongiforme, identificada pela presença de vacúolos no neurópilo e nos corpos celulares neuronais, acompanhada de alterações degenerativas."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas são predominantemente neurológicas e comportamentais, apresentando evolução progressiva. Os sinais geralmente aparecem em bovinos adultos e podem evoluir durante semanas ou meses.",
+
+    blocos: [
+      {
+        emoji: "🧠",
+        titulo: "Alterações comportamentais",
+        itens: [
+          "Nervosismo.",
+          "Agressividade.",
+          "Medo excessivo.",
+          "Alterações de comportamento.",
+          "Resistência ao manejo."
+        ]
+      },
+      {
+        emoji: "⚡",
+        titulo: "Alterações de sensibilidade",
+        itens: [
+          "Hiperestesia ao toque.",
+          "Sensibilidade aumentada a sons.",
+          "Tremores musculares.",
+          "Contrações involuntárias."
+        ]
+      },
+      {
+        emoji: "🐄",
+        titulo: "Alterações locomotoras",
+        itens: [
+          "Ataxia.",
+          "Incoordenação motora.",
+          "Dificuldade para levantar.",
+          "Alterações de postura.",
+          "Dificuldade para caminhar."
+        ]
+      },
+      {
+        emoji: "📉",
+        titulo: "Manifestações sistêmicas",
+        itens: [
+          "Perda progressiva de peso.",
+          "Redução da produção leiteira.",
+          "Diminuição da condição corporal.",
+          "Evolução progressiva até a morte."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "A suspeita clínica é estabelecida a partir da identificação de alterações neurológicas progressivas e do histórico epidemiológico do animal. Não existe método validado para confirmar a EEB em animais vivos. A confirmação laboratorial é realizada principalmente por meio da detecção da proteína priônica anormal em tecidos do sistema nervoso central, após a morte do animal.",
+
+    metodos: [
+      "Avaliação clínica e epidemiológica: identificação de alterações comportamentais, hiperestesia, ataxia e evolução neurológica progressiva.",
+      "Imuno-histoquímica: permite identificar a proteína priônica anormal nos tecidos encefálicos.",
+      "Western blot: método imunoblot utilizado para detectar e caracterizar a proteína priônica anormal.",
+      "ELISA: utilizado em testes rápidos de triagem para detecção de proteína priônica anormal.",
+      "Histopatologia: pode evidenciar vacuolização neuronal e do neurópilo, formando o aspecto espongiforme característico."
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "Não existe tratamento específico ou curativo para a Encefalopatia Espongiforme Bovina. A enfermidade apresenta evolução progressiva e fatal, não sendo possível reverter as alterações neurodegenerativas.",
+
+    blocos: [
+      {
+        emoji: "🚫",
+        titulo: "Ausência de tratamento curativo",
+        texto:
+          "Não existem medicamentos capazes de eliminar os príons ou interromper a progressão da neurodegeneração."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Conduta sanitária",
+        texto:
+          "Animais com suspeita de EEB devem ser submetidos aos procedimentos oficiais de investigação. A destinação do animal e a adoção de medidas sanitárias devem seguir a orientação do Serviço Veterinário Oficial."
+      },
+      {
+        emoji: "🐄",
+        titulo: "Bem-estar animal",
+        texto:
+          "A progressão dos sinais neurológicos compromete a locomoção e o comportamento, exigindo avaliação veterinária e medidas oficiais para evitar sofrimento e riscos durante o manejo."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da EEB depende principalmente do controle da alimentação animal, da vigilância epidemiológica e da adoção de medidas sanitárias que impeçam a circulação de materiais contaminados.",
+
+    blocos: [
+      {
+        emoji: "🌾",
+        titulo: "Controle alimentar",
+        texto:
+          "É proibido o fornecimento de proteínas e farinhas de origem animal de ruminantes na alimentação de ruminantes, conforme a legislação brasileira. Essa medida reduz o risco de transmissão da EEB clássica."
+      },
+      {
+        emoji: "🔎",
+        titulo: "Vigilância epidemiológica",
+        texto:
+          "A vigilância permite identificar precocemente animais com sinais neurológicos compatíveis e investigar possíveis ocorrências da enfermidade."
+      },
+      {
+        emoji: "🚛",
+        titulo: "Controle de trânsito animal",
+        texto:
+          "A identificação e a rastreabilidade dos bovinos permitem acompanhar a movimentação dos animais e auxiliar nas investigações sanitárias."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Notificação obrigatória",
+        texto:
+          "A suspeita de EEB deve ser comunicada imediatamente ao Serviço Veterinário Oficial para investigação e adoção das medidas cabíveis."
+      },
+      {
+        emoji: "🏭",
+        titulo: "Controle de subprodutos",
+        texto:
+          "A fiscalização de fábricas de ração, estabelecimentos de processamento e demais etapas da cadeia produtiva é essencial para impedir a contaminação cruzada."
+      },
+      {
+        emoji: "🧪",
+        titulo: "Biossegurança",
+        texto:
+          "Os príons apresentam resistência elevada a procedimentos convencionais de desinfecção e esterilização. Materiais suspeitos devem ser manipulados e destinados conforme protocolos específicos para agentes priônicos."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Bovine spongiform encephalopathy",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "WOAH - Animal Diseases",
+      ano: "2023",
+      link: "https://www.woah.org/en/disease/bovine-spongiform-encephalopathy/"
+    },
+    {
+      titulo: "Bovine Spongiform Encephalopathy",
+      autores: "Juan José Badiola; Alicia Otero Garcia",
+      fonte: "MSD Veterinary Manual",
+      ano: "2022",
+      link: "https://www.msdvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy"
+    },
+    {
+      titulo: "Chapter 11.4 - Bovine spongiform encephalopathy",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "Terrestrial Animal Health Code",
+      ano: "2024",
+      link: "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_bse.htm"
+    },
+    {
+      titulo: "Encefalopatia espongiforme bovina",
+      autores: "Ministério da Agricultura e Pecuária (MAPA)",
+      fonte: "Programa Nacional de Prevenção e Vigilância da EEB",
+      ano: "2026",
+      link: "https://www.gov.br/agricultura/pt-br"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "bse-caso-01",
+
+      titulo: "Suspeita de encefalopatia espongiforme bovina em animal adulto",
+
+      especie: "Bovina",
+
+      idade: "5 anos",
+
+      historico:
+        "Caso clínico hipotético para fins didáticos. Bovino adulto de propriedade leiteira apresenta alterações comportamentais progressivas, com aumento da resistência ao manejo e dificuldade de locomoção. O histórico alimentar e sanitário da propriedade é investigado durante a avaliação epidemiológica.",
+
+      sinais: [
+        "Nervosismo e alteração comportamental",
+        "Hiperestesia ao toque e a estímulos sonoros",
+        "Ataxia",
+        "Dificuldade para caminhar",
+        "Perda progressiva de peso"
+      ],
+
+      exames:
+        "A avaliação clínica e epidemiológica levanta suspeita de enfermidade neurológica progressiva. A confirmação da EEB depende de exame laboratorial pós-morte de tecido encefálico, com métodos de detecção da proteína priônica anormal, como imuno-histoquímica ou Western blot.",
+
+      diagnostico:
+        "Suspeita clínica de Encefalopatia Espongiforme Bovina (EEB), com necessidade de investigação e confirmação laboratorial oficial.",
+
+      discussao:
+        "A associação entre alterações comportamentais progressivas, hiperestesia e incoordenação motora deve levantar suspeita de EEB, especialmente em bovinos adultos. Entretanto, esses sinais não são exclusivos da enfermidade e exigem investigação diferencial. A confirmação não pode ser realizada apenas pela avaliação clínica. A suspeita deve ser imediatamente comunicada ao Serviço Veterinário Oficial."
+    }
+  ]
 },
 
 
@@ -13869,7 +14682,7 @@ imagens: [
 {
   id: "scrapie",
 
-  nome: "Scrapie",
+  nome: "Scrapie (Tremor Epizoótico)",
 
   agente: "Príon (PrPSc)",
 
@@ -13892,31 +14705,446 @@ imagens: [
 
   palavrasChave: [
     "scrapie",
+    "tremor epizootico",
+    "tremor epizoótico",
     "prion",
     "príon",
+    "prpSc",
+    "encefalopatia espongiforme",
     "ovelha",
     "ovino",
     "carneiro",
+    "cordeiro",
     "cabra",
-    "caprino"
+    "caprino",
+    "doença priônica"
   ],
 
   imagem: "/images/doencas/scrapie.jpg",
 
-  visaoGeral: "",
-  etiologia: "",
-  patogenia: "",
-  epidemiologia: "",
-  sinaisClinicos: "",
-  diagnostico: "",
-  tratamento: "",
-  prevencao: "",
+imagens: [
+  {
+    src: "/images/doencas/scrapie/01-ovino-sinais-clinicos.jpg",
+    titulo: "Manifestações clínicas da Scrapie",
+    categoria: "Apresentação clínica",
+    descricao:
+      "Ovino com manifestações clínicas compatíveis com scrapie, incluindo alterações comportamentais, prurido e perda de lã."
+  },
+  {
+    src: "/images/doencas/scrapie/02-prurido-perda-la.jpg",
+    titulo: "Prurido e perda de lã",
+    categoria: "Sinais clínicos",
+    descricao:
+      "O prurido intenso pode levar o animal a esfregar o corpo contra cercas e estruturas, provocando alopecia e lesões cutâneas secundárias."
+  },
+  {
+    src: "/images/doencas/scrapie/03-histopatologia-encefalo.jpg",
+    titulo: "Alterações histopatológicas no encéfalo",
+    categoria: "Histopatologia",
+    descricao:
+      "A vacuolização do neurópilo e dos corpos celulares neuronais confere ao tecido nervoso o aspecto espongiforme característico."
+  },
+  
+  {
+    src: "/images/doencas/scrapie/05-biopsia-terceira-palpebra.jpg",
+    titulo: "Biópsia da terceira pálpebra",
+    categoria: "Diagnóstico",
+    descricao:
+      "Amostras de tecido linfoide da terceira pálpebra podem auxiliar na identificação de proteína priônica anormal em alguns animais infectados."
+  },
+  {
+    src: "/images/doencas/scrapie/06-biopsia-mucosa-retal.jpg",
+    titulo: "Tecido linfoide da mucosa retal",
+    categoria: "Diagnóstico",
+    descricao:
+      "Amostras de tecido linfoide associado à mucosa retal (RAMALT) podem ser utilizadas na investigação de scrapie em animais vivos."
+  }
+],
 
-  referencias: [],
+  visaoGeral: {
+    introducao:
+      "Scrapie, também conhecida como tremor epizoótico, é uma doença neurodegenerativa, progressiva e fatal que acomete principalmente ovinos e também caprinos. Pertence ao grupo das encefalopatias espongiformes transmissíveis e é causada pelo acúmulo de proteínas priônicas anormais no sistema nervoso central. A enfermidade caracteriza-se por alterações comportamentais, prurido intenso, perda de lã, tremores e incoordenação motora.",
 
-  casosClinicos: [],
+    cards: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🧬",
+        itens: [
+          "Príon, proteína infecciosa anormal (PrPSc).",
+          "Induz a conversão de proteínas priônicas celulares normais.",
+          "Não apresenta DNA ou RNA."
+        ]
+      },
+      {
+        titulo: "Principais hospedeiros",
+        emoji: "🐑",
+        itens: [
+          "Ovinos, principal espécie acometida.",
+          "Caprinos também podem desenvolver a enfermidade.",
+          "A susceptibilidade pode variar conforme fatores genéticos."
+        ]
+      },
+      {
+        titulo: "Transmissão",
+        emoji: "🐑",
+        itens: [
+          "Associada principalmente ao período do parto.",
+          "Placenta, líquidos fetais e tecidos contaminados são importantes fontes de infecção.",
+          "Pode ocorrer transmissão horizontal entre animais expostos ao ambiente contaminado."
+        ]
+      },
+      {
+        titulo: "Importância sanitária",
+        emoji: "⚠️",
+        itens: [
+          "Doença neurodegenerativa fatal.",
+          "Não há tratamento curativo ou vacina.",
+          "Não há evidência de associação causal com encefalopatias priônicas humanas."
+        ]
+      }
+    ]
+  },
 
+  etiologia: {
+    introducao:
+      "Scrapie é causada por príons, agentes infecciosos constituídos por proteínas com conformação anormal. A proteína priônica patológica, denominada PrPSc, promove a conversão da proteína celular normal (PrPC), levando ao acúmulo progressivo de proteínas anormais e à degeneração do tecido nervoso.",
+
+    listas: [
+      {
+        titulo: "Agente etiológico",
+        emoji: "🧬",
+        itens: [
+          "Proteína priônica celular normal: PrPC.",
+          "Proteína priônica anormal: PrPSc.",
+          "Ausência de material genético.",
+          "Elevada resistência a procedimentos convencionais de inativação."
+        ]
+      },
+      {
+        titulo: "Formas da doença",
+        emoji: "🔬",
+        itens: [
+          "Scrapie clássica: forma transmissível, associada à exposição a materiais contaminados, especialmente durante o período perinatal.",
+          "Scrapie atípica: apresenta características clínicas, patológicas e epidemiológicas distintas; é frequentemente identificada em animais mais velhos e não apresenta evidência consistente de transmissão natural entre animais."
+        ]
+      }
+    ],
+
+    blocos: [
+      {
+        titulo: "Susceptibilidade genética",
+        emoji: "🧬",
+        itens: [
+          "Polimorfismos no gene PRNP influenciam a susceptibilidade dos ovinos.",
+          "Determinados genótipos estão associados à maior resistência ou susceptibilidade.",
+          "A seleção genética pode ser utilizada como ferramenta de controle nos rebanhos."
+        ]
+      },
+      {
+        titulo: "Histórico",
+        emoji: "📚",
+        itens: [
+          "A enfermidade é conhecida há mais de 250 anos.",
+          "Seu nome está relacionado ao comportamento de coçar ou esfregar o corpo em objetos.",
+          "É uma das encefalopatias espongiformes transmissíveis mais conhecidas dos pequenos ruminantes."
+        ]
+      }
+    ]
+  },
+
+  epidemiologia: {
+    introducao:
+      "Scrapie é uma enfermidade de distribuição internacional que acomete ovinos e caprinos. A forma clássica apresenta transmissão associada principalmente ao período do parto, quando os animais suscetíveis entram em contato com placenta, líquidos fetais e ambientes contaminados. A incubação é prolongada, geralmente medida em anos.",
+
+    blocos: [
+      {
+        emoji: "🌎",
+        titulo: "Distribuição geográfica",
+        texto:
+          "A doença é conhecida em diferentes regiões do mundo. Sua ocorrência está relacionada à presença do agente nos rebanhos e às condições de transmissão e manejo. A vigilância sanitária e o controle de movimentação dos animais são importantes para reduzir sua disseminação."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Hospedeiros suscetíveis",
+        texto:
+          "Ovinos são os principais hospedeiros, mas caprinos também podem desenvolver scrapie. A susceptibilidade individual varia conforme fatores genéticos, idade e exposição ao agente."
+      },
+      {
+        emoji: "🐣",
+        titulo: "Transmissão perinatal",
+        texto:
+          "Na forma clássica, a transmissão ocorre principalmente da fêmea infectada para os cordeiros durante o período próximo ao nascimento. Placenta, líquidos fetais e tecidos contaminados podem conter elevadas quantidades de proteína priônica anormal."
+      },
+      {
+        emoji: "🌱",
+        titulo: "Contaminação ambiental",
+        texto:
+          "O ambiente de parição pode ser contaminado por materiais provenientes de animais infectados. A persistência do agente em instalações, pastagens e materiais orgânicos contribui para a exposição de outros animais suscetíveis."
+      },
+      {
+        emoji: "⏳",
+        titulo: "Incubação",
+        texto:
+          "O período de incubação é prolongado, geralmente superior a um ano e podendo alcançar vários anos. Os sinais clínicos da forma clássica são observados frequentemente em animais entre dois e cinco anos."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Influência genética",
+        texto:
+          "A variação genética do hospedeiro influencia a susceptibilidade à enfermidade. Em ovinos, polimorfismos no gene PRNP estão relacionados à resistência ou maior predisposição ao desenvolvimento da doença."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Importância zoonótica",
+        texto:
+          "Scrapie não é considerada uma zoonose. Até o momento, não há evidência de associação causal entre a enfermidade clássica ou atípica e as encefalopatias priônicas humanas."
+      }
+    ]
+  },
+
+  patogenia: {
+    introducao:
+      "A patogenia da scrapie envolve a entrada do agente priônico no organismo, sua replicação ou amplificação em tecidos linfoides e posterior disseminação neural até o sistema nervoso central. O acúmulo progressivo da proteína anormal provoca alterações neurodegenerativas, caracterizadas por vacuolização neuronal, astrogliose e encefalopatia espongiforme.",
+
+    blocos: [
+      {
+        emoji: "🐣",
+        titulo: "1. Entrada do príon",
+        texto:
+          "Na forma clássica, o animal suscetível entra em contato com o agente por meio da ingestão ou exposição a placenta, líquidos fetais e outros materiais contaminados durante o período perinatal."
+      },
+      {
+        emoji: "🧫",
+        titulo: "2. Replicação em tecidos linfoides",
+        texto:
+          "Após a entrada no organismo, ocorre acúmulo da proteína priônica anormal em tecidos linfoides associados ao sistema digestório e outros compartimentos linfoides."
+      },
+      {
+        emoji: "🧠",
+        titulo: "3. Disseminação neural",
+        texto:
+          "O agente alcança o sistema nervoso central por vias neurais, favorecendo a disseminação progressiva da proteína priônica anormal."
+      },
+      {
+        emoji: "🧬",
+        titulo: "4. Acúmulo no sistema nervoso central",
+        texto:
+          "A PrPSc induz a conversão de proteínas priônicas normais em conformações anormais, promovendo seu acúmulo no tecido nervoso."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "5. Neurodegeneração",
+        texto:
+          "O acúmulo de proteínas anormais provoca degeneração neuronal e alterações na arquitetura do tecido nervoso, comprometendo progressivamente as funções neurológicas."
+      },
+      {
+        emoji: "🔬",
+        titulo: "Alterações microscópicas",
+        texto:
+          "As principais alterações incluem vacuolização dos neurônios e do neurópilo, astrogliose e ausência de inflamação significativa. Essas alterações conferem ao tecido nervoso o aspecto espongiforme."
+      }
+    ]
+  },
+
+  sinaisClinicos: {
+    introducao:
+      "As manifestações clínicas da scrapie são progressivas e predominantemente neurológicas. O prurido intenso é uma característica marcante da forma clássica em ovinos, mas sua intensidade pode variar entre espécies e indivíduos. Os sinais geralmente evoluem ao longo de semanas ou meses.",
+
+    blocos: [
+      {
+        emoji: "🐑",
+        titulo: "Alterações cutâneas e comportamentais",
+        itens: [
+          "Prurido intenso.",
+          "Esfregar o corpo contra cercas, paredes e objetos.",
+          "Perda de lã.",
+          "Lesões cutâneas secundárias ao ato de coçar.",
+          "Alterações comportamentais e isolamento do rebanho."
+        ]
+      },
+      {
+        emoji: "⚡",
+        titulo: "Alterações neurológicas",
+        itens: [
+          "Tremores, principalmente na região da cabeça.",
+          "Hiperestesia a estímulos.",
+          "Ataxia.",
+          "Incoordenação motora.",
+          "Alterações na marcha."
+        ]
+      },
+      {
+        emoji: "📉",
+        titulo: "Alterações sistêmicas",
+        itens: [
+          "Emagrecimento progressivo.",
+          "Perda de condição corporal.",
+          "Fraqueza.",
+          "Dificuldade para permanecer em estação.",
+          "Decúbito em fases avançadas."
+        ]
+      },
+      {
+        emoji: "🐐",
+        titulo: "Particularidades em caprinos",
+        itens: [
+          "O prurido pode ser menos evidente.",
+          "Pode ocorrer comportamento de mordiscar partes do próprio corpo.",
+          "Emagrecimento e apatia podem ser manifestações predominantes."
+        ]
+      }
+    ]
+  },
+
+  diagnostico: {
+    introducao:
+      "O diagnóstico da scrapie envolve avaliação clínica, histórico epidemiológico e exames laboratoriais. As alterações macroscópicas geralmente não são específicas, tornando a análise microscópica e a detecção da proteína priônica anormal fundamentais para a confirmação. A investigação pós-morte é a principal abordagem diagnóstica, embora existam métodos de biópsia de tecidos linfoides para identificação de alguns animais vivos infectados.",
+
+    metodos: [
+      "Avaliação clínica e epidemiológica: identificação de prurido, perda de lã, tremores, ataxia, emagrecimento e histórico de exposição no rebanho.",
+      "Histopatologia: identificação de vacuolização neuronal e do neurópilo, além de alterações espongiformes no sistema nervoso central.",
+      "Imuno-histoquímica: detecção da proteína priônica anormal (PrPSc) em tecidos encefálicos ou linfoides.",
+      "Western blot: método utilizado para identificação e caracterização bioquímica da proteína priônica anormal.",
+      "ELISA: utilizado em testes de triagem para detecção da proteína priônica anormal.",
+      "Biópsia de tecido linfoide: amostras da mucosa retal associada ao tecido linfoide (RAMALT) ou da terceira pálpebra podem auxiliar na identificação de alguns animais infectados ainda vivos. Resultados negativos não excluem a infecção.",
+      "Amostras para investigação: tronco encefálico, especialmente a região do óbex, bulbo e tecidos linfoides, conforme o protocolo laboratorial."
+    ]
+  },
+
+  tratamento: {
+    introducao:
+      "Não existe tratamento curativo para scrapie. A enfermidade apresenta evolução progressiva e fatal, não sendo possível reverter as alterações neurodegenerativas provocadas pelo acúmulo de proteínas priônicas anormais.",
+
+    blocos: [
+      {
+        emoji: "🚫",
+        titulo: "Ausência de tratamento específico",
+        texto:
+          "Não existem medicamentos capazes de eliminar o agente priônico ou interromper a progressão da neurodegeneração."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Conduta sanitária",
+        texto:
+          "Animais suspeitos devem ser avaliados e investigados conforme as orientações do Serviço Veterinário Oficial. As medidas de controle e destinação dos animais devem seguir a legislação sanitária aplicável."
+      },
+      {
+        emoji: "🐑",
+        titulo: "Manejo e bem-estar",
+        texto:
+          "Animais em estágios avançados podem apresentar dificuldade locomotora, perda de condição corporal e decúbito. A condução do caso deve priorizar o bem-estar e respeitar as medidas sanitárias oficiais."
+      }
+    ]
+  },
+
+  prevencao: {
+    introducao:
+      "A prevenção da scrapie depende da identificação de animais infectados, controle da exposição a materiais contaminados durante o parto, biossegurança nas instalações e estratégias de seleção genética. Como os príons apresentam elevada resistência ambiental, a prevenção da contaminação é fundamental.",
+
+    blocos: [
+      {
+        emoji: "🐣",
+        titulo: "Manejo do período de parição",
+        texto:
+          "O isolamento adequado das fêmeas durante o parto, a redução do contato de cordeiros e cabritos com materiais contaminados e a remoção adequada de placentas e restos fetais são medidas importantes para reduzir a transmissão."
+      },
+      {
+        emoji: "🧹",
+        titulo: "Controle ambiental",
+        texto:
+          "Instalações, equipamentos e áreas de parição devem ser manejados de forma a reduzir a contaminação por tecidos e líquidos provenientes de animais infectados. A resistência dos príons dificulta a descontaminação convencional."
+      },
+      {
+        emoji: "🧬",
+        titulo: "Seleção genética",
+        texto:
+          "A seleção de ovinos com genótipos associados à resistência à scrapie pode contribuir para reduzir a susceptibilidade dos rebanhos. A estratégia deve considerar os programas sanitários e as características genéticas das populações."
+      },
+      {
+        emoji: "🔎",
+        titulo: "Vigilância epidemiológica",
+        texto:
+          "A identificação de animais com sinais neurológicos progressivos e a investigação laboratorial de suspeitas são essenciais para reconhecer a enfermidade e orientar as medidas de controle."
+      },
+      {
+        emoji: "🚛",
+        titulo: "Controle de movimentação",
+        texto:
+          "A aquisição de animais de origem conhecida, a rastreabilidade e o controle da movimentação de ovinos e caprinos ajudam a reduzir o risco de introdução do agente nos rebanhos."
+      },
+      {
+        emoji: "⚠️",
+        titulo: "Notificação e medidas oficiais",
+        texto:
+          "A suspeita deve ser comunicada ao Serviço Veterinário Oficial, que orientará a investigação e as medidas sanitárias cabíveis."
+      }
+    ]
+  },
+
+  referencias: [
+    {
+      titulo: "Scrapie",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "WOAH - Animal Diseases",
+      ano: "2026",
+      link: "https://www.woah.org/en/disease/scrapie/"
+    },
+    {
+      titulo: "Scrapie",
+      autores: "Merck Veterinary Manual",
+      fonte: "Merck Veterinary Manual",
+      ano: "2026",
+      link: "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie"
+    },
+    {
+      titulo: "Chapter 14.8 - Scrapie",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "Terrestrial Animal Health Code",
+      ano: "2023",
+      link: "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2023/chapitre_scrapie.pdf"
+    },
+    {
+      titulo: "Chapter 3.8.11 - Scrapie",
+      autores: "World Organisation for Animal Health (WOAH)",
+      fonte: "Manual of Diagnostic Tests and Vaccines for Terrestrial Animals",
+      ano: "2022",
+      link: "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.08.11_SCRAPIE.pdf"
+    }
+  ],
+
+  casosClinicos: [
+    {
+      id: "scrapie-caso-01",
+
+      titulo: "Prurido intenso e alterações locomotoras em ovino adulto",
+
+      especie: "Ovina",
+
+      idade: "4 anos",
+
+      historico:
+        "Caso clínico hipotético para fins didáticos. Ovino adulto pertencente a um rebanho de criação apresenta prurido persistente, perda de lã e alterações progressivas na locomoção. O produtor relata que o animal passou a esfregar frequentemente o corpo contra cercas e estruturas do ambiente.",
+
+      sinais: [
+        "Prurido intenso.",
+        "Perda de lã em diferentes regiões do corpo.",
+        "Tremores.",
+        "Ataxia.",
+        "Emagrecimento progressivo."
+      ],
+
+      exames:
+        "A avaliação clínica e epidemiológica levanta suspeita de enfermidade neurodegenerativa. A investigação laboratorial pós-morte pode incluir histopatologia, imuno-histoquímica e Western blot em amostras do sistema nervoso central. A análise histopatológica pode evidenciar vacuolização neuronal e do neurópilo.",
+
+      diagnostico:
+        "Suspeita de scrapie clássica, com necessidade de confirmação laboratorial por detecção da proteína priônica anormal.",
+
+      discussao:
+        "A associação entre prurido intenso, perda de lã, tremores e ataxia em ovino adulto é compatível com a apresentação clínica da scrapie clássica. Entretanto, esses sinais não são patognomônicos e devem ser investigados em conjunto com o histórico epidemiológico. A confirmação depende de exames laboratoriais específicos. Não existe tratamento curativo, e a suspeita deve ser comunicada ao Serviço Veterinário Oficial."
+    }
+  ]
 },
+
 
 {
   id: "rhodococcus-equi",
